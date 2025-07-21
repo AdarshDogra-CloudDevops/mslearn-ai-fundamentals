@@ -1,5 +1,6 @@
-# Optimizing Inventory with Logistics Data: A Supply 
-Chain Simulation
+## Hands-On-Lab: Optimizing Inventory with Logistics Data: A Supply Chain Simulation
+
+This hands-on lab walks you through building a machine learning pipeline in Azure Machine Learning Designer to predict shipping delays using historical logistics data. You’ll learn how to create a workspace, prepare data, train a model, evaluate results, and deploy your pipeline in a no-code environment.
 
 ### Task 1: Create Azure ML Workspace
 
@@ -150,8 +151,6 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
     (This tells Azure to split the cleaned dataset).
 
     ![](../images/lab07-image20.png)
-
-### Task 4: Configure the Split Data Component
 
 1. Double-click the Split Data block on your canvas. The settings panel will appear on the right-hand side specify the below settings
 
@@ -396,3 +395,20 @@ on test data.
 1. Threshold Slider- The threshold is the cutoff point the model uses to decide between predicting "yes" or "no."**For example**, if a prediction score is above 0.5, the model predicts "yes."Here, the model is still performing perfectly at the 0.5 threshold, meaning it’s confident and accurate in its decisions.
 
     ![](../images/lab07-image45.png)
+
+# Review 
+
+By the end of this lab, you have:
+- Created and configured an Azure Machine Learning workspace and a compute cluster.
+
+- Uploaded and prepared a logistics dataset using the Clean Missing Data component.
+
+- Built a machine learning pipeline using Azure ML Designer with no code.
+
+- Trained and evaluated a Two-Class Decision Forest model to predict shipment delays.
+
+- Split data into training and test sets for proper model validation.
+
+- Scored the model on unseen data and interpreted key metrics like Accuracy, Precision, Recall, and AUC.
+
+- Viewed visual evaluation tools such as the ROC Curve, Precision-Recall Curve, and Lift Curve to assess model performance.
