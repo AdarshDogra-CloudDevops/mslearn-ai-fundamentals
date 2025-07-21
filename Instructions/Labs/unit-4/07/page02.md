@@ -142,4 +142,87 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     ![](../images/lab07-image17.png) 
 
+1. In the **Component tab**, search for **Split Data**, Confirm that it says: "Partitions the rows of a dataset into two distinct sets.... Drag the component into your canvas, placing it below the Clean Missing Data block.
 
+   ![](../images/lab07-image19.png) 
+    
+1. Hover over the Cleaned data output port at the bottom of the Clean Missing Data component. Click and drag a line from this port to the input port of the Split Data block
+    (This tells Azure to split the cleaned dataset).
+
+    ![](../images/lab07-image20.png)
+
+### Task 4: Configure the Split Data Component
+
+1. Double-click the Split Data block on your canvas. The settings panel will appear on the right-hand side specify the below settings
+
+    - Set the Splitting Mode
+
+       • Under Splitting mode, make sure **Split Rows** is selected (This means the data will be divided by rows, not by columns)
+    
+    - Set the Split Ratio
+
+       • In the field labeled Fraction of rows in the first output dataset, type: **0.7** (This means 70% of your data will be used for training, and the remaining 30% for testing).
+    
+    - Turn On Randomization
+
+       • Ensure Randomized split is set to: **True** (This ensures a random and fair mix of rows in each set)
+    
+    - Set a Random Seed
+
+       • In the Random seed field, type: **42** (This ensures that every time you run the pipeline, the data is split the same way. This is useful for consistency across student runs).
+    
+    - Leave Stratified Split as False
+
+       • Confirm Stratified split is set to: **False** (Stratified splits are more useful in imbalanced datasets like medical diagnosis— not necessary here) Refer to Figure 29 below.
+
+   -  Click **Save** at the top of the page to lock in your configuration
+
+       ![](../images/lab07-image21.png)
+
+1. Why This Step Matters - Splitting data ensures the model is tested on unseen examples, just like a final exam tests what you've really learned—not just what you memorized. A 70/30 split is a common practice in machine learning to keep both the training and testing sets balanced and informative.
+
+   - Add the Two-Class Decision Forest Model
+
+      **Goal:** You will add the Two-Class Decision Forest component to your pipeline. This model will be trained to predict whether a shipment will be delayed or on time based on historical shipping data.
+
+1. In the Component tab, search for **Two-Class Decision Forest**. Drag the component into your canvas, placing it below the **Split Data** component. Find the result titled: Two-Class Decision Forest Description: **“Creates a two-class classification model using the decision forest algorithm…”**
+
+     ![](../images/lab07-image22.png)
+
+1. Click the **Save** button in the top right corner of the interface
+
+     ![](../images/lab07-image23.png)
+
+1. Why This Step Matters - This is the model that will learn patterns in your data. It builds multiple decision trees and combines them into one strong prediction tool. It's especially effective for your logistics dataset because it can handle both numerical and categorical features like ETA, distance, and material type.
+
+   - Add and Connect the Train Model Component
+
+     **Goal:** You will connect the Two-Class Decision Forest model and the training dataset to the Train Model component. This enables Azure ML Designer to train your model on       historical shipment data.
+
+1. In the Component tab, search for **Train Model**. Drag the component into your canvas, placing it below the **Two-Class Decision Forest** component. Find the result titled: **“Trains a classification or regression model in a supervised manner…”**
+
+     ![](../images/lab07-image24.png)
+   
+1. Before proceeding with the next step, please drag the Two-Class Decision Forest component toward the left to align it properly
+
+1. Connect the Model and the Data
+
+    • From the Two-Class Decision Forest, drag a line from the output port to the left input of the Train Model component (This provides the model to be trained)
+    • From the Split Data component, drag a line from the left output port (Results dataset 1 / 70%) to the right input of the Train Model block (This provides the training dataset)
+
+      ![](../images/lab07-image25.png)
+
+1. Confirm the Train Model Block
+    • The block should now display:
+
+          Left input = Untrained model
+          Right input = Dataset
+          Output = Trained model
+
+    • This confirms it’s correctly wired to perform training. 
+
+1. Save your pipeline by clicking the **Save** button at the top right of your screen.
+
+1. Why This Step Matters- Training is where the machine learning actually happens. The model uses the training dataset to recognize patterns (like how distance and material relate to delay). After this, the model will be ready to make predictions on unseen data.
+
+1. Set the Label Column in Train Model **Goal:** You will specify that the column Delay_Flag is the label—the value your model is trying to predict. This tells Azure ML which column contains the correct answer during training.
