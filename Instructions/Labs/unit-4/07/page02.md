@@ -226,3 +226,112 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. Why This Step Matters- Training is where the machine learning actually happens. The model uses the training dataset to recognize patterns (like how distance and material relate to delay). After this, the model will be ready to make predictions on unseen data.
 
 1. Set the Label Column in Train Model **Goal:** You will specify that the column Delay_Flag is the label—the value your model is trying to predict. This tells Azure ML which column contains the correct answer during training.
+
+1. Double-click the Train Model block on your canvas. The settings panel will open on the right-hand side. In the settings panel, find the option labeled Label column. Click the blue Edit column link next to it.
+
+    ![](../images/lab07-image26.png)
+
+1. Choose the Correct Label:
+
+    • In the pop-up that appears, scroll through the list of columns
+    • Select: Delay_Flag
+    • Click **Save** in the pop-up window.
+
+   This is the binary column where 1 = delayed and 0 = on time.
+
+   ![](../images/lab07-image27.png)
+
+    **Why This Step Matters**- Choosing the correct label is like telling your model what question it’s supposed to answer. In this case, you’re asking:
+    “Given the shipment details, can you predict if the shipment will be delayed?”.
+
+1. Confirm that **Delay_Flag** now appears as the selected label in the settings panelSave Your Pipeline. Click **Save** at the top right corner of Azure ML Designer.
+
+      ![](../images/lab07-image28.png)
+
+    **Add and Connect the Score Model Component**
+
+     **Goal:** You will use the Score Model component to apply your trained Decision Forest  model to the test dataset (30% of your original data). This generates predicted outcomes   for evaluation.
+
+1. In the Component tab, search for **Score Model**. Drag the component into your canvas, placing it below the **Train Model** component.
+
+    ![](../images/lab07-image29.png)
+
+1. Connect the Components
+
+   • Connect the output of Train Model to the left input port of the Score Model (This is the trained model)
+
+   • From the Split Data component, connect the right output port (30% test data) to the right input port of the Score Model. 
+
+1. Confirm the Setup. The Score Model component should now be connected like this:
+
+    • Left input = Trained model
+
+    • Right input = Test dataset
+
+    • Click **Save** at the top right of the scree
+
+      ![](../images/lab07-image30.png)
+
+1. Why This Step Matters - This step answers: “How would the model perform on new shipments we haven’t seen before?” It produces predictions and probabilities for each test case based on the patterns the model learned during training. Add and Configure the Evaluate Model Component
+
+1. This will let you measure how well your model performed using standard metrics like:
+    • Accuracy
+    • Precision
+    • Recall
+    • AUC (Area Under Curve)
+
+1. Add and Connect the Evaluate Model Component 
+    **Goal:** Use the Evaluate Model component to analyze how well your trained model performed on the test data.
+
+1. In the Component tab, search for Evaluate Model. Drag the component into your canvas, placing it below the Score Model block.
+
+1. Connect the Component. From the Score Model output, drag a connection to the left input port of the Evaluate Model block.
+
+1. Click **Save** at the top right.
+   
+   ![](../images/lab07-image31.png)
+
+1. Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
+
+1. Click the **Configure & Submit** button in the top-right corner.
+
+    ![](../images/lab07-image32.png)
+
+
+
+1. On the **Basics** page, perform the steps as mentioned below:
+
+   - In the Experiment name select **Create new**
+   - In **New experiment name** filed provide **`Test_Logistics_Manufacturing`**
+   - Click the blue **Next** button at the bottom-right corner of the screen
+
+      ![](../images/lab07-image33.png)
+
+1. On the **Inputs & outputs** page, click on **Next** to skip.
+
+1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on Compute Cluster. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
+
+1. On the **Select virtual machine** page, specify the following then click on **Next** :
+  
+    - Location: Confirm that the selected region is the same as your workspace.
+    
+    - Virtual Machine Tier: Leave as default. 
+    
+    - Virtual Machine Type: Keep this as **CPU** (sufficient for our anomaly detection task).
+
+    - Virtual Machine Size: Choose **Standard_DS11_v2**.
+  
+        ![](../images/lab01-image38.png)
+
+1. On the **Configure Settings** page, provide **Compute name** then click on **Create**
+
+    ![](../images/lab01-image39.png)
+
+1. Back on the **Runtime Settings** page, select the newly created Azure ML compute cluster from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
+
+     ![](../images/lab01-image40.png)
+
+1. On **Review + Submit** page, click on **Submit**. 
+
+    ![](../images/lab01-image41.png)
+   
