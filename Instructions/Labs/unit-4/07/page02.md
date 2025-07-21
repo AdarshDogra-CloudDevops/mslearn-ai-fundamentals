@@ -323,15 +323,76 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide **Compute name** then click on **Create**
+1. On the **Configure Settings** page, provide Compute name Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> then click on **Create**
 
-    ![](../images/lab01-image39.png)
+    ![](../images/lab07-image34.png)
 
 1. Back on the **Runtime Settings** page, select the newly created Azure ML compute cluster from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
 
-     ![](../images/lab01-image40.png)
+     ![](../images/lab07-image35.png)
 
 1. On **Review + Submit** page, click on **Submit**. 
 
-    ![](../images/lab01-image41.png)
+     ![](../images/lab07-image36.png)
+
+1. Once submitted, a success notification appears at the top of the page. Click on **View details** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+      ![](../images/lab07-image37.png)
+
+1. Once the Pipeline is run, you can see the similar result.
+
+     ![](../images/lab07-image38.png)
+
+1. Right-click on the **Evaluate Model** component, hover over **Preview data** to click on **Evaluation results**.
+
+     ![](../images/lab07-image39.png)
+
+1. This will open the evaluation window where you can view:
+    • Confusion matrix
+    • ROC curve
+    • Precision-Recall curve
+    • Lift curve
+    • Key metrics such as Accuracy, Precision, Recall, F1 score, and AUC
+    Model Evaluation Results (Azure ML Designer)
+
+1. This screenshot shows the evaluation results of a machine learning model trained to predict a logistics-related outcome.
+
+      ![](../images/lab07-image41.png)
+
+   >**Note**: Click on **Maximize panel** icon to review result in full screen.
+
+      ![](../images/lab07-image40.png)
+      
+1. After training a model, it’s important to evaluate how well it performs. The evaluation results include charts and metrics that show how accurately the model made predictions 
+on test data. 
+
+
+1. ROC Curve - The ROC (Receiver Operating Characteristic) curve helps us see how well the model separates positive and negative cases.
+
+    ![](../images/lab07-image42.png)
+    
+    • The horizontal axis shows the false positive rate (wrongly predicting "yes").
+    • The vertical axis shows the true positive rate (correctly predicting "yes").
+
+   A perfect model would have a curve that reaches the top-left corner — which this model does. That means the model never confused a negative example for a positive one.
+
+1. Precision-Recall Curve - This chart explains how well the model identifies positive cases.
+
+   ![](../images/lab07-image43.png)
+
+    • Precision is how many of the model’s positive predictions were correct.
+    • Recall is how many of the actual positive cases the model found.
+
+   A curve that reaches the top-right corner means the model found all positives without making any mistakes — which is exactly what we see here.
+
+1. Lift Curve- The lift curve shows whether the model ranks the most important predictions (true positives) higher than others.
+
+    ![](../images/lab07-image44.png)
    
+   • A steep curve means the model successfully puts the most important cases at the top.
+
+   In this case, the curve rises sharply, showing that the model ranks positive examples very effectively.
+
+1. Threshold Slider- The threshold is the cutoff point the model uses to decide between predicting "yes" or "no."**For example**, if a prediction score is above 0.5, the model predicts "yes."Here, the model is still performing perfectly at the 0.5 threshold, meaning it’s confident and accurate in its decisions.
+
+    ![](../images/lab07-image45.png)
