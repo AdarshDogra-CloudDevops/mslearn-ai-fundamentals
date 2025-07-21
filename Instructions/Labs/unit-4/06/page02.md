@@ -400,7 +400,7 @@ positives without making any mistake
       This matrix shows how the model's predictions compared to actual 
 outcomes:
 
-      ![](../images/n46c50.png) 
+      ![](../images/n46c52.png) 
 
         - `127 True Negatives`: The model correctly predicted shipments that 
 were on time.
@@ -408,7 +408,22 @@ were on time.
 were delayed.
         - `2 False Positives`: The model incorrectly predicted some on-time 
 shipments as delayed.
-        - `0 False Negatives`: The model did not miss any delayed shipments.      
+        - `0 False Negatives`: The model did not miss any delayed shipments.     
+
+    - This confusion matrix shows extremely high performance with only two 
+errors, and no missed delays.
+
+      ![](../images/n46c53.png) 
+
+        - `Accuracy`: 0.993 — The model made correct predictions for 99.3% of the test 
+data.
+        - `Precision`: 1.0 — Every prediction of “Delayed” was correct.
+        - `Recall`: 0.984 — The model successfully identified 98.4% of all actual delays.
+        - `F1 Score`: 0.992 — This score balances both precision and recall, confirming 
+overall quality.
+        - `AUC`: 1.0 — The model perfectly separates “Delayed” from “On Time” 
+shipments.
+        - These are the highest possible scores and indicate perfect performance
 
     - **Summary Metrics**     
 
