@@ -164,3 +164,280 @@ for testing.
 
       ![](../images/nc4.png)    
 
+### Task 5: Adding Detection Models 
+
+1. On the **Component (1)** tab, search for **PCA-Based Anomaly Detection (2)**. Then **Drag** the **PCA-Based Anomaly Detection** component into the canvas **(3)**.
+
+    ![](../images/nc5.png)
+   
+     >**Note**: This is a built-in model that detects outliers in time-series data using **Principal Component Analysis**.
+
+1. Now that the **PCA-Based Anomaly Detection model** has been added, the next step is to train that model using your cleaned dataset. For this, you’ll add the **Train Anomaly Detection Model** component. This component will receive:
+
+    - Your untrained model (from the PCA component)
+    - The cleaned data (from the Clean Missing Data component)     
+
+1. In the **Component (1)** tab, search for **Train Anomaly Detection Model (2)**. Select the **Train Anomaly Detection Model (3)**. Drag the component into your canvas, placing it below the **PCA-Based Anomaly Detection** block **(4)**.  
+
+    ![](../images/lab01-image27.png)  
+
+1. Once added, 
+    - You’ll connect the **Untrained model output** from the **PCA-Based Anomaly Detection** to the **Model input** of **Train Anomaly Detection Model** **(1)**
+
+    - The **left output of Split Data** to the respective **Dataset input 
+ports of this Train Anomaly Detection Model** component **(2)**     
+
+    - Then select **Save (3)**
+
+      ![](../images/nc6.png)
+
+1. The next step is to score the dataset. For this, we’ll use the **Score Model**. The Score Model runs predictions using your **trained anomaly detection model**. It will output:
+
+    - Predicted labels (normal or anomaly)
+    - Confidence scores or probabilities, depending on the model type
+
+    - These results will be used in the next step for visualizing and interpreting model performance     
+
+1. In the left pane under the **Component (1)** tab, search for **“Score Model” (2)** by Microsoft. Drag the **Score Model** component into your canvas and place it below the **Train Anomaly Detection Model** component **(3)**. 
+
+    ![](../images/nc7.png) 
+
+1. Connect:
+
+    - Connect the **“Trained model”** output from the **Train Anomaly Detection Model** component to the **“Trained model”** input of the **Score Model** **(1)**  
+
+    - Connect the **“Right”** output from the **Split Data** component to the **“Dataset”** input of the **Score Model (2)**
+
+      >**Note**: This ensures that your newly trained model is being used to score the test data
+
+    - Select **Save (3)**
+
+      ![](../images/nc8.png) 
+
+
+### Task 6: Convert and View Results
+
+We can’t visualize the output directly using the Score Model component, so we’ll need to 
+convert the scored results into a visual-friendly format. To do so, we’ll use a component 
+called **“Convert to Dataset”**.
+
+1. In the left-side pane under the **Component (1)** tab, search for the **Convert to Dataset (2)** Component by Microsoft. This tool takes the output from the model and converts it to a format that can be visualized in the Designer.
+
+    - Drag the **Convert to Dataset** component onto the canvas and place it under the **Score Model component (3)**
+
+      ![](../images/nc9.png) 
+
+1. Connect the **Scored dataset output** from the **Score Model** to the **Dataset input** of 
+the **Convert to Dataset** component **(1)**. Once connected, click **Save (2)** at the top to preserve your updated pipeline.
+
+    ![](../images/nc10.png) 
+
+1. Now that the pipeline is fully built with all the components connected—from data intake to anomaly scoring—we're ready to run it to view our results.
+
+    ![](../images/nc-11.png) 
+
+1. First, let’s make sure all components are connected as shown. Confirm that:
+
+    - The dataset flows through **Clean Missing Data**.
+    - The **Split Data** connects to both:
+        - Train Anomaly Detection Model
+        - Score Model
+
+    - **PCA-Based Anomaly Detection** is connected to the **Train
+component**.
+    - **Score Model** connects to **Convert to Dataset**.
+
+1. Save your pipeline, if not auto-saved already.
+
+1. Click the **Configure & Submit** button in the top-right corner.   
+
+    ![](../images/nc11.png) 
+
+### Task 7: Configure Pipeline Job Basics    
+
+We now need to configure a bit more detail before running your pipeline in Azure ML 
+Designer.
+
+1. On the **Basics**: First, for easy tracking, we’ll set up a new experiment.
+
+    - Under **Experiment name**, select **Create new** **(1)**
+    - In the field labeled **“New experiment name”**, type 
+**Test_Anomaly_Manufacturing (2)**
+    - The **Job Display Name** is automatically generated based on today’s date.
+    - You may skip the Optional Fields section.
+    - Click the blue **Next (3)** button at the bottom-right corner of the screen
+
+      ![](../images/nc12.png)    
+
+1. **Inputs & Outputs**: We'll skip the section by clicking **Next**.
+
+    ![](../images/nc13.png) 
+
+1. On the **Runtime Settings**, provide the following details:
+
+    - **Select Compute Type** section, select **Compute 
+Cluster** from the drop down **(1)**
+
+    - Since no cluster is currently available, we’ll need to create one. Click on 
+**Create Azure ML Compute Cluster (2)**.        
+
+      >**Note**: This will open a new pane or pop-up for 
+you to configure your compute cluster
+
+       ![](../images/nc14.png) 
+
+1. **Virtual Machine**: 
+
+    - **Location**: Confirm that the selected region is the same as your 
+workspace (**East US 2**) **(1)**
+    - **Virtual Machine Tier**: Leave as default. (do not select 
+"Dedicated" or "Low priority" unless specified otherwise for 
+cost-saving purposes) **(2)**
+    - **Virtual Machine Type**: Keep this as **CPU (3)** 
+    - **Virtual Machine Size**: Choose **Standard_DS11_v2 (3)**
+    - Click **Next (4)**  
+
+      ![](../images/nc15.png)     
+
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything 
+default. Then click **Create (2)**.
+
+    ![](../images/nc16.png) 
+
+1. Select the Compute Created **Test (1)** and click **Next (2)**.   
+
+    ![](../images/nc17.png) 
+
+     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+
+1. Once on the **final** page, click **Submit**.     
+
+    ![](../images/nc18.png) 
+
+1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+    ![](../images/nc-19.png)    
+
+1. Please wait for the pipeline to complete, which may take approximately `10–15 `minutes. Once it's finished successfully, the status will show as **Completed**.
+
+    ![](../images/nc20.png)  
+
+1. Right-click on the **Convert to Dataset** component **(1)**. Hover over **Preview data (2)** to click on **Results dataset (3)**.
+
+    ![](../images/nc21.png) 
+    ![](../images/nc22.png) 
+
+### Task 8: Explore the Output with Azure's Built-In Visualization Tools
+
+1. On the left-hand menu under the **Assets** section, click on **Jobs (1)**. Click on the experiment name **Test_Anomaly_Manufacturing (2)**.
+
+   This is where you can view all the pipeline runs, including their: 
+    - Status (e.g., completed, failed, running) 
+    - Start time and duration 
+    - Output data 
+    - Visualizations and logs
+
+      ![](../images/nc23.png) 
+
+1. You will see the most recent pipeline execution. Click on your latest pipeline job run.
+
+    ![](../images/nc24.png)
+
+1. You can see the Successfully completed Pipeline.
+
+    ![](../images/nc-24.png)
+
+1. Scroll to the bottom of your pipeline diagram where the **Convert to Dataset** and 
+**Score Model** output is `connected`. You will see the output labeled as **Results dataset**.    
+
+    ![](../images/nc25.png)
+
+1. Right-click on the **circular output port** (the small white dot at the bottom of the 
+**Convert to Dataset** component) **(1)**. From the right-click menu, hover over **“Register data” (2)** and then select **“Results dataset.” (3)**.   
+
+    ![](../images/nc26.png)
+
+    What This Does:
+
+    - Registering the dataset makes it available under **Assets > Data > Datasets** in your 
+Azure workspace. 
+    - Once registered, you can explore it, reuse it in other pipelines, or visualize it using 
+Azure ML’s built-in tools.
+
+1. On the **Register as Dataset**,
+
+    - Select **New data asset (1)**
+    
+    - **New data asset name** field, type
+**Model Output (2)**
+
+    - In the **Data asset** type dropdown, choose **Tabular (3)**
+
+    - Select **Save (4)**
+
+      ![](../images/nc27.png)
+
+1. **What Happens Next**: 
+
+    - Your model output is now registered as a dataset asset. 
+    - You can find it under the left-hand panel: **Assets > Data > Datasets** 
+    - This lets you **explore, reuse, or visualize** the output in other ML experiments.      
+
+1. From the left navigation pane, select **Data (1)** under **Assets**. Under **Datasets (2)** tab select **Model Output (3)** Data.
+
+    ![](../images/nc28.png)
+
+1. Select **Explore** tab, where you will see the table of your dataset. Select **Preview (2)**. This Preview view shows **(3)**: 
+    - First 50 rows (out of your total dataset, like 1000 rows).
+    - Columns like `timestamp, machine_id, sensor_reading, anomaly_flag, Scored 
+Labels`, and `Scored Probabilities`.
+
+      ![](../images/nc29.png)
+
+      **The dataset includes**: 
+
+      - `timestamp`: Time the sensor reading was recorded.
+      - `machine_id`: Machine identifier (like CNC_Lathe, Injection_Molder).
+      - `sensor_reading`: Numeric values from machine sensors.
+      - `anomaly_flag`: Ground truth labels (0 = normal, 1 = anomaly).
+      - `Scored Labels`: Predicted label from the model.
+      - `Scored Probabilities`: Confidence of the model's prediction.  
+
+1. At the top of the table, next to Preview, click **Profile**. This switches the view from basic table preview to deeper visual and statistical 
+analysis of each column.
+
+    ![](../images/nc30.png)
+
+    **For each column, you see**: 
+    - `Distribution Graphs` (bars showing how values are spread). 
+    - `Type`: What kind of data it is (e.g., String, Integer, Date, Decimal). 
+    - `Min/Max`: Minimum and maximum values. 
+    - `Count`: How many entries (should match total rows, here 1000). 
+
+1. Scroll down to the column you want to analyze. Select the **“Scored 
+Labels”** column **(1)**. After selecting the column, a panel will appear on the right. From the dropdown at the top of that panel, choose **“Box and whisker plot.” (2)**.
+
+    What This Does **(3)**: 
+
+    **Box and whisker plots** help you understand the distribution of the column's values. 
+    You will see: 
+    - Minimum and maximum values 
+    - Quartiles (Q1, Median, Q3) 
+    - Mean (average)
+
+      ![](../images/nc31.png)
+
+1. You can also View **Histogram** of **“Scored Labels”** in Azure ML Studio.
+
+1. Scroll down and click on the **“Scored Labels (1)”** column. 
+
+    - On the right-side panel, locate the dropdown menu labeled with the current 
+visualization type (e.g., **"Box and whisker plot"**). 
+
+    - Click the dropdown and select **“Histogram.” (2)**
+
+    - The histogram will now display the distribution of the model's predictions (0 for 
+normal, 1 for anomaly).
+
+      ![](../images/nc32.png)
+      
