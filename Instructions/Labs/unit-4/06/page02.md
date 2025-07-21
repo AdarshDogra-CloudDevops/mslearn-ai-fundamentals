@@ -31,18 +31,15 @@ In this hands-on lab, you will explore how manufacturers use customer feedback�
 
 1. Wait for the workspace to create, it may take around 2-3 minutes.
 
-1. On the left-hand menu, find and click 
-**Workspaces (1)** and then select the workspace named **Customer Feedback Analysis (2)** the one which you have just created. 
+1. On the left-hand menu, find and click **Workspaces (1)** and then select the workspace named **Customer Feedback Analysis (2)** the one which you have just created. 
 
      ![](../images/n46c2.png) 
 
-      >**Note**: This will take you inside the workspace where you can build and run machine 
-learning experiments.
+      >**Note**: This will take you inside the workspace where you can build and run machine learning experiments.
 
 1. From the left-hand side menu to find the **Designer (1)** tab under the **Authoring** section. 
 
-    - Make sure that you’re on the **Classic prebuilt**
-tab under the “New pipeline” section. From here, click on the box with a **plus sign (2)** 
+    - Make sure that you’re on the **Classic prebuilt**tab under the “New pipeline” section. From here, click on the box with a **plus sign (2)** 
 that says, `Create a new pipeline using classic prebuilt components`.
 
       ![](../images/n46c3.png) 
