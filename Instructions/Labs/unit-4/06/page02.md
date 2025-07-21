@@ -39,8 +39,7 @@ In this hands-on lab, you will explore how manufacturers use customer feedback�
 
 1. From the left-hand side menu to find the **Designer (1)** tab under the **Authoring** section. 
 
-    - Make sure that you’re on the **Classic prebuilt**tab under the “New pipeline” section. From here, click on the box with a **plus sign (2)** 
-that says, `Create a new pipeline using classic prebuilt components`.
+    - Make sure that you’re on the **Classic prebuilt**tab under the “New pipeline” section. From here, click on the box with a **plus sign (2)** that says, `Create a new pipeline using classic prebuilt components`.
 
       ![](../images/n46c3.png) 
 
