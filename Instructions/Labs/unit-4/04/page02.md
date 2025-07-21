@@ -294,8 +294,8 @@ workspace (**East US 2**) **(1)**
 "Dedicated" or "Low priority" unless specified otherwise for 
 cost-saving purposes) **(2)**
     - **Virtual Machine Type**: Keep this as **CPU (3)** 
-    - **Virtual Machine Size**: Choose **Standard_DS11_v2 (3)**
-    - Click **Next (4)**  
+    - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
+    - Click **Next (5)**  
 
       ![](../images/nc15.png)     
 
