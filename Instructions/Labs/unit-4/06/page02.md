@@ -113,16 +113,14 @@ Now it’s time to add the clean missing data component.
 
     ![](../images/n46c12.png) 
 
-1. Connect the dataset to the module by clicking on the **small circle** at the bottom of 
-**Customer_Feedback_dataset**. Then, drag a connection line to the **top-left circle** of the **Preprocess Text** module 
+1. Connect the dataset to the module by clicking on the **small circle** at the bottom of **Customer_Feedback_dataset**. Then, drag a connection line to the **top-left circle** of the **Preprocess Text** module 
 named **Dataset**
 
     ![](../images/n46c13.png) 
 
     Now we need to tell Azure ML which column (in your dataset) contains the customer feedback that needs to be cleaned for machine learning.
 
-1. Double click on the **Preprocess Text** module **(1)** and scroll down to the field 
-labeled **Text column to clean**. Click **Edit Column (2)**.
+1. Double click on the **Preprocess Text** module **(1)** and scroll down to the field labeled **Text column to clean**. Click **Edit Column (2)**.
 
     ![](../images/n46c14.png) 
 
@@ -143,15 +141,13 @@ machine learning model can understand.
 
     ![](../images/n46c17.png) 
 
-1. Drag a line from the bottom circle of the **Preprocess Text** 
-module to the **top-left input** of the **N-Gram Features** module (labeled "Dataset").
+1. Drag a line from the bottom circle of the **Preprocess Text** module to the **top-left input** of the **N-Gram Features** module (labeled "Dataset").
 
     ![](../images/n46c18.png) 
 
 1. Next step is to configure the extract N-Gram Features from Text module.
     
-1. Double-click the **Extract N-Gram Features from Text** module **(1)**. Click **“Edit column” (2)** next to 
-the **Text column** field.
+1. Double-click the **Extract N-Gram Features from Text** module **(1)**. Click **“Edit column” (2)** next to the **Text column** field.
 
     ![](../images/n46c19.png)
 
@@ -176,18 +172,15 @@ the **Text column** field.
 
 ### Task 5: Split the Data
 
-1. In the **Component (1)** tab on the left, search for the **Split Data (2)** module. Drag it onto the 
-canvas **(3)**.
+1. In the **Component (1)** tab on the left, search for the **Split Data (2)** module. Drag it onto the canvas **(3)**.
 
     ![](../images/n46c22.png)
 
-1. From the left **Result dataset** of the **Extract N-Gram Features from Text** module, drag a 
-line to the **Dataset** of the **Split Data module**.
+1. From the left **Result dataset** of the **Extract N-Gram Features from Text** module, drag a line to the **Dataset** of the **Split Data module**.
 
     ![](../images/n46c23.png)
 
-1. Double click the **Split Data module** to open 
-the Parameters panel on the right.
+1. Double click the **Split Data module** to open the Parameters panel on the right.
 
     - Splitting mode: **Split Rows (1)**
     - Fraction of rows in the first output: **0.7 (2)**
@@ -202,8 +195,7 @@ the Parameters panel on the right.
 
 ### Task 6: Add Logistic Regression and Trace the Model
 
-1. In the **Component (1)** tab on the left, search for **Two-Class Logistic Regression (2)**. Drag 
-it onto your pipeline canvas **(3)**.
+1. In the **Component (1)** tab on the left, search for **Two-Class Logistic Regression (2)**. Drag it onto your pipeline canvas **(3)**.
 
     ![](../images/n46c25.png)
 
@@ -212,6 +204,7 @@ it onto your pipeline canvas **(3)**.
     ![](../images/n46c26.png)
 
 1. Connect the Modules:
+
     - Connect the **output of the Two-Class Logistic Regression** module to the **left 
 input of the Train Model** module (labeled “Untrained model”) **(1)**.
     - From the **Split Data** module, connect the **left output port** (training set, 70%) 
@@ -223,8 +216,7 @@ to the **right input of the Train Model** module (labeled “Dataset”) **(2)**
 
     ![](../images/n46c28.png)
 
-1. Type **Satisfaction_Score (1)** — this is the column your model will learn to 
-predict and then **Save (2)**.
+1. Type **Satisfaction_Score (1)** — this is the column your model will learn to predict and then **Save (2)**.
 
     ![](../images/n46c29.png)
 
@@ -242,10 +234,8 @@ This module runs your trained model on unseen reviews and generates predictions.
     ![](../images/n46c31.png)
 
 1. Connect the Modules:
-    - Connect the **output of the Train Model** module to the **left input of the Score 
-Model** module (labeled “Trained model”) **(1)**.
-    - From the **Split Data** module, connect the **right output port** (30% testing data) 
-to the **right input of the Score Model** module (labeled “Dataset”) **(2)**.  
+    - Connect the **output of the Train Model** module to the **left input of the Score Model** module (labeled “Trained model”) **(1)**.
+    - From the **Split Data** module, connect the **right output port** (30% testing data) to the **right input of the Score Model** module (labeled “Dataset”) **(2)**.  
 
     - Click **Save (3)** at the top of the screen
 
@@ -269,15 +259,13 @@ evaluation results.
 
     ![](../images/n46c33.png)
 
-1. From the **bottom circle of the Score Model** module, connect it to the **left input of the 
-Evaluate Model** module **(1)** and then **Save (2)**.
+1. From the **bottom circle of the Score Model** module, connect it to the **left input of the Evaluate Model** module **(1)** and then **Save (2)**.
 
     ![](../images/n46c34.png)
 
 ### Task 9: Run the Pipeline  
 
-Now that your pipeline is fully built with all the components connected—from data 
-ingestion to anomaly scoring—you’re ready to run it.
+Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
 
 1. Click on **Configure & Submit**.
 
@@ -301,29 +289,23 @@ Outputs**.
 1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your 
 pipeline.
 
-    - Select Compute Type: From the 
-dropdown, select **Compute cluster (1)**.
+    - Select Compute Type: From the dropdown, select **Compute cluster (1)**.
 
     - Click on **Create Azure ML compute cluster (2)**
 
       ![](../images/n46c38.png)  
 
-1. You are now in the **Virtual Machine** tab for setting up a compute cluster. This step helps 
-Azure decide which kind of machine to use for running your pipeline.
+1. You are now in the **Virtual Machine** tab for setting up a compute cluster. This step helps Azure decide which kind of machine to use for running your pipeline.
 
-    - **Location**: Confirm that the selected region is the same as your 
-workspace (**East US 2**) **(1)**
-    - **Virtual Machine Tier**: Leave as default. (do not select 
-"Dedicated" or "Low priority" unless specified otherwise for 
-cost-saving purposes) **(2)**
+    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**) **(1)**
+    - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes) **(2)**
     - **Virtual Machine Type**: Keep this as **CPU (3)** 
     - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
     - Click **Next (5)**  
 
       ![](../images/n46c39.png)  
 
-1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything 
-default. Then click **Create (2)**.
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
     ![](../images/n46c40.png) 
 
@@ -348,8 +330,7 @@ default. Then click **Create (2)**.
 
 ### Task 10: View Preview Results
 
-To view how well your model performed we can use evaluation results in Azure ML 
-Designer.
+To view how well your model performed we can use evaluation results in Azure ML Designer.
 
 1. Right-click on the **Evaluate Model (1)** box. Select **Preview data (2)** > **Evaluation results (3)**.
 
@@ -357,32 +338,24 @@ Designer.
 
 1. After training a model, it’s important to evaluate how well it performs. The evaluation results include charts and metrics that show how accurately the model made predictions on test data.
 
-    - **ROC Curve**:  The **ROC** (Receiver Operating Characteristic) curve helps us see how well the 
-model separates positive and negative cases. 
+    - **ROC Curve**:  The **ROC** (Receiver Operating Characteristic) curve helps us see how well the model separates positive and negative cases. 
 
        ![](../images/n46c46.png) 
 
-        - The horizontal axis shows the false positive rate (wrongly predicting 
-"yes"). 
-        - The vertical axis shows the true positive rate (correctly predicting 
-"yes"). 
-        - A perfect model would have a curve that reaches the top-left corner 
-— which this model does. That means the model never confused a 
-negative example for a positive one
+        - The horizontal axis shows the false positive rate (wrongly predicting "yes"). 
+        - The vertical axis shows the true positive rate (correctly predicting "yes"). 
+        - A perfect model would have a curve that reaches the top-left corner — which this model does. That means the model never confused a negative example for a positive one
 
     - **Precision-Recall Curve**:  
 
        ![](../images/n46c48.png) 
 
     - This chart explains how well the model identifies positive cases.
-        - Precision is how many of the model’s positive predictions were 
-correct.
+        - Precision is how many of the model’s positive predictions were correct.
         - Recall is how many of the actual positive cases the model found.
-        - A curve that reaches the top-right corner means the model found all 
-positives without making any mistake 
+        - A curve that reaches the top-right corner means the model found all positives without making any mistake 
 
-    - **Lift Curve**: The lift curve shows whether the model ranks the most important predictions 
-(true positives) higher than others.
+    - **Lift Curve**: The lift curve shows whether the model ranks the most important predictions (true positives) higher than others.
 
         - A steep curve means the model successfully puts the most important cases at the top. In this case, the curve rises sharply, showing that the model ranks positive examples very effectively.    
 
@@ -394,32 +367,24 @@ positives without making any mistake
 
     - **Confusion Matrix**
 
-      This matrix shows how the model's predictions compared to actual 
-outcomes:
+      This matrix shows how the model's predictions compared to actual outcomes:
 
       ![](../images/n46c52.png) 
 
-        - `127 True Negatives`: The model correctly predicted shipments that 
-were on time.
-        - `171 True Positives`: The model correctly predicted shipments that 
-were delayed.
-        - `2 False Positives`: The model incorrectly predicted some on-time 
-shipments as delayed.
+        - `127 True Negatives`: The model correctly predicted shipments that were on time.
+        - `171 True Positives`: The model correctly predicted shipments that were delayed.
+        - `2 False Positives`: The model incorrectly predicted some on-time shipments as delayed.
         - `0 False Negatives`: The model did not miss any delayed shipments.     
 
-    - This confusion matrix shows extremely high performance with only two 
-errors, and no missed delays.
+    - This confusion matrix shows extremely high performance with only two errors, and no missed delays.
 
       ![](../images/n46c53.png) 
 
-        - `Accuracy`: 0.993 — The model made correct predictions for 99.3% of the test 
-data.
+        - `Accuracy`: 0.993 — The model made correct predictions for 99.3% of the test data.
         - `Precision`: 1.0 — Every prediction of “Delayed” was correct.
         - `Recall`: 0.984 — The model successfully identified 98.4% of all actual delays.
-        - `F1 Score`: 0.992 — This score balances both precision and recall, confirming 
-overall quality.
-        - `AUC`: 1.0 — The model perfectly separates “Delayed” from “On Time” 
-shipments.
+        - `F1 Score`: 0.992 — This score balances both precision and recall, confirming  overall quality.
+        - `AUC`: 1.0 — The model perfectly separates “Delayed” from “On Time” shipments.
         - These are the highest possible scores and indicate perfect performance
 
     - **Summary Metrics**     
@@ -427,35 +392,18 @@ shipments.
       ![](../images/n46c51.png)       
 
     - **Score Bin Table**
-        - This table breaks down the model’s performance across different 
-confidence levels. Each row represents a score bin, which groups 
-predictions by how confident the model was in making them. It helps identify 
-how well the model performs at various confidence thresholds.
-        - `Score bin`: Shows the model’s confidence range for predictions. For 
-example, (0.900, 1.000] includes predictions where the model was between 
-90% and 100% confident.
-        - `Positive examples`: The number of actual delayed shipments (label 1) that fall 
-in this confidence range.
-        - `Negative examples`: The number of on-time shipments (label 0) predicted in 
-this confidence range.
-        - `Fraction above threshold`: Shows what portion of the predictions in this bin 
-are above the classification threshold (default is 0.5). This reflects how many 
-examples are confidently predicted.
-        - `Accuracy`: Proportion of correct predictions in that bin. A value closer to 1 
-means more accurate predictions in that confidence range.
-        - `F1` Score: A combination of precision and recall that balances correctness 
-with completeness. Closer to 1 means better overall performance    
-        - `Precision`: Out of all predictions made in that bin for delayed shipments, how 
-many were actually delayed? A perfect precision of 1.0 means there were no 
+        - This table breaks down the model’s performance across different confidence levels. Each row represents a score bin, which groups predictions by how confident the model was in making them. It helps identify how well the model performs at various confidence thresholds.
+        - `Score bin`: Shows the model’s confidence range for predictions. For example, (0.900, 1.000] includes predictions where the model was between 90% and 100% confident.
+        - `Positive examples`: The number of actual delayed shipments (label 1) that fall in this confidence range.
+        - `Negative examples`: The number of on-time shipments (label 0) predicted in this confidence range.
+        - `Fraction above threshold`: Shows what portion of the predictions in this bin are above the classification threshold (default is 0.5). This reflects how many examples are confidently predicted.
+        - `Accuracy`: Proportion of correct predictions in that bin. A value closer to 1 means more accurate predictions in that confidence range.
+        - `F1` Score: A combination of precision and recall that balances correctness with completeness. Closer to 1 means better overall performance    
+        - `Precision`: Out of all predictions made in that bin for delayed shipments, how many were actually delayed? A perfect precision of 1.0 means there were no
 false alarms.
-        - `Recall`: Out of all actual delayed shipments, how many did the model catch 
-in that score bin?
-        - `Negative precision / Negative recall`: These metrics measure how well the 
-model predicts the on-time (negative) class. High values mean the model 
-rarely mislabels on-time shipments.
-        - `Cumulative AUC`: Tracks the model’s overall ability to rank predictions as we 
-move through the score bins. This value increases as bins with high 
-separation power are included.    
+        - `Recall`: Out of all actual delayed shipments, how many did the model catch in that score bin?
+        - `Negative precision / Negative recall`: These metrics measure how well the model predicts the on-time (negative) class. High values mean the model rarely mislabels on-time shipments.
+        - `Cumulative AUC`: Tracks the model’s overall ability to rank predictions as we move through the score bins. This value increases as bins with high separation power are included.    
           
 
         
