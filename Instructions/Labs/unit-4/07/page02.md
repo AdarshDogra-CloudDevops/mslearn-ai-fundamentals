@@ -113,3 +113,33 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 1. Click on the dataset card then select **Use data** to **drop it onto the pipeline canvas** on the right. Verify the data placed in the canvas, and click 'Save' to avoid losing progress.
 
      ![](../images/lab07-image11.png) 
+
+### Task 3: Preprocessing Our Data
+
+In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
+
+1. Switch to the **Component** tab and search for **Clean Missing Data** by Microsoft.  
+    
+   ![](../images/lab01-image20.png) 
+
+1. Click on the **Clean Missing Data** data component, then drag it from the left panel and drop it below the **Dataset card** in the pipeline canvas on the right.
+
+    ![](../images/lab07-image12.png)
+   
+1. Now connect the Dataset to the Cleaning Component, hover over the small **circle at the bottom** of the dataset block labeled **Data output**. Click and **drag a line** to the **left circle** of the Clean Missing Data component labeled **Dataset**. **Save** your progress by clicking **Save** at the top right of the canvas.
+
+    ![](../images/lab07-image13.png) 
+
+1. Now you will Configure the Clean Missing Data component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
+
+    ![](../images/lab07-image14.png) 
+
+1. Select only **Days Planned ETA Days and Distance_Miles** - Do **not** include columns like  Actual ETA, Shipment_ID, Delay_Flag, Material  Click **Save** in the pop-up,
+
+    ![](../images/lab07-image15.png) 
+
+1. On the **Clean Missing Data** window under **Cleaning mode**, make sure to select **Replace with mean**. Click **Save** again on the main screen.  
+
+    ![](../images/lab07-image17.png) 
+
+
