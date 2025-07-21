@@ -49,150 +49,23 @@ AI in high-stakes industries helps reduce risk of:
 
 Today, students will build a visual classifier to support human decision-making in factories.
 
----
-
 ## Build a Defect Classifier Using Azure ML
-
 ### Understanding the Dataset
+We will be working with an image dataset containing hundreds of labeled examples of cast 
+metal parts. Each image falls into one of two categories: 
+  - Non-Defective: The part has passed visual inspection and contains no detectable 
+flaws. 
+  - Defective: The part has failed inspection due to a crack, dent, chip, or other visible 
+anomaly.
 
-* **Non-Defective**: Passed inspection
-* **Defective**: Contains cracks, dents, chips, etc.
+The images are consistent in framing, angle, and lighting. Some flaws are subtle, while 
+others are more obvious - giving the model a realistic variety of learning conditions.
 
-Machine learning offers consistency across shifts, plants, and geographies. Azure Custom Vision enables easy training with labeled images.
+In large-scale manufacturing, workers often inspect thousands of parts per day. Manual inspection is prone to error from fatigue, lighting conditions, or oversight. It’s also timeconsuming and difficult to scale across shifts and locations.
 
----
+Using image-based machine learning tools like Azure Custom Vision, companies can standardize visual inspections across plants and catch subtle flaws human inspectors may miss. This overall reduces the number of defective items that reach customers.
 
-## Part 0: Setting up the Project
+We’ll be uploading this dataset to Azure Custom Vision and building a visual classification model. There’s a handful of tasks to complete this, so let’s dive in!
 
-### Step 1: Setting up the Workspace
-
-1. Login to Azure Portal: [https://portal.azure.com](https://portal.azure.com)
-
-2. Search for **Azure AI Services**
-
-   ![](../images/0408/3.png) 
-
-3. Click **Create** under **Custom Vision**
-
-   ![](../images/0408/4.png) 
-
-#### Fill out the Custom Vision creation form:
-
-* **Both**: For training and prediction
-* **Subscription**: Your assigned subscription
-* **Resource group**: Select or create (e.g., casting-rg)
-* **Region**: East US (or nearest)
-* **Name**: `customvision-casting`
-* **Training tier**: Free F0
-* **Prediction tier**: Free F0
-* Click **Review + Create** then **Create**
-
-   ![](../images/0408/5.png) 
-
-### Step 2: Wait for Deployment
-
-Wait for deployment to complete (1-2 mins).
-
-   ![](../images/0408/6.png) 
-
-### Step 3: Create a New Project
-
-1. Go to: [https://customvision.ai](https://customvision.ai)
-2. Click **NEW PROJECT**
-
-    ![](../images/0408/8.png) 
-
-3. Fill the form:
-
-   * **Name**: Casting Defect Detection
-   * **Description**: Classifying casting images as ok or defective
-   * **Resource**: customvision-casting \[F0]
-   * **Project Type**: Classification
-   * **Classification Type**: Multiclass
-   * **Domain**: General (Compact)
-   * **Export Capabilities**: Basic platforms
-4. Click **Create Project**
-
-   ![](../images/0408/9.png) 
-
-## Part 1: Upload and Tag Images
-
-### Step 1: Add Non-Defective Images
-
-* Click **Add Images**
-* Upload all from `ok_front`
-* Tag as **Non Defective**
-
-   ![](../images/0408/7.png) 
-
-### Step 2: Add Defective Images
-
-* Click **Add Images**
-* Upload all from `def_front`
-* Tag as **Defect**
-
-
-## Part 2: Train the Model
-
-1. Click **Train** (green button)
-2. Choose **Quick Training**
-3. Wait for training to complete and observe performance metrics
-
-   ![](../images/0408/10.png) 
-
-### Model Metrics:
-
-* **Precision**: Correct predictions out of total predicted
-* **Recall**: Correct predictions out of total actuals
-* **AP**: Average precision
-* **False Negatives**: Defect classified as Non-Defective
-
-
-## Part 3: Test the Model
-
-### Test with Defective Image
-
-1. Click **Quick Test**
-2. Upload an image from `def_front` (test folder)
-3. Observe prediction results
-
-### Test with Non-Defective Image
-
-1. Repeat above but use image from `ok_front`
-
----
-
-## Exporting the Model
-
-1. Click **Export**
-2. Review platforms (Tensorflow, CoreML, ONNX, etc.)
-
-*Optional:* Deploy in a mobile or factory-floor app.
-
-
-## Trusting the Machine
-
-Model uses statistical patterns in pixels (not true "vision"):
-
-### Class Discussion:
-
-1. Is 85% confidence enough to reject a part?
-2. Could other data (temperature, machine settings) help?
-3. How could combining data sources make decisions better?
-
-
-
-## Model Refinement
-
-Choose any of the following to improve your model:
-
-* Add more images (especially from new angles)
-* Correct any incorrect labels
-* Retrain and compare metrics
-
-### Reflection:
-
-* Did your model's accuracy improve?
-* Why do you think that happened (or didn’t)?
 
 
