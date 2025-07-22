@@ -17,7 +17,7 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
     - **Hub (Optional)**: Leave this as **None** unless instructed otherwise **(2)**
     - **Advanced Settings**:
     - **Subscription**: Select the appropriate Azure subscription from the dropdown **(3)**
-    - **Resource Group**: Select **nascar-rg** **(4)**
+    - **Resource Group**: Select **ODL-SREB-U5L06** **(4)**
     - **Region**: Select **East US 2 (5)** for better performance.
     - After filling out all the required fields, click the **Create (6)** button.
 
