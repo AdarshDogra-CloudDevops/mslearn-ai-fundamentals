@@ -103,9 +103,7 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
     ![](../images/n52c12.png)
 
-1.  Connect your dataset to the 
-component by clicking and dragging from **Data output** on the **dataset block** to 
-**Dataset** on the **Clean Missing Data** component.    
+1.  Connect your dataset to the component by clicking and dragging from **Data output** on the **dataset block** to **Dataset** on the **Clean Missing Data** component.    
 
     ![](../images/n52c13.png)
 
@@ -176,8 +174,7 @@ By exporting the dataset this way, you are moving your cleaned, prepared data in
 
      ![](../images/n52c22.png)  
 
-1. Leave Inputs & Outputs as is, there is nothing to configure for this step. Click 
-**Next.**      
+1. Leave Inputs & Outputs as is, there is nothing to configure for this step. Click **Next.**      
 
     ![](../images/n52c24.png)
 
