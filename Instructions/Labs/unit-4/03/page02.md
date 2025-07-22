@@ -243,13 +243,19 @@ In this task you will configure the details needed to run your pipeline, includi
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide **Compute name** then click on **Create**
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
-    ![](../images/lab01-image39.png)
+    ![](../images/nc16.png) 
 
-1. Back on the **Runtime Settings** page, select the newly created Azure ML compute cluster from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
+1. Select the Compute Created **Test (1)** and click **Next (2)**.   
 
-     ![](../images/lab01-image40.png)
+    ![](../images/nc17.png) 
+
+     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+
+1. Once on the **final** page, click **Submit**.     
+
+    ![](../images/nc18.png) 
 
 1. On **Review + Submit** page, click on **Submit**. 
 
