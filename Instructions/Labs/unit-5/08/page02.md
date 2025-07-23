@@ -90,4 +90,17 @@ that says, **Create a new pipeline using classic prebuilt components**.
 1. Connect the output circle of the dataset module to the input of this module
 
     ![](../images/U5lab08-image8.png)
-   
+
+1. Double click on the **Select Columns in Dataset** module. In the right panel, click **Edit column** selection.
+
+     ![](../images/U5lab08-image11.png)
+
+1. Choose the following input features then click **Save**
+    a. Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
+    AP_High, AP_Post, CFP_High, CFP_Final
+
+    ![](../images/U5lab08-image12.png)
+     
+1. Click on **Save**.
+
+    ![](../images/U5lab08-image13.png)
