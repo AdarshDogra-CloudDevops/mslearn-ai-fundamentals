@@ -37,7 +37,15 @@ In this hands-on lab, you will learn how to prepare sports-related data for anal
 
 1. Once the pipeline editor opens, click the **pencil icon (1)** at the top and rename your pipeline to **NASCAR Pipeline (2)** and then **Save (3)**.  
 
-     ![](../images/n52c4.png) 
+     ![](../images/n52c4.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="95a7b102-161c-4b14-9756-80ba9a3c752a" />    
 
 ### Task 2: Uploading the Data
 
@@ -90,6 +98,14 @@ cars throughout NASCAR’s history.` **(2)**
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
     ![](../images/n52c10.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="124d18fa-11fd-4ecf-8a8b-ab68e555ccea" />       
  
 ### Task 3: Cleaning the Data
 
