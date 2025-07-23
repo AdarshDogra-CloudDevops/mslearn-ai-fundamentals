@@ -71,15 +71,23 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab07-image6.png)
 
-1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
+1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
 
-    ![](../images/lab07-image7.png) 
+   ![](../images/U5lab08-image9.png) 
 
-1. On the **Schema** page, ensure the schema fields are correctly recognized then click **Next**  
+1. Under the **Data** tab, locate the uploaded dataset named **Clemson_Dataset**.
 
-    ![](../images/lab07-image8.png) 
+   ![](../images/U5lab08-image10.png)
 
-1. On the **Review** page, click **Create** to finalize the dataset upload
+1. Drag **Clemson_Dataset** onto the canvas
 
-    ![](../images/lab07-image9.png) 
+    ![](../images/U5lab08-image6.png)
+
+1. Switch to the **Component** tab and search for **Select Columns in Dataset**. Then drag the component into your canvas, placing it below the **Clemson_Dataset**.
+
+    ![](../images/U5lab08-image7.png)
+
+1. Connect the output circle of the dataset module to the input of this module
+
+    ![](../images/U5lab08-image8.png)
    
