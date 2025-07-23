@@ -50,7 +50,7 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-     ![](../images/n56c5.png)
+    ![](../images/n56c5.png)
 
 1. On **Create a new workspace to get started with Azure ML** page enter the following data.
 
