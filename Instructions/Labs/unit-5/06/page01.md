@@ -38,19 +38,20 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
 1. In the side menu of your workspace, select **Designer (1)**. Click **Create a new pipeline using classic prebuilt components (2)**.     
 
      ![](../images/n56c4.png)
-   
+
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+ 
+- Hit the Validate button for the corresponding task. You will receive a success message. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />
-   
+  <validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />   
+  
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-    ![](../images/n56c5.png)
+     ![](../images/n56c5.png)
 
 1. On **Create a new workspace to get started with Azure ML** page enter the following data.
 
