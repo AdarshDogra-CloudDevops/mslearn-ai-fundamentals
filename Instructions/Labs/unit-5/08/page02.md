@@ -104,3 +104,36 @@ that says, **Create a new pipeline using classic prebuilt components**.
 1. Click on **Save**.
 
     ![](../images/U5lab08-image13.png)
+
+1. Switch to the **Component** tab and search for **Split Data**. Then drag the component into your canvas.
+
+    ![](../images/U5lab08-image14.png)
+
+1. Connect it to the output of **Select Columns in Dataset** to **Split Data**.
+
+     ![](../images/U5lab08-image15.png)
+
+1. Double click on the **Split Data module** and configure the following then click on **Save**.
+
+   a. Fraction of rows in the first output dataset: 0.8 (80% training)
+
+   b. Leave Stratified split as default. 
+
+      ![](../images/U5lab08-image16.png)
+
+1. Switch to the **Component** tab and search for **Linear Regression**. Then drag the component into your canvas.
+   
+1. Drag the Linear Regression module onto the canvas as shown in the below image.
+
+    ![](../images/U5lab08-image17.png)
+
+1. Search for **Train Model**. Then drag the component into your canvas. Drag the Train Model module onto the canvas as shown in the below image.
+
+    ![](../images/U5lab08-image18.png)
+
+1. Connect:
+
+   - Left input → output of Linear Regression
+   - Right input → first output of Split Data
+
+      ![](../images/U5lab08-image19.png)
