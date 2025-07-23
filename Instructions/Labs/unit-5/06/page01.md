@@ -39,6 +39,14 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
 
      ![](../images/n56c4.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. you will receive a success message. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+  <validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />     
+
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
@@ -88,6 +96,14 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
     ![](../images/n56c10.png) 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. you will receive a success message. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+  <validation step="a975c32b-812e-49d7-be44-8b2d62057066" />        
 
 
 ### Task 3: Add the Dataset to Your Pipeline Canvas
