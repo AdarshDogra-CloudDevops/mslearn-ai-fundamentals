@@ -45,7 +45,7 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  <validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />     
+<validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />     
 
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer
 
