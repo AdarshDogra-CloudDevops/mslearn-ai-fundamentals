@@ -142,8 +142,7 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 
       ![](../images/n49c13.png)
 
-1. Switch to the **Component (1)** tab and search for **Two-Class Logistic Regression
-(2)** by Microsoft. Drag the **Clean Two-Class Logistic Regression** data component to the canvas **(3)**.
+1. Switch to the **Component (1)** tab and search for **Two-Class Logistic Regression (2)** by Microsoft. Drag the **Clean Two-Class Logistic Regression** data component to the canvas **(3)**.
 
     ![](../images/n49c14.png) 
 
@@ -191,8 +190,7 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 1. On the **Basics**: First, for easy tracking, we’ll set up a new experiment.
 
     - Under **Experiment name**, select **Create new** **(1)**
-    - In the field labeled **“New experiment name”**, type 
-**Training_pipeline (2)**
+    - In the field labeled **“New experiment name”**, type **Training_pipeline (2)**
     - The **Job Display Name** is automatically generated based on today’s date.
     - You may skip the Optional Fields section.
     - Click the blue **Next (3)** button at the bottom-right corner of the screen
@@ -208,29 +206,23 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
     - **Select Compute Type** section, select **Compute 
 Cluster** from the drop down **(1)**
 
-    - Since no cluster is currently available, we’ll need to create one. Click on 
-**Create Azure ML Compute Cluster (2)**.        
+    - Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster (2)**.        
 
-      >**Note**: This will open a new pane or pop-up for 
-you to configure your compute cluster
+      >**Note**: This will open a new pane or pop-up for you to configure your compute cluster
 
        ![](../images/nc14.png) 
 
 1. **Virtual Machine**: 
 
-    - **Location**: Confirm that the selected region is the same as your 
-workspace (**East US 2**) **(1)**
-    - **Virtual Machine Tier**: Leave as default. (do not select 
-"Dedicated" or "Low priority" unless specified otherwise for 
-cost-saving purposes) **(2)**
+    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**) **(1)**
+    - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes) **(2)**
     - **Virtual Machine Type**: Keep this as **CPU (3)** 
     - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
     - Click **Next (5)**  
 
       ![](../images/nc15.png)     
 
-1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything 
-default. Then click **Create (2)**.
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
     ![](../images/nc16.png) 
 
@@ -263,8 +255,7 @@ default. Then click **Create (2)**.
 
     ![](../images/n49c29.png) 
 
-1. Record the  **accuracy**, **precision, false positives,** and **false negatives** to understand how your model’s 
-performance changes.    
+1. Record the  **accuracy**, **precision, false positives,** and **false negatives** to understand how your model’s performance changes.    
 
     ![](../images/n49c30.png) 
 
@@ -460,8 +451,7 @@ data.
 
     ![](../images/n49c29.png) 
 
-1. Record the  **accuracy**, **precision, false positives,** and **false negatives** to understand how your model’s 
-performance changes.    
+1. Record the  **accuracy**, **precision, false positives,** and **false negatives** to understand how your model’s performance changes.    
 
     ![](../images/n49c46.png)     
 
