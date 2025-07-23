@@ -137,3 +137,85 @@ that says, **Create a new pipeline using classic prebuilt components**.
    - Right input → first output of Split Data
 
       ![](../images/U5lab08-image19.png)
+
+1. Double click on the **Train Model** module. In the right panel, click **Edit column** selection.
+
+1. Set the Label column to: Pct then click **Save**.
+
+    ![](../images/U5lab08-image20.png)
+   
+1. This step trains the regression model using the training portion of the data
+
+1. Search for **Score Model**. Then drag the component into your canvas. Drag the **Score Model** module onto the canvas as shown in the below image.
+
+   **Connect:**
+
+   a. Left input → output of Train Model
+
+   b. Right input → second output of Split Data (test data)
+
+      ![](../images/U5lab08-image21.png)
+
+1. This module applies the trained model to the test dataset and generates 
+predictions
+
+1. Search for **Evaluate Model**. Then drag the component into your canvas. Drag the **Evaluate Model** module onto the canvas as shown in the below image.
+
+   **Connect:**
+    
+    - Connect the output of Score Model to the left input of Evaluate Model. Leave the second (right) input empty, since only one model is being evaluated
+
+      ![](../images/U5lab08-image22.png)
+
+1. This module calculates performance metrics for the regression model.
+
+1. Click **Save** at the top right. Then select the **Configure & Submit** button in the top-right corner.
+
+     ![](../images/U5lab08-image23.png) 
+
+1. Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
+
+1. On the **Basics** page, perform the steps as mentioned below:
+
+   - In the Experiment name select **Create new**
+   - In **New experiment name** filed provide **`Test_ClemsonWinPredictor`**
+   - Click the blue **Next** button at the bottom-right corner of the screen
+
+      ![](../images/U5lab08-image24.png) 
+
+1. On the **Inputs & outputs** page, click on **Next** to skip.
+
+1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on Compute Cluster. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
+
+1. On the **Select virtual machine** page, specify the following then click on **Next** :
+  
+    - Location: Confirm that the selected region is the same as your workspace.
+    
+    - Virtual Machine Tier: Leave as default. 
+    
+    - Virtual Machine Type: Keep this as **CPU** (sufficient for our anomaly detection task).
+
+    - Virtual Machine Size: Choose **Standard_DS11_v2**.
+  
+        ![](../images/lab01-image38.png)
+
+1. On the **Configure Settings** page, provide Compute name Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> then click on **Create**
+
+    ![](../images/lab07-image34.png)
+
+1. Back on the **Runtime Settings** page, select the newly created Azure ML compute cluster from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
+
+     ![](../images/lab07-image35.png)
+
+1. On **Review + Submit** page, click on **Submit**. 
+
+     ![](../images/lab07-image36.png)
+
+1. Once submitted, a success notification appears at the top of the page. Click on **View details** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+      ![](../images/lab07-image37.png)
+
+1. Once the Pipeline is run, you can see the similar result.
+
+     ![](../images/lab07-image38.png)
+
