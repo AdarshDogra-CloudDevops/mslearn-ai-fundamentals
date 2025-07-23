@@ -50,7 +50,15 @@ components.
 1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
 that says, **Create a new pipeline using classic prebuilt components**.
 
-    ![](../images/lab01-image6.png) 
+    ![](../images/lab01-image6.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. You will receive a success message. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+  <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />   
 
 ### Task 2: Upload Our Dataset
 
@@ -112,8 +120,16 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
 1. Verify the data placed in the canvas, and click 'Save' to avoid losing progress.
 
-     ![](../images/lab01-image19.png) 
+     ![](../images/lab01-image19.png)
+   
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. You will receive a success message. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+  <validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" />   
+    
 ### Task 3: Preprocessing Our Data
 
 In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
