@@ -53,7 +53,7 @@ In this hands-on lab, you will learn how to prepare sports-related data for anal
 
     ![](../images/n52c5.png) 
 
-1. On **Create a new workspace to get started with Azure ML** page enter the following data.
+1. On **Create data asset** page enter the following data.
 
     - Name: Enter **`NASCAR_Season_History` (1)**  
     - Description: `This dataset tracks the victorious drivers and 

@@ -57,7 +57,7 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 
     ![](../images/lab01-image7.png) 
 
-1. On **Create a new workspace to get started with Azure ML** page enter the following data.
+1. On **Create data asset** page enter the following data.
 
     - Name: Enter **`Sensor_Data` (1)**  
     - Select type: **Tabular (2)**  
