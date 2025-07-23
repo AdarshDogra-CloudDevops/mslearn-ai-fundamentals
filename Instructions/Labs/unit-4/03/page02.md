@@ -50,7 +50,15 @@ components.
 1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
 that says, **Create a new pipeline using classic prebuilt components**.
 
-    ![](../images/lab01-image6.png) 
+    ![](../images/lab01-image6.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. You will receive a success message. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+  <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />   
 
 ### Task 2: Upload Our Dataset
 
@@ -112,8 +120,16 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
 1. Verify the data placed in the canvas, and click 'Save' to avoid losing progress.
 
-     ![](../images/lab01-image19.png) 
+     ![](../images/lab01-image19.png)
+   
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. You will receive a success message. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+  <validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" />   
+    
 ### Task 3: Preprocessing Our Data
 
 In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
@@ -243,13 +259,19 @@ In this task you will configure the details needed to run your pipeline, includi
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide **Compute name** then click on **Create**
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
-    ![](../images/lab01-image39.png)
+    ![](../images/nc16.png) 
 
-1. Back on the **Runtime Settings** page, select the newly created Azure ML compute cluster from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
+1. Select the Compute Created **Test (1)** and click **Next (2)**.   
 
-     ![](../images/lab01-image40.png)
+    ![](../images/nc17.png) 
+
+     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+
+1. Once on the **final** page, click **Submit**.     
+
+    ![](../images/nc18.png) 
 
 1. On **Review + Submit** page, click on **Submit**. 
 
