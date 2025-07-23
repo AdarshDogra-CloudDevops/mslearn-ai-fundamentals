@@ -53,7 +53,7 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
 
      ![](../images/n56c5.png)
 
-1. On **Create a new workspace to get started with Azure ML** page enter the following data.
+1. On **Create data asset** page enter the following data.
 
     - Name: Enter **`Train_Test_Validation_dataset` (1)**  
     - Select type: **Tabular (2)**  
