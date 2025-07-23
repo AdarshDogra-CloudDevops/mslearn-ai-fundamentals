@@ -29,7 +29,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `PCA Anomaly Model`.
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces**. Locate the workspace you just created `Logistics_Prediction`.
 
      ![](../images/lab02-image2.png) 
    
@@ -37,7 +37,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     ![](../images/lab07-image3.png) 
 
-1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
+1. Once you are inside your workspace `Logistics_Prediction`, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
 this tab.
 
     ![](../images/lab01-image5.png) 
