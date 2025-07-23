@@ -217,5 +217,10 @@ predictions
 
 1. Once the Pipeline is run, you can see the similar result.
 
-     ![](../images/lab07-image38.png)
+     ![](../images/U5lab08-image26.png) 
 
+1. Double click on Evaluation metrics review the evaluation metrics values in Azure
+
+   ![](../images/U5lab08-image27.png) 
+    
+   - Both the Jupyter Notebook and Azure ML pipelines were used to train a Linear Regression model to predict team win percentage (Pct) using the same input features!
