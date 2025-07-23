@@ -1,1 +1,3 @@
+# Hands-On-Lab: Classification Two Ways - Supervised vs Unsupervised Categorization
 
+In this hands-on lab, you will build and experiment with machine learning models for both classification and clustering tasks. You will apply supervised learning techniques to train models that can predict outcomes based on labeled data, and use unsupervised learning methods to group data based on underlying patterns without predefined labels. By comparing the performance and results of these different algorithms, you will gain insights into how each approach can be used to categorize and understand data in unique ways.
