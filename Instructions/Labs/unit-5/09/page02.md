@@ -93,7 +93,6 @@ instance **(2)**.
      ![](../images/n59c15.png)
 
 1. Press the **play** button to the left of the first code block. This will start the session, which may take `3-5 minute`s, of which you can move ahead with the lesson while it loads.     
-
      ![](../images/n59c16.png)
 
 1. This will show the top 5 rows of the dataset you just imported and cleaned.
@@ -129,6 +128,8 @@ This activity demonstrates the importance of sequencing, where steps must be car
 **Technical Demo**
 
 Navigate to the **“Sequencing”** section in the **notebook** which you have executed in previous task.
+
+![](../images/n59c14.png)
 
 #### Selection
 
