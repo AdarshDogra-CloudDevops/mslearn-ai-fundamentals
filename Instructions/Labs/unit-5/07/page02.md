@@ -143,4 +143,100 @@ In this hands-on lab, you will build and experiment with machine learning models
 1. Navigate to **Pipeline (1)** from the left navigation pane and then Select **Pipeline drafts (2)** tab and then click on **Preprocessing_Pipeline (3)**.
 
     ![](../images/n57c-20.png)
-     
+
+1. Click the **Clone** button at the top. This will create a copy of the pipeline and open it in a new tab.
+
+    ![](../images/n57c21.png)
+
+1. Select the **Pencil** icon to rename the Pipeline.    
+
+    ![](../images/n57c22.png)
+
+1. Rename your cloned pipeline to **Clemson – Supervised Pipeline (1)** and then **Save (2)**.    
+
+    ![](../images/n57c23.png)
+
+
+### Task 5: Classification in Azure (Supervised)
+
+We will be using logistic regression, a common supervised learning model, to predict whether Clemson will win or lose a bowl game based on the season’s performance data.
+
+1. Navigate to the **Data** tab on the left, drag your **Clemson dataset** onto the pipeline canvas **(1)** and connect it to the existing **preprocessing pipeline (2)** and then **Save (3)**.
+
+    ![](../images/n57c24.png)
+
+1. Double click on the **Clean Missing Data (1)** component. Select **Edit Column** under “Columns to be cleaned” to include the **Bowl** column, either “With rules” or “By name”.     
+    
+    ![](../images/n57c25.png) 
+
+1. Select **Column names (1)** and then choose **Bowl (2)** and then **Save (2)**.
+
+    ![](../images/n57c26.png)
+
+1. Set **Cleaning mode** to **Remove entire row (1)** to filter out seasons that do 
+not include a bowl game and then **Save (2)**.
+
+    ![](../images/n57c27.png)
+
+     >**Note**: This ensures our model only trains on seasons with a **win/loss** outcome in a bowl.
+
+1. The **Split Data** component already handles splitting our data into training and test sets, so now we need to train our model.     
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Train Model (2).** Drag that component onto the canvas **(3)** below the `Split Data` component.
+
+    - **LEFT (training data) output** from the **“Split Data”** component into 
+the **Right** **“Dataset”** input of the **“Train Model”** component **(4)**
+
+      ![](../images/n57c28.png)
+
+1. We will be using **logistic regression** for our model, because it classifies outcomes into one of two groups, in our case, win or loss.     
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **“Two-Class Logistic Regression (2).** Drag that component onto the canvas **(3)** beside the `Split Data` component. 
+
+    ![](../images/n57c29.png)
+
+1. Connect it to the left **“Untrained model”** input on the **“Train Model”** component **(1)**.   
+
+     - Connect the **left output of Split Data** component to **Right input of Train Model** **(2)**
+
+       ![](../images/n57c30.png)
+
+1. Double click the **“Train Model”** component **(1)**. Under Label column, select **Edit Column (2)**. 
+
+    ![](../images/n57c31.png)
+
+1. Under Label column, select **“Win/Loss” (1)**  and then **Save (2)**.     
+
+    ![](../images/n57c32.png) 
+
+1. Select **Save**.
+
+    ![](../images/n57c33.png) 
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **“Score Mode (2).** Drag that component onto the canvas **(3)** below the `Train Model` component. 
+
+    ![](../images/n57c34.png) 
+
+1. Connect:
+
+     - Connect the **output** of the **“Train Model”** to the **left input of “Score Model.” (1)**
+
+     - Connect the **RIGHT (test data) output from “Split Data”** into the **right input of “Score Model.” (2)**
+
+     - Then **Save (3)**
+
+       ![](../images/n57c35.png) 
+
+        >**Note**: This will compare the 
+model’s predictions against the actual win/loss outcomes.     
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Evaluate Model (2).** Drag that component onto the canvas **(3)** below the `Score Model` component. 
+
+     - Connect the **output from “Score Model”** to the **left input for “Evaluate Model.” (4)**
+
+     - Then **Save (5)**
+
+       ![](../images/n57c36.png) 
+
+1.        
+
