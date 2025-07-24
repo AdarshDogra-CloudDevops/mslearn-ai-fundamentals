@@ -33,6 +33,8 @@ In this hands-on lab, you will work with core control structures such as sequenc
 
 1. This will take you inside the workspace where you can build and run machine learning experiments.
 
+     ![](../images/n59c21.png) 
+
 ### Task 2: Setting Up Your Notebook
 
 We will be using a notebook in Azure today to execute all our technical examples. We will be examining 2024 season statistics from the South Carolina Gamecocks football team.
