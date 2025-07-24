@@ -65,11 +65,11 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/lab01-image9.png) 
 
 1. **File or Folder Selection**  
-   - In the file browser, select the file: `US_Manufacturing_Logistics_Dataset`  
+   - In the file browser, select the file: `SREB_U5_L8_CleanedDataset`  
    - Wait for the file to appear under “Upload list”  
    - Click **Next**  
 
-    ![](../images/lab07-image6.png)
+    ![](../images/U5lab08-image5.png) 
 
 1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
 
@@ -221,6 +221,6 @@ predictions
 
 1. Double click on Evaluation metrics review the evaluation metrics values in Azure
 
-   ![](../images/U5lab08-image27.png) 
+   ![](../images/U5lab08-image25.png) 
     
    - Both the Jupyter Notebook and Azure ML pipelines were used to train a Linear Regression model to predict team win percentage (Pct) using the same input features!
