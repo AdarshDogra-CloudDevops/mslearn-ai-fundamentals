@@ -58,7 +58,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
    - Name the dataset: **`Clemson_Dataset`**  
   
-    ![](../images/U5lab08-image3.png) 
+    ![](../images/U5lab08-image4.png) 
 
 1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**. 
 
