@@ -64,6 +64,10 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image9.png) 
 
+1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
+
+    ![](../images/lab01-image11.png) 
+
 1. **File or Folder Selection**  
    - In the file browser, select the file: `SREB_U5_L8_CleanedDataset`  
    - Wait for the file to appear under “Upload list”  
