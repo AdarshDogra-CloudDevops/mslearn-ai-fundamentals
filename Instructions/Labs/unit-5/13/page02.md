@@ -27,7 +27,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `PCA Anomaly Model`.
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `Sports_Analytics_Dataset`.
 
      ![](../images/U5lab013-image2.png) 
    
@@ -65,6 +65,10 @@ that says, **Create a new pipeline using classic prebuilt components**.
 1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**. 
 
     ![](../images/lab01-image9.png) 
+
+1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
+
+    ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
    - In the file browser, select the file: `SC_Basketball_Enhanced_With_Starter`  
