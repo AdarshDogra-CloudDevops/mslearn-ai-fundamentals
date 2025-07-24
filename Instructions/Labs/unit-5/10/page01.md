@@ -44,7 +44,7 @@ Now answer these questions:
 you do first?**
 
 - **Q2: Have you ever seen an error message in Azure before?**
-- 
+
 In today’s lesson, you will become a real ML troubleshooter—someone who can read error 
 messages, figure out where things went wrong, and fix them. These skills are essential in 
 real AI careers and future projects
