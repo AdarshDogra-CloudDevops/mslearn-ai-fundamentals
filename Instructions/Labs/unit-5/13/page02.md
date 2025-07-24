@@ -23,15 +23,15 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Region**: Select **East US 2** for better performance.
    - After filling out all the required fields, click the **“Create”** button.
 
-        ![](../images/U5lab08-image1.png) 
+        ![](../images/U5lab013-image1.png) 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
 1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `PCA Anomaly Model`.
 
-     ![](../images/U5lab08-image2.png) 
+     ![](../images/U5lab013-image2.png) 
    
 1. Click on its name to open it. This will take you inside the workspace where you can build and run machine learning experiments.
 
-    ![](../images/U5lab08-image3.png) 
+    ![](../images/U5lab013-image3.png) 
 
