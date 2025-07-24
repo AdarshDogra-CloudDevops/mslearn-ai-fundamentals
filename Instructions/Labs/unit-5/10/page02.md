@@ -228,6 +228,93 @@ pipeline.
 
      ![](../images/N10c23.png) 
 
-     
+
+### Task 6: Use existing pipeline and walk through real Azure ML Designer errors
+
+
+- Intentionally break the pipeline
+- Record the error message and observations
+- Apply a fix using a structured process
+- Rerun the pipeline and reflect
+
+#### Error 1 – Missing Label Column in Train Mode
+
+**Problem to Simulate:**
+
+You will intentionally trigger the error:
+
+`Label column in Train Model is invalid.`
+
+1. Open the working pipeline in Designer.
+
+1. Navigate to **Designer** from the left navigation pane.
+
+     ![](../images/N10c24.png)
+
+1. Select the Pipeline.
+
+     ![](../images/N10c25.png)
+
+1. Right click on **Train Model** module **(1)** and then **Delete (2)**.   
+
+     ![](../images/N10c26.png)
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Train Model (2).** Drag that component onto the canvas **(3)**.   
+
+     ![](../images/N10c27.png)
+
+1. Connect it as follows:
+
+    - Right input: connect to the **output of Split Data** (**left port = training data**) **(1)**
+    - Left input: connect to the **Linear Regression module** **(2)**
+    - Select **Save (3)**
+    - Select **Configure & Submit (4)**
+
+      ![](../images/N10c28.png)    
+
+1. You will now walk through a few configuration steps, then click **Review + Submit (3)**:
+  
+   - Experiment name: **Select existing  (1)**
+   - Existing experiment: **PTS_Split_70_30(2)**
+
+     ![](../images/N10c29.png)
+
+1. Select **Submit**.
+
+1. What You Will See:
+
+    - **Red warning triangle on the Train Model module (1)**
+    - Error panel on the left says: **Label column in Train Model is invalid (2)**.
+
+      ![](../images/N10c30.png)
+
+**Fix Instructions:**
+
+1. Double Click on the newly added **Train Model (1)** module and then  Click **Edit column (2)** under **Label column**.
+
+     ![](../images/N10c31.png)
+
+1. Enter **PTS** as the target to predict **(1)** and the **Save (2)**.
+
+    ![](../images/n56c19.png)
+
+1. Select **Save (1)** and then after adding the necessary Label Column as, you can see that have fixed the error **(2)**.
+
+    ![](../images/N10c33.png)
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
