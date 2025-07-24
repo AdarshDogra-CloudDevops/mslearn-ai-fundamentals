@@ -288,7 +288,7 @@ You will intentionally trigger the error:
 
       ![](../images/N10c30.png)
 
-**Fix Instructions:**
+**`Fix Instructions:`**
 
 1. Double Click on the newly added **Train Model (1)** module and then  Click **Edit column (2)** under **Label column**.
 
@@ -301,6 +301,99 @@ You will intentionally trigger the error:
 1. Select **Save (1)** and then after adding the necessary Label Column as, you can see that have fixed the error **(2)**.
 
     ![](../images/N10c33.png)
+
+**Why This Is an Error:**
+
+In machine learning, the label column is the column we want the model to learn to 
+predict. It is the "answer" column during training.
+
+If you do not tell Azure which column to use as the label, it does not know what you are 
+trying to teach the model. That is like telling a student to "learn something from this dataset" without ever telling them what the correct answer is supposed to be.
+
+In this case, we are trying to predict PTS (points per game), but the model cannot do that if we have not told it PTS is the column to learn.
+
+
+**Why This Matters:**
+
+This is a foundational concept in machine learning:
+
+- Every model must have a target (the thing we want to predict).
+- Selecting the correct label column ensures the model focuses on the right 
+outcome.
+
+If you do not understand this, you will continue to make errors in future lessons when working with classification, regression, and evaluation
+
+#### Error 2 – Disconnected Module in Score Model
+
+Problem to Simulate:
+
+`You will intentionally trigger an error by disconnecting the inputs from the **Score Model** module.`
+
+1. Right click on the **links to Score Model** and then **Delete**.
+
+1. Disconnect the inputs:
+
+     - A: Disconnect the trained model input (coming from Train Model) **(1)**
+
+     - B: Disconnect the dataset input (coming from Split Data – right output) **(2)**
+
+     - Then **Save (3)**
+
+     - Select **Configure & Sumbit (4)**
+
+       ![](../images/N10c-34.png)
+
+1. What You Will See:
+
+     In the error panel:
+
+     - **The port(s) Trained_model of Score Model are required to be connected.**
+
+     - **The port(s) Dataset of Score Model are required to be connected**
+
+       ![](../images/N10c35.png)
+
+**Why This Is an Error:**
+
+The Score Model module needs two inputs to work:
+
+- A trained model from Train Model
+- Test data from Split Data (right port)
+
+If either is missing, the scoring process cannot begin. This is like trying to grade a test without either the answer key or the test paper.
+
+**Why This Matters:**
+
+This error helps to understand:
+
+- How modules are dependent on upstream inputs
+- That scoring is a comparison step — it needs both predictions and test data
+- How to visually check and interpret Azure's pipeline wiring
+
+This builds spatial reasoning and prepares you for more complex model layouts in later 
+lessons       
+
+**`Fix Instructions:`**
+
+1. Reconnect both required inputs for Score Model:
+
+     - **Left input (model): Connect from Train Model (1)**
+     - Right input (dataset): **Connect from Split Data → right output (test data) (2)**
+     - Then **Save (3)**
+     - Select **Configure & Submit (4)**
+
+       ![](../images/N10c-36.png)  
+
+1. Once you have fixed the error then the pipeline should be fixed and ready to submit.
+
+    ![](../images/N10c37.png)
+
+#### Error 3 – Wrong Output from Split Data Connected to Train Model
+
+
+
+
+
 
     
 
