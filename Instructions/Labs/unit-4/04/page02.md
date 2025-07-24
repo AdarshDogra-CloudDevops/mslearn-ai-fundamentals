@@ -56,7 +56,7 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
     ![](../images/lab01-image7.png) 
 
-1. On **Create a new workspace to get started with Azure ML** page enter the following data.
+1. On **Create data asset** page enter the following data.
 
     - Name: Enter **`anomaly_dataset_manufacturing` (1)**  
     - Select type: **Tabular (2)**  
