@@ -393,6 +393,95 @@ connected pipeline components.
 
        ![](../images/n57c57.png)
 
-1. 
+1. Then **Save (1)** and then click **“Configure + Submit” (2)**.
+
+    ![](../images/n57c58.png)
+
+1. You will now walk through a few configuration steps, then click **Next (3)**:
+  
+   - Experiment name: **Create new (1)**
+   - New experiment name: **Clemson-Unsupervised-Pipeline(2)**
+
+     ![](../images/n57c59.png)  
+
+1. Leave **Inputs & Outputs** as it is, there is nothing to configure for this step. Click **Next.**      
+
+    ![](../images/n52c24.png)    
+
+1. Use the same compute cluster **Test (1)**
+as before and then **Next (2)**.   
+
+    ![](../images/n57c60.png)
+
+     >**Note**: It may take some time for the test to get selected. Please try refreshing the cluster periodically until it appears.
+
+1. Select **Submit**.
+
+    ![](../images/n57c61.png)
+
+1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+    ![](../images/n57c62.png)
+
+1. Pipeline may take around `10-15 mins` to complete. Until then please check the Evaluate result of Supervised Model.
+
+### Task 8: Evaluate the Models
+
+1. Navigate to **Pipeline (1)** from the left and then select **Clemson-Supervised Pipeline (2)**.
+
+    ![](../images/n57c63.png)
+
+1. Mke sure the pipeline is **completed (1)** if not then please wait. Right click on **Evaluate model (2)** then select  **Preview data (3)** and then select **Evaluation results (4)**.   
+
+    ![](../images/n57c64.png)
+
+1. View the **Evaluation results**. 
+
+    ![](../images/n57c65.png)
+
+     - Azure provides key metrics such as:
+
+          - `Accuracy` – The percentage of predictions the model got right
+          - `Precision` – Of all the "win" predictions, how many were actually wins? (True Positives to False Positives ratio)
+          - `Recall` – Of all actual wins, how many did the model correctly predict?
+          - `F1 Score` – The balance between precision and recall
+          - `AUC` (Area Under Curve) – Measures how well the model separates classes (win vs. loss). A value closer to 1 is better.    
+
+     - Interpretation tips:
+
+          - High accuracy alone does not mean it is a good model.
+          - If precision is high but recall is low, the model is cautious and only predicts “win” when it is very sure.
+          - AUC above `0.8` is typically considered a **strong indicator of performance**.
+
+1. Navigate to **Pipeline (1)** from the left and then select **Clemson-Unupervised Pipeline (2)**.
+
+    ![](../images/n57c66.png)
+
+1. Mke sure the pipeline is **completed (1)** if not then please wait. Right click on **Assign Data to Cluter (2)** then select  **Preview data (3)** and then select **Result dataset (4)**. 
+
+    ![](../images/n57c67.png)
+
+1. When previewing the data, you will see a new column called **“Assignments.”** This column assigns each row a **cluster ID**, like `0, 1,` or `2`. These cluster IDs are arbitrary, which means no cluster is automatically better or worse than another cluster.
+
+    ![](../images/n57c-68.png)
+
+     >**Interpretation Tips**: Use your analysis of the clustered data to assign meaningful labels to each group. 
+
+     For example:
+     - Cluster 0 → "Elite"
+     - Cluster 1 → "Average"
+     - Cluster 2 → "Poor"
+
+     Keep in mind that K-Means Clustering does not label clusters automatically. It is up to the human analyst to interpret the patterns and decide what each group represents.
+
+
+
+
+
+
+
+
+
+
 
 
