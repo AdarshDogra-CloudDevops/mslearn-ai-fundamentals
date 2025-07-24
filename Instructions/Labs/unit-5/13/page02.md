@@ -189,11 +189,19 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
 1. Once the Pipeline is run, you can see the similar result.
 
-     ![](../images/U5lab08-image26.png) 
+     ![](../images/U5lab013-image26.png) 
 
-1. Double click on Evaluation metrics review the evaluation metrics values in Azure
+1. Right click on the **Score Model** and Select **Preview Data** > **Scored Dataset** to compare Scored Labels and actual Starter. 
 
-   ![](../images/U5lab08-image25.png) 
+     ![](../images/U5lab013-image22.png)
+
+     ![](../images/U5lab013-image23.png)
+   
+1. Right click on the **Evaluate Model** and then on **Preview Data** > **Evaluation Results**.
+
+   ![](../images/U5lab013-image24.png)
+
+   ![](../images/U5lab013-image25.png)
     
 
 
