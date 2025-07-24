@@ -98,5 +98,149 @@ instance **(2)**.
 
      ![](../images/n59c14.png)
 
+### Task 3: Explore different sections of the Notebook (Read only)
+
+#### Sequencing
+
+Sequencing is the specific order in which instructions are performed in an algorithm.
+
+**Examples**
+
+Some examples we’ve discussed in class are the data processing cycle and the steps in 
+our Azure pipelines. These both demonstrate sequencing because each step must be 
+performed in a specific order. If the sequence is broken, such as training a model before 
+
+cleaning the data, the entire process can fail or lead to inaccurate results.
+For instance, you must upload the dataset before cleaning it, clean it before training, and train before evaluating. Skipping or reordering any of these steps can make the model unusable or misleading.
+
+**Use in ML/AI**
+
+In machine learning and AI, sequencing is critical because models are built through a step by-step pipeline. Algorithms require a specific workflow that is executed in order: input data must be prepared, features engineered, models trained, and predictions evaluated. 
+This structured sequence ensures the machine learning model is built on accurate, usable data and produces reliable outputs.
+
+**Interactive Demo**
+
+Work together to rearrange the steps to bake a cake shown on the board into the correct sequence.
+
+This activity demonstrates the importance of sequencing, where steps must be carried out in a specific order to achieve the desired result. Just like in programming or machine learning pipelines, if the steps are out of order, the outcome won’t be successful, even if all the steps are technically correct.
+
+**Technical Demo**
+
+Navigate to the **“Sequencing”** section in the **notebook** which you have executed in previous task.
+
+#### Selection
+
+Selection is a decision or question. At some point in an algorithm there may need to be a question because the algorithm has reached a step where one or more options are available. Depending on the answer given, the algorithm will follow certain steps and ignore others.
+
+**Examples**
+
+A great example we’ve used in class is the **decision tree**. At each branch point in a decision tree, there's a question that leads to a specific path depending on the answer. 
+
+This allows the program to follow different execution routes based on prior decisions. Each path is determined by a condition, sometimes simple, sometimes combining multiple criteria, that helps the model decide which step to take next.
+
+**Use in ML/AI**
+
+In machine learning and AI, selection plays an important role in helping systems make 
+decisions based on conditions in the data, resulting in different outcomes. This logic is essential for tasks like **filtering input, choosing between models, or labeling 
+predictions**. By embedding conditional decisions into the workflow, selection gives machine learning models the flexibility to adapt to complex, real-world scenarios.
+
+**Interactive Demo**
+
+For each scenario, **stand if the statement applies to you** and remain standing or sit as the conditions are added.
+
+This activity illustrates how selection works by producing outcomes based on specific conditions. These conditions can be combined using logical operators like "and" or "or" to **control the flow of decisions in a program**.
+
+**Technical Demo**
+
+Navigate to the **“Selection”** section in the **notebook** and follow the instructions there.
+
+![](../images/n59c18.png)
+
+#### Iteration
+
+Iteration is the process of repeating steps, or instructions. This is often called a “loop.” 
+
+**Examples**
+
+An example of iteration we’ve encountered is during model training. As the model learns, it loops through the dataset multiple times, these are called iterations, each time adjusting 
+its parameters to reduce error and improve performance.
+
+A simpler, real-world example of iteration is doing push-ups. Just like in programming, there’s usually a **stopping condition**. You might do 20 push-ups **(a set number of repetitions**) or keep going until you’re too tired to continue (**a condition-based stop**).
+
+
+**Use in ML/AI**
+
+In machine learning and AI, iteration is essential for training models. During each iteration, the model adjusts its internal parameters based on the error from previous predictions. 
+
+This process continues until the model reaches an acceptable level of accuracy or another stopping condition is met, such as reaching a maximum number of iterations or when improvements become minimal.
+
+**Interactive Demo**
+
+Imagine you're sitting somewhere in a long row of seats, but you don’t know your seat 
+number, and you’re not allowed to look. How would you figure it out?
+
+This activity models iteration by **repeating the same action**, incrementing the seat 
+number, until the condition is met. It's a clear example of how loops work in algorithms to solve a problem step by step.
+
+**Technical Demo**
+
+Navigate to the **“Iteration”** section in the **notebook** and follow the instructions there.
+
+![](../images/n59c19.png)
+
+#### Recursion
+
+
+Recursion is breaking a component down into smaller components using the same 
+function. This function calls itself either directly or indirectly over and over until the base problem is identified and solved. 
+
+**Examples**
+
+We haven’t explored recursion in class yet, but here’s a classic example to help illustrate the concept: calculating 5 factorial, or **5!**.
+
+To find 5!, we break it down as follows
+
+**5! = 5 × 4!**
+
+But we don’t know 4! yet, so we break that down:
+
+**4! = 4 × 3!**, and so on until we reach 1!, which equals 1.
+
+So, the full breakdown becomes:
+
+**5! = 5 × 4 × 3 × 2 × 1**
+
+This process of solving a problem by breaking it into smaller versions of the same problem is the essence of recursion. It continues until it hits a **base case**, in this case 1!, which provides a stopping point and allows the calculation to resolve backward.
+
+**Use in ML/AI**
+
+Recursion isn’t commonly used in core machine learning model training, but it plays a valuable role in supporting tasks within computer science and AI. Specifically, recursion is useful for:
+
+- **Traversing data structures** like trees and graphs (e.g. decision trees, game trees in 
+AI planning)
+- **Divide-and-conquer algorithms**, such as quicksort or mergesort, are used in data 
+preprocessing and feature selection
+- **Backtracking algorithms**, used in optimization and constraint satisfaction 
+problems
+
+In AI, recursion is particularly relevant in areas like **natural language processing (NLP)** for parsing sentence structures, or in **game AI** when evaluating future moves.
+
+**Interactive Demo**
+
+Imagine you're sitting somewhere in a long row of seats, but you don’t know your seat 
+number, and you’re not allowed to look. How would you figure it out **DIFFERENTLY** than 
+how we did it before?
+
+This models recursion, where each person depends on the result of the person before 
+them, breaking the problem down until a stopping point is reached (no one on the left), then building the solution back up step by step.
+
+**Technical Demo**
+
+Navigate to the **“Recursion”** section in the **notebook** and follow the instructions there.
+
+![](../images/n59c20.png)
+
+
+
 
 
