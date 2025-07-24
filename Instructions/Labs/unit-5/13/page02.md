@@ -79,5 +79,4 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
 1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
 
-   ![](../images/U5lab08-image9.png) 
 
