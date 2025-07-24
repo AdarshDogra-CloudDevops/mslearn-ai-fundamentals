@@ -238,5 +238,142 @@ model’s predictions against the actual win/loss outcomes.
 
        ![](../images/n57c36.png) 
 
+        >**Note**: This step will generate metrics like **accuracy, precision, recall, F1 score,** and **AUC**. 
+  
+
+### Task 6: Run the Supervised Pipeline
+      
+1. Make sure your pipeline is saved, then click **Configure & Submit** at the top of the screen. 
+
+    ![](../images/n57c37.png)
+
+1. You will now walk through a few configuration steps, then click **Next (3)**:
+  
+   - Experiment name: **Create new (1)**
+   - New experiment name: **Clemson-Supervised-Pipeline(2)**
+
+     ![](../images/n57c38.png)  
+
+1. Leave Inputs & Outputs as is, there is nothing to configure for this step. Click **Next.**      
+
+    ![](../images/n52c24.png)     
+
+1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your 
+pipeline.
+
+    - Select Compute Type: From the dropdown, select **Compute cluster (1)**.
+
+    - Click on **Create Azure ML compute cluster (2)**
+
+      ![](../images/nc14.png)  
+
+1. You are now in the **Virtual Machine** tab for setting up a compute cluster. This step helps Azure decide which kind of machine to use for running your pipeline.
+
+    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**) **(1)**
+    - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes) **(2)**
+    - **Virtual Machine Type**: Keep this as **CPU (3)** 
+    - **Virtual Machine Size**: Choose **Standard_DS3_v2 (4)**
+    - Click **Next (5)**  
+
+      ![](../images/n57c39.png)   
+
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
+
+     ![](../images/n57c41.png)  
+
+1. Select the Compute Created **Test (1)** and click **Next (2)**.   
+
+     ![](../images/n56c30.png)
+
+     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+
+1. Once on the **final** page, click **Submit**.     
+
+     ![](../images/n57c42.png)  
+
+1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+     ![](../images/n57c43.png) 
+
+1. Pipeline may take around `10-15 mins` to complete meanwhile we will move on to setting up our **unsupervised learning pipeline**, which you will build using the previous steps as a guide.      
+
+### Task 7: Clustering in Azure (Unsupervised)
+
+Now you will build an unsupervised machine learning pipeline on your own, following the same general structure as the supervised model we just completed. The goal is to use K-Means Clustering to separate the seasons into three groups that you can later interpret and label as “Elite,” “Average,” and “Poor” based on performance metrics.
+
+Tips that you need to understand in order to successfully build your unsupervised pipeline:
+
+- K-Means clustering only works with numerical and non-null values.
+- Search for “clustering” components specifically. Some of the components we 
+used before may not be applicable to unsupervised models.
+- Unsupervised learning does not use labeled outcomes, so “label column” settings will not be relevant.
+- There is a “Validate” button in Azure to check for incomplete or incorrectly 
+connected pipeline components.
+- If an error occurs during runtime, reviewing the error message can often provide clear direction on what to fix
+
+1. Make another clone of the **Preprocessing Pipeline**.
+
+1. Navigate to **Pipeline (1)** from the left navigation pane and then Select **Pipeline drafts (2)** tab and then click on **Preprocessing_Pipeline (3)**.
+
+    ![](../images/n57c44.png)
+
+1. Click the **Clone** button at the top. This will create a copy of the pipeline and open it in a new tab.
+
+    ![](../images/n57c45.png)
+
+1. Select the **Pencil (1)** icon to rename the Pipeline.    
+
+     - Rename your cloned pipeline to **Clemson – Unsupervised Pipeline** and then **Save (2)**. 
+
+       ![](../images/n57c46.png)
+
+1. Navigate to the **Data (1)** tab on the left, drag your **Clemson dataset** onto the pipeline canvas **(2)** and connect it to the existing **preprocessing pipeline (3)**.
+
+    ![](../images/n57c47.png)
+
+1. Double click on the **Clean Missing Data (1)** component. Select **Edit Column** under “Columns to be cleaned”.
+    
+    ![](../images/n57c48.png)
+
+1. Select **Column names (1)** and then type or select all these columns `Overall Wins, Overall Losses, Overall Ties, Overall Win-Loss Percentage, Conference Wins, Conference Losses, Conference Win-Loss Percentage, Simple Rating System, Strength of Schedule, AP Pre Rank, AP Highest Rank, CFP Highest Rank,CFP Final Rank` **(2)** and then **Save (3)**.
+
+    ![](../images/n57c49.png)
+
+1. Set the **Cleaning mode** to **Replace with mean (1)** and then **Save (2)**.    
+
+    ![](../images/n57c50.png)
+
+1. These are the components that are replaced in the Unsupervised pipeline compared to the Supervised pipeline:
+
+     - Swap out “Two-Classification Regression” with **“K-Means Clustering”** for the model type.
+     - Swap out “Train Model” with **“Train Clustering Model”** and connect it to your dataset and clustering model.
+     - Swap out “Score Model” with **“Assign Data to Clusters”** and remove **“Evaluate Model.”** This will label each row in the dataset with a cluster ID
+
+1. Switch to the **Component** tab in the left panel and search for **“K-Means Clustering (1).** Drag that component onto the canvas **(2)** beside the `Split Data` component. 
+
+    ![](../images/n57c51.png)
+
+1. Switch to the **Component** tab in the left panel and search for **Train Clustering Model (1).** Drag that component into the canvas **(2)**.
+
+    ![](../images/n57c52.png)
+
+1. Connect:
+
+     - Connect **output** of **K-Means Clustering** to **left input of Train Clustering Model (1)**
+
+     - Connect **left output of **Split Data** to **Right input of Train Clustering Model (2)**
+
+       ![](../images/n57c53.png)
+
+1. Switch to the **Component** tab in the left panel and search for **Assign Data to Clusters (1).** Drag that component into the canvas **(2)**.
+
+     - Connect **left output of Train Clustering Model** to **left input of Assign Data to Clusters (3)**
+
+     - Connect **Right output of Split Data** to **Right input of Assign Data to Clusters (4)**
+
+     - Then **Save (5)**
+
+       ![](../images/n57c54.png)
+
 1.        
 

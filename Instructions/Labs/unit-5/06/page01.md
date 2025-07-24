@@ -222,7 +222,7 @@ pipeline.
 
      ![](../images/n56c29.png)  
 
-1. Select the Compute Created **Small-Cluster (1)** and click **Next (2)**.   
+1. Select the Compute Created **Test (1)** and click **Next (2)**.   
 
      ![](../images/n56c30.png)
 
