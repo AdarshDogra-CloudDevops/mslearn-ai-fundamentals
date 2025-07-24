@@ -35,3 +35,45 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     ![](../images/U5lab013-image3.png) 
 
+### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
+
+In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+
+1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
+this tab.
+
+    ![](../images/lab01-image5.png) 
+
+   >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
+components.
+
+1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
+that says, **Create a new pipeline using classic prebuilt components**.
+
+    ![](../images/lab01-image6.png) 
+
+1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
+
+    ![](../images/lab01-image7.png) 
+
+1. On **Create a new workspace to get started with Azure ML** page enter the following data then click on **Next**.
+
+   - Name the dataset: **`Sports_Analytics_Dataset`**  
+  
+    ![](../images/U5lab08-image4.png) 
+
+1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**. 
+
+    ![](../images/lab01-image9.png) 
+
+1. **File or Folder Selection**  
+   - In the file browser, select the file: `SC_Basketball_Enhanced_With_Starter`  
+   - Wait for the file to appear under “Upload list”  
+   - Click **Next**  
+
+    ![](../images/U5lab08-image5.png) 
+
+1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
+
+   ![](../images/U5lab08-image9.png) 
+
