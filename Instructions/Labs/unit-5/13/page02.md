@@ -13,7 +13,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
-   - **Name**: `ClemsonWinPredictor`  
+   - **Name**: `Sports_Analytics`  
    - **Friendly Name**: *(Optional)*  
       Azure will auto-fill this based on the name.
    - **Hub (Optional)**: Leave this as “None” unless instructed otherwise.
@@ -27,7 +27,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `Sports_Analytics_Dataset`.
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `Sports_Analytics`.
 
      ![](../images/U5lab013-image2.png) 
    
