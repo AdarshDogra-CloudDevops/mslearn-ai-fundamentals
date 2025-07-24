@@ -375,5 +375,24 @@ connected pipeline components.
 
        ![](../images/n57c54.png)
 
-1.        
+1. Double-click **“K-Means Clustering” (1)** and set “Number of centroids” to `3` **(2)** and then **Save (3)**.     
+
+    ![](../images/n57c55.png)
+
+     >**Note**: We want to have 3 centroids, so we can group the seasons into “Elite”, “Average”, and “Poor”.
+
+1. Double-click **“Train Clustering Model” (1)**. Select **Edit Column (2)** under `Column Set`.
+
+    ![](../images/n57c56.png)
+
+1. Select **Column names (1)** and enter the following numeric columns you want the model to use:
+
+     - `Overall Wins, Overall Losses, Overall Ties, Overall Win-Loss Percentage, Conference Wins, Conference Losses, Conference Win-Loss Percentage, Simple Rating System, Strength of Schedule, AP Pre Rank, AP Highest Rank, CFP Highest Rank,CFP Final Rank` **(2)**
+
+     - Then **Save (3)**
+
+       ![](../images/n57c57.png)
+
+1. 
+
 
