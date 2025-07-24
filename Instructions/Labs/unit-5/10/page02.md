@@ -1,1 +1,3 @@
 # Hands-On-Lab: Troubleshooting in Azure Machine Learning Designer
+
+In this hands-on lab, you will step into the role of a junior data scientist tasked with diagnosing and fixing issues in a malfunctioning Azure Machine Learning pipeline. You will explore a pre-built pipeline containing common configuration errors, interpret system-generated error messages, and troubleshoot each problem step-by-step. By the end of the lab, you will have hands-on experience identifying and resolving real-world issues that can occur during model development, helping to reinforce your understanding of pipeline workflows and debugging techniques in Azure ML.
