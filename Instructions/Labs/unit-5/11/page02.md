@@ -48,7 +48,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 1. On **Create data asset** page enter the following data.
 
-    - Name: Enter **` SC_Basketball_Dataset` (1)**  
+    - Name: Enter **`SC_Basketball_Dataset` (1)**  
     - Select type: **Tabular (2)**  
     - Click **Next (3)**  
 
@@ -76,7 +76,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
-      ![](../images/n11c3.png) 
+      ![](../images/U5lab011-image1.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
@@ -92,27 +92,24 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 ### Task 3: Add the Dataset to Your Pipeline Canvas
 
-1. From the left panel, drag your **Train_Test_Validation_Dataset** dataset onto the canvas.
+1. From the left panel, drag your **SC_Basketball_Dataset** dataset onto the canvas. Click the **Save** button at the top of the canvas to avoid losing progress. 
 
-    ![](../images/n56c11.png) 
+   ![](../images/U5lab011-image3.png)
 
-1. Click the **Save** button at the top of the canvas to avoid losing progress. 
+1. Switch to the **Component** tab in the left panel and search for **Split Data.** Drag that component onto the canvas.   
 
-    ![](../images/n56c12.png)
+    - Connect your dataset to the **Split Data** module 
+    - Select **Save**
 
-1. Switch to the **Component** tab in the left panel **(1)** and search for **Split Data (2).** Drag that component onto the canvas **(3)**.   
+      ![](../images/U5lab011-image5.png)
 
-    - Connect your dataset to the **Split Data** module **(4)**
-    - Select **Save (5)**
+1. Double-click the **Split Data** component to open its settings. Specify the following and then **Save**:
 
-      ![](../images/n56c13.png)  
+    - Set Fraction of rows in the first output dataset to **0.75** for training (75% training / 25% testing).
+    - Set the random seed to **42** for consistent results
 
-1. Double-click the **Split Data (1)** component to open its settings. Specify the following and then **Save (7)**:
+        ![](../images/U5lab011-image6.png)
 
-    - Splitting mode: Make sure **Split Rows** is selected **(2)**
-    - Set the split fraction to 0.75 for training (75% training / 25% testing).
-    - Set the random seed to 42 for consistent results
-    
 ### Task 4: Train the Model
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Linear Regression (2).** Drag that component onto the canvas **(3)**.   
@@ -276,15 +273,16 @@ pipeline.
 
      ![](../images/n56c33.png)  
 
-1. Right-click on the **Evaluate Model (1)** module. Choose **Preview Data (2) > Evaluation results (3)** to view how well your model predicted PTS.
+1. Right click on the Score Model and Select Preview Data -> Scored Dataset to compare Scored Labels and actual PTS.
 
-     ![](../images/n56c34.png) 
-
-1. Record the **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** in your worksheet table.     
-
-     ![](../images/n56c43.png)    
-
-1. After each run, evaluate the model and record your results for comparison. Use the recorded values to decide which split gives the best balance between learning and fair testing.          
-
-
+1. Right click on the Evaluate Model and then on Preview Data -> Evaluation Results and record:
+    
+    -  RMSE (Root Mean Squared Error)
+    - R² (how well the model explains the data
      
+### Task 7: Swap in Boosted Decision Tree Regression
+
+1. Drag a Boosted Decision Tree Regression module onto the canvas.
+1. Disconnect the Linear Regression module and replace it with the BDT module.
+1. Reconnect the BDT module to the Train Model input.
+1. Click Run again
