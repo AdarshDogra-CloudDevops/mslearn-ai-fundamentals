@@ -110,14 +110,9 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 1. Double-click the **Split Data (1)** component to open its settings. Specify the following and then **Save (7)**:
 
     - Splitting mode: Make sure **Split Rows** is selected **(2)**
-    -  Fraction of rows in the first output dataset: Enter `0.7` **(3)**
-    - Randomized split is set to **True (4)**
-    - Random seed field, type **42 (5)**
-    - Confirm Stratified split is set to **False (6)**
-
-      ![](../images/n56c-14.png)     
-
-
+    - Set the split fraction to 0.75 for training (75% training / 25% testing).
+    - Set the random seed to 42 for consistent results
+    
 ### Task 4: Train the Model
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Linear Regression (2).** Drag that component onto the canvas **(3)**.   
