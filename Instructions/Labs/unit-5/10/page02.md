@@ -390,6 +390,83 @@ lessons
 
 #### Error 3 – Wrong Output from Split Data Connected to Train Model
 
+**Problem to Simulate:**
+
+You will intentionally create a logic error by connecting the test output (right side) of the Split Data module into the Train Model instead of the training output (left side).
+
+This may not throw a hard error, but it will lead to incorrect model behavior and poor evaluation results.
+
+1. Right click on the Train  model connection to Split Data **(1)** and then **Delete (2)**.
+
+    ![](../images/N10c38.png)
+
+1. Instead of connecting it to the left output of Split Data (training set), connect it to the **right output (test set) (1)** then **Save (2)** and **Configure & Submit (3)**.    
+
+    ![](../images/N10c39.png)
+
+1. Select **Submit**.
+
+    ![](../images/N10c40.png)
+
+1. What You Will See:
+
+     - The pipeline will likely run without errors.
+     - But the model will be trained on the wrong data (test set), leading to:
+     - Poor performance in Score Model
+     - Low accuracy or misleading results in Evaluate Model
+
+1. Select **View Details**.
+
+    ![](../images/N10c41.png)
+
+1. Wait for the Pipeline to complete, nce the Pipeline is completed **(1)** then right click on **Evaluate Model (2)** then select **Preview Data (3)** and then **Evaluate results (4)**.
+
+    ![](../images/N10c42.png)
+
+1. Review the Evaluate results with lower performance.
+
+    ![](../images/N10c43.png)
+
+1. Compare the Evaluate results of the Original pipeline you have created in `Task 5` and the above modified one.
+
+    ![](../images/N11c-41.png)
+
+**Why This Is an Error:**
+
+The Split Data module splits the dataset into two parts:
+
+- Left output: training data (used to teach the model)
+- Right output: test data (used to evaluate the model)
+
+Training the model on test data defeats the purpose of evaluation. It is like practicing with the answers before taking the test—the results will not reflect how well the model generalizes to new data.
+
+Why This Matters:
+
+This explains:
+
+- How to understand data flow direction
+- The meaning of training vs. testing in machine learning
+- That not all errors are blocked by Azure—some need human reasoning to spot
+
+This is a foundational lesson for model integrity and trustworthiness.
+
+**Fix Instructions:**
+
+1. Navigate to **Designer (1)** from the left pane and then select the **Pipeline created (2)**.
+
+    ![](../images/N10c44.png)
+
+1. Disconnect the data input to **Train Model**.
+
+1. Reconnect it to the **left output of the Split Data module (training set) (1)** and then **Save (2)**.
+
+    ![](../images/N10c45.png)
+
+1.     
+
+
+    
+
 
 
 
