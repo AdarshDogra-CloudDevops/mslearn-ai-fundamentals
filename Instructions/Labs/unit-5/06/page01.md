@@ -119,7 +119,7 @@ In this hands-on lab, you will build a machine learning pipeline in Azure ML Des
     - Connect your dataset to the **Split Data** module **(4)**
     - Select **Save (5)**
 
-     ![](../images/n56c13.png)  
+      ![](../images/n56c13.png)  
 
 1. Double-click the **Split Data (1)** component to open its settings. Specify the following and then **Save (7)**:
 
@@ -151,7 +151,7 @@ training data) **(2)**
 
       ![](../images/n56c17.png)
 
-1. Double Click on the **Train Model** module **(1)**, Click **Edit column** under **Label column**.
+1. Double Click on the **Train Model** module **(1)**, Click **Edit column (2)** under **Label column**.
 
     ![](../images/n56c18.png)
 
