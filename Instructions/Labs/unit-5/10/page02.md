@@ -462,7 +462,86 @@ This is a foundational lesson for model integrity and trustworthiness.
 
     ![](../images/N10c45.png)
 
-1.     
+
+#### Error 4 – Dataset Missing Expected Label Column (PTS)
+
+`Problem to Simulate:`
+
+You will use a dataset that appears valid but is missing the target column (PTS). When configuring Train Model, Azure will show an error because it cannot find a column to use as the label.
+
+1. Navigate **Data (1)** tab and then click on **+ (2)** to update the dataset.
+
+    ![](../images/N10c46.png)
+
+1. On **Create data asset** page enter the following data.
+
+    - Name: Enter **`Train_Test_Validation_dataset_1` (1)**  
+    - Select type: **Tabular (2)**  
+    - Click **Next (3)**  
+
+      ![](../images/N10c47.png)   
+
+1. On the **Choose a source for your data asset** page, choose **From local files (1)** the click on **Next (2)**. 
+
+    ![](../images/lab01-image9.png) 
+
+1. On the **Select a datastore** page select the following option:  
+    
+    - Under **Datastore type**, select **Azure Blob Storage (1)**  
+    - Choose the datastore named: **`workspaceblobstore` (2)**  
+    - Click **Next (3)**  
+
+      ![](../images/lab01-image10.png) 
+
+1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
+
+    ![](../images/lab01-image11.png)  
+
+1. **File or Folder Selection**  
+
+    - In the file browser, select the file: `SC_Basketball_Enhanced Without PTS Column.csv` **(1)** 
+    - Wait for the file to appear under “Upload list”  
+    - Click **Next (2)**  
+
+      ![](../images/N10c48.png)
+
+1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
+
+     ![](../images/N10c49.png)
+
+1. On the **Schema** page, ensure the schema fields are correctly recognized then click **Next**  
+
+     ![](../images/N10c9.png) 
+
+1. On the **Review** page, click **Create** to finalize the dataset upload
+
+     ![](../images/N10c10.png) 
+
+1. Replace the original dataset in the pipeline with this version.
+
+1. Right click on **Train_Test_Validation_dataset (1)** and then **Delete (2)**.
+
+     ![](../images/N10c50.png)
+
+1. Drag **Train_Test_Validation_dataset_1** into the canvas **(1)** and then Connect it to **Split Data (2)**.
+
+     ![](../images/N10c51.png)
+
+1. Double Click on the **Train Model** module **(1)** then  view the **PTS (2)** and select **Configure & Submit** **(3)**. 
+
+     ![](../images/N10c53.png)
+
+1. On the Pipeline setting page,
+
+    - Experiment name: **Select Existing (1)**
+    - Existing experiment: 
+     ![](../images/N10c54.png)
+
+
+
+     
+
+
 
 
     
