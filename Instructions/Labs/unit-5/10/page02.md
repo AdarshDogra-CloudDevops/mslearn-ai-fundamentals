@@ -531,11 +531,113 @@ You will use a dataset that appears valid but is missing the target column (PTS)
 
      ![](../images/N10c53.png)
 
-1. On the Pipeline setting page,
+1. On the Pipeline setting page, provide the following details and then **Next (3)**:
 
     - Experiment name: **Select Existing (1)**
-    - Existing experiment: 
-     ![](../images/N10c54.png)
+    - Existing experiment: Select **PTS_Split_70_30 (2)**
+
+      ![](../images/N10c54.png)
+
+1. Select **View Details**.
+
+     ![](../images/N10c55.png)
+
+1. You can see that **Train Model** failed. Azure ML pipeline that fails due to a data 
+schema issue: the dataset Test_dataset_without_Label does not contain the required target column (PTS).
+
+     ![](../images/N10c56.png)
+
+**Why This Is an Error**
+
+In supervised learning, the model must know what it is trying to predict—this is the label column. If the dataset does not contain the label (PTS in this case), Azure cannot proceed with training.
+
+This error highlights a schema issue: the pipeline wiring is fine, but the dataset is 
+incomplete.
+
+**Why This Matters**
+
+This reinforces:
+
+- You must check the dataset schema before building a model
+- ML systems do not guess what is missing
+- The label column is non-optional in supervised learning
+
+This is a common and real-world issue in team workflows, file versioning, and working with live data.
+
+**Troubleshoot: Finding the Real Error in Azure ML Designer**
+
+1. Click **“Job Overview”** in the top-right after the failed run.
+
+     ![](../images/N10c57.png)
+
+1. Select **Child jobs**.
+
+     ![](../images/N10c58.png)
+
+1. Click on the failed module — in this case, **train_model**.     
+
+     ![](../images/N10c59.png)
+
+1. You will see a Status summary. Click **See more details**.
+
+     ![](../images/N10c60.png)
+
+1. In the detailed view, scroll down until you reach the **UserError message**.
+
+     ![](../images/N10c61.png)
+
+     There, Azure will show the actual reason the module failed. In the case of a missing label column, you will typically see an error like:
+
+     - **UserError: ColumnNotFound**
+
+       The label column specified `('PTS')` was not found in the dataset.
+
+1. Expand the **module_statistics** folder on the left. Click on the **error_info.json** file
+
+     ![](../images/N10c62.png)
+
+     This will display a structured diagnostic output. In the example shown, Azure states:"Message": `"ColumnNotFound: Column with name or index \"PTS\" not found."`   
+
+1. After a pipeline failure, you can navigate to the Train Model module and select the **Outputs + logs (1)** tab. From there, the **user_logs/std_log.txt (2)** file reveals the full traceback of what went wrong during execution **(3)**. This is often more detailed than the summary shown in **error_info.json**.
+
+     ![](../images/N10c63.png)
+
+      >**Note**: The final message highlighted at the bottom is:azureml.studio.common.error ColumnNotFoundError: Column with name or index "PTS" not found.
+
+
+1. Navigate to **Pipeline (1)** and then select the Pipeline created **(2)**.
+
+     ![](../images/N10c64.png)
+
+1. Right click on **Train_Test_Validation_dataset_1 (1)** and then **Delete (2)**.
+
+     ![](../images/N10c65.png)
+
+1. Drag **Train_Test_Validation_dataset** into the canvas **(1)** then connect to the split data **(2)** and then **Save (3)**.
+
+     ![](../images/N10c66.png)
+
+1. Double click on **Train Model (1)** then view the Label column **(2)** and then **Configure & Submit (3)**.
+
+     ![](../images/N10c67.png)
+
+1. Select **Review+Submit**.
+
+     ![](../images/N10c68.png)
+
+1. Select **View+details**.
+
+     ![](../images/N10c69.png)    
+
+1. Confirm successful run.
+
+     ![](../images/N10c70.png)
+
+       
+
+
+
+
 
 
 
