@@ -14,7 +14,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
-   - **Name**: `Logistics_Prediction`  
+   - **Name**: **`Logistics_Prediction`**  
    - **Friendly Name**: *(Optional)*  
       Azure will auto-fill this based on the name.
    - **Hub (Optional)**: Leave this as “None” unless instructed otherwise.
@@ -28,7 +28,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces**. Locate the workspace you just created `Logistics_Prediction`.
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces**. Locate the workspace you just created **`Logistics_Prediction`**.
 
      ![](../images/lab02-image2.png) 
    
@@ -47,7 +47,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
-1. Once you are inside your workspace `Logistics_Prediction`, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
+1. Once you are inside your workspace **`Logistics_Prediction`**, look at the left hand side menu to find the **Designer** tab under the **Authoring** section. Click on 
 this tab.
 
     ![](../images/lab01-image5.png) 
@@ -55,7 +55,7 @@ this tab.
    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
+1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the New pipeline section. From here, click on the box with a plus sign 
 that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image6.png) 
@@ -95,7 +95,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
-   - In the file browser, select the file: `US_Manufacturing_Logistics_Dataset`  
+   - In the file browser, select the file: **`US_Manufacturing_Logistics_Dataset`**  
    - Wait for the file to appear under “Upload list”  
    - Click **Next**  
 
@@ -140,15 +140,15 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     ![](../images/lab07-image12.png)
    
-1. Now connect the Dataset to the Cleaning Component, hover over the small **circle at the bottom** of the dataset block labeled **Data output**. Click and **drag a line** to the **left circle** of the Clean Missing Data component labeled **Dataset**. **Save** your progress by clicking **Save** at the top right of the canvas.
+1. Now connect the Dataset to the **Cleaning** Component, hover over the small **circle at the bottom** of the dataset block labeled **Data output**. Click and **drag a line** to the **left circle** of the Clean Missing Data component labeled **Dataset**. **Save** your progress by clicking **Save** at the top right of the canvas.
 
     ![](../images/lab07-image13.png) 
 
-1. Now you will Configure the Clean Missing Data component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
+1. Now you will Configure the **Clean Missing Data** component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
 
     ![](../images/lab07-image14.png) 
 
-1. Select only **Days Planned ETA Days and Distance_Miles** - Do **not** include columns like  Actual ETA, Shipment_ID, Delay_Flag, Material  Click **Save** in the pop-up,
+1. Select only **Panned ETA Days and Distance_Miles** - **Do not** include columns like  Actual ETA, Shipment_ID, Delay_Flag, Material  Click **Save** in the pop-up,
 
     ![](../images/lab07-image15.png) 
 
@@ -156,34 +156,34 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     ![](../images/lab07-image17.png) 
 
-1. In the **Component tab**, search for **Split Data**, Confirm that it says: "Partitions the rows of a dataset into two distinct sets.... Drag the component into your canvas, placing it below the Clean Missing Data block.
+1. In the **Component tab**, search for **Split Data**, Confirm that it says: "Partitions the rows of a dataset into two distinct sets.... Drag the component into your canvas, placing it below the **Clean Missing Data** block.
 
    ![](../images/lab07-image19.png) 
     
-1. Hover over the Cleaned data output port at the bottom of the Clean Missing Data component. Click and drag a line from this port to the input port of the Split Data block
-    (This tells Azure to split the cleaned dataset).
+1. Hover over the Cleaned data output port at the bottom of the **Clean Missing Data** component. Click and drag a line from this port to the input port of the **Split Data** block
+   (This tells Azure to split the cleaned dataset).
 
     ![](../images/lab07-image20.png)
 
-1. Double-click the Split Data block on your canvas. The settings panel will appear on the right-hand side specify the below settings
+1. Double-click the **Split Data** block on your canvas. The settings panel will appear on the right-hand side specify the below settings.
 
-    - Set the Splitting Mode
+    - **Set the Splitting Mode**
 
-       • Under Splitting mode, make sure **Split Rows** is selected (This means the data will be divided by rows, not by columns)
+       • Under Splitting mode, make sure **Split Rows** is selected (This means the data will be divided by rows, not by columns).
     
-    - Set the Split Ratio
+    - **Set the Split Ratio**
 
        • In the field labeled Fraction of rows in the first output dataset, type: **0.7** (This means 70% of your data will be used for training, and the remaining 30% for testing).
     
-    - Turn On Randomization
+    - **Turn On Randomization**
 
        • Ensure Randomized split is set to: **True** (This ensures a random and fair mix of rows in each set)
     
-    - Set a Random Seed
+    - **Set a Random Seed**
 
        • In the Random seed field, type: **42** (This ensures that every time you run the pipeline, the data is split the same way. This is useful for consistency across student runs).
     
-    - Leave Stratified Split as False
+    - **Leave Stratified Split as False**
 
        • Confirm Stratified split is set to: **False** (Stratified splits are more useful in imbalanced datasets like medical diagnosis— not necessary here) Refer to Figure 29 below.
 
@@ -191,11 +191,9 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
        ![](../images/lab07-image21.png)
 
-1. Why This Step Matters - Splitting data ensures the model is tested on unseen examples, just like a final exam tests what you've really learned—not just what you memorized. A 70/30 split is a common practice in machine learning to keep both the training and testing sets balanced and informative.
+      >**Note**: **Why This Step Matters** - Splitting data ensures the model is tested on unseen examples, just like a final exam tests what you've really learned—not just what you memorized. A 70/30 split is a common practice in machine learning to keep both the training and testing sets balanced and informative.
 
-   - Add the Two-Class Decision Forest Model
-
-      **Goal:** You will add the Two-Class Decision Forest component to your pipeline. This model will be trained to predict whether a shipment will be delayed or on time based on historical shipping data.
+      >**Note**: Add the Two-Class Decision Forest Model: You will add the Two-Class Decision Forest component to your pipeline. This model will be trained to predict whether a shipment will be delayed or on time based on historical shipping data.
 
 1. In the Component tab, search for **Two-Class Decision Forest**. Drag the component into your canvas, placing it below the **Split Data** component. Find the result titled: Two-Class Decision Forest Description: **“Creates a two-class classification model using the decision forest algorithm…”**
 
@@ -205,31 +203,31 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
      ![](../images/lab07-image23.png)
 
-1. Why This Step Matters - This is the model that will learn patterns in your data. It builds multiple decision trees and combines them into one strong prediction tool. It's especially effective for your logistics dataset because it can handle both numerical and categorical features like ETA, distance, and material type.
+   >**Note**: Why This Step Matters - This is the model that will learn patterns in your data. It builds multiple decision trees and combines them into one strong prediction tool. It's especially effective for your logistics dataset because it can handle both numerical and categorical features like ETA, distance, and material type.
 
-   - Add and Connect the Train Model Component
-
-     **Goal:** You will connect the Two-Class Decision Forest model and the training dataset to the Train Model component. This enables Azure ML Designer to train your model on       historical shipment data.
+   >**Note**: Add and Connect the Train Model Component. You will connect the Two-Class Decision Forest model and the training dataset to the Train Model component. This enables Azure ML Designer to train your model on historical shipment data.
 
 1. In the Component tab, search for **Train Model**. Drag the component into your canvas, placing it below the **Two-Class Decision Forest** component. Find the result titled: **“Trains a classification or regression model in a supervised manner…”**
 
      ![](../images/lab07-image24.png)
    
-1. Before proceeding with the next step, please drag the Two-Class Decision Forest component toward the left to align it properly
+1. Before proceeding with the next step, please drag the **Two-Class Decision Forest** component toward the left to align it properly
 
 1. Connect the Model and the Data
 
     • From the Two-Class Decision Forest, drag a line from the output port to the left input of the Train Model component (This provides the model to be trained)
+
     • From the Split Data component, drag a line from the left output port (Results dataset 1 / 70%) to the right input of the Train Model block (This provides the training dataset)
 
       ![](../images/lab07-image25.png)
 
 1. Confirm the Train Model Block
-    • The block should now display:
 
-          Left input = Untrained model
-          Right input = Dataset
-          Output = Trained model
+   • The block should now display:
+
+         - Left input = Untrained model
+         - Right input = Dataset
+         - Output = Trained model
 
     • This confirms it’s correctly wired to perform training. 
 
@@ -295,9 +293,9 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. Add and Connect the Evaluate Model Component 
     **Goal:** Use the Evaluate Model component to analyze how well your trained model performed on the test data.
 
-1. In the Component tab, search for Evaluate Model. Drag the component into your canvas, placing it below the Score Model block.
+1. In the Component tab, search for **Evaluate Model**. Drag the component into your canvas, placing it below the Score Model block.
 
-1. Connect the Component. From the Score Model output, drag a connection to the left input port of the Evaluate Model block.
+1. Connect the Component. From the **Score Model** output, drag a connection to the left input port of the **Evaluate Model** block.
 
 1. Click **Save** at the top right.
    
@@ -309,8 +307,6 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     ![](../images/lab07-image32.png)
 
-
-
 1. On the **Basics** page, perform the steps as mentioned below:
 
    - In the Experiment name select **Create new**
@@ -321,7 +317,7 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
 1. On the **Inputs & outputs** page, click on **Next** to skip.
 
-1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on Compute Cluster. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
+1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on **Compute Cluster**. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
 
 1. On the **Select virtual machine** page, specify the following then click on **Next** :
   
@@ -335,7 +331,7 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide Compute name Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> then click on **Create**
+1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>** then click on **Create**
 
     ![](../images/lab07-image34.png)
 
@@ -408,14 +404,15 @@ on test data.
 
     ![](../images/lab07-image45.png)
 
-5. Confusion Matrix: This matrix shows how many predictions the model got right or wrong:
+5. **Confusion Matrix:** This matrix shows how many predictions the model got right or wrong:
     - 177 true positives: predicted "yes" and it was actually "yes"
     - 123 true negatives: predicted "no" and it was actually "no"
     - 0 false positives: never predicted "yes" when it was "no"
     - 0 false negatives: never predicted "no" when it was "yes"
     
     >**Note**: The absence of any incorrect predictions makes this a perfect confusion matrix.
-6. Summary Metrics
+
+6. **Summary Metrics**:
 
     - Accuracy: 1.0 – the model predicted everything correctly
     - Precision: 1.0 – every "yes" prediction was right
