@@ -48,7 +48,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 1. On **Create data asset** page enter the following data.
 
-    - Name: Enter **` SC_Basketball_Dataset` (1)**  
+    - Name: Enter **`SC_Basketball_Dataset` (1)**  
     - Select type: **Tabular (2)**  
     - Click **Next (3)**  
 
@@ -76,7 +76,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
-      ![](../images/n11c3.png) 
+      ![](../images/U5lab011-image1.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
@@ -88,4 +88,201 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
-    ![](../images/n11c6.png)     
+    ![](../images/n11c6.png)
+
+### Task 3: Add the Dataset to Your Pipeline Canvas
+
+1. From the left panel, drag your **SC_Basketball_Dataset** dataset onto the canvas. Click the **Save** button at the top of the canvas to avoid losing progress. 
+
+   ![](../images/U5lab011-image3.png)
+
+1. Switch to the **Component** tab in the left panel and search for **Split Data.** Drag that component onto the canvas.   
+
+    - Connect your dataset to the **Split Data** module 
+    - Select **Save**
+
+      ![](../images/U5lab011-image5.png)
+
+1. Double-click the **Split Data** component to open its settings. Specify the following and then **Save**:
+
+    - Set Fraction of rows in the first output dataset to **0.75** for training (75% training / 25% testing).
+    - Set the random seed to **42** for consistent results
+
+        ![](../images/U5lab011-image6.png)
+
+### Task 4: Train the Model
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Linear Regression (2).** Drag that component onto the canvas **(3)**.   
+
+    ![](../images/n56c15.png)
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Train Model (2).** Drag that component onto the canvas **(3)**.   
+
+    ![](../images/n56c16.png)
+
+1. Connect:
+
+    - The **output of Linear Regression** to the **left input of Train Model** (this is the 
+untrained model) **(1)**
+    - The **left output of Split Data** to the **right input of Train Model** (this is your 70% 
+training data) **(2)**  
+
+      ![](../images/n56c17.png)
+
+1. Double Click on the **Train Model** module **(1)**, Click **Edit column (2)** under **Label column**.
+
+    ![](../images/n56c18.png)
+
+1. Enter **PTS** as the target to predict **(1)** and the **Save (2)**.
+
+    ![](../images/n56c19.png)
+
+1. Select **Save**.
+
+    ![](../images/n56c20.png)
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Score Model (2).** Drag that component onto the canvas **(3)**.   
+
+    ![](../images/n56c21.png)
+
+1. Connect:
+
+    - The **output of Train Model** to the **left input of Score Model** **(1)**
+    - The **right output of Split Data** (test data) to the **right input of Score Model** **(2)**  
+    - Select **Save (3)**
+
+      ![](../images/n56c22.png) 
+
+1. Switch to the **Component** tab in the left panel **(1)** and search for **Evaluate Model (2).** Drag that component onto the canvas **(3)**.   
+
+    - Connect the **output from Score Model to Evaluate Model (4)**
+    - Select **Save (5)**
+
+      ![](../images/n56c23.png)
+
+### Task 5: Run the Pipeline and Submit the Job
+      
+1. Make sure your pipeline is saved, then click **Configure & Submit** at the top of the screen. 
+
+    ![](../images/n56c24.png)
+
+1. You will now walk through a few configuration steps, then click **Next (3)**:
+  
+   - Experiment name: **Create new (1)**
+   - New experiment name: **PTS_Split_70_30(2)**
+
+     ![](../images/n56c25.png)  
+
+1. Leave Inputs & Outputs as is, there is nothing to configure for this step. Click **Next.**      
+
+    ![](../images/n52c24.png)     
+
+1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your 
+pipeline.
+
+    - Select Compute Type: From the dropdown, select **Compute cluster (1)**.
+
+    - Click on **Create Azure ML compute cluster (2)**
+
+      ![](../images/nc14.png)  
+
+1. You are now in the **Virtual Machine** tab for setting up a compute cluster. This step helps Azure decide which kind of machine to use for running your pipeline.
+
+    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**) **(1)**
+    - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes) **(2)**
+    - **Virtual Machine Type**: Keep this as **CPU (3)** 
+    - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
+    - Click **Next (5)**  
+
+      ![](../images/n56c28.png)   
+
+1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
+
+     ![](../images/n56c29.png)  
+
+1. Select the Compute Created **Test (1)** and click **Next (2)**.   
+
+     ![](../images/n56c30.png)
+
+     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+
+1. Once on the **final** page, click **Submit**.     
+
+     ![](../images/n56c31.png) 
+
+1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+     ![](../images/n56c32.png)      
+
+1. Please wait for the pipeline to complete, which may take approximately `10–15 `minutes. Once it's finished successfully, the status will show as **Completed**.
+
+     ![](../images/n56c33.png)    
+
+
+### Task 6: Model Evaluation Results (Azure ML Designer)
+
+1. Right-click on the **Evaluate Model (1)** module. Choose **Preview Data (2) > Evaluation results (3)** to view how well your model predicted PTS.
+
+     ![](../images/n56c34.png)
+
+1. Record the **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** in your worksheet table. These two metrics will help you compare how accurate your model was across different data splits.  
+
+     ![](../images/n56c35.png)
+
+1. Go back to the **Designer** and select your pipeline. Double click on the **Split Data (1)** and Change the Split Data fraction to **0.9 2()** for a 90/10 split. Click on **Save (3)**.
+
+     ![](../images/n56c36.png)
+
+1. Select **Configure & Submit**.
+
+     ![](../images/n56c37.png)
+
+1. Select **Submit**.
+
+     ![](../images/n56c38.png)
+
+1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+     ![](../images/n56c32.png)      
+
+1. Please wait for the pipeline to complete, which may take approximately `10–15 `minutes. Once it's finished successfully, the status will show as **Completed**.
+
+     ![](../images/n56c33.png)  
+
+1. Right-click on the **Evaluate Model (1)** module. Choose **Preview Data (2) > Evaluation results (3)** to view how well your model predicted PTS.
+
+     ![](../images/n56c34.png) 
+
+1. Record the **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** in your worksheet table.     
+
+     ![](../images/n56c40.png)
+
+1. Go back to the **Designer** and select your pipeline. Double click on the **Split Data (1)** and Change the Split Data fraction to **0.6 2()** for a 90/10 split. Click on **Save (3)** and select **Configure & Submit (4)**.
+
+     ![](../images/n56c41.png)
+
+1. Select **Submit**.
+
+     ![](../images/n56c38.png)
+
+1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
+
+     ![](../images/n56c32.png)  
+
+1. Please wait for the pipeline to complete, which may take approximately `10–15 `minutes. Once it's finished successfully, the status will show as **Completed**.
+
+     ![](../images/n56c33.png)  
+
+1. Right click on the Score Model and Select Preview Data -> Scored Dataset to compare Scored Labels and actual PTS.
+
+1. Right click on the Evaluate Model and then on Preview Data -> Evaluation Results and record:
+    
+    -  RMSE (Root Mean Squared Error)
+    - R² (how well the model explains the data
+     
+### Task 7: Swap in Boosted Decision Tree Regression
+
+1. Drag a Boosted Decision Tree Regression module onto the canvas.
+1. Disconnect the Linear Regression module and replace it with the BDT module.
+1. Reconnect the BDT module to the Train Model input.
+1. Click Run again
