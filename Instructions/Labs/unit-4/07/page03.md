@@ -103,8 +103,6 @@ Consider the following questions:
 
 >**Note**: This activity will give you a chance to consolidate your understanding and prepares you for the Explain section, where you will evaluate the impact and performance of their model.
 
-
-
 **Your Model**
 **What Did Your Model Actually Do?**
 You just built a machine learning model that can predict whether a shipment will be on time or delayed, using structured data about past deliveries. In a real manufacturing environment, even a single delayed shipment can cause a chain reaction: 
@@ -150,42 +148,42 @@ decisions:
 - Too inaccurate or biased to be trusted 
 - In need of additional data or another model type
 
-
 #### Real-World Scenario: Manufacturing Floor Delivery Challenge 
 Let’s say you work for a company that assembles electric motors used in vehicles. Every day, your warehouse receives key parts like aluminum casings, rotors, copper windings, 
 and bearings. 
 
 **Your production manager explains:** 
-“Even one late delivery causes a ripple across the line. We lose hours of build time, 
-reschedule labor, and sometimes even miss our own shipping deadlines. I need a way to 
-spot these risks earlier.” 
-Your job is to build a system that uses past delivery records to predict risk. 
-With the machine learning pipeline you just created, your team could: 
-i. Flag risky shipments ahead of time.
-ii. Reorder vulnerable materials sooner.
-iii. Adjust production shifts based on updated timelines.
-iv. Even auto-notify supervisors when a predicted delay crosses a certain confidence 
-threshold.
-This kind of system can prevent thousands of dollars in downtime and allow the factory 
-to respond proactively instead of reactively. 
-Think Like a Factory Analyst 
-Your model has real impact—but its usefulness goes beyond shipping. Predictive analytics 
-like this are being used all across modern factories. Think about these situations: 
-i. Q1: Could we build a similar model to predict machine failures using sensor 
-data from manufacturing equipment? 
-ii. Q2: What if we used this same idea to forecast inventory shortages, based on 
-production speed and order volume? 
-iii. Q3: Could we train a model to detect which suppliers are most likely to deliver 
-damaged or incomplete shipments? 
-Each of these ideas represents a way that machine learning transforms operations—not by 
-replacing human judgment, but by amplifying awareness and accelerating smart 
-decisions. 
-Scenario:
-Imagine you’re presenting your recommendation to the Inventory Planning Manager at a 
-manufacturing plant. Write a short email or memo explaining:
-• What your model predicts
-• How confident you are in it (based on R² and MAE)
-• One suggestion to improve inventory planning decisions
+“Even one late delivery causes a ripple across the line. We lose hours of build time, reschedule labor, and sometimes even miss our own shipping deadlines. I need a way to spot these risks earlier.” 
+
+Your job is to build a system that uses past delivery records to predict risk. With the machine learning pipeline you just created, your team could: 
+  
+  i. Flag risky shipments ahead of time.
+  
+  ii. Reorder vulnerable materials sooner.
+  
+  iii. Adjust production shifts based on updated timelines.
+  
+  iv. Even auto-notify supervisors when a predicted delay crosses a certain confidence threshold.
+
+This kind of system can prevent thousands of dollars in downtime and allow the factory to respond proactively instead of reactively. 
+
+**Think Like a Factory Analyst** 
+Your model has real impact—but its usefulness goes beyond shipping. Predictive analytics like this are being used all across modern factories. Think about these situations: 
+ 
+ i. Q1: Could we build a similar model to predict machine failures using sensor data from manufacturing equipment? 
+ 
+ ii. Q2: What if we used this same idea to forecast inventory shortages, based on production speed and order volume? 
+ 
+ iii. Q3: Could we train a model to detect which suppliers are most likely to deliver damaged or incomplete shipments? 
+
+Each of these ideas represents a way that machine learning transforms operations—not by replacing human judgment, but by amplifying awareness and accelerating smart decisions. 
+
+**Scenario:**
+
+Imagine you’re presenting your recommendation to the Inventory Planning Manager at a manufacturing plant. Write a short email or memo explaining:
+- What your model predicts
+- How confident you are in it (based on R² and MAE)
+- One suggestion to improve inventory planning decisions
 
 
 
