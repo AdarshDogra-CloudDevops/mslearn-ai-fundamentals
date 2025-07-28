@@ -119,13 +119,12 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 1. Verify the data placed in the canvas, and click 'Save' to avoid losing progress.
 
    ![](../images/lab01-image19.png)
-   
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" /> 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+<validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" /> 
 
 ### Task 3: Preprocessing Our Data
 
