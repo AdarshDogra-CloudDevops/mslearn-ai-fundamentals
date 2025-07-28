@@ -37,6 +37,17 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     ![](../images/lab07-image3.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="08db0e5e-b474-4492-88bc-52c544e935d9" />
+
+### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
+
+In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+
 1. Once you are inside your workspace `Logistics_Prediction`, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
 this tab.
 
@@ -56,10 +67,6 @@ that says, **Create a new pipeline using classic prebuilt components**.
     • Model training 
     • Custom script execution
     • Scoring and evaluation
-
-### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
-
-In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
@@ -114,6 +121,13 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 1. Click on the dataset card then select **Use data** to **drop it onto the pipeline canvas** on the right. Verify the data placed in the canvas, and click 'Save' to avoid losing progress.
 
      ![](../images/lab07-image11.png) 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="ace2f744-042b-4f87-b587-5fdfbb2f4c68" />
 
 ### Task 3: Preprocessing Our Data
 
