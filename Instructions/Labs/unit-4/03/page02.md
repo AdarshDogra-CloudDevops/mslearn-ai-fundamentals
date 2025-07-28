@@ -16,7 +16,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
-   - **Name**: `PCA_Anomaly_Model`
+   - **Name**: **`PCA_Anomaly_Model`**
    - **Friendly Name**: *(Optional)*.
       Azure will auto-fill this based on the name.
    - **Hub (Optional)**: Leave this as “None” unless instructed otherwise.
@@ -38,7 +38,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
    ![](../images/lab01-image4.png) 
 
-1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the “Designer” tab under the Authoring section. Click on 
+1. Once you are inside your workspace **PCA Anomaly Model**, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
 this tab.
 
    ![](../images/lab01-image5.png) 
@@ -46,7 +46,7 @@ this tab.
    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
+1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the **New pipeline** section. From here, click on the box with a plus sign 
 that says, **Create a new pipeline using classic prebuilt components**.
 
    ![](../images/lab01-image6.png)
@@ -90,7 +90,7 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
    ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
-   - In the file browser, select the file: `anomaly_data.csv`  
+   - In the file browser, select the file:**`anomaly_data.csv`**  
    - Wait for the file to appear under “Upload list”  
    - Click **Next**  
 
@@ -116,7 +116,7 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
    ![](../images/lab01-image18.png) 
 
-1. Verify the data placed in the canvas, and click 'Save' to avoid losing progress.
+1. Verify the data placed in the canvas, and click **'Save'** to avoid losing progress.
 
    ![](../images/lab01-image19.png)
 
@@ -142,11 +142,11 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
    ![](../images/lab01-image21.png) 
 
-1. Now you will Configure the Clean Missing Data component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
+1. Now you will Configure the **Clean Missing Data** component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
 
    ![](../images/lab01-image23.png) 
 
-1. Select only **sensor_reading** - Do **not** include columns like `timestamp`, `machine_id`, or `anomaly_flag`. Click **Save** in the pop-up,
+1. Select only **sensor_reading** - **Do not** include columns like `timestamp`, `machine_id`, or `anomaly_flag`. Click **Save** in the pop-up,
 
    ![](../images/lab01-image24.png) 
 
@@ -199,17 +199,16 @@ In this task you will convert the scored output from the model into a dataset fo
 1. We can’t visualize the output directly using the Score Model component, so we’ll need to convert the scored results into a visual-friendly format. To do so, we’ll use a component 
 called “Convert to Dataset”.
 
-1. In the left-side pane under the Component tab, search for the “Convert to Dataset” Component. Then **Drag** the Convert to Dataset component onto the canvas and place it under the 
-Score Model component.
+1. In the left-side pane under the Component tab, search for the **Convert to Dataset** Component. Then **Drag** the Convert to Dataset component onto the canvas and place it under the 
+**Score Model** component.
 
    >**Note**: This tool takes the output from the model and converts it to a format that can be visualized in the Designer.
 
-1. Connect the Scored dataset output from the Score Model to the Dataset input of 
-the Convert to Dataset component.
+1. Connect the **Scored dataset** output from the **Score Model** to the **Dataset input** of the **Convert to Dataset** component.
 
-1. Once connected, click Save at the top to preserve your updated pipeline.
+1. Once connected, click **Save** at the top to preserve your updated pipeline.
 
-1. Now that the pipeline is fully built with all the components connected—from data intake to anomaly scoring—we're ready to run it to view our results!
+1. Now that the pipeline is fully built with all the components connected—from data intake to anomaly scoring we're ready to run it to view our results!
 
 1. First, let’s make sure all components are connected as shown.
     - Confirm that:
@@ -220,7 +219,7 @@ the Convert to Dataset component.
           c. PCA-Based Anomaly Detection is connected to the Train component.
           d. Score Model connects to Convert to Dataset.
 
-1. Save your pipeline, if not auto-saved already.
+1. **Save** your pipeline, if not auto-saved already.
 
 1. Click the **Configure & Submit** button in the top-right corner.
 
