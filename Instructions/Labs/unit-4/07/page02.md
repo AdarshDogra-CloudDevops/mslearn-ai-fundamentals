@@ -365,50 +365,60 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. After training a model, it’s important to evaluate how well it performs. The evaluation results include charts and metrics that show how accurately the model made predictions 
 on test data. 
 
-
-1. ROC Curve - The ROC (Receiver Operating Characteristic) curve helps us see how well the model separates positive and negative cases.
+1. **ROC Curve** - The ROC (Receiver Operating Characteristic) curve helps us see how well the model separates positive and negative cases.
 
     ![](../images/lab07-image42.png)
     
-    • The horizontal axis shows the false positive rate (wrongly predicting "yes").
-    • The vertical axis shows the true positive rate (correctly predicting "yes").
+    - The horizontal axis shows the false positive rate (wrongly predicting "yes").
+    - The vertical axis shows the true positive rate (correctly predicting "yes").
 
    A perfect model would have a curve that reaches the top-left corner — which this model does. That means the model never confused a negative example for a positive one.
 
-1. Precision-Recall Curve - This chart explains how well the model identifies positive cases.
+1. **Precision-Recall Curve** - This chart explains how well the model identifies positive cases.
 
    ![](../images/lab07-image43.png)
 
-    • Precision is how many of the model’s positive predictions were correct.
-    • Recall is how many of the actual positive cases the model found.
+    - Precision is how many of the model’s positive predictions were correct.
+    - Recall is how many of the actual positive cases the model found.
 
    A curve that reaches the top-right corner means the model found all positives without making any mistakes — which is exactly what we see here.
 
-1. Lift Curve- The lift curve shows whether the model ranks the most important predictions (true positives) higher than others.
+1. **Lift Curve**- The lift curve shows whether the model ranks the most important predictions (true positives) higher than others.
 
     ![](../images/lab07-image44.png)
    
-   • A steep curve means the model successfully puts the most important cases at the top.
+   - A steep curve means the model successfully puts the most important cases at the top.
 
    In this case, the curve rises sharply, showing that the model ranks positive examples very effectively.
 
-1. Threshold Slider- The threshold is the cutoff point the model uses to decide between predicting "yes" or "no."**For example**, if a prediction score is above 0.5, the model predicts "yes."Here, the model is still performing perfectly at the 0.5 threshold, meaning it’s confident and accurate in its decisions.
+1. **Threshold Slider**- The threshold is the cutoff point the model uses to decide between predicting "yes" or "no."**For example**, if a prediction score is above 0.5, the model predicts "yes."Here, the model is still performing perfectly at the 0.5 threshold, meaning it’s confident and accurate in its decisions.
 
     ![](../images/lab07-image45.png)
+
+5. Confusion Matrix: This matrix shows how many predictions the model got right or wrong:
+    - 177 true positives: predicted "yes" and it was actually "yes"
+    - 123 true negatives: predicted "no" and it was actually "no"
+    - 0 false positives: never predicted "yes" when it was "no"
+    - 0 false negatives: never predicted "no" when it was "yes"
+    
+    >**Note**: The absence of any incorrect predictions makes this a perfect confusion matrix.
+6. Summary Metrics
+
+    - Accuracy: 1.0 – the model predicted everything correctly
+    - Precision: 1.0 – every "yes" prediction was right
+    - Recall: 1.0 – the model found all the "yes" cases
+    - F1 Score: 1.0 – a balance of precision and recall
+    - AUC: 1.0 – the model completely separates the two classes
+
+    >**Note**: These are the highest possible scores and indicate perfect performance.
 
 # Review 
 
 By the end of this lab, you have:
 - Created and configured an Azure Machine Learning workspace and a compute cluster.
-
 - Uploaded and prepared a logistics dataset using the Clean Missing Data component.
-
 - Built a machine learning pipeline using Azure ML Designer with no code.
-
 - Trained and evaluated a Two-Class Decision Forest model to predict shipment delays.
-
 - Split data into training and test sets for proper model validation.
-
 - Scored the model on unseen data and interpreted key metrics like Accuracy, Precision, Recall, and AUC.
-
 - Viewed visual evaluation tools such as the ROC Curve, Precision-Recall Curve, and Lift Curve to assess model performance.
