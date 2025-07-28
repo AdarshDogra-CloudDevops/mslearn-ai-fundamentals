@@ -27,7 +27,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Region**: Select **East US 2** for better performance.
    - After filling out all the required fields, click the **“Create”** button.
 
-        ![](../images/lab01-image2.png) 
+     ![](../images/lab01-image2.png) 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
@@ -37,12 +37,12 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    
 1. Click on its name to open it. This will take you inside the workspace where you can build and run machine learning experiments.
 
-    ![](../images/lab01-image4.png) 
+     ![](../images/lab01-image4.png) 
 
 1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the “Designer” tab under the Authoring section. Click on 
 this tab.
 
-    ![](../images/lab01-image5.png) 
+     ![](../images/lab01-image5.png) 
 
    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
@@ -50,7 +50,7 @@ components.
 1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
 that says, **Create a new pipeline using classic prebuilt components**.
 
-    ![](../images/lab01-image6.png)
+     ![](../images/lab01-image6.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -66,7 +66,7 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-    ![](../images/lab01-image7.png) 
+     ![](../images/lab01-image7.png) 
 
 1. On **Create data asset** page enter the following data.
 
@@ -74,45 +74,45 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
    - Select type: **Tabular**  
    - Click **Next**  
 
-    ![](../images/lab01-image8.png) 
+     ![](../images/lab01-image8.png) 
 
 1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**. 
 
-    ![](../images/lab01-image9.png) 
+     ![](../images/lab01-image9.png) 
 
 1. On the **Select a datastore** page select the following option:  
    - Under **Datastore type**, select **Azure Blob Storage**  
    - Choose the datastore named: **`workspaceblobstore`**  
    - Click **Next**  
 
-    ![](../images/lab01-image10.png) 
+     ![](../images/lab01-image10.png) 
 
 1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
 
-    ![](../images/lab01-image11.png) 
+     ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
    - In the file browser, select the file: `anomaly_data.csv`  
    - Wait for the file to appear under “Upload list”  
    - Click **Next**  
 
-    ![](../images/lab01-image12.png) 
+     ![](../images/lab01-image12.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
-    ![](../images/lab01-image13.png) 
+     ![](../images/lab01-image13.png) 
 
 1. On the **Schema** page, ensure the schema fields are correctly recognized then click **Next**  
 
-    ![](../images/lab01-image14.png) 
+     ![](../images/lab01-image14.png) 
 
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
-    ![](../images/lab01-image15.png) 
+     ![](../images/lab01-image15.png) 
 
 1. Under the **Data** tab, locate the uploaded dataset named **`anomaly_dataset_manufacturing`**.  
 
-    ![](../images/lab01-image16.png) 
+     ![](../images/lab01-image16.png) 
 
 1. Click on the dataset card then select **Use data** to **drop it onto the pipeline canvas** on the right.
 
@@ -136,7 +136,7 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
 1. Switch to the **Component** tab and search for **"Clean Missing Data"** by Microsoft.  
     
-   ![](../images/lab01-image20.png) 
+    ![](../images/lab01-image20.png) 
 
 1. Click on the **Clean Missing Data** data component, then drag it from the left panel and drop it below the **Dataset card** in the pipeline canvas on the right.
 
