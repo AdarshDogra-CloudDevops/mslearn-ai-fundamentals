@@ -61,11 +61,11 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/lab01-image6.png) 
 
 1. Once you click it, you’ll be taken to a blank canvas where you can start building your machine learning pipeline using components such as:
-    • Dataset input
-    • Data cleaning
-    • Model training 
-    • Custom script execution
-    • Scoring and evaluation
+    - Dataset input
+    - Data cleaning
+    - Model training 
+    - Custom script execution
+    - Scoring and evaluation
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
@@ -162,23 +162,23 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     - **Set the Splitting Mode**
 
-       • Under Splitting mode, make sure **Split Rows** is selected (This means the data will be divided by rows, not by columns).
+       - Under Splitting mode, make sure **Split Rows** is selected (This means the data will be divided by rows, not by columns).
     
     - **Set the Split Ratio**
 
-       • In the field labeled Fraction of rows in the first output dataset, type: **0.7** (This means 70% of your data will be used for training, and the remaining 30% for testing).
+       - In the field labeled Fraction of rows in the first output dataset, type: **0.7** (This means 70% of your data will be used for training, and the remaining 30% for testing).
     
     - **Turn On Randomization**
 
-       • Ensure Randomized split is set to: **True** (This ensures a random and fair mix of rows in each set)
+       - Ensure Randomized split is set to: **True** (This ensures a random and fair mix of rows in each set)
     
     - **Set a Random Seed**
 
-       • In the Random seed field, type: **42** (This ensures that every time you run the pipeline, the data is split the same way. This is useful for consistency across student runs).
+       - In the Random seed field, type: **42** (This ensures that every time you run the pipeline, the data is split the same way. This is useful for consistency across student runs).
     
     - **Leave Stratified Split as False**
 
-       • Confirm Stratified split is set to: **False** (Stratified splits are more useful in imbalanced datasets like medical diagnosis— not necessary here) Refer to Figure 29 below.
+       - Confirm Stratified split is set to: **False** (Stratified splits are more useful in imbalanced datasets like medical diagnosis— not necessary here) Refer to Figure 29 below.
 
    -  Click **Save** at the top of the page to lock in your configuration
 
@@ -208,15 +208,15 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
 1. Connect the Model and the Data
 
-    • From the Two-Class Decision Forest, drag a line from the output port to the left input of the Train Model component (This provides the model to be trained)
+    - From the Two-Class Decision Forest, drag a line from the output port to the left input of the Train Model component (This provides the model to be trained)
 
-    • From the Split Data component, drag a line from the left output port (Results dataset 1 / 70%) to the right input of the Train Model block (This provides the training dataset)
+    - From the Split Data component, drag a line from the left output port (Results dataset 1 / 70%) to the right input of the Train Model block (This provides the training dataset)
 
       ![](../images/lab07-image25.png)
 
 1. Confirm the Train Model Block
 
-   • The block should now display:
+   - The block should now display:
 
      - Left input = Untrained model
      - Right input = Dataset
@@ -236,52 +236,50 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
 1. Choose the Correct Label:
 
-    • In the pop-up that appears, scroll through the list of columns
-    • Select: Delay_Flag
-    • Click **Save** in the pop-up window.
+    - In the pop-up that appears, scroll through the list of columns
+    - Select: Delay_Flag
+    - Click **Save** in the pop-up window.
 
    This is the binary column where 1 = delayed and 0 = on time.
 
    ![](../images/lab07-image27.png)
 
-    **Why This Step Matters**- Choosing the correct label is like telling your model what question it’s supposed to answer. In this case, you’re asking:
+    >**Why This Step Matters**- Choosing the correct label is like telling your model what question it’s supposed to answer. In this case, you’re asking:
     “Given the shipment details, can you predict if the shipment will be delayed?”.
 
 1. Confirm that **Delay_Flag** now appears as the selected label in the settings panelSave Your Pipeline. Click **Save** at the top right corner of Azure ML Designer.
 
       ![](../images/lab07-image28.png)
 
-    **Add and Connect the Score Model Component**
-
-     **Goal:** You will use the Score Model component to apply your trained Decision Forest  model to the test dataset (30% of your original data). This generates predicted outcomes   for evaluation.
+    >**Add and Connect the Score Model Component**: You will use the Score Model component to apply your trained Decision Forest  model to the test dataset (30% of your original data). This generates predicted outcomes   for evaluation.
 
 1. In the Component tab, search for **Score Model**. Drag the component into your canvas, placing it below the **Train Model** component.
 
     ![](../images/lab07-image29.png)
 
-1. Connect the Components
+1. Connect the Components:
 
-   • Connect the output of Train Model to the left input port of the Score Model (This is the trained model)
+   - Connect the output of **Train Model** to the left input port of the **Score Model** (This is the trained model)
 
-   • From the Split Data component, connect the right output port (30% test data) to the right input port of the Score Model. 
+   - From the **Split Data** component, connect the right output port (30% test data) to the right input port of the **Score Model**. 
 
 1. Confirm the Setup. The Score Model component should now be connected like this:
 
-    • Left input = Trained model
+    - Left input = Trained model.
 
-    • Right input = Test dataset
+    - Right input = Test dataset.
 
-    • Click **Save** at the top right of the scree
+    - Click **Save** at the top right of the screen.
 
       ![](../images/lab07-image30.png)
 
 1. Why This Step Matters - This step answers: “How would the model perform on new shipments we haven’t seen before?” It produces predictions and probabilities for each test case based on the patterns the model learned during training. Add and Configure the Evaluate Model Component
 
 1. This will let you measure how well your model performed using standard metrics like:
-    • Accuracy
-    • Precision
-    • Recall
-    • AUC (Area Under Curve)
+    - Accuracy
+    - Precision
+    - Recall
+    - AUC (Area Under Curve)
 
 1. Add and Connect the Evaluate Model Component 
     **Goal:** Use the Evaluate Model component to analyze how well your trained model performed on the test data.
@@ -310,7 +308,7 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
 1. On the **Inputs & outputs** page, click on **Next** to skip.
 
-1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on **Compute Cluster**. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
+1. On the **Runtime Settings** page, from the dropdown of the **Select Compute Type** section, click on **Compute Cluster**. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
 
 1. On the **Select virtual machine** page, specify the following then click on **Next** :
   
@@ -349,11 +347,12 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
      ![](../images/lab07-image39.png)
 
 1. This will open the evaluation window where you can view:
-    • Confusion matrix
-    • ROC curve
-    • Precision-Recall curve
-    • Lift curve
-    • Key metrics such as Accuracy, Precision, Recall, F1 score, and AUC
+    - Confusion matrix
+    - ROC curve
+    - Precision-Recall curve
+    - Lift curve
+    - Key metrics such as Accuracy, Precision, Recall, F1 score, and AUC
+    
     Model Evaluation Results (Azure ML Designer)
 
 1. This screenshot shows the evaluation results of a machine learning model trained to predict a logistics-related outcome.
