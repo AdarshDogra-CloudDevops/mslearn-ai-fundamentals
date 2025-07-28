@@ -4,6 +4,8 @@ This table helps us understand how confident the model was in its predictions an
 
 Each row in this table represents a score bin, which is a range of model confidence values. These bins help us see how well the model performs at different confidence levels.
 
+![](../images/lab07-image53.png) 
+
 ## Column-by-Column Explanation
 
 **Score bin**
@@ -53,7 +55,6 @@ cases — and they’re correct.
 
 5. The fact that the model doesn’t place any positive examples in the low-score bins also confirms that it’s not confused or uncertain when identifying the positive class
 
-
 ### Final Insight
 
 This table gives strong evidence that:
@@ -89,6 +90,8 @@ Analize the following questions:
 ### Part 2: Understanding the Pipeline 
 Match each Azure component to what it does. You can draw lines or write the letter that 
 fits. 
+
+![](../images/lab07-image53.png) 
 
 Think about this question:
 
