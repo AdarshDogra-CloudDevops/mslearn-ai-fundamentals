@@ -121,13 +121,6 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
      ![](../images/lab07-image11.png) 
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
-
-<validation step="ace2f744-042b-4f87-b587-5fdfbb2f4c68" />
-
 ### Task 3: Preprocessing Our Data
 
 In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
@@ -421,6 +414,13 @@ on test data.
     - AUC: 1.0 – the model completely separates the two classes
 
     >**Note**: These are the highest possible scores and indicate perfect performance.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="ace2f744-042b-4f87-b587-5fdfbb2f4c68" />
 
 # Review 
 
