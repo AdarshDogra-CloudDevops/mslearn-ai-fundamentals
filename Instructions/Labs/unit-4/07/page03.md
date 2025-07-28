@@ -4,7 +4,7 @@ This table helps us understand how confident the model was in its predictions an
 
 Each row in this table represents a score bin, which is a range of model confidence values. These bins help us see how well the model performs at different confidence levels.
 
-![](../images/lab07-image53.png) 
+![](../images/lab01-image53.png) 
 
 ## Column-by-Column Explanation
 
@@ -35,7 +35,6 @@ This shows the range of confidence scores (probability values) for predictions. 
 **Recall**
 - Out of all actual positives in this bin, how many did the model catch?
 - A value of 1.0 means no false negatives.
-
 
 ### Negative precision / Negative recall
 These are the same as precision and recall, but focused on the negative class — how well the model predicted and captured actual "no" labels.
@@ -91,12 +90,11 @@ Analize the following questions:
 Match each Azure component to what it does. You can draw lines or write the letter that 
 fits. 
 
-![](../images/lab07-image53.png) 
+![](../images/lab01-image54.png) 
 
 Think about this question:
 
 - Q3: Which step would be most important if your dataset had blank entries in ETA or Distance?
-
 
 **Part 3: Quick Reflection**
 
