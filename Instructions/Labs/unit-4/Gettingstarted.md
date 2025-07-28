@@ -1,7 +1,5 @@
-# Getting Started with Your AZ-700: Designing and Implementing Microsoft Azure Networking Solutions Workshop
+# Getting Started with Your Lab.
  
-Welcome to your AZ-700: Designing and Implementing Microsoft Azure Networking Solutions workshop! We've prepared a seamless environment for you to explore and learn about planning, implementing, and managing Azure networking solutions. Let's begin by making the most of this experience:
-
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
