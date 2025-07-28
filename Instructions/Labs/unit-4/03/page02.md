@@ -8,7 +8,6 @@ You will begin by setting up an Azure ML workspace and uploading a dataset of ma
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-
 1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -58,7 +57,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />   
+     <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />   
 
 ### Task 2: Upload Our Dataset
 
