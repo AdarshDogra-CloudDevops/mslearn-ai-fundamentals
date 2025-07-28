@@ -218,11 +218,11 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
    • The block should now display:
 
-         - Left input = Untrained model
-         - Right input = Dataset
-         - Output = Trained model
-
-    • This confirms it’s correctly wired to perform training. 
+     - Left input = Untrained model
+     - Right input = Dataset
+     - Output = Trained model
+    
+   >This confirms it’s correctly wired to perform training. 
 
 1. Save your pipeline by clicking the **Save** button at the top right of your screen.
 
