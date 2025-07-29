@@ -8,7 +8,7 @@ You will begin by setting up an Azure ML workspace and uploading a dataset of ma
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
@@ -38,16 +38,6 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
    ![](../images/lab01-image4.png) 
 
-1. Once you are inside your workspace **PCA Anomaly Model**, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
-this tab.
-
-   ![](../images/lab01-image5.png) 
-
-   >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
-components.
-
-1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the **New pipeline** section. From here, click on the box with a plus sign 
-that says, **Create a new pipeline using classic prebuilt components**.
 
    ![](../images/lab01-image6.png)
 
@@ -62,15 +52,26 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
+1. Once you are inside your workspace **PCA Anomaly Model**, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
+this tab.
+
+   ![](../images/lab01-image5.png) 
+
+   >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
+components.
+
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a plus sign 
+that says, **Create a new pipeline using classic prebuilt components**.
+
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset. 
 
    ![](../images/lab01-image7.png)
 
 1. On **Create data asset** page enter the following data.
 
-   - Name the dataset: **`anomaly_dataset_manufacturing`**  
-   - Select type: **Tabular**  
-   - Click **Next**  
+   - Name the dataset: **`anomaly_dataset_manufacturing`**  **(1)**
+   - Select type: **Tabular (2)**  
+   - Click **Next (3)**  
 
    ![](../images/lab01-image8.png) 
 
@@ -79,9 +80,9 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
    ![](../images/lab01-image9.png) 
 
 1. On the **Select a datastore** page select the following option:  
-   - Under **Datastore type**, select **Azure Blob Storage**
-   - Choose the datastore named: **`workspaceblobstore`**
-   - Click **Next**  
+   - Under **Datastore type**, select **Azure Blob Storage (1)**
+   - Choose the datastore named: **`workspaceblobstore` (3)**
+   - Click **Next (3)**  
 
    ![](../images/lab01-image10.png)
 
@@ -91,7 +92,7 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
 1. **File or Folder Selection**  
    - In the file browser, select the file:**`anomaly_data.csv`**  
-   - Wait for the file to appear under “Upload list”  
+   - Wait for the file to appear under Upload list 
    - Click **Next**  
 
    ![](../images/lab01-image12.png) 
