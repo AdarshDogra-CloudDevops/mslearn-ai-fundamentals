@@ -200,10 +200,7 @@ By splitting the data, you will create a fair way to test how well your model wo
 
        ![](../images/lab07-image21.png)
 
-      >**Note**: **Why This Step Matters** - Splitting data ensures the model is tested on unseen examples, just like a final exam tests what you've really learned—not just what you memorized. A 70/30 split is a common practice in machine learning to keep both the training and testing sets balanced and informative.
-
-      >**Note**: Add the Two-Class Decision Forest Model: You will add the Two-Class Decision Forest component to your pipeline. This model will be trained to predict whether a shipment will be delayed or on time based on historical shipping data.
-
+     
 ### Task 5: Add the Two-Class Decision Forest Model
 
 After preparing your data, the next step is selecting a machine learning algorithm. In Azure ML Designer, you will find the Two-Class Decision Forest under Machine Learning > Initialize Model > Classification. Drag it onto the canvas—this model will later connect to the Train Model module.
@@ -228,9 +225,6 @@ In logistics, models like this help predict delays, saving time and costs while 
 
      ![](../images/lab07-image23.png)
 
-   >**Note**: Why This Step Matters - This is the model that will learn patterns in your data. It builds multiple decision trees and combines them into one strong prediction tool. It's especially effective for your logistics dataset because it can handle both numerical and categorical features like ETA, distance, and material type.
-
-   >**Note**: Add and Connect the Train Model Component. You will connect the Two-Class Decision Forest model and the training dataset to the Train Model component. This enables Azure ML Designer to train your model on historical shipment data.
 
 ### Task 6: Add and Connect the Train Model Component
 
@@ -283,9 +277,6 @@ This step is where the model actually learns. You will understand that training 
 
    ![](../images/lab07-image27.png)
 
-    >**Why This Step Matters**- Choosing the correct label is like telling your model what question it’s supposed to answer. In this case, you’re asking:
-    “Given the shipment details, can you predict if the shipment will be delayed?”.
-
 1. Confirm that **Delay_Flag** now appears as the selected label in the settings panelSave Your Pipeline. Click **Save** at the top right corner of Azure ML Designer.
 
       ![](../images/lab07-image28.png)
@@ -318,8 +309,6 @@ Scoring lets you test the model’s performance by applying it to new data. It s
     - Click **Save** at the top right of the screen.
 
       ![](../images/lab07-image30.png)
-
-1. Why This Step Matters - This step answers: “How would the model perform on new shipments we haven’t seen before?” It produces predictions and probabilities for each test case based on the patterns the model learned during training. Add and Configure the Evaluate Model Component
 
 1. This will let you measure how well your model performed using standard metrics like:
     - Accuracy
