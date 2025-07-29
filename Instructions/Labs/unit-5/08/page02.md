@@ -184,7 +184,7 @@ In this task, you will test your trained model on unseen data, evaluate its perf
 1. Set the Label column: Enter **Pct** then click **Save**.
 
     ![](../images/U5lab08-image20.png)
-   
+
 1. This step trains the regression model using the training portion of the data
 
 ### Task 4: Add and Configure Score Model and Evaluate Model
@@ -212,6 +212,10 @@ predictions
 
 1. This module calculates performance metrics for the regression model.
 
+1. Double click on the **Train Model** module. In the right panel expand **Run Settings**, under **Target**, select **Use other compute target**. Then, from the **Select Azure ML compute cluster** dropdown, choose **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>**.
+
+    [](../images/U5lab013-image36.png)
+   
 1. Click **Save (1)** at the top right. Then select the **Configure & Submit (2)** button in the top-right corner.
 
      ![](../images/U5lab08-image23.png) 
