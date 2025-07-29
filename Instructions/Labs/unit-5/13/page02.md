@@ -40,7 +40,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="d33ca28b-3a3c-48f0-8f97-5109a5b827fd" />
+<validation step="d33ca28b-3a3c-48f0-8f97-5109a5b827fd" />
 
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
 
@@ -91,7 +91,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-    <validation step="cbf57e7a-aff5-45be-861a-6c918bbd5dc5" />
+<validation step="cbf57e7a-aff5-45be-861a-6c918bbd5dc5" />
 
 ### Task 3: Preprocessing Our Data
 
