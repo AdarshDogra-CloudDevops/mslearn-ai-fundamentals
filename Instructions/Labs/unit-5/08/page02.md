@@ -1,4 +1,4 @@
-# Lesson 8: Exploring AI libraries and Tools
+# Hands-On-Lab: Exploring AI libraries and Tools
 
 ### Task 1: Create Azure ML Workspace
 
@@ -101,6 +101,7 @@ components.
 <validation step="ec9fb2a9-f6d8-4715-af1c-733319e81e12" />
 
 ## Task 3: Preprocessing Our Data
+
 In this task you will prepare your dataset for modeling by **Clemson_Dataset** values. You will add and configure the **Clemson_Dataset** component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
 
 1. Under the **Data** tab, locate the uploaded dataset named **Clemson_Dataset**.
@@ -111,7 +112,9 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 
     ![](../images/U5lab08-image6.png)
 
-### Task 3: Add Select Columns in Dataset Component
+### Task 4: Add Select Columns in Dataset Component
+
+In this task, you will add Select Columns in Dataset Component that filter your dataset to include only the columns (features) relevant to your machine learning model. This helps improve model performance and reduces unnecessary complexity.
 
 1. Switch to the **Component** tab and search for **Select Columns in Dataset**. Then drag the component into your canvas, placing it below the **Clemson_Dataset**.
 
@@ -126,6 +129,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
      ![](../images/U5lab08-image11.png)
 
 ### Task 4: Choose Features and Target Column and Add Split Data Module
+
+In this task, you will split your cleaned dataset into training and testing sets, choose a Linear Regression model, and train it using historical data to predict team performance.
 
 1. Choose the following input features then click **Save**
     **a. Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
@@ -154,6 +159,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
       ![](../images/U5lab08-image16.png)
 
 ### Task 4: Add and Configure Linear Regression and Train Model Module
+
+In this task, you will test your trained model on unseen data, evaluate its performance using scoring metrics, and run the full machine learning pipeline using Azure ML’s compute resources.
 
 1. Switch to the **Component** tab and search for **Linear Regression**. Then drag the component into your canvas.
    
@@ -264,3 +271,5 @@ In this task you will configure the details needed to run your pipeline, includi
    ![](../images/U5lab08-image25.png) 
     
    >**Note**: Both the Jupyter Notebook and Azure ML pipelines were used to train a Linear Regression model to predict team win percentage (Pct) using the same input features!
+
+## Review
