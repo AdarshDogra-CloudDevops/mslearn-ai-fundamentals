@@ -124,19 +124,20 @@ In this task, you will add Select Columns in Dataset Component that filter your 
 
     ![](../images/U5lab08-image8.png)
 
-1. Double click on the **Select Columns in Dataset** module. In the right panel, click **Edit column** selection.
-
-     ![](../images/U5lab08-image11.png)
 
 ### Task 4: Choose Features and Target Column and Add Split Data Module
 
 In this task, you will split your cleaned dataset into training and testing sets, choose a Linear Regression model, and train it using historical data to predict team performance.
 
-1. Choose the following input features then click **Save**
-    **Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, Pct, AP_Pre, 
-    AP_High, AP_Post, CFP_High, CFP_Final**
+1. Double click on the **Select Columns in Dataset** module. In the right panel, click **Edit column** selection.
 
-    ![](../images/U5lab08-image12.png)
+     ![](../images/U5lab08-image11.png)
+
+1. Choose the following input features then click **Save**
+    **Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
+    AP_High, AP_Post, CFP_High, CFP_Final, Pct**
+
+    ![](../images/U5lab013-image37.png)
      
 1. Click on **Save**.
 
@@ -211,10 +212,6 @@ predictions
       ![](../images/U5lab08-image22.png)
 
 1. This module calculates performance metrics for the regression model.
-
-1. Double click on the **Train Model** module. In the right panel expand **Run Settings**, under **Target**, select **Use other compute target**. Then, from the **Select Azure ML compute cluster** dropdown, choose **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>**.
-
-    [](../images/U5lab013-image36.png)
    
 1. Click **Save (1)** at the top right. Then select the **Configure & Submit (2)** button in the top-right corner.
 
