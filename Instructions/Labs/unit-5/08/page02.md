@@ -72,9 +72,9 @@ components.
     ![](../images/lab01-image9.png) 
 
 1. On the **Select a datastore** page select the following option:  
-   - Under **Datastore type**, select **Azure Blob Storage**
-   - Choose the datastore named: **`workspaceblobstore`**
-   - Click **Next**  
+   - Under **Datastore type**, select **Azure Blob Storage (1)**
+   - Choose the datastore named: **`workspaceblobstore` (2)**
+   - Click **Next (3)**  
 
    ![](../images/lab01-image10.png)
 
@@ -84,12 +84,12 @@ components.
 
 1. **File or Folder Selection**  
    - In the file browser, select the file: `SREB_U5_L8_CleanedDataset`  
-   - Wait for the file to appear under “Upload list”  
+   - Wait for the file to appear under Upload list  
    - Click **Next**  
 
     ![](../images/U5lab08-image5.png) 
 
-1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
+1. In **Settings** page, Click on **Next** Button **Twice** and then click on **Create** Button
 
    ![](../images/U5lab08-image9.png) 
 
