@@ -58,7 +58,7 @@ Before we continue, discuss the following questions with your class:
 
 Now, download the dataset and open up a Jupyter notebook. Type the following code into the first code block
 
-![](../images/U5lab08-image28.png)
+![](../images/U5lab013-image28.png)
 
 **What’s happening here?**
   - pd.read_html() reads the data from an HTML table (even though the file ends in .xls, it’s not a real Excel file!)
@@ -71,19 +71,18 @@ In this lesson, you’ll experience how different AI tools work. You’ll get ha
 
 In this part of the lesson, a regression model is implemented using Python code in Jupyter Notebook. The Clemson Tigers School History dataset is used to predict a team’s win percentage (Pct) based on multiple numerical performance indicators. The process involves loading the dataset, cleaning and preparing the data, selecting appropriate input features, training a linear regression model, and evaluating its accuracy using key performance metrics such as R², MAE, RMSE, Relative Absolute Error (RAE), and Relative Squared Error (RSE).
 
-
 **Step 1: Load and Explore the Dataset Using Jupyter Notebook** 
 
 Earlier, we saw that the original .xls file was HTML-formatted, so we used pd.read_html() to read it. Now, we’ll use the cleaned .csv version for modeling. If you haven’t already, type the following code into the first code block and run it:
 
-![](../images/U5lab08-image29.png)
+![](../images/U5lab013-image29.png)
 
 **Step 2: Clean and Prepare the Data**
 The raw dataset may contain repeated headers or unnecessary rows. We drop any such rows (like extra rank rows) and rename the columns to make them usable.
 
 In the second code cell, type in the following and run it afterwards:
 
-![](../images/U5lab08-image30.png)
+![](../images/U5lab013-image30.png)
 
 **What it does:** 
   
@@ -95,9 +94,9 @@ In the second code cell, type in the following and run it afterwards:
 
 Now we’ll need to rename the columns and make sure that any numeric columns are represented that way in pandas. To do so, type the following code in cell 3. Make sure to run it afterwards!
 
-![](../images/U5lab08-image31.png) 
+![](../images/U5lab013-image31.png) 
 
-![](../images/U5lab08-image32.png)
+![](../images/U5lab013-image32.png)
 
 **What it does:** 
    
@@ -113,7 +112,7 @@ Now we’ll need to rename the columns and make sure that any numeric columns ar
 
 Now, we’ll write some code to fill in any blanks based on the data we have already. To do so, type and then run the following code in cell block 4 of your notebook.
 
-![](../images/U5lab08-image33.png)
+![](../images/U5lab013-image33.png)
 
 **What it does:** 
    
@@ -139,7 +138,7 @@ In this case, it tries to estimate how W, L, SRS, etc. contribute to Pct. We’r
 
 Now, type the following code in cell block 5:
 
-![](../images/U5lab08-image34.png)
+![](../images/U5lab013-image34.png)
 
 **What it does:** 
    
@@ -155,7 +154,7 @@ Now, type the following code in cell block 5:
 
 **Step 6: Evaluate Model Performance**
 
-![](../images/U5lab08-image35.png)
+![](../images/U5lab013-image35.png)
 
 **What it calculates:** 
 
