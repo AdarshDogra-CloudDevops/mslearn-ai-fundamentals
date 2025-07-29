@@ -35,6 +35,13 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     ![](../images/U5lab013-image3.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+   <validation step="d33ca28b-3a3c-48f0-8f97-5109a5b827fd" />
+
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
@@ -78,6 +85,17 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/U5lab013-image5.png) 
 
 1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+    <validation step="cbf57e7a-aff5-45be-861a-6c918bbd5dc5" />
+
+### Task 3: Preprocessing Our Data
+
+In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your model.
 
 1. Under the **Data** tab, locate the uploaded dataset named `Sports_Analytics_Dataset`.
 
@@ -146,6 +164,9 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/U5lab013-image20.png)
 
 1. Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
+
+### Task 4: Configure Pipeline Job Basics
+In this task you will configure the details needed to run your pipeline, including setting up a new experiment and creating a compute cluster. You will submit the pipeline job to Azure ML to execute your workflow.
 
 1. On the **Basics** page, perform the steps as mentioned below:
 
