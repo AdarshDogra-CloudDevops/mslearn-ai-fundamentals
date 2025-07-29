@@ -1,14 +1,5 @@
 # Lesson 8: Exploring AI libraries and Tools
 
-In this lesson, you will explore software libraries and platforms used in artificial intelligence and machine learning, focusing on tools available in Python and Azure ML Studio. 
-
-Using the Clemson Tigers Football School History dataset, students will develop a simple regression model to predict team performance metrics. They will implement this model 
-using both code-based and no-code environments — specifically, Jupyter Notebooks (Python with scikit-learn) and Azure ML Studio Designer. 
-
-This hands-on comparison helps you to understand how the same machine learning task can be performed in different environments and supports critical thinking about tool 
-selection based on project needs and data context.
-
-
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
@@ -49,7 +40,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="edbc0978-37e1-4c4f-86b3-c450ca55b053" />
+<validation step="edbc0978-37e1-4c4f-86b3-c450ca55b053" />
 
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
 
@@ -97,13 +88,12 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
    ![](../images/U5lab08-image9.png) 
 
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="ec9fb2a9-f6d8-4715-af1c-733319e81e12" />
+<validation step="ec9fb2a9-f6d8-4715-af1c-733319e81e12" />
 
 ## Task 3: Preprocessing Our Data
 In this task you will prepare your dataset for modeling by **Clemson_Dataset** values. You will add and configure the **Clemson_Dataset** component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
