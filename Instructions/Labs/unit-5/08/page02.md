@@ -273,3 +273,19 @@ In this task you will configure the details needed to run your pipeline, includi
    >**Note**: Both the Jupyter Notebook and Azure ML pipelines were used to train a Linear Regression model to predict team win percentage (Pct) using the same input features!
 
 ## Review
+
+By the end of this lab, you have:
+
+- **Created an Azure ML workspace** and set up a dedicated compute cluster for running ML experiments.
+
+- **Uploaded and registered a dataset (Clemson_Dataset)** in Azure ML, preparing it for analysis and modeling.
+
+- **Preprocessed the data** by selecting only relevant columns, reducing noise and improving model accuracy.
+
+- **Split** the dataset into training and testing subsets to ensure a fair evaluation of the model’s performance.
+
+- Built and trained a **Linear Regression model** to predict team win percentage (Pct) using historical sports data.
+
+- Scored and evaluated the model on unseen data using modules like **Score Model** and **Evaluate Model**.
+
+- **Configured and submitted** the pipeline, running it end-to-end using an Azure ML compute cluster.
