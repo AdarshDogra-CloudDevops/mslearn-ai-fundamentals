@@ -230,6 +230,24 @@ In this task you will configure the details needed to run your pipeline, includi
 
    ![](../images/U5lab013-image25.png)
     
+## Review 
 
+By the end of this lab, you have:
 
+- Created an Azure ML Workspace to manage and run all your ML experiments.
+
+- Uploaded and configured a player performance dataset (SC_Basketball_Enhanced_With_Starter) in the Azure ML Designer.
+
+- Selected relevant features (e.g., FG%, AST, PTS, TRB) and cleaned the data for training.
+
+- Split the data into training and testing sets using the Split Data module (80/20).
+
+- Trained a classification model using the Two-Class Decision Forest algorithm.
+
+- Scored the model on test data and evaluated predictions against actual outcomes.
+
+- Analyzed model performance using Evaluate Model, interpreting metrics such as accuracy and AUC.
+
+- Successfully deployed the pipeline on a compute cluster and visualized scored predictions and evaluation results.
    
+### You have successfully completed the lab.
