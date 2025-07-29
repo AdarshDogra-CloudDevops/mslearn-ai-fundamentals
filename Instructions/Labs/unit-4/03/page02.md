@@ -22,7 +22,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Hub (Optional)**: Leave this as “None” unless instructed otherwise.
    - **Advanced Settings**:
    - **Subscription**: Select the appropriate Azure subscription from the dropdown. 
-   - **Resource Group**: Choose an existing one. 
+   - **Resource Group**: **ODL-SREB-<inject key="DeploymentID" enableCopy="false"/>**. 
    - **Region**: Select **East US 2** for better performance.
    - After filling out all the required fields, click the **“Create”** button.
 
