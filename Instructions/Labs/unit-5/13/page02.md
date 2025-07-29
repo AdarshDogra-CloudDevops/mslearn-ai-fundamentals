@@ -111,6 +111,8 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     ![](../images/U5lab013-image7.png)
 
+1. Connect the output of the **Sports_Analytics_Dataset** dataset to **Select Columns in Dataset** component input.
+
 1. Switch to the **Component** tab and search for **Select Columns in Dataset**. Then drag the component into your canvas, placing it below the **Sports_Analytics_Dataset**. Then connect the output of the dataset to this component input.
 
     ![](../images/U5lab013-image8.png)
