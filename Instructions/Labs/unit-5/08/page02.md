@@ -4,7 +4,6 @@
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-
 1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -42,7 +41,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 <validation step="edbc0978-37e1-4c4f-86b3-c450ca55b053" />
 
-### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
+### Task 2: Upload the Dataset
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
@@ -106,6 +105,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 
     ![](../images/U5lab08-image6.png)
 
+### Task 3: Add Select Columns in Dataset Component
+
 1. Switch to the **Component** tab and search for **Select Columns in Dataset**. Then drag the component into your canvas, placing it below the **Clemson_Dataset**.
 
     ![](../images/U5lab08-image7.png)
@@ -117,6 +118,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 1. Double click on the **Select Columns in Dataset** module. In the right panel, click **Edit column** selection.
 
      ![](../images/U5lab08-image11.png)
+
+### Task 4: Choose Features and Target Column and Add Split Data Module
 
 1. Choose the following input features then click **Save**
     a. Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
@@ -144,6 +147,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 
       ![](../images/U5lab08-image16.png)
 
+### Task 4: Add and Configure Linear Regression and Train Model Module
+
 1. Switch to the **Component** tab and search for **Linear Regression**. Then drag the component into your canvas.
    
 1. Drag the Linear Regression module onto the canvas as shown in the below image.
@@ -168,6 +173,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
     ![](../images/U5lab08-image20.png)
    
 1. This step trains the regression model using the training portion of the data
+
+### Task 4: Add and Configure Score Model and Evaluate Model
 
 1. Search for **Score Model**. Then drag the component into your canvas. Drag the **Score Model** module onto the canvas as shown in the below image.
 
@@ -198,7 +205,7 @@ predictions
 
 1. Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
 
-### Task 4: Configure Pipeline Job Basics
+### Task 5: Configure Pipeline Job Basics and Run the Pipeline
 
 In this task you will configure the details needed to run your pipeline, including setting up a new experiment and creating a compute cluster. You will submit the pipeline job to Azure ML to execute your workflow.
 
