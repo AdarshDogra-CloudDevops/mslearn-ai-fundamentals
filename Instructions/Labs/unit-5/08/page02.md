@@ -128,8 +128,8 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 ### Task 4: Choose Features and Target Column and Add Split Data Module
 
 1. Choose the following input features then click **Save**
-    a. Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
-    AP_High, AP_Post, CFP_High, CFP_Final
+    **a. Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
+    AP_High, AP_Post, CFP_High, CFP_Final**
 
     ![](../images/U5lab08-image12.png)
      
@@ -157,11 +157,11 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 
 1. Switch to the **Component** tab and search for **Linear Regression**. Then drag the component into your canvas.
    
-1. Drag the Linear Regression module onto the canvas as shown in the below image.
+1. Drag the **Linear Regression** module onto the canvas as shown in the below image.
 
     ![](../images/U5lab08-image17.png)
 
-1. Search for **Train Model**. Then drag the component into your canvas. Drag the Train Model module onto the canvas as shown in the below image.
+1. Search for **Train Model**. Then drag the component into your canvas. Drag the **Train Model** module onto the canvas as shown in the below image.
 
     ![](../images/U5lab08-image18.png)
 
@@ -174,7 +174,7 @@ In this task you will prepare your dataset for modeling by **Clemson_Dataset** v
 
 1. Double click on the **Train Model** module. In the right panel, click **Edit column** selection.
 
-1. Set the Label column to: Pct then click **Save**.
+1. Set the Label column: Enter **Pct** then click **Save**.
 
     ![](../images/U5lab08-image20.png)
    
@@ -205,7 +205,7 @@ predictions
 
 1. This module calculates performance metrics for the regression model.
 
-1. Click **Save** at the top right. Then select the **Configure & Submit** button in the top-right corner.
+1. Click **Save (1)** at the top right. Then select the **Configure & Submit (2)** button in the top-right corner.
 
      ![](../images/U5lab08-image23.png) 
 
@@ -217,9 +217,9 @@ In this task you will configure the details needed to run your pipeline, includi
 
 1. On the **Basics** page, perform the steps as mentioned below:
 
-   - In the Experiment name select **Create new**
-   - In **New experiment name** filed provide **`Test_ClemsonWinPredictor`**
-   - Click the blue **Next** button at the bottom-right corner of the screen
+   - In the Experiment name select **Create new (1)**
+   - In **New experiment name** filed provide **`Test_ClemsonWinPredictor` (2)**
+   - Click the blue **Next (3)** button at the bottom-right corner of the screen
 
       ![](../images/U5lab08-image24.png) 
 
@@ -239,11 +239,11 @@ In this task you will configure the details needed to run your pipeline, includi
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide Compute name Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> then click on **Create**
+1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>** then click on **Create**
 
     ![](../images/lab07-image34.png)
 
-1. Back on the **Runtime Settings** page, select the newly created Azure ML compute cluster from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
+1. Back on the **Runtime Settings** page, select the newly created **Azure ML compute cluster** from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
 
      ![](../images/lab07-image35.png)
 
@@ -255,12 +255,12 @@ In this task you will configure the details needed to run your pipeline, includi
 
       ![](../images/lab07-image37.png)
 
-1. Once the Pipeline is run, you can see the similar result.
+1. Once the **Pipeline** is run, you can see the similar result.
 
      ![](../images/U5lab08-image26.png) 
 
-1. Double click on Evaluation metrics review the evaluation metrics values in Azure
+1. Double click on **Evaluation metrics** review the evaluation metrics values in Azure.
 
    ![](../images/U5lab08-image25.png) 
     
-   - Both the Jupyter Notebook and Azure ML pipelines were used to train a Linear Regression model to predict team win percentage (Pct) using the same input features!
+   >**Note**: Both the Jupyter Notebook and Azure ML pipelines were used to train a Linear Regression model to predict team win percentage (Pct) using the same input features!
