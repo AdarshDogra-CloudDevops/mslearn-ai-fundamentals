@@ -58,6 +58,7 @@ Now, let’s relate this back to manufacturing: In the same way, a factory canno
 
 Look at the 3–5 rows from the dataset provided by your teacher, either in your handout or projected on the screen.
 
+![](../images/U5lab013-image27.png)
 
 Look at the data provided and think out loud about the following questions:
   
