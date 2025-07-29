@@ -1,3 +1,14 @@
+# Lesson 8: Exploring AI libraries and Tools
+
+In this lesson, you will explore software libraries and platforms used in artificial intelligence and machine learning, focusing on tools available in Python and Azure ML Studio. 
+
+Using the Clemson Tigers Football School History dataset, students will develop a simple regression model to predict team performance metrics. They will implement this model 
+using both code-based and no-code environments — specifically, Jupyter Notebooks (Python with scikit-learn) and Azure ML Studio Designer. 
+
+This hands-on comparison helps you to understand how the same machine learning task can be performed in different environments and supports critical thinking about tool 
+selection based on project needs and data context.
+
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
