@@ -14,6 +14,10 @@
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/Nancy/Instructions/Labs/unit-4/03/page02.md",
           "Order": 3
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/Nancy/Instructions/Labs/unit-4/03/page03.md",
+          "Order": 4
         }
       ]
     }
