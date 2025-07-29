@@ -6,7 +6,7 @@ This hands-on lab walks you through building a machine learning pipeline in Azur
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
@@ -60,7 +60,7 @@ this tab.
    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the New pipeline section. From here, click on the box with a plus sign 
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a plus sign 
 that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image6.png) 
@@ -78,9 +78,9 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
 1. On **Create a new workspace to get started with Azure ML** page enter the following data.
 
-   - Name the dataset: **`logistics_dataset_manufacturing`**  
-   - Select type: **Tabular**  
-   - Click **Next**  
+   - Name the dataset: **`logistics_dataset_manufacturing`** **(1)** 
+   - Select type: **Tabular (2)**
+   - Click **Next (3)**  
 
     ![](../images/lab07-image4.png) 
 
@@ -89,9 +89,9 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/lab01-image9.png) 
 
 1. On the **Select a datastore** page select the following option:  
-   - Under **Datastore type**, select **Azure Blob Storage**  
-   - Choose the datastore named: **`workspaceblobstore`**  
-   - Click **Next**  
+   - Under **Datastore type**, select **Azure Blob Storage (1)**  
+   - Choose the datastore named: **`workspaceblobstore` (2)**  
+   - Click **Next (3)**  
 
     ![](../images/lab07-image5.png) 
 
@@ -101,7 +101,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
 1. **File or Folder Selection**  
    - In the file browser, select the file: **`US_Manufacturing_Logistics_Dataset`**  
-   - Wait for the file to appear under “Upload list”  
+   - Wait for the file to appear under Upload list  
    - Click **Next**  
 
     ![](../images/lab07-image6.png) 
