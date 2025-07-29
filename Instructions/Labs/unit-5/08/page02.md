@@ -133,7 +133,7 @@ In this task, you will add Select Columns in Dataset Component that filter your 
 In this task, you will split your cleaned dataset into training and testing sets, choose a Linear Regression model, and train it using historical data to predict team performance.
 
 1. Choose the following input features then click **Save**
-    **a. Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
+    **Rk, Year, W, L, T, Conf_W, Conf_L, Conf_T, Conf_Pct, SRS, SOS, AP_Pre, 
     AP_High, AP_Post, CFP_High, CFP_Final**
 
     ![](../images/U5lab08-image12.png)
