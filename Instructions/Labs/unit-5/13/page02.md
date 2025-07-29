@@ -53,7 +53,7 @@ this tab.
    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a **➕ (plus icon)** 
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with  **➕ (plus icon)** 
 that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image6.png) 
@@ -62,13 +62,13 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image7.png) 
 
-1. On **Create a new workspace to get started with Azure ML** page enter the following data then click on **Next**.
+1. On **Create a new workspace to get started with Azure ML** page enter the following data then click on **Next (1)**.
 
-   - Name the dataset: **`Sports_Analytics_Dataset`**  
+   - Name the dataset: **`Sports_Analytics_Dataset`** **(1)**  
   
     ![](../images/U5lab013-image4.png) 
 
-1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**. 
+1. On the **Choose a source for your data asset** page, choose **From local files (1)** the click on **Next (2)**. 
 
     ![](../images/lab01-image9.png) 
 
@@ -198,7 +198,7 @@ In this task you will configure the details needed to run your pipeline, includi
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide Compute name Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> then click on **Create**
+1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>** then click on **Create**
 
     ![](../images/lab07-image34.png)
 
