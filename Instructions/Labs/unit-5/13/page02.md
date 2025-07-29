@@ -153,6 +153,12 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
        ![](../images/U5lab013-image17.png)
 
+1. Double Click on the **Train Model** box to select it
+
+    - On the right-hand side, click the “Parameters” pane (or click “Launch column selector”)
+    - In the popup, select the column: starter (This tells the model to predict whether each player is a starter or not)
+    - Click **Save**.
+
 1. Switch to the **Component** tab and search for **Score Model**. Then drag the component into your canvas as shown in the below image. Then Connect as mentioned below:
 
     - Trained model → Score Model
