@@ -43,9 +43,14 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 <validation step="08db0e5e-b474-4492-88bc-52c544e935d9" />
 
-### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
+### Task 2: Upload the Dataset 
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+
+You begin by uploading the logistics_dataset_manufacturing file to your Azure ML Workspace. This dataset includes details such as distance, ETA, vehicle type, and shipment status. 
+
+**Why this step matters:** 
+Before any machine learning can be done, you need to bring in real-world data. Uploading the dataset teaches you how cloud systems manage inputs and prepares you to think about which features might influence delay prediction. 
 
 1. Once you are inside your workspace **`Logistics_Prediction`**, look at the left hand side menu to find the **Designer** tab under the **Authoring** section. Click on 
 this tab.
@@ -121,9 +126,12 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
      ![](../images/lab07-image11.png) 
 
-### Task 3: Preprocessing Our Data
+### Task 3: Configure Clean Missing Data   
 
-In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
+In this task, you will add the “Clean Missing Data” module to handle any incomplete values in the dataset. You configure it to either remove or fill missing fields. 
+
+**Why this step matters:** 
+Inaccurate or missing data can break machine learning models or give unreliable results. Cleaning the data helps you understand why data quality is a core part of real-world AI projects. 
 
 1. Switch to the **Component** tab and search for **Clean Missing Data** by Microsoft.  
     
@@ -148,6 +156,14 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. On the **Clean Missing Data** window under **Cleaning mode**, make sure to select **Replace with mean**. Click **Save** again on the main screen.  
 
     ![](../images/lab07-image17.png) 
+
+### Task 4: Configure the Split Data Component 
+
+In this task you will add **Split Data** and it divides the dataset into two parts: 70% for training and 30% for testing. The split is based on a random seed. 
+
+**Why this step matters:** 
+
+By splitting the data, you will create a fair way to test how well your model works on new, unseen cases. This reinforces the concept of training vs. testing in machine learning. 
 
 1. In the **Component tab**, search for **Split Data**, Confirm that it says: "Partitions the rows of a dataset into two distinct sets.... Drag the component into your canvas, placing it below the **Clean Missing Data** block.
 
@@ -188,6 +204,22 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
       >**Note**: Add the Two-Class Decision Forest Model: You will add the Two-Class Decision Forest component to your pipeline. This model will be trained to predict whether a shipment will be delayed or on time based on historical shipping data.
 
+### Task 5: Add the Two-Class Decision Forest Model
+
+After preparing your data, the next step is selecting a machine learning algorithm. In Azure ML Designer, you will find the Two-Class Decision Forest under Machine Learning > Initialize Model > Classification. Drag it onto the canvas—this model will later connect to the Train Model module.
+
+**What Is It?**
+The Two-Class Decision Forest is an ensemble model made up of many decision trees. Each tree sees different data, and predictions are made by majority vote across all trees. This approach improves accuracy, reduces overfitting, and handles both numeric and categorical data well.
+
+**Real-World Relevance**
+In logistics, models like this help predict delays, saving time and costs while improving service. It’s widely used for its robustness and reliability.
+
+**Why It Matters for Students**
+
+- Not all models fit every problem—choosing the right one is key.
+- This is a supervised learning model trained on labeled data.
+- It introduces ensemble methods, which are popular in real-world ML applications.
+
 1. In the Component tab, search for **Two-Class Decision Forest**. Drag the component into your canvas, placing it below the **Split Data** component. Find the result titled: Two-Class Decision Forest Description: **“Creates a two-class classification model using the decision forest algorithm…”**
 
      ![](../images/lab07-image22.png)
@@ -199,6 +231,13 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
    >**Note**: Why This Step Matters - This is the model that will learn patterns in your data. It builds multiple decision trees and combines them into one strong prediction tool. It's especially effective for your logistics dataset because it can handle both numerical and categorical features like ETA, distance, and material type.
 
    >**Note**: Add and Connect the Train Model Component. You will connect the Two-Class Decision Forest model and the training dataset to the Train Model component. This enables Azure ML Designer to train your model on historical shipment data.
+
+### Task 6: Add and Connect the Train Model Component
+
+In this task you will add **Train Model** module and you will connect to both the training dataset and the chosen algorithm. You specify the column to predict (e.g., “Shipment Status”). 
+
+**Why this step matters:** 
+This step is where the model actually learns. You will understand that training involves feeding past data to the model so it can recognize patterns and make future predictions.
 
 1. In the Component tab, search for **Train Model**. Drag the component into your canvas, placing it below the **Two-Class Decision Forest** component. Find the result titled: **“Trains a classification or regression model in a supervised manner…”**
 
@@ -253,6 +292,13 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     >**Add and Connect the Score Model Component**: You will use the Score Model component to apply your trained Decision Forest  model to the test dataset (30% of your original data). This generates predicted outcomes   for evaluation.
 
+### Task 7: Add and Connect the Score Model Component 
+
+In this task you will add a **Score Model** module and connect the trained model and test dataset. This module generates prediction results. 
+
+**Why this step matters:**
+Scoring lets you test the model’s performance by applying it to new data. It simulates how prediction systems are used in industry, such as predicting if a shipment will arrive late. 
+
 1. In the Component tab, search for **Score Model**. Drag the component into your canvas, placing it below the **Train Model** component.
 
     ![](../images/lab07-image29.png)
@@ -284,6 +330,13 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. Add and Connect the Evaluate Model Component 
     **Goal:** Use the Evaluate Model component to analyze how well your trained model performed on the test data.
 
+### Task 8: Add and Configure the Evaluate Model Component
+
+In this task you will add **Evaluate Model** module at the end of the pipeline to assess the predictions. It displays metrics like accuracy, precision, recall, and F1 score. 
+
+**Why this step matters:**
+Evaluation teaches you how to measure success in machine learning. You’ll learn that a model is not useful unless we understand how well it performs. 
+
 1. In the Component tab, search for **Evaluate Model**. Drag the component into your canvas, placing it below the Score Model block.
 
 1. Connect the Component. From the **Score Model** output, drag a connection to the left input port of the **Evaluate Model** block.
@@ -293,6 +346,13 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
    ![](../images/lab07-image31.png)
 
 1. Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
+
+### Task 9: Running the Pipeline: Configure and Submit
+
+In this task you will create or choose a compute cluster and click “Submit” to run the pipeline. This executes all modules in the correct order. 
+
+**Why this step matters:** 
+This step simulates a real AI workflow in cloud environments. You will experience how models are trained and tested at scale in modern ML platforms like Azure. 
 
 1. Click the **Configure & Submit** button in the top-right corner.
 
@@ -341,6 +401,13 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. Once the Pipeline is run, you can see the similar result.
 
      ![](../images/lab07-image38.png)
+
+### Task 10: Preview Evaluation Results in Azure ML Designer 
+
+In this task you will review the confusion matrix, ROC curve, and other evaluation charts. 
+
+**Why this step matters:** 
+This gives you visual feedback on how accurate your model was. You will begin interpreting real ML metrics and making decisions based on your—skills that directly transfer to professional AI work.
 
 1. Right-click on the **Evaluate Model** component, hover over **Preview data** to click on **Evaluation results**.
 
