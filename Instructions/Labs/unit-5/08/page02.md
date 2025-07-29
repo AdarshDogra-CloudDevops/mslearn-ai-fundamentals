@@ -26,7 +26,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `ClemsonWinPredictor`.
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces**. Locate the workspace you just created **`ClemsonWinPredictor`**.
 
      ![](../images/U5lab08-image2.png) 
    
@@ -45,7 +45,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
-1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
+1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the **Designer** tab under the **Authoring** section. Click on 
 this tab.
 
     ![](../images/lab01-image5.png) 
@@ -53,8 +53,7 @@ this tab.
    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the Classic prebuilt tab under the “New pipeline” section. From here, click on the box with a plus sign 
-that says, **Create a new pipeline using classic prebuilt components**.
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a **➕ (plus icon)** that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image6.png) 
 
@@ -62,15 +61,22 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
     ![](../images/lab01-image7.png) 
 
-1. On **Create a new workspace to get started with Azure ML** page enter the following data then click on **Next**.
+1. On **Create a new workspace to get started with Azure ML** page enter the following data then click on **Next (2)**.
 
-   - Name the dataset: **`Clemson_Dataset`**  
+   - Name the dataset: **`Clemson_Dataset`** **(1)** 
   
     ![](../images/U5lab08-image4.png) 
 
-1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**. 
+1. On the **Choose a source for your data asset** page, choose **From local files (1)** the click on **Next (2)**. 
 
     ![](../images/lab01-image9.png) 
+
+1. On the **Select a datastore** page select the following option:  
+   - Under **Datastore type**, select **Azure Blob Storage**
+   - Choose the datastore named: **`workspaceblobstore`**
+   - Click **Next**  
+
+   ![](../images/lab01-image10.png)
 
 1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
 
