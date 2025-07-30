@@ -2,35 +2,56 @@
 
 In this hands-on lab, you will explore how artificial intelligence can support quality control in manufacturing by detecting defective parts. You will work with real product images, train a machine learning model using Azure Custom Vision, and evaluate its accuracy and performance. Through guided activities, you will also reflect on when to trust a model’s predictions and how combining multiple data sources can enhance reliability and safety in automated systems.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Create a Custom Vision resource
+- Task 2: Creating a New Project in Custom Vision
+- Task 3: Upload and Tag Images
+- Task 4: Training the Model
+- Task 5: Test the Model with New Images
+- Task 6: Exporting Capabilities
+
 
 ### Task 1: Create a Custom Vision resource
 
 1. On the **Azure portal**, search for **Azure AI Services (1)** and selct **Azure AI Foundry (2)**.
 
-     ![](../images/n48c1.png) 
+   ![](../images/n48c1.png) 
 
 1. Expand **More Services (1)**, select **Custom vision (2)** and then click on **+ Create (3)**.
 
-     ![](../images/n48c2.png) 
+   ![](../images/n48c2.png) 
 
 1. On the **Create Custom Vision** page, provide the following details and then **Review+Create (7)**.
 
-    - Subscription: Leave the deafult one **(1)**
-    - Resource group: Select **ODL-SREB-U4L08 (2)**
-    - Region: **<inject key="Region" enableCopy="false"/>** **East US (3)**
-    - Name: Enter **customvision-casting (4)**
-    - Training pricing tier: Select **Free F0** (2 Transactions per second, 2 Projects) **(5)**
-    - Prediction pricing tier: Select **Free F0 (6)** 
+   - Subscription: Leave the deafult one **(1)**
+   - Resource group: Select **ODL-SREB-U4L08 (2)**
+   - Region: **<inject key="Region" enableCopy="false"/>** **East US (3)**
+   - Name: Enter **customvision-casting (4)**
+   - Training pricing tier: Select **Free F0** (2 Transactions per second, 2 Projects) **(5)**
+   - Prediction pricing tier: Select **Free F0 (6)** 
 
-      ![](../images/n48c3.png)
+     ![](../images/n48c3.png)
 
 1. Click on **Create**.
 
-     ![](../images/n48c4.png) 
+   ![](../images/n48c4.png) 
 
 1. Wait for the deployment to complete.
 
-     ![](../images/n48c5.png) 
+   ![](../images/n48c5.png) 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="d59e98f0-5614-4e26-b82c-18374ffffb6c" />
+
+---   
 
 
 ### Task 2: Creating a New Project in Custom Vision
@@ -39,7 +60,7 @@ In this hands-on lab, you will explore how artificial intelligence can support q
 
 1. Click on **Sign in**.
 
-     ![](../images/n48c6.png) 
+   ![](../images/n48c6.png) 
 
 1. If prompted, login with the below credentials:
 
@@ -49,11 +70,11 @@ In this hands-on lab, you will explore how artificial intelligence can support q
 
 1. Select the Terms of Service checkbox **(1)**  and then click on **I Agree (2)**.
 
-     ![](../images/n48c7.png) 
+   ![](../images/n48c7.png) 
 
 1. Click on **NEW PROJECT**.
 
-     ![](../images/n48c8.png) 
+   ![](../images/n48c8.png) 
 
 1. On the **Create New Project** page, provide the following details:
 
@@ -72,23 +93,33 @@ you're identifying overall labels for entire images **(4)**
 
       ![](../images/n48c9.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="0b268237-4be0-4453-a6ac-5603f697a1a9" />
+
+---      
+
 ### Task 3: Upload and Tag Images
 
 Once your project has been created, you'll land on the Training Images tab of your Custom Vision workspace. This is where you'll upload and tag the images your model will learn from. The main panel is empty because no images have been uploaded yet, which is where we’ll start off at in this part!
 
-#### Task 1.1: Adding Training Images for Non-Defective Parts
+#### Task 3.1: Adding Training Images for Non-Defective Parts
 
 1. Click on the **Add Images** button.
 
-     ![](../images/n48c10.png) 
+   ![](../images/n48c10.png) 
 
 1. Navigate to the respective folder,  search for the dataset folder named **ok_front**. Click on one image and press **Ctrl+A** to select all the images **(1)** and then **Open (2)**.   
 
-     ![](../images/n48c11.png)
+   ![](../images/n48c11.png)
 
 1. On the **Image Upload** screen, enter **Non Defective (1)** as **My Tags** and then select **Upload 519 files (2)**.
 
-     ![](../images/n48c12.png)
+   ![](../images/n48c12.png)
 
 1. Once uploaded, select **Done**.
 
@@ -96,9 +127,9 @@ Once your project has been created, you'll land on the Training Images tab of yo
 
 1. Briefly wait for the images to be uploaded. Once it’s complete, you’ll see a screen like the one below. Navigate to **Tagged (1)** there you can see the **Non Defective (2)** tag.
 
-     ![](../images/n48c14.png)
+   ![](../images/n48c14.png)
 
-#### Task 1.2: Adding Training Images for Defective Parts
+#### Task 3.2: Adding Training Images for Defective Parts
 
 Now that all the Non Defective images have been uploaded and tagged, it's time to upload the Defect class images.
 
@@ -198,9 +229,19 @@ folder. Select any **one image** to perform a quick test **(3)** and then **Open
 1. A list of available platforms will be shown. **You do not need to proceed with using these options**, we’re simply just exploring!
 
      ![](../images/n48c31.png)
+
+## Review
+
+In this lab, you have completed the following tasks:     
      
+- Created a Custom Vision resource
+- Created a New Project in Custom Vision
+- Uploaded and Tag Images
+- Trained the Model
+- Tested the Model with New Images
+- Exporting Capabilities
 
-
+## You have successfully completed the lab
 
      
 
