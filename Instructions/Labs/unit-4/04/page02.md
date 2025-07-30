@@ -144,6 +144,10 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
 Now it’s time to add the clean missing data component.
 
+1. Drag the **anomaly_dataset_manufacturing** dataset into the canvas.
+
+    ![](../images/ncc1.png) 
+
 1. Switch to the **Component (1)** tab and search for **"Clean Missing Data" (2)** by Microsoft. Click on the **Clean Missing Data (3)** data component,  
     
     ![](../images/lab01-image20.png) 
@@ -339,7 +343,7 @@ default. Then click **Create (2)**.
 
     ![](../images/nc17.png) 
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
