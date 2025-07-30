@@ -48,6 +48,13 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     ![](../images/nc2.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+   <validation step="e7587121-668b-41b5-abc2-ec1d3900848d" />    
+
 ### Task 2: Upload Our Dataset
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
@@ -106,7 +113,14 @@ In this task you will upload the manufacturing sensor data to your Azure ML work
 
 1. Click on the dataset card. **Drag it from the left panel** and **drop it onto the empty space in the pipeline canvas on the right (1)** and then **Save (2)**.
 
-    ![](../images/nc3.png)          
+    ![](../images/nc3.png)      
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+   <validation step="2bbe0a28-d6c1-4fd6-b4d3-63ff8be787f2" />          
 
 
 ### Task 3: Preprocessing our Data
