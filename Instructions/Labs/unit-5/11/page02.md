@@ -256,6 +256,10 @@ pipeline.
 
 ### Task 7: Swap in Boosted Decision Tree Regression
 
+1. Navigate back to the Designer tab and select your pipeline.
+
+     ![](../images/U5lab013-image53.png)
+   
 1. Switch to the **Component** tab in the left panel **(1)** and search for Drag a **Boosted Decision Tree Regression** module onto the canvas.
 
 1. Delete the **Linear Regression** module and replace it with the **Boosted Decision Tree Regression** module. Then click on **Save**.
