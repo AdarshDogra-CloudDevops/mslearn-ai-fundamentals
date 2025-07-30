@@ -91,7 +91,7 @@ you're identifying overall labels for entire images **(4)**
 
     - Then select **CREATE PROJECT (8)**
 
-      ![](../images/n48c9.png) 
+      ![](../images/g11.png) 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 >
