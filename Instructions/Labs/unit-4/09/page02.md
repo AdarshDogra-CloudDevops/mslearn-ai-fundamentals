@@ -2,6 +2,15 @@
 
 In this hands-on lab, you will collect real sensor data from your Arduino-based robot and use it to train a machine learning model in Azure. You will prepare and clean the dataset, paying close attention to issues such as low data volume or corrupted sensor readings. By experimenting with different data conditions, you will observe how these factors affect model accuracy and performance. Throughout the lab, you will follow a structured workflow that emphasizes data preparation, model training, and evaluation—providing a practical, project-based experience in building reliable machine learning solutions.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Create Azure ML Workspace
+- Task 2: Upload Our Dataset
+- Task 3: Run the Pipeline
+- Task 4: Evaluate Model Performance
+
 
 
 ### Task 1: Create Azure ML Workspace
@@ -51,7 +60,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
     ![](../images/nc2.png) 
 
-### Task 2: Upload Our Dataset
+### Task 2: Upload the Dataset
 
 In this task you will upload the Sensor_data_with_shutdown dataet to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
@@ -458,6 +467,18 @@ data.
     ![](../images/n49c46.png)     
 
     >**Note:** Here you can see less Accuracy, precision values due to Corrupted Dataset 
+
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Created Azure ML Workspace
+- Uploaded the Dataset
+- Run the Pipeline
+- Evaluated Model Performance
+
+## You have successfully completed the lab
+
 
 
 
