@@ -198,14 +198,12 @@ The high numbers seen in the figure above suggest that the model is performing v
 
      ![](../images/n48c24.png)
 
-1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, search for the **def_front** folder under the test
-folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
+1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, `C:\LabFiles\Dataset\casting_512x512\casting_512x512\def_front` folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
 
      ![](../images/n48c25.png)
 
 1. Once uploaded, you’ll see prediction results as shown in the figure below. The 
-percentages next to the tags **Defect and Non Defective** let us know the model’s selection 
-between the two. With a `99.9%` confidence rating, this tells us that the model is highly confident that the image is a `Defective` part.    
+percentages next to the tags **Defect and Non Defective** let us know the model’s selection between the two. With a `99.9%` confidence rating, this tells us that the model is highly confident that the image is a `Defective` part.    
 
      ![](../images/n48c26.png)
 
@@ -215,7 +213,7 @@ between the two. With a `99.9%` confidence rating, this tells us that the model 
 Now you’ll take the same steps over to test the model’s capabilities with new images. 
 However, instead of picking from the def_front folder, you’ll pick one image from the ok_front folder under test.
 
-1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, search for the **ok_front (2)** folder under the test
+1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, `C:\LabFiles\Dataset\casting_512x512\casting_512x512\ok_front`
 folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
 
      ![](../images/n48c27.png) 

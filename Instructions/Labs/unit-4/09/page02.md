@@ -2,6 +2,8 @@
 
 In this hands-on lab, you will collect real sensor data from your Arduino-based robot and use it to train a machine learning model in Azure. You will prepare and clean the dataset, paying close attention to issues such as low data volume or corrupted sensor readings. By experimenting with different data conditions, you will observe how these factors affect model accuracy and performance. Throughout the lab, you will follow a structured workflow that emphasizes data preparation, model training, and evaluation—providing a practical, project-based experience in building reliable machine learning solutions.
 
+
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
