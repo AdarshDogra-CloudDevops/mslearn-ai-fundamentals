@@ -6,7 +6,14 @@ In this lab, you will build and deploy a machine‑learning pipeline in Azure Ma
 
 In this lab, you will be able to complete the following tasks:
 
--  Task 1: 
+- Task 1: Create Azure ML Workspace
+- Task 2: Upload Our Dataset
+- Task 3: Preprocessing our Data
+- Task 4: Split Data
+- Task 5: Adding Detection Models 
+- Task 6: Convert and View Results
+- Task 7: Configure Pipeline Job Basics 
+- Task 8: Explore the Output with Azure's Built-In Visualization Tools
 
 
 ### Task 1: Create Azure ML Workspace
@@ -461,3 +468,18 @@ normal, 1 for anomaly).
 
       ![](../images/nc32.png)
       
+
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Created Azure ML Workspace
+- Uploaded Dataset
+- Preprocessed our Data
+- Split Data
+- Added Detection Models 
+- Converted and View Results
+- Configured Pipeline Job Basics 
+- Explored the Output with Azure's Built-In Visualization Tools
+
+## You have successfully completed the lab
