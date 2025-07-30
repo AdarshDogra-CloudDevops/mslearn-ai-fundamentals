@@ -2,28 +2,45 @@
 
 In this hands-on lab, you will explore how manufacturers use customer feedback—gathered from surveys, warranty claims, and product reviews—to identify product issues and drive quality improvements. You will work with real-world textual data and build a machine learning pipeline using Azure ML Designer to predict customer satisfaction and uncover patterns such as common defects or recurring complaints.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Setting up the Project
+- Task 2: Uploading the Dataset
+- Task 3: Preprocess the Text
+- Task 4: Extract N-Gram Features
+- Task 5: Split the Data
+- Task 6: Add Logistic Regression and Trace the Model
+- Task 7: Score the Model
+- Task 8: Evaluate the Model
+- Task 9: Run the Pipeline 
+- Task 10: View Preview Results
+
 ### Task 1: Setting up the Project
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+2. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-1. 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-    - Name: Enter **Customer_Feedback_Analysis (1)**
+1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
-    - Friendly Name: Leave default 
+   - Name: Enter **Customer_Feedback_Analysis (1)**
 
-    - Hub (Optional): You can leave this as **None (2)**
+   - Friendly Name: Leave default 
 
-    - **Advanced Settings**:
+   - Hub (Optional): You can leave this as **None (2)**
 
-        - Subscription: Leave the default Azure subscription **(3)**
-        - Resource Group: Select **anomaly-rg (4)**
-        - Region: **East US 2 (5)**
-    - After filling out all fields, click the **Create (6)** button.
+   - **Advanced Settings**:
+
+     - Subscription: Leave the default Azure subscription **(3)**
+     - Resource Group: Select **anomaly-rg (4)**
+     - Region: **East US 2 (5)**
+   - After filling out all fields, click the **Create (6)** button.
 
       ![](../images/n46c1.png) 
 
@@ -33,76 +50,93 @@ In this hands-on lab, you will explore how manufacturers use customer feedback�
 
 1. On the left-hand menu, find and click **Workspaces (1)** and then select the workspace named **Customer Feedback Analysis (2)** the one which you have just created. 
 
-     ![](../images/n46c2.png) 
+   ![](../images/n46c2.png) 
 
-      >**Note**: This will take you inside the workspace where you can build and run machine learning experiments.
+    >**Note**: This will take you inside the workspace where you can build and run machine learning experiments.
 
 1. From the left-hand side menu to find the **Designer (1)** tab under the **Authoring** section. 
 
-    - Make sure that you’re on the **Classic prebuilt**tab under the “New pipeline” section. From here, click on the box with a **plus sign (2)** that says, `Create a new pipeline using classic prebuilt components`.
+   - Make sure that you’re on the **Classic prebuilt**tab under the “New pipeline” section. From here, click on the box with a **plus sign (2)** that says, `Create a new pipeline using classic prebuilt components`.
 
-      ![](../images/n46c3.png) 
+     ![](../images/n46c3.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="e79afd41-e38b-4ec9-8f83-6759b76dce56" />
+
+---     
 
 ### Task 2: Uploading the Dataset
 
 1. On the left panel, under the **Data (1)** tab, click the **+ (plus icon) (2)** to upload a dataset.
 
-     ![](../images/n46c4.png) 
+   ![](../images/n46c4.png) 
 
 1. On the **Data type**, provide the following details:
 
-    - Name: Enter **Customer_Feedback_dataset (1)**
-    - Make sure 
-the type is **Tabular (2)**
-    - Click **Next (3)**  
+   - Name: Enter **Customer_Feedback_dataset (1)**
+   - Make sure the type is **Tabular (2)**
+   - Click **Next (3)**  
 
-      ![](../images/n46c5.png)   
+     ![](../images/n46c5.png)   
 
 1. On the **Choose a source for your data asset** page, choose **From local files (1)** the click on **Next (2)**. 
 
-    ![](../images/lab01-image9.png) 
+   ![](../images/lab01-image9.png) 
 
 1. On the **Select a datastore** page select the following option:  
     
-    - Under **Datastore type**, select **Azure Blob Storage (1)**  
-    - Choose the datastore named: **`workspaceblobstore` (2)**  
-    - Click **Next (3)**  
+   - Under **Datastore type**, select **Azure Blob Storage (1)**  
+   - Choose the datastore named: **`workspaceblobstore` (2)**  
+   - Click **Next (3)**  
 
-      ![](../images/lab01-image10.png) 
+     ![](../images/lab01-image10.png) 
 
 1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
 
-    ![](../images/lab01-image11.png)  
+   ![](../images/lab01-image11.png)  
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `Manufacturing_Customer_Feedback.csv` **(1)** 
-    - Wait for the file to appear under “Upload list”  
-    - Click **Next (2)**  
+   - In the file browser, select the file: `Manufacturing_Customer_Feedback.csv` **(1)** 
+   - Wait for the file to appear under “Upload list”  
+   - Click **Next (2)**  
 
-      ![](../images/n46c6.png)  
+     ![](../images/n46c6.png)  
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
-    ![](../images/n46c7.png) 
+   ![](../images/n46c7.png) 
 
 1. On the **Schema** page, ensure the schema fields are correctly recognized then click **Next**  
 
-    ![](../images/n46c8.png) 
+   ![](../images/n46c8.png) 
 
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
-    ![](../images/n46c9.png) 
+   ![](../images/n46c9.png) 
 
 1. Under the **Data** tab, locate the uploaded dataset named **`Customer_Feedback_dataset` (1)**. Click on the dataset card. **Drag it from the left panel** and drop it onto the empty space in the pipeline canvas on the right **(2)** 
 
-    ![](../images/n46c10.png)          
+   ![](../images/n46c10.png)          
 
 1. Then **Save**.
 
-    ![](../images/n46c11.png)                
+   ![](../images/n46c11.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="2c8a2957-ad44-4b70-9f63-f2eee2194ada" />
+
+---                
 
 ### Task 3: Preprocess the Text
 
@@ -110,31 +144,29 @@ Now it’s time to add the clean missing data component.
 
 1. In the **Component (1)** tab (left panel), search for the **Preprocess Text (2)** module by Microsoft. Drag the **Preprocess Text** module into your pipeline workspace **(3)**.
 
-    ![](../images/n46c12.png) 
+   ![](../images/n46c12.png) 
 
-1. Connect the dataset to the module by clicking on the **small circle** at the bottom of **Customer_Feedback_dataset**. Then, drag a connection line to the **top-left circle** of the **Preprocess Text** module 
-named **Dataset**
+1. Connect the dataset to the module by clicking on the **small circle** at the bottom of **Customer_Feedback_dataset**. Then, drag a connection line to the **top-left circle** of the **Preprocess Text** module named **Dataset**
 
-    ![](../images/n46c13.png) 
+   ![](../images/n46c13.png) 
 
-    Now we need to tell Azure ML which column (in your dataset) contains the customer feedback that needs to be cleaned for machine learning.
+   Now we need to tell Azure ML which column (in your dataset) contains the customer feedback that needs to be cleaned for machine learning.
 
 1. Double click on the **Preprocess Text** module **(1)** and scroll down to the field labeled **Text column to clean**. Click **Edit Column (2)**.
 
-    ![](../images/n46c14.png) 
+   ![](../images/n46c14.png) 
 
 1. From here, select the column named **Feedback (1)** and then click **Save (2)**.
 
-    ![](../images/n46c15.png) 
+   ![](../images/n46c15.png) 
     
 1. Select **Save**.
 
-    ![](../images/n46c16.png) 
+   ![](../images/n46c16.png) 
 
 ### Task 4: Extract N-Gram Features
 
-This step transforms the cleaned customer feedback into numerical features that a 
-machine learning model can understand.
+This step transforms the cleaned customer feedback into numerical features that a machine learning model can understand.
 
 1. Navigate to the **Component (1)** tab, search for **Extract N-Gram Features from Text (2)**. Drag the Extract N-Gram Features from Text module onto the canvas **(3)**.
 
@@ -204,10 +236,8 @@ machine learning model can understand.
 
 1. Connect the Modules:
 
-    - Connect the **output of the Two-Class Logistic Regression** module to the **left 
-input of the Train Model** module (labeled “Untrained model”) **(1)**.
-    - From the **Split Data** module, connect the **left output port** (training set, 70%) 
-to the **right input of the Train Model** module (labeled “Dataset”) **(2)**.
+    - Connect the **output of the Two-Class Logistic Regression** module to the **left input of the Train Model** module (labeled “Untrained model”) **(1)**.
+    - From the **Split Data** module, connect the **left output port** (training set, 70%) to the **right input of the Train Model** module (labeled “Dataset”) **(2)**.
  
       ![](../images/n46c27.png)
 
@@ -251,8 +281,7 @@ This component gives you the key metrics to assess the model’s performance, in
 - Confusion Matrix: A table that breaks down true/false positives and negatives
 - ROC Curve: Shows how well the model separates the two classes
 
-Once this is complete, you'll be able to run the pipeline and preview your model's 
-evaluation results.
+Once this is complete, you'll be able to run the pipeline and preview your model's evaluation results.
 
 1. In the **Component (1)** tab, search for **Evaluate Model (2)**. Drag it onto the canvas **(3)**.
 
@@ -280,13 +309,11 @@ Now that your pipeline is fully built with all the components connected—from d
 
       ![](../images/n46c36.png)
 
-1. Click **Next** on **Inputs & 
-Outputs**.
+1. Click **Next** on **Inputs & Outputs**.
 
     ![](../images/n46c37.png)
 
-1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your 
-pipeline.
+1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your pipeline.
 
     - Select Compute Type: From the dropdown, select **Compute cluster (1)**.
 
@@ -405,7 +432,22 @@ false alarms.
         - `Cumulative AUC`: Tracks the model’s overall ability to rank predictions as we move through the score bins. This value increases as bins with high separation power are included.    
           
 
-        
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Setting up the Project
+- Uploaded the Dataset
+- Preprocessed the Text
+- Extractracted N-Gram Features
+- Split the Data
+- Added Logistic Regression and Trace the Model
+- Score the Model
+- Evaluated the Model
+- Run the Pipeline 
+- Viewed Preview Results
+
+## You have successfully completed the lab
 
     
 
