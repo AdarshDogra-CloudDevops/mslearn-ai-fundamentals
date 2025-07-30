@@ -45,6 +45,8 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
        >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
+1. Wait for the workspace to create, it may take around 2-3 minutes.       
+
 1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces (1)**. Select the workspace you just created `PCA Anomaly Model` **(2)**.
 
      ![](../images/lab01-image3.png) 
