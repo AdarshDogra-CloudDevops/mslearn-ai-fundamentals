@@ -119,11 +119,11 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
    ![](../images/U5lab011-image3.png)
 
-1. Switch to the **Component** tab in the left panel and search for **Split Data.** Drag that component onto the canvas.   
+1. Switch to the **Component (1)** tab in the left panel and search for **Split Data (2)** Drag that component **Split Data (3)** onto the canvas.   
 
-    - Connect your dataset to the **Split Data** module 
+    - Connect your dataset to the **Split Data (4)** module 
 
-      ![](../images/U5lab013-image44.png)
+      ![](../images/U5lab013-image(44).png)
 
 1. Double-click the **Split Data** component to open its settings. Specify the following and then click on **Save**:
 
