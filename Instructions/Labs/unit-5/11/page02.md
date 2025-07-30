@@ -28,7 +28,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 1. Wait for the workspace to create, it may take around 2-3 minutes.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces (1)**. Select the workspace you just created `Sports_Analytics` **(2)**.
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces (1)**. Select the workspace you just created **`Sports_Analytics`** **(2)**.
 
      ![](../images/n56c2.png) 
 
@@ -36,17 +36,33 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
      ![](../images/n56c3.png)    
 
-1. In the side menu of your workspace, select **Designer (1)**. Click **Create a new pipeline using classic prebuilt components (2)**.     
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-     ![](../images/n56c4.png)
+<validation step="75aee6ee-f1b5-48b0-a3d3-5da64fc6b8aa" />
 
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer
 
+1. Once you are inside your workspace **`Sports_Analytics`**, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
+this tab.
+
+    ![](../images/lab01-image5.png) 
+
+   >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
+components.
+
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with  **➕ (plus icon)** 
+that says, **Create a new pipeline using classic prebuilt components**.
+
+    ![](../images/lab01-image6.png) 
+
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-     ![](../images/n56c5.png)
+    ![](../images/lab01-image7.png) 
 
-1. On **Create data asset** page enter the following data.
+1. On **Create a new workspace to get started with Azure ML** page enter the following data then click on **Next (1)**.
 
     - Name: Enter **`SC_Basketball_Dataset` (1)**  
     - Select type: **Tabular (2)**  
@@ -72,7 +88,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `SC_Basketball_Enhanced.csv` **(1)** 
+    - In the file browser, select the file: **`SC_Basketball_Enhanced.csv`** **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
@@ -89,6 +105,13 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
     ![](../images/n11c6.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="06a77f45-32e1-47c0-ba75-38ed22c2b7a7" />
 
 ### Task 3: Add the Dataset to Your Pipeline Canvas
 
