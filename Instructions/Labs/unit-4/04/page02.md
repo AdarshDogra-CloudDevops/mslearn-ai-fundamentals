@@ -16,7 +16,7 @@ In this lab, you will be able to complete the following tasks:
 - Task 8: Explore the Output with Azure's Built-In Visualization Tools
 
 
-### Task 1: Create Azure ML Workspace
+### Task 1: Create Azure ML Workspace 
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
