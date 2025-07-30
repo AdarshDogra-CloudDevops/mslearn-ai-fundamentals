@@ -122,16 +122,15 @@ that says, **Create a new pipeline using classic prebuilt components**.
 1. Switch to the **Component** tab in the left panel and search for **Split Data.** Drag that component onto the canvas.   
 
     - Connect your dataset to the **Split Data** module 
-    - Select **Save**
 
-      ![](../images/U5lab011-image5.png)
+      ![](../images/U5lab013-image44.png)
 
-1. Double-click the **Split Data** component to open its settings. Specify the following and then **Save**:
+1. Double-click the **Split Data** component to open its settings. Specify the following and then click on **Save**:
 
-    - Set Fraction of rows in the first output dataset to **0.75** for training (75% training / 25% testing).
-    - Set the random seed to **42** for consistent results
+    - Fraction of rows in the first output dataset: **0.75** 
+    - Random seed: **42** 
 
-        ![](../images/U5lab011-image6.png)
+        ![](../images/U5lab013-image45.png)
 
 ### Task 4: Train the Model
 
