@@ -240,71 +240,50 @@ pipeline.
 
      ![](../images/n56c33.png)    
 
-
 ### Task 6: Model Evaluation Results (Azure ML Designer)
 
-1. Right-click on the **Evaluate Model (1)** module. Choose **Preview Data (2) > Evaluation results (3)** to view how well your model predicted PTS.
+1. Right click on the Score Model and Select **Preview Data -> Scored Dataset** to compare Scored Labels and actual PTS.
 
-     ![](../images/n56c34.png)
+1. Right click on the **Evaluate Model** and then on **Preview Data -> Evaluation Results**.
 
-1. Record the **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** in your worksheet table. These two metrics will help you compare how accurate your model was across different data splits.  
+    - RMSE (Root Mean Squared Error)
+     
+    - R² (how well the model explains the data)
 
-     ![](../images/n56c35.png)
+  - **Write down your results.**
 
-1. Go back to the **Designer** and select your pipeline. Double click on the **Split Data (1)** and Change the Split Data fraction to **0.9 2()** for a 90/10 split. Click on **Save (3)**.
+     - Was the model accurate? Did it predict well for all players or only some.
 
-     ![](../images/n56c36.png)
+### Task 7: Swap in Boosted Decision Tree Regression
 
-1. Select **Configure & Submit**.
+1. Switch to the **Component** tab in the left panel **(1)** and search for Drag a **Boosted Decision Tree Regression** module onto the canvas.
 
-     ![](../images/n56c37.png)
+1. Delete the **Linear Regression** module and replace it with the **Boosted Decision Tree Regression** module. Then click on **Save**.
 
-1. Select **Submit**.
+    ![](../images/U5lab013-image47.png)
 
-     ![](../images/n56c38.png)
+1. Review the pipeline, then click **Configure & Submit** at the top of the screen.
+
+    ![](../images/U5lab013-image48.png)
+
+1. On the **Basics** page, choose **Select existing** option then click on **Review + Submit**
+
+    ![](../images/U5lab013-image49.png)
+
+1. Review the settings and click on **Submit**
+
+      ![](../images/U5lab013-image50.png)
 
 1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
 
      ![](../images/n56c32.png)      
 
 1. Please wait for the pipeline to complete, which may take approximately `10–15 `minutes. Once it's finished successfully, the status will show as **Completed**.
+   
+1. Right click on the Score Model and Select **Preview Data -> Scored Dataset** to compare Scored Labels and actual PTS
 
-     ![](../images/n56c33.png)  
+     ![](../images/U5lab013-image52.png)
 
-1. Right-click on the **Evaluate Model (1)** module. Choose **Preview Data (2) > Evaluation results (3)** to view how well your model predicted PTS.
+1. Right click on the **Evaluate Model** and then on **Preview Data -> Evaluation Results**
 
-     ![](../images/n56c34.png) 
-
-1. Record the **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** in your worksheet table.     
-
-     ![](../images/n56c40.png)
-
-1. Go back to the **Designer** and select your pipeline. Double click on the **Split Data (1)** and Change the Split Data fraction to **0.6 2()** for a 90/10 split. Click on **Save (3)** and select **Configure & Submit (4)**.
-
-     ![](../images/n56c41.png)
-
-1. Select **Submit**.
-
-     ![](../images/n56c38.png)
-
-1. Once submitted, a success notification appears at the top of the page. Click on **'View details'** to monitor the pipeline. It may take some time for the pipeline to complete.
-
-     ![](../images/n56c32.png)  
-
-1. Please wait for the pipeline to complete, which may take approximately `10–15 `minutes. Once it's finished successfully, the status will show as **Completed**.
-
-     ![](../images/n56c33.png)  
-
-1. Right click on the Score Model and Select Preview Data -> Scored Dataset to compare Scored Labels and actual PTS.
-
-1. Right click on the Evaluate Model and then on Preview Data -> Evaluation Results and record:
-    
-    -  RMSE (Root Mean Squared Error)
-    - R² (how well the model explains the data
-     
-### Task 7: Swap in Boosted Decision Tree Regression
-
-1. Drag a Boosted Decision Tree Regression module onto the canvas.
-1. Disconnect the Linear Regression module and replace it with the BDT module.
-1. Reconnect the BDT module to the Train Model input.
-1. Click Run again
+     ![](../images/U5lab013-image51.png)
