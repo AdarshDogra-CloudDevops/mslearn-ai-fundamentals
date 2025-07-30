@@ -20,6 +20,79 @@ In this lab, you will be able to complete the following tasks:
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
+### Task 1: Create Azure ML Workspace
+
+In this task, you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
+
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
+
+2. If prompted, provide the credentials below:
+
+   - **Email/Username:** `<inject key="AzureAdUserEmail"></inject>`
+   - **Password:** `<inject key="AzureAdUserPassword"></inject>`
+
+3. On the **Create a new workspace to get started with Azure ML** page, fill in the following fields:
+
+   - **Name**: Enter `PCA_Anomaly_Model` **(1)**
+   - **Friendly Name**: *(Optional)* — Azure will auto-fill this based on the name.
+   - **Hub (Optional)**: Leave this as **None** unless instructed otherwise **(2)**
+   - **Advanced Settings**:
+     - **Subscription**: Select the appropriate Azure subscription from the dropdown **(3)**
+     - **Resource Group**: Select **ODL-SREB-U4L4** **(4)**
+     - **Region**: Select **East US 2** **(5)** for better performance.
+
+   - After filling out all the required fields, click the **Create** **(6)** button.
+
+   ![](../images/nc1.png)
+
+   > **Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 3.
+
+4. Wait for the workspace to create — it may take around 2–3 minutes.
+
+5. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces** **(1)**. Select the workspace you just created `PCA_Anomaly_Model` **(2)**.
+
+   ![](../images/lab01-image3.png)
+
+6. This will take you inside the workspace where you can build and run machine learning experiments.
+
+   ![](../images/lab01-image4.png)
+
+7. Once you are inside your workspace `PCA_Anomaly_Model`, look at the left-hand side menu and select the **Designer** tab under the **Authoring** section.
+
+   ![](../images/lab01-image5.png)
+
+   > **Note**: This will open the Azure Machine Learning Designer interface where you can begin creating your machine learning pipeline by dragging and dropping components.
+
+8. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** **(1)** tab under the “New pipeline” section. From here, click on the box with a plus sign that says **Create a new pipeline using classic prebuilt components** **(2)**.
+
+   ![](../images/nc2.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="e7587121-668b-41b5-abc2-ec1d3900848d" />
+
+---
+
+### Task 2: Upload Our Dataset
+
+In this task, you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+
+1. On the **left panel**, under the **Data** **(1)** tab, click the **➕ (plus icon)** **(2)** to upload a dataset.
+
+   ![](../images/lab01-image7.png)
+
+2. On the **Create data asset** page, enter the following information:
+
+   - **Name**: Enter `anomaly_dataset_manufacturing` **(1)**
+   - **Select type**: Choose **Tabular** **(2)**
+   - Click **Next** **(3)**
+
+   ![](../images/lab01-image8.png)
+
 
 1. Open a new tab in the brower, right click on the following link [Azure Machine Learning Studio](https://ml.azure.com/) then **Copy link** and then paste it on a browser tab to log in to **Azure Machine Learning Studio**.
 
