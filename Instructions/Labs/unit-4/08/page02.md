@@ -113,7 +113,7 @@ Once your project has been created, you'll land on the Training Images tab of yo
 
    ![](../images/n48c10.png) 
 
-1. Navigate to the respective folder,  search for the dataset folder named **ok_front**. Click on one image and press **Ctrl+A** to select all the images **(1)** and then **Open (2)**.   
+1. Navigate to the `C:\LabFiles\Dataset\casting_512x512\casting_512x512\ok_front` folder. Click on one image and press **Ctrl+A** to select all the images **(1)** and then **Open (2)**.   
 
    ![](../images/n48c11.png)
 
@@ -137,7 +137,7 @@ Now that all the Non Defective images have been uploaded and tagged, it's time t
 
      ![](../images/n48c15.png)
 
-1. Search for the **def_front** folder and select all the images within this folder **(1)** and Click **Open (2)** to upload these images.     
+1. Navigate to `C:\LabFiles\Dataset\casting_512x512\casting_512x512\def_front` folder and select all the images within this folder **(1)** and Click **Open (2)** to upload these images.     
 
      ![](../images/n48c16.png)
 
