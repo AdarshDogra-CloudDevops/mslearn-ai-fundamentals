@@ -5,7 +5,7 @@ In this hands-on lab, you will take on the role of a junior sports analyst to pr
 
 ### Task 1: Set Up the Azure ML Workspace
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
@@ -89,10 +89,10 @@ that says, **Create a new pipeline using classic prebuilt components**.
 1. **File or Folder Selection**  
 
     - In the file browser, select the file: **`SC_Basketball_Enhanced.csv`** **(1)** 
-    - Wait for the file to appear under “Upload list”  
+    - Wait for the file to appear under **Upload list**  
     - Click **Next (2)**  
 
-      ![](../images/U5lab011-image1.png) 
+      ![](../images/U5lab013-image43.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
