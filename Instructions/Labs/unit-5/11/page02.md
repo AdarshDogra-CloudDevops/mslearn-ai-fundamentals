@@ -191,7 +191,7 @@ training data) **(2)**
 1. You will now walk through a few configuration steps, then click **Next (3)**:
   
    - Experiment name: **Create new (1)**
-   - New experiment name: **PTS_Split_70_30(2)**
+   - New experiment name: **PTS_Split_70_30 (2)**
 
      ![](../images/n56c25.png)  
 
