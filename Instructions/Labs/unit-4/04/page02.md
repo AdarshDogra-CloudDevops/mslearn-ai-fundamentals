@@ -378,7 +378,7 @@ We now need to configure a bit more detail before running your pipeline in Azure
 
     ![](../images/nc25.png)
 
-1. Right-click on the **circular output port** (the small white dot at the bottom of the **Convert to Dataset** component) **(1)**. From the right-click menu, hover over **“Register data” (2)** and then select **“Results dataset.” (3)**.   
+1. Right-click on the  **Convert to Dataset** component **(1)**. From the right-click menu, hover over **“Register data” (2)** and then select **“Results dataset.” (3)**.   
 
     ![](../images/nc26.png)
 
