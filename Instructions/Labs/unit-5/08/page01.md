@@ -38,23 +38,23 @@ learning!
 
 Let’s start by looking at the dataset. It includes season-level football stats for Clemson University across many years. Here's what some of the columns represent:
 
-  • W and L – Wins and Losses in a season
-  
-  • SRS – Simple Rating System (how strong the team was)
-  
-  • SOS – Strength of Schedule (how tough the season was)
-  
-  • AP_Pre, CFP_High, AP_Post – National rankings at different times of the season
-  
-  • Pct – Win Percentage (this is what we’ll try to predict!)
+  - W and L – Wins and Losses in a season
+    
+  - SRS – Simple Rating System (how strong the team was)
+    
+  - SOS – Strength of Schedule (how tough the season was)
+    
+  - AP_Pre, CFP_High, AP_Post – National rankings at different times of the season
+    
+  - Pct – Win Percentage (this is what we’ll try to predict!)
 
-Before we continue, discuss the following questions with your class:
+**Before we continue, discuss the following questions with your class:**
 
-  • What do you notice about how different seasons performed?
-  
-  • What types of stats might influence a team’s winning percentage?
-  
-  • Which stats would a coach or scout care most about?
+   - What do you notice about how different seasons performed?
+    
+   - What types of stats might influence a team’s winning percentage?
+    
+   - Which stats would a coach or scout care most about?
 
 Now, download the dataset and open up a Jupyter notebook. Type the following code into the first code block
 
