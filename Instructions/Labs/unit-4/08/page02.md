@@ -198,7 +198,7 @@ The high numbers seen in the figure above suggest that the model is performing v
 
      ![](../images/n48c24.png)
 
-1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, `C:\LabFiles\Dataset\casting_512x512\casting_512x512\def_front` folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
+1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, navigate to `C:\LabFiles\Dataset\casting_512x512\casting_512x512\def_front` folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
 
      ![](../images/n48c25.png)
 
@@ -213,7 +213,7 @@ percentages next to the tags **Defect and Non Defective** let us know the model�
 Now you’ll take the same steps over to test the model’s capabilities with new images. 
 However, instead of picking from the def_front folder, you’ll pick one image from the ok_front folder under test.
 
-1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, `C:\LabFiles\Dataset\casting_512x512\casting_512x512\ok_front`
+1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, navigate to `C:\LabFiles\Dataset\casting_512x512\casting_512x512\ok_front`
 folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
 
      ![](../images/n48c27.png) 
