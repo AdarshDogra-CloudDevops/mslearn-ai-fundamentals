@@ -18,47 +18,59 @@ In this lab, you will be able to complete the following tasks:
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+2. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
-    - **Name**: Enter `Training_data`  **(1)**
-    - **Friendly Name**: *(Optional)*  
+   - **Name**: Enter `Training_data`  **(1)**
+   - **Friendly Name**: *(Optional)*  
       Azure will auto-fill this based on the name.
-    - **Hub (Optional)**: Leave this as **None** unless instructed otherwise **(2)**
-    - **Advanced Settings**:
-    - **Subscription**: Select the appropriate Azure subscription from the dropdown **(3)**
-    - **Resource Group**: Select **ODL-SREB-U4L09** **(4)**
-    - **Region**: Select **East US 2 (5)** for better performance.
-    - After filling out all the required fields, click the **Create (6)** button.
+   - **Hub (Optional)**: Leave this as **None** unless instructed otherwise **(2)**
+     - **Advanced Settings**:
+     - **Subscription**: Select the appropriate Azure subscription from the dropdown **(3)**
+   - **Resource Group**: Select **ODL-SREB-U4L09** **(4)**
+   - **Region**: Select **East US 2 (5)** for better performance.
+   - After filling out all the required fields, click the **Create (6)** button.
 
-      ![](../images/n49c1.png) 
+     ![](../images/n49c1.png) 
 
-       >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
+      >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
 1. Wait for the workspace to create, it may take around 2-3 minutes.       
 
 1. Now navigate to your newly created workspace. On the **left-hand menu**, click **Workspaces (1)**. Select the workspace you just created `Training_data` **(2)**.
 
-     ![](../images/n49c2.png) 
+   ![](../images/n49c2.png) 
    
 1. This will take you inside the workspace where you can build and run machine learning experiments.
 
-    ![](../images/lab01-image4.png) 
+   ![](../images/lab01-image4.png) 
 
 1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu and select the **Designer** tab under the **Authoring** section. 
 
-    ![](../images/lab01-image5.png) 
+   ![](../images/lab01-image5.png) 
 
-     >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping components.
+    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping components.
 
 1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt (1)** tab under the “New pipeline” section. From here, click on the box with a plus sign that says, **Create a new pipeline using classic prebuilt components** **(2)**.
 
-    ![](../images/nc2.png) 
+   ![](../images/nc2.png) 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="b57736ec-70d5-44ee-858e-3325b8436d0d" />
+
+---   
 
 ### Task 2: Upload the Dataset
 
@@ -66,7 +78,7 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-    ![](../images/lab01-image7.png) 
+   ![](../images/lab01-image7.png) 
 
 1. On **Create data asset** page enter the following data.
 
@@ -112,11 +124,21 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 
     ![](../images/n49c9.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="46104bc5-d971-4311-ade6-81e606d5d1c7" />
+
+---    
+
 ### Task 3: Run the Pipeline    
 
 1. Under the **Data** tab, locate the uploaded dataset named **`Sensor_Data`** and drag it to the canvas **(1)** and then **Save (2)**.  
 
-    ![](../images/n49c10.png)  
+   ![](../images/n49c10.png)  
 
 1. Switch to the **Component (1)** tab and search for **"Clean Missing Data" (2)** by Microsoft. Drag the **Clean Missing Data** data component to the canvas **(3)**.
 
