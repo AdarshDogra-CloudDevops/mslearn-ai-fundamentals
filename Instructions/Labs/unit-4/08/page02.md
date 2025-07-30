@@ -80,7 +80,7 @@ In this lab, you will be able to complete the following tasks:
 
     - Name: Enter **Casting Defect Detection (1)**
     - Description: **Classifying casting images as ok or defective (2)**
-    - Resource: **customvisioncasting<inject key="DeploymentID" enableCopy="false"/> [F0] (3)**
+    - Resource: **customvisioncasting [F0] (3)**
     - Project Types: Ensure **Classification** is selected (not Object Detection), as 
 you're identifying overall labels for entire images **(4)**
     - Classification Types: Choose **Multiclass** (Single tag per image) because each image belongs to only one category: either Defect or Non-Defective **(5)**
