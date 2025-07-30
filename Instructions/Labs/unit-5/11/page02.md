@@ -125,10 +125,10 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
       ![](../images/U5lab013-image(44).png)
 
-1. Double-click the **Split Data** component to open its settings. Specify the following and then click on **Save**:
+1. Double-click the **Split Data (1)** component to open its settings. Specify the following and then click on **Save (4)**:
 
-    - Fraction of rows in the first output dataset: **0.75** 
-    - Random seed: **42** 
+    - Fraction of rows in the first output dataset: **0.75**  **(2)**
+    - Random seed: **42**  **(3)**
 
         ![](../images/U5lab013-image45.png)
 
