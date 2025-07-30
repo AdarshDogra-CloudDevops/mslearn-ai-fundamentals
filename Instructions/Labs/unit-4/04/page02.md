@@ -21,7 +21,7 @@ In this lab, you will be able to complete the following tasks:
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the brower, **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
