@@ -11,8 +11,6 @@ In this lab, you will be able to complete the following tasks:
 - Task 3: Run the Pipeline
 - Task 4: Evaluate Model Performance
 
-
-
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
@@ -50,7 +48,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    
 1. This will take you inside the workspace where you can build and run machine learning experiments.
 
-   ![](../images/lab01-image4.png) 
+   ![](../images/g13.png) 
 
 1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu and select the **Designer** tab under the **Authoring** section. 
 
@@ -106,7 +104,7 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `Sensor_data_with_shutdown.csv` **(1)** 
+    - In the file browser, navigate to  `C:\LabFiles` and select the file: `Sensor_data_with_shutdown.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
@@ -164,9 +162,9 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 
     - Connect left output of **Clean Missing Data** to **Dataset** of **Split Data** **(4)**
 
-     ![](../images/n49c12.png)  
+      ![](../images/n49c12.png)  
 
-1. Double-click the **Split Data block (1)** on your canvas. The settings panel will appear on the right-hand side.
+1. Double click the **Split Data block (1)** on your canvas. The settings panel will appear on the right-hand side.
 
     - Under **Splitting mode**, make sure **Split Rows** is selected. (This means the data will be divided by rows, not by columns)
     - In the field labeled **Fraction of rows in the first output dataset**, type: `0.8` **(2)**
@@ -263,7 +261,7 @@ Cluster** from the drop down **(1)**
 
     ![](../images/nc17.png) 
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
@@ -328,11 +326,11 @@ Upload your training dataset that contains only 10–20 rows.
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `Sensor_data_with_shutdown_1.csv` **(1)** 
+    - In the file browser, navigate to `C:\LabFiles` and then select the file: `Sensor_data_with_shutdown_1.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
-      ![](../images/n49c6.png) 
+      ![](../images/g15.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
@@ -354,11 +352,20 @@ Upload your training dataset that contains only 10–20 rows.
 
     ![](../images/n49c41.png)
 
+1. On the **Basics**  First, for easy tracking, we’ll set up a new experiment.
+
+    - Under **Experiment name**, select **Select Existing** **(1)**
+    - In the field labeled **“Existing experiment”**, select **Training_pipeline (2)**   
+
+      ![](../images/g16.png)    
+
+1. **Inputs & Outputs**: We'll skip the section by clicking **Next**.     
+
 1. Select the Compute Created **Test (1)** and click **Next (2)**.   
 
     ![](../images/nc17.png) 
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
@@ -399,7 +406,9 @@ Introduce noise or errors into your dataset. You can:
 This run helps you test how your model reacts when trained on inaccurate or inconsistent 
 data.    
 
-1. Navigate back to the Pipeline designer, by switching the previous tab.
+1. Navigate back to the Pipeline designer, select **Designer (1)** and then select the the Pipeline to edit.
+
+    ![](../images/g14.png)
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
@@ -431,11 +440,11 @@ data.
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `Sensor_data_with_shutdown_2.csv` **(1)** 
+    - In the file browser, navigate to avigate to `C:\LabFiles` and select the file: `Sensor_data_with_shutdown_2.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
-      ![](../images/n49c6.png) 
+      ![](../images/g17.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
@@ -457,11 +466,17 @@ data.
 
     ![](../images/n49c35.png)
 
+1. Select **Next**.
+
+    ![](../images/g19.png)
+
+1. **Inputs & Outputs**: We'll skip the section by clicking **Next**.    
+
 1. Select the Compute Created **Test (1)** and click **Next (2)**.   
 
     ![](../images/nc17.png) 
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
