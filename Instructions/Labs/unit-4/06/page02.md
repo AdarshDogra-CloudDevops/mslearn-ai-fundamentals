@@ -1,6 +1,6 @@
 # Hands-On-Lab: Analyzing Manufacturing Feedback with Text Data
 
-In this hands-on lab, you will explore how manufacturers use customer feedback—gathered from surveys, warranty claims, and product reviews—to identify product issues and drive quality improvements. You will work with real-world textual data and build a machine learning pipeline using Azure ML Designer to predict customer satisfaction and uncover patterns such as common defects or recurring complaints.
+In this hands-on lab, you will work with real customer feedback data to identify product issues and predict customer satisfaction. You will use Azure ML Designer to preprocess text, extract features using N-Grams, and build a machine learning model using logistic regression. The lab guides you through splitting data, scoring, evaluating, and running the pipeline. By the end, you will be able to analyze textual data and view preview results to gain insights.
 
 ## Lab Objectives
 
