@@ -123,7 +123,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
     - Connect your dataset to the **Split Data (4)** module 
 
-      ![](../images/U5lab013-image(44).png)
+      ![](../images/U5lab013-image46.png)
 
 1. Double-click the **Split Data (1)** component to open its settings. Specify the following and then click on **Save (4)**:
 
