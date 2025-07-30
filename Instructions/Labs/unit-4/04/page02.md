@@ -2,6 +2,12 @@
 
 In this lab, you will build and deploy a machine‑learning pipeline in Azure Machine Learning Designer that detects anomalies in factory‑floor sensor data using Principal Component Analysis (PCA), connects to external data storage for scalable ingest, and triggers simulated robotic responses when potential machine failures are identified.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+-  Task 1: 
+
 
 ### Task 1: Create Azure ML Workspace
 
