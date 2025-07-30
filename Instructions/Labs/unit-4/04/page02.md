@@ -391,8 +391,7 @@ We now need to configure a bit more detail before running your pipeline in Azure
 
     - Select **New data asset (1)**
     
-    - **New data asset name** field, type
-**Model Output (2)**
+    - **New data asset name** field, type**Model Output (2)**
 
     - In the **Data asset** type dropdown, choose **Tabular (3)**
 
