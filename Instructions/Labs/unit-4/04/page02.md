@@ -28,8 +28,9 @@ In this task, you will set up an Azure Machine Learning workspace where all your
 
 2. If prompted, provide the credentials below:
 
-   - **Email/Username:** `<inject key="AzureAdUserEmail"></inject>`
-   - **Password:** `<inject key="AzureAdUserPassword"></inject>`
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 3. On the **Create a new workspace to get started with Azure ML** page, fill in the following fields:
 
