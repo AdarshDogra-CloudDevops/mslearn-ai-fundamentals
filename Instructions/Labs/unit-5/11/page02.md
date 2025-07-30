@@ -242,14 +242,18 @@ pipeline.
 
 ### Task 6: Model Evaluation Results (Azure ML Designer)
 
-1. Right click on the Score Model and Select **Preview Data -> Scored Dataset** to compare Scored Labels and actual PTS.
+1. Right click on the **Score Model** and Select **Preview Data -> Scored Dataset** to compare Scored Labels and actual PTS.
 
+      ![](../images/U5lab013-image54.png)
+       
 1. Right click on the **Evaluate Model** and then on **Preview Data -> Evaluation Results**.
 
     - RMSE (Root Mean Squared Error)
      
     - R² (how well the model explains the data)
 
+       ![](../images/U5lab013-image55.png)
+      
   - **Write down your results.**
 
      - Was the model accurate? Did it predict well for all players or only some.
@@ -260,7 +264,7 @@ pipeline.
 
      ![](../images/U5lab013-image53.png)
    
-1. Switch to the **Component** tab in the left panel **(1)** and search for Drag a **Boosted Decision Tree Regression** module onto the canvas.
+1. Switch to the **Component** tab in the left panel and search for Drag a **Boosted Decision Tree Regression** module onto the canvas.
 
 1. Delete the **Linear Regression** module and replace it with the **Boosted Decision Tree Regression** module. Then click on **Save**.
 
