@@ -41,43 +41,43 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
-    ![Manage Your Virtual Machine](./media/gext.png)
+    ![Manage Your Virtual Machine](../media/g6u4l4.png)
 
     >**Note:** You will get the **Hourglass** icon when 10 minutes are remaining in the lab.
 
 2. Click **OK** to extend your lab duration.
  
-   ![Manage Your Virtual Machine](./media/gext2.png)
+    ![Manage Your Virtual Machine](../media/g7u4l4.png)
 
 3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
 
 ## Let's Get Started with Azure Portal
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
-   ![Launch Azure Portal](./media/sc900-image(1).png)
+   ![Launch Azure Portal](../media/g3.png)
 
 2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-       ![Enter Your Username](./media/sc900-image-1.png)
+       ![Enter Your Username](../media/sc900-image-1.png)
  
 3. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](../media/sc900-image-2.png)
  
 4. If prompted to stay signed in, you can click **No**.
 
 5. If **Action required** pop-up window appears, click on **Ask later**.
    
-    ![](./media/asklater.png)
+    ![](../media/asklater.png)
  
 6. If prompted to stay signed in, you can click **No**.
 
-    ![](./media/staysigned2.png)
+    ![](../media/staysigned2.png)
  
 7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
 
@@ -88,13 +88,13 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 1. If **Action required** pop-up window appears, click on **Next**.
 
    
-   ![](./media/mfa1.png)
+   ![](../media/mfa1.png)
 
 1. On **Start by getting the app** page, click on **Next**.
 1. Click on **Next** twice.
 1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
 
-   ![Install](./media/mfa2.png)
+   ![Install](../media/mfa2.png)
 
    > Note: For Ios, Open the app store and repeat the steps.
 
@@ -104,13 +104,13 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 1. Scan the QR code visible on the screen and click on **Next**.
 
-   ![QR code](./media/mfa3.png)
+   ![QR code](../media/mfa3.png)
 
 1. Enter the digit displayed on the Screen in the Authenticator app on mobile and tap on **Yes**.
 
 1. Once the notification is approved, click on **Next**.
 
-   ![Approved](./media/mfa4.png)
+   ![Approved](../media/mfa4.png)
 
 1. Click on **Done**.
 
@@ -136,6 +136,6 @@ Learner Support Contacts:
 
 Click on **Next** from the lower right corner to move on to the next page.
 
-   ![Start Your Azure Journey](./media/sc900-image(3).png)
+   ![Start Your Azure Journey](../media/g4.png)
 
 ## Happy Learning !!
