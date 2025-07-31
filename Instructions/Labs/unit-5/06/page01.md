@@ -94,7 +94,7 @@ In this lab, you will be able to complete the following tasks:
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `SC_Basketball_Enhanced.csv` **(1)** 
+    - In the file browser, navigate to  `C:\LabFiles` and then select the file: `SC_Basketball_Enhanced.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
@@ -142,7 +142,7 @@ In this lab, you will be able to complete the following tasks:
 1. Double-click the **Split Data (1)** component to open its settings. Specify the following and then **Save (7)**:
 
     - Splitting mode: Make sure **Split Rows** is selected **(2)**
-    -  Fraction of rows in the first output dataset: Enter `0.7` **(3)**
+    -  Fraction of rows in the first output dataset: Enter `0.7` **(3)** (*This means **70%** of your data will be used for **training**, and the remaining 30% for testing*)
     - Randomized split is set to **True (4)**
     - Random seed field, type **42 (5)**
     - Confirm Stratified split is set to **False (6)**
@@ -173,7 +173,7 @@ training data) **(2)**
 
     ![](../images/n56c18.png)
 
-1. Enter **PTS** as the target to predict **(1)** and the **Save (2)**.
+1. Enter **PTS** and hit **Enter** as the target to predict **(1)** and the **Save (2)**.
 
     ![](../images/n56c19.png)
 
@@ -195,7 +195,7 @@ training data) **(2)**
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Evaluate Model (2).** Drag that component onto the canvas **(3)**.   
 
-    - Connect the **output from Score Model to Evaluate Model (4)**
+    - Connect the **output from Score Model** to **left input of Evaluate Model (4)**
     - Select **Save (5)**
 
       ![](../images/n56c23.png)
@@ -244,7 +244,7 @@ pipeline.
 
      ![](../images/n56c30.png)
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
