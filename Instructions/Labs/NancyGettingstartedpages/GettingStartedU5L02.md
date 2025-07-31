@@ -5,7 +5,7 @@ Welcome to your Sports Data workshop! We've prepared a seamless environment for 
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](../media/g12.png)
+![Access Your VM and Lab Guide](../media/g20.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
