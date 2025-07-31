@@ -39,6 +39,13 @@ In this hands-on lab, you will step into the role of a junior data scientist tas
 
      ![](../images/N10c4.png) 
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="d80779f4-17bd-44fe-a5b0-1ac36411b920" />
+
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
@@ -88,6 +95,13 @@ In this hands-on lab, you will step into the role of a junior data scientist tas
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
      ![](../images/N10c10.png)   
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="b2ba89a5-c09a-446e-9208-e7319ede4bf5" />
 
 ### Task 3: Add the Dataset to Your Pipeline Canvas
 
