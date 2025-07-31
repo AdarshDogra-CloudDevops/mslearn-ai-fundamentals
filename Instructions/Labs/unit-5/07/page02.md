@@ -145,7 +145,7 @@ In this lab, you will be able to complete the following tasks:
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `Clemson Tigers School History.csv` **(1)** 
+    - In the file browser, navigate to  `C:\LabFiles` and then select the file: `Clemson Tigers School History.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
@@ -248,7 +248,7 @@ the **Right** **“Dataset”** input of the **“Train Model”** component **(
 
     ![](../images/n57c33.png) 
 
-1. Switch to the **Component** tab in the left panel **(1)** and search for **“Score Mode (2).** Drag that component onto the canvas **(3)** below the `Train Model` component. 
+1. Switch to the **Component** tab in the left panel **(1)** and search for **“Score Model (2).** Drag that component onto the canvas **(3)** below the `Train Model` component. 
 
     ![](../images/n57c34.png) 
 
@@ -314,13 +314,13 @@ pipeline.
 
 1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
-     ![](../images/n57c41.png)  
+     ![](../images/nc16.png) 
 
 1. Select the Compute Created **Test (1)** and click **Next (2)**.   
 
      ![](../images/n56c30.png)
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
@@ -396,7 +396,7 @@ connected pipeline components.
 
      - Connect **output** of **K-Means Clustering** to **left input of Train Clustering Model (1)**
 
-     - Connect **left output of **Split Data** to **Right input of Train Clustering Model (2)**
+     - Connect **left output of Split Data** to **Right input of Train Clustering Model (2)**
 
        ![](../images/n57c53.png)
 
@@ -420,7 +420,7 @@ connected pipeline components.
 
     ![](../images/n57c56.png)
 
-1. Select **Column names (1)** and enter the following numeric columns you want the model to use:
+1. Select **Column names (1)** and copy the entire numeric columns provided below that you want the model to use and then hit **Enter**.
 
      - `Overall Wins, Overall Losses, Overall Ties, Overall Win-Loss Percentage, Conference Wins, Conference Losses, Conference Win-Loss Percentage, Simple Rating System, Strength of Schedule, AP Pre Rank, AP Highest Rank, CFP Highest Rank,CFP Final Rank` **(2)**
 
@@ -466,7 +466,7 @@ as before and then **Next (2)**.
 
     ![](../images/n57c63.png)
 
-1. Mke sure the pipeline is **completed (1)** if not then please wait. Right click on **Evaluate model (2)** then select  **Preview data (3)** and then select **Evaluation results (4)**.   
+1. Make sure the pipeline is **completed (1)** if not then please wait. Right click on **Evaluate model (2)** then select  **Preview data (3)** and then select **Evaluation results (4)**.   
 
     ![](../images/n57c64.png)
 
@@ -492,7 +492,9 @@ as before and then **Next (2)**.
 
     ![](../images/n57c66.png)
 
-1. Mke sure the pipeline is **completed (1)** if not then please wait. Right click on **Assign Data to Cluter (2)** then select  **Preview data (3)** and then select **Result dataset (4)**. 
+1. This will take around `10-15 mins` to complete as this has started just now. So please wait until the pipeline completed.    
+
+1. Make sure the pipeline is **completed (1)** if not then please wait. Right click on **Assign Data to Cluter (2)** then select  **Preview data (3)** and then select **Result dataset (4)**. 
 
     ![](../images/n57c67.png)
 
