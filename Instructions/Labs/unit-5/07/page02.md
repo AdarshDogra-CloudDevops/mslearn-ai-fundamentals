@@ -500,7 +500,7 @@ as before and then **Next (2)**.
 
 1. When previewing the data, you will see a new column called **“Assignments.”** This column assigns each row a **cluster ID**, like `0, 1,` or `2`. These cluster IDs are arbitrary, which means no cluster is automatically better or worse than another cluster.
 
-    ![](../images/n57c-68.png)
+    ![](../images/g28.png)
 
      >**Interpretation Tips**: Use your analysis of the clustered data to assign meaningful labels to each group. 
 
