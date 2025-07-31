@@ -18,7 +18,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-2. If prompted, provide the credentials below:
+1. If prompted, provide the credentials below:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
