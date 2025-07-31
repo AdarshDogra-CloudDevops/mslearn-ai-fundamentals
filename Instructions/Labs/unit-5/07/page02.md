@@ -112,16 +112,6 @@ In this lab, you will be able to complete the following tasks:
 
      ![](../images/n57c14.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
->
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
-
-<validation step="2cf274aa-3ba9-470b-8225-3a5bbc90ddba" />
-
----   
-
 ### Task 3: Add the Dataset to Your Pipeline Canvas     
 
 1. Navigate to **Data (1)** from the left navigation and then select **+ Create (2)**.
@@ -173,24 +163,33 @@ In this lab, you will be able to complete the following tasks:
 
     ![](../images/n57c19.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="2cf274aa-3ba9-470b-8225-3a5bbc90ddba" />
+
+---       
 
 ### Task 4: Cloning our Preprocessing Pipeline
 
 1. Navigate to **Pipeline (1)** from the left navigation pane and then Select **Pipeline drafts (2)** tab and then click on **Preprocessing_Pipeline (3)**.
 
-    ![](../images/n57c-20.png)
+   ![](../images/n57c-20.png)
 
 1. Click the **Clone** button at the top. This will create a copy of the pipeline and open it in a new tab.
 
-    ![](../images/n57c21.png)
+   ![](../images/n57c21.png)
 
 1. Select the **Pencil** icon to rename the Pipeline.    
 
-    ![](../images/n57c22.png)
+   ![](../images/n57c22.png)
 
 1. Rename your cloned pipeline to **Clemson – Supervised Pipeline (1)** and then **Save (2)**.    
 
-    ![](../images/n57c23.png)
+   ![](../images/n57c23.png)
 
 
 ### Task 5: Classification in Azure (Supervised)
