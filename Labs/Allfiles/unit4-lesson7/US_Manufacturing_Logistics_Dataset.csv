@@ -1,0 +1,1001 @@
+Shipment ID,Supplier,Origin,Destination,Material,Vehicle Type,Distance (miles),Planned ETA (days),Actual ETA (days),Shipment Status,Delay_Flag,Quantity Shipped,Shipping Cost (USD)
+USHP2000,Greene and Sons,Houston,Phoenix,Brake Discs,Trailer,859,1,5,Delayed,1,336,1484.25
+USHP2001,Miller-Green,Chicago,Los Angeles,Car Batteries,Cargo Van,445,1,7,Delayed,1,473,1516.25
+USHP2002,Frey-Morris,Los Angeles,Houston,Windshield Wipers,Freight Truck,1343,4,1,On Time,0,136,1347.25
+USHP2003,Munoz-Smith,New York,Houston,Windshield Wipers,Trailer,1136,1,3,Delayed,1,253,1484.5
+USHP2004,"Fernandez, Moore and Hart",Phoenix,Phoenix,Oil Filters,Freight Truck,1228,2,5,Delayed,1,277,1613.5
+USHP2005,Lee PLC,Phoenix,Los Angeles,Spark Plugs,Cargo Van,559,4,1,On Time,0,132,749.25
+USHP2006,"Simmons, Lawrence and Stevens",Chicago,Chicago,Windshield Wipers,Trailer,92,4,9,Delayed,1,188,539
+USHP2007,"Brown, Frazier and Glass",Los Angeles,Phoenix,Spark Plugs,Trailer,1165,4,2,On Time,0,375,1811.25
+USHP2008,"Rodriguez, Carter and Johnson",Houston,Chicago,Oil Filters,Freight Truck,1087,4,2,On Time,0,268,1485.25
+USHP2009,"Torres, King and Rowland",Houston,Chicago,Windshield Wipers,Freight Truck,471,3,5,Delayed,1,125,665.75
+USHP2010,Gill Ltd,Houston,Chicago,Car Batteries,Trailer,650,6,8,Delayed,1,288,1207.5
+USHP2011,"Adams, Moore and Spears",New York,New York,Windshield Wipers,Cargo Van,822,3,9,Delayed,1,454,1751.5
+USHP2012,Morales and Sons,Phoenix,Chicago,Spark Plugs,Cargo Van,1428,7,1,On Time,0,475,2258.5
+USHP2013,"Johnson, Powers and Cole",Phoenix,Phoenix,Windshield Wipers,Cargo Van,569,4,7,Delayed,1,244,1036.75
+USHP2014,"King, Hoffman and Howard",Chicago,Chicago,Oil Filters,Cargo Van,237,7,6,On Time,0,263,835.25
+USHP2015,"Cohen, Davies and Rodriguez",Chicago,Chicago,Windshield Wipers,Cargo Van,681,5,1,On Time,0,248,1130.75
+USHP2016,Peck-Mckenzie,New York,Houston,Car Batteries,Trailer,1488,6,1,On Time,0,424,2176
+USHP2017,"Hayes, Santos and Kim",Houston,Chicago,Car Batteries,Cargo Van,830,6,3,On Time,0,113,905
+USHP2018,"Garcia, Gonzales and Goodwin",Los Angeles,Houston,Car Batteries,Cargo Van,597,4,6,Delayed,1,299,1195.25
+USHP2019,"Guzman, Jefferson and Mitchell",Los Angeles,Chicago,Oil Filters,Trailer,1231,2,6,Delayed,1,516,2213.25
+USHP2020,Adkins LLC,Houston,Los Angeles,Brake Discs,Freight Truck,315,7,4,On Time,0,83,443.75
+USHP2021,"Delgado, Sanders and Wallace",New York,Phoenix,Oil Filters,Trailer,1294,4,6,Delayed,1,406,1985.5
+USHP2022,Hester-Taylor,New York,Chicago,Oil Filters,Freight Truck,303,5,4,On Time,0,25,289.75
+USHP2023,Young-Peterson,Houston,Los Angeles,Oil Filters,Cargo Van,1063,3,3,On Time,0,373,1729.75
+USHP2024,Lewis Ltd,Houston,New York,Oil Filters,Freight Truck,126,5,9,Delayed,1,380,1044.5
+USHP2025,"Wright, Berry and Ruiz",Chicago,Chicago,Brake Discs,Trailer,1038,3,1,On Time,0,140,1128.5
+USHP2026,Vasquez-Gilbert,Chicago,New York,Spark Plugs,Freight Truck,810,4,6,Delayed,1,481,1810
+USHP2027,"Boyd, Hunt and Roberts",Los Angeles,Chicago,Spark Plugs,Cargo Van,825,7,8,Delayed,1,370,1543.75
+USHP2028,Thomas PLC,Chicago,Los Angeles,Spark Plugs,Cargo Van,162,2,1,On Time,0,301,874
+USHP2029,Ortiz PLC,Los Angeles,Los Angeles,Brake Discs,Trailer,891,3,5,Delayed,1,49,790.75
+USHP2030,Griffin PLC,New York,Houston,Car Batteries,Freight Truck,396,1,2,Delayed,1,470,1472
+USHP2031,"Chapman, Johnson and Smith",Los Angeles,Phoenix,Brake Discs,Cargo Van,388,6,5,On Time,0,99,538.5
+USHP2032,Nguyen-Jones,Los Angeles,Los Angeles,Brake Discs,Freight Truck,786,7,7,On Time,0,329,1412
+USHP2033,"Davis, Thomas and Holland",Phoenix,Phoenix,Car Batteries,Freight Truck,592,3,5,Delayed,1,147,811.5
+USHP2034,"Schultz, Alvarez and Stokes",Houston,Los Angeles,Oil Filters,Freight Truck,615,3,2,On Time,0,579,1908.75
+USHP2035,Cortez-Roberts,Phoenix,Houston,Brake Discs,Cargo Van,627,3,8,Delayed,1,328,1290.25
+USHP2036,Williams-Lee,New York,New York,Windshield Wipers,Trailer,1332,4,1,On Time,0,310,1774
+USHP2037,Galloway Inc,Houston,Phoenix,Windshield Wipers,Trailer,1118,1,5,Delayed,1,157,1231
+USHP2038,Powell Ltd,Los Angeles,Chicago,Oil Filters,Trailer,340,5,5,On Time,0,236,845
+USHP2039,"Wilson, Garza and Lee",New York,New York,Brake Discs,Freight Truck,600,7,4,On Time,0,99,697.5
+USHP2040,Hodges LLC,Phoenix,New York,Windshield Wipers,Cargo Van,878,2,4,Delayed,1,181,1111
+USHP2041,Kelly PLC,New York,Houston,Oil Filters,Trailer,104,7,6,On Time,0,461,1230.5
+USHP2042,Anderson PLC,Chicago,Chicago,Oil Filters,Freight Truck,1055,2,6,Delayed,1,161,1193.75
+USHP2043,Young-Johnson,New York,New York,Windshield Wipers,Cargo Van,322,2,8,Delayed,1,102,496.5
+USHP2044,Martin-Stevens,Phoenix,Houston,Oil Filters,Freight Truck,949,6,2,On Time,0,573,2144.25
+USHP2045,Beasley Ltd,Los Angeles,Houston,Oil Filters,Cargo Van,820,7,9,Delayed,1,591,2092.5
+USHP2046,Jackson Ltd,Houston,Los Angeles,Oil Filters,Freight Truck,677,4,3,On Time,0,343,1365.25
+USHP2047,Middleton LLC,Los Angeles,Chicago,Brake Discs,Freight Truck,466,5,4,On Time,0,21,402
+USHP2048,Smith-Newton,Houston,Phoenix,Spark Plugs,Freight Truck,792,1,3,Delayed,1,333,1426.5
+USHP2049,"Sullivan, Murray and Trujillo",Los Angeles,Chicago,Brake Discs,Freight Truck,1474,5,5,On Time,0,442,2210.5
+USHP2050,"Castillo, Jones and Lara",Houston,New York,Oil Filters,Cargo Van,68,7,3,On Time,0,384,1011
+USHP2051,Shepard-Carrillo,New York,Chicago,Car Batteries,Trailer,1126,7,1,On Time,0,435,1932
+USHP2052,Harris-Brewer,Los Angeles,New York,Car Batteries,Cargo Van,741,3,5,Delayed,1,240,1155.75
+USHP2053,"Barnes, Henderson and Jones",Los Angeles,Houston,Windshield Wipers,Freight Truck,890,1,2,Delayed,1,523,1975
+USHP2054,"Howard, Fry and Lewis",New York,Los Angeles,Car Batteries,Freight Truck,155,3,7,Delayed,1,536,1456.25
+USHP2055,Dickerson Inc,New York,Phoenix,Spark Plugs,Cargo Van,389,5,8,Delayed,1,576,1731.75
+USHP2056,Carey PLC,Chicago,New York,Spark Plugs,Cargo Van,800,1,2,Delayed,1,593,2082.5
+USHP2057,Floyd-Lewis,Chicago,Phoenix,Oil Filters,Cargo Van,280,6,2,On Time,0,192,690
+USHP2058,Scott Ltd,New York,Phoenix,Windshield Wipers,Cargo Van,1176,4,3,On Time,0,378,1827
+USHP2059,Williams-Holt,Chicago,New York,Windshield Wipers,Freight Truck,619,2,7,Delayed,1,513,1746.75
+USHP2060,"Blake, Reed and Jones",Phoenix,Houston,Oil Filters,Cargo Van,101,4,8,Delayed,1,73,258.25
+USHP2061,Bailey-Shaffer,Los Angeles,Chicago,Oil Filters,Cargo Van,570,4,5,Delayed,1,75,615
+USHP2062,"Martin, Kelley and Henry",Los Angeles,Phoenix,Windshield Wipers,Trailer,1241,2,2,On Time,0,245,1543.25
+USHP2063,Hines-Wheeler,Houston,New York,Brake Discs,Freight Truck,253,6,7,Delayed,1,50,314.75
+USHP2064,Brown-Scott,Chicago,Houston,Brake Discs,Freight Truck,1264,5,7,Delayed,1,309,1720.5
+USHP2065,Adams LLC,New York,Houston,Oil Filters,Cargo Van,81,5,7,Delayed,1,35,148.25
+USHP2066,"Petty, Miles and Mills",Chicago,Chicago,Oil Filters,Cargo Van,1070,5,6,Delayed,1,308,1572.5
+USHP2067,Hill Ltd,Houston,Houston,Brake Discs,Cargo Van,723,6,5,On Time,0,108,812.25
+USHP2068,Carter-Estes,Los Angeles,Houston,Windshield Wipers,Trailer,1225,7,1,On Time,0,284,1628.75
+USHP2069,Miller LLC,Phoenix,New York,Brake Discs,Cargo Van,1495,6,3,On Time,0,127,1438.75
+USHP2070,Fowler Group,New York,New York,Car Batteries,Trailer,1036,6,2,On Time,0,152,1157
+USHP2071,Miller-Jones,Los Angeles,Phoenix,Oil Filters,Trailer,170,1,5,Delayed,1,164,537.5
+USHP2072,Nguyen PLC,Chicago,New York,Oil Filters,Freight Truck,956,3,2,On Time,0,427,1784.5
+USHP2073,Johnson-Kirk,Chicago,Los Angeles,Spark Plugs,Trailer,242,2,6,Delayed,1,276,871.5
+USHP2074,"Austin, Woodard and Harvey",New York,Los Angeles,Spark Plugs,Cargo Van,382,2,1,On Time,0,455,1424
+USHP2075,"Martin, Cruz and Wang",New York,Houston,Car Batteries,Freight Truck,266,5,1,On Time,0,181,652
+USHP2076,Petersen PLC,Houston,Houston,Brake Discs,Cargo Van,927,2,5,Delayed,1,63,852.75
+USHP2077,Huff Group,Houston,Phoenix,Brake Discs,Cargo Van,795,4,1,On Time,0,295,1333.75
+USHP2078,Flores and Sons,New York,Los Angeles,Oil Filters,Trailer,357,1,7,Delayed,1,576,1707.75
+USHP2079,"Myers, Mann and Adams",Houston,New York,Spark Plugs,Freight Truck,1288,4,7,Delayed,1,546,2331
+USHP2080,Miller PLC,Phoenix,Houston,Oil Filters,Trailer,1407,3,5,Delayed,1,368,1975.25
+USHP2081,Turner-Alexander,New York,Phoenix,Spark Plugs,Freight Truck,310,5,8,Delayed,1,90,457.5
+USHP2082,Lucas LLC,Phoenix,Houston,Windshield Wipers,Freight Truck,1395,5,4,On Time,0,514,2331.25
+USHP2083,Willis-Turner,New York,New York,Windshield Wipers,Freight Truck,499,5,7,Delayed,1,208,894.25
+USHP2084,"Turner, Bell and Ware",Chicago,Chicago,Oil Filters,Cargo Van,292,6,3,On Time,0,41,321.5
+USHP2085,"Foster, Jimenez and Johnson",Houston,Chicago,Windshield Wipers,Cargo Van,1195,2,9,Delayed,1,419,1943.75
+USHP2086,"Weber, Nguyen and Allen",Los Angeles,Los Angeles,Oil Filters,Freight Truck,525,7,4,On Time,0,235,981.25
+USHP2087,Clark and Sons,Phoenix,Los Angeles,Spark Plugs,Cargo Van,1330,4,9,Delayed,1,518,2292.5
+USHP2088,Scott-Scott,Los Angeles,Los Angeles,Brake Discs,Cargo Van,1148,1,4,Delayed,1,482,2066
+USHP2089,Gonzalez-Pennington,Houston,Los Angeles,Brake Discs,Freight Truck,721,7,3,On Time,0,135,878.25
+USHP2090,"Bush, Harris and Boyle",Los Angeles,New York,Car Batteries,Trailer,1500,6,1,On Time,0,37,1217.5
+USHP2091,Frazier Group,Phoenix,Chicago,Windshield Wipers,Freight Truck,1110,7,4,On Time,0,80,1032.5
+USHP2092,Morales-Barker,Houston,Chicago,Windshield Wipers,Cargo Van,384,6,3,On Time,0,144,648
+USHP2093,Scott-Boyd,Los Angeles,Houston,Windshield Wipers,Trailer,940,6,6,On Time,0,64,865
+USHP2094,Gonzales-Peterson,Phoenix,Los Angeles,Brake Discs,Trailer,158,3,2,On Time,0,309,891
+USHP2095,"Myers, Graham and Burnett",New York,Los Angeles,Oil Filters,Trailer,983,6,1,On Time,0,539,2084.75
+USHP2096,Wright-Wolfe,New York,Chicago,Windshield Wipers,Trailer,279,4,1,On Time,0,189,681.75
+USHP2097,Fox-Gibson,Chicago,Chicago,Oil Filters,Trailer,1430,2,4,Delayed,1,342,1927.5
+USHP2098,Butler PLC,Phoenix,Chicago,Brake Discs,Freight Truck,907,1,7,Delayed,1,548,2050.25
+USHP2099,"Arnold, Wu and Green",Houston,New York,Windshield Wipers,Freight Truck,253,2,7,Delayed,1,228,759.75
+USHP2100,Edwards PLC,Phoenix,Chicago,Windshield Wipers,Trailer,1270,6,6,On Time,0,567,2370
+USHP2101,Goodman PLC,Chicago,Los Angeles,Car Batteries,Cargo Van,923,2,5,Delayed,1,483,1899.75
+USHP2102,Taylor-Moore,New York,Los Angeles,Brake Discs,Trailer,255,2,8,Delayed,1,490,1416.25
+USHP2103,Roberts and Sons,Houston,New York,Windshield Wipers,Cargo Van,871,2,5,Delayed,1,400,1653.25
+USHP2104,"Keith, Gonzalez and Campbell",Los Angeles,New York,Oil Filters,Trailer,731,7,9,Delayed,1,120,848.25
+USHP2105,Mcintosh-Thomas,Los Angeles,New York,Windshield Wipers,Trailer,89,6,7,Delayed,1,131,394.25
+USHP2106,Rios LLC,Phoenix,Phoenix,Car Batteries,Cargo Van,552,2,3,Delayed,1,256,1054
+USHP2107,"Young, Williams and Harris",Phoenix,Los Angeles,Car Batteries,Trailer,271,3,2,On Time,0,519,1500.75
+USHP2108,Richardson Inc,New York,Chicago,Brake Discs,Trailer,1320,7,4,On Time,0,282,1695
+USHP2109,Castillo Inc,New York,Los Angeles,Spark Plugs,Trailer,1383,5,4,On Time,0,451,2164.75
+USHP2110,Davis Ltd,Los Angeles,Houston,Spark Plugs,Cargo Van,468,1,7,Delayed,1,299,1098.5
+USHP2111,"Dyer, Boyer and Coleman",New York,Los Angeles,Oil Filters,Freight Truck,427,5,3,On Time,0,276,1010.25
+USHP2112,Stewart-Nichols,Phoenix,Phoenix,Windshield Wipers,Freight Truck,506,5,2,On Time,0,274,1064.5
+USHP2113,Blake PLC,Phoenix,Houston,Windshield Wipers,Trailer,1351,3,5,Delayed,1,552,2393.25
+USHP2114,"Rogers, Garcia and Potter",New York,Los Angeles,Brake Discs,Cargo Van,939,2,8,Delayed,1,119,1001.75
+USHP2115,Brown-Henderson,New York,New York,Spark Plugs,Trailer,261,6,7,Delayed,1,149,568.25
+USHP2116,Craig Inc,Phoenix,Chicago,Brake Discs,Freight Truck,776,3,6,Delayed,1,145,944.5
+USHP2117,Coleman LLC,Los Angeles,Los Angeles,Windshield Wipers,Trailer,1210,3,3,On Time,0,221,1460
+USHP2118,Smith-Daniel,Chicago,Los Angeles,Car Batteries,Freight Truck,778,3,2,On Time,0,169,1006
+USHP2119,Beck-Dawson,New York,Phoenix,Oil Filters,Cargo Van,670,7,4,On Time,0,433,1585
+USHP2120,Jones Ltd,New York,New York,Spark Plugs,Cargo Van,640,4,1,On Time,0,171,907.5
+USHP2121,Walsh Group,Phoenix,Chicago,Brake Discs,Freight Truck,1076,1,8,Delayed,1,308,1577
+USHP2122,Stout Ltd,Los Angeles,New York,Windshield Wipers,Trailer,520,6,4,On Time,0,274,1075
+USHP2123,Martinez and Sons,Los Angeles,New York,Car Batteries,Cargo Van,751,1,1,On Time,0,279,1260.75
+USHP2124,Armstrong-Hayes,Los Angeles,Houston,Oil Filters,Freight Truck,1038,5,4,On Time,0,513,2061
+USHP2125,"Gill, Brown and Mitchell",Chicago,Chicago,Spark Plugs,Cargo Van,826,1,7,Delayed,1,342,1474.5
+USHP2126,Gilbert-Hutchinson,New York,New York,Brake Discs,Freight Truck,940,3,6,Delayed,1,384,1665
+USHP2127,Martin Group,Los Angeles,Los Angeles,Brake Discs,Cargo Van,1116,1,8,Delayed,1,123,1144.5
+USHP2128,Richards and Sons,Phoenix,Houston,Car Batteries,Cargo Van,943,1,2,Delayed,1,522,2012.25
+USHP2129,"Flores, Willis and Copeland",Chicago,Phoenix,Oil Filters,Freight Truck,1168,7,3,On Time,0,240,1476
+USHP2130,"Alexander, Martinez and Carlson",New York,Chicago,Oil Filters,Freight Truck,610,5,2,On Time,0,428,1527.5
+USHP2131,"Miller, Hudson and Caldwell",Chicago,Los Angeles,Windshield Wipers,Cargo Van,970,5,6,Delayed,1,484,1937.5
+USHP2132,"Galloway, Thornton and Nguyen",Phoenix,Chicago,Oil Filters,Trailer,50,1,2,Delayed,1,101,290
+USHP2133,Bird LLC,Phoenix,Phoenix,Brake Discs,Trailer,214,7,2,On Time,0,75,348
+USHP2134,"Hunt, Marshall and Scott",Los Angeles,New York,Spark Plugs,Cargo Van,1456,1,8,Delayed,1,267,1759.5
+USHP2135,Edwards-King,Chicago,Houston,Spark Plugs,Cargo Van,1207,3,2,On Time,0,589,2377.75
+USHP2136,Adams LLC,Phoenix,Los Angeles,Oil Filters,Trailer,1280,4,4,On Time,0,564,2370
+USHP2137,"Johnson, Tran and Torres",Los Angeles,Chicago,Windshield Wipers,Cargo Van,339,4,3,On Time,0,72,434.25
+USHP2138,"Barton, Jackson and Casey",New York,New York,Oil Filters,Freight Truck,1184,1,2,Delayed,1,460,2038
+USHP2139,"Brown, Smith and Tapia",Phoenix,New York,Car Batteries,Cargo Van,385,5,1,On Time,0,208,808.75
+USHP2140,Santos-Jordan,Los Angeles,Houston,Spark Plugs,Trailer,1468,7,9,Delayed,1,125,1413.5
+USHP2141,"Smith, Johnson and Duran",Houston,Phoenix,Brake Discs,Cargo Van,638,3,1,On Time,0,347,1346
+USHP2142,Taylor-Davis,Chicago,Los Angeles,Brake Discs,Trailer,1408,7,6,On Time,0,511,2333.5
+USHP2143,Lawson Ltd,Los Angeles,New York,Car Batteries,Freight Truck,803,4,3,On Time,0,152,982.25
+USHP2144,"Wilson, Parks and Jones",Chicago,Phoenix,Spark Plugs,Freight Truck,871,3,5,Delayed,1,475,1840.75
+USHP2145,"Cabrera, Martin and Casey",Phoenix,New York,Spark Plugs,Cargo Van,560,5,8,Delayed,1,419,1467.5
+USHP2146,Miller Group,Houston,New York,Spark Plugs,Cargo Van,1457,3,4,Delayed,1,67,1260.25
+USHP2147,Diaz-Russo,Houston,Los Angeles,Car Batteries,Cargo Van,700,7,5,On Time,0,433,1607.5
+USHP2148,Cook-Francis,Los Angeles,Phoenix,Windshield Wipers,Trailer,803,7,4,On Time,0,252,1232.25
+USHP2149,Bennett PLC,Chicago,Houston,Windshield Wipers,Freight Truck,1018,4,7,Delayed,1,497,2006
+USHP2150,Smith-Watkins,Houston,New York,Windshield Wipers,Trailer,1297,7,9,Delayed,1,157,1365.25
+USHP2151,"Snyder, Dyer and Tran",Phoenix,New York,Oil Filters,Cargo Van,1253,3,9,Delayed,1,205,1452.25
+USHP2152,Roberts-Smith,New York,Los Angeles,Windshield Wipers,Freight Truck,731,2,8,Delayed,1,569,1970.75
+USHP2153,Jones LLC,New York,Houston,Windshield Wipers,Cargo Van,71,1,5,Delayed,1,32,133.25
+USHP2154,Kelley and Sons,New York,Chicago,Car Batteries,Cargo Van,126,3,6,Delayed,1,395,1082
+USHP2155,Flores-Lane,Los Angeles,Los Angeles,Windshield Wipers,Trailer,84,1,1,On Time,0,302,818
+USHP2156,Johnson-Baker,Chicago,Houston,Windshield Wipers,Trailer,583,5,3,On Time,0,559,1834.75
+USHP2157,"Carrillo, Perez and Shields",New York,New York,Windshield Wipers,Freight Truck,1092,4,4,On Time,0,560,2219
+USHP2158,Brewer-Golden,Houston,Phoenix,Windshield Wipers,Cargo Van,221,6,3,On Time,0,152,545.75
+USHP2159,"Herrera, Todd and Smith",Phoenix,Los Angeles,Windshield Wipers,Trailer,1097,2,3,Delayed,1,95,1060.25
+USHP2160,"Bryan, Robinson and Wilson",Phoenix,Chicago,Car Batteries,Freight Truck,62,4,5,Delayed,1,280,746.5
+USHP2161,Rodriguez-Pierce,Chicago,Chicago,Brake Discs,Freight Truck,591,5,9,Delayed,1,108,713.25
+USHP2162,Martinez Inc,Chicago,Houston,Windshield Wipers,Trailer,394,1,6,Delayed,1,440,1395.5
+USHP2163,Phillips Ltd,Phoenix,Los Angeles,Oil Filters,Trailer,416,1,2,Delayed,1,238,907
+USHP2164,"Neal, Mitchell and Gill",Phoenix,Houston,Spark Plugs,Cargo Van,374,7,7,On Time,0,300,1030.5
+USHP2165,Harrison LLC,Houston,Los Angeles,Spark Plugs,Freight Truck,1291,3,1,On Time,0,45,1080.75
+USHP2166,Clark-Mckay,Chicago,Phoenix,Spark Plugs,Freight Truck,220,2,4,Delayed,1,588,1635
+USHP2167,Graham and Sons,Houston,Chicago,Oil Filters,Trailer,301,4,4,On Time,0,383,1183.25
+USHP2168,"Gonzalez, Johnson and Nixon",Chicago,Houston,Oil Filters,Cargo Van,237,5,5,On Time,0,29,250.25
+USHP2169,Vega-Maldonado,Los Angeles,Houston,Spark Plugs,Freight Truck,400,1,4,Delayed,1,507,1567.5
+USHP2170,Romero-Shah,Chicago,Phoenix,Brake Discs,Trailer,549,2,7,Delayed,1,583,1869.25
+USHP2171,Miller PLC,Los Angeles,Los Angeles,Spark Plugs,Freight Truck,878,5,7,Delayed,1,545,2021
+USHP2172,"Hutchinson, Ward and Payne",New York,Los Angeles,Windshield Wipers,Trailer,721,5,9,Delayed,1,294,1275.75
+USHP2173,Perez-Johnson,Houston,New York,Windshield Wipers,Cargo Van,1353,7,2,On Time,0,398,2009.75
+USHP2174,"Rodriguez, Long and Spencer",Houston,New York,Brake Discs,Cargo Van,1140,6,6,On Time,0,150,1230
+USHP2175,Davis-Herrera,Chicago,Houston,Oil Filters,Freight Truck,813,7,7,On Time,0,361,1512.25
+USHP2176,Hunter-Duke,Chicago,Phoenix,Brake Discs,Freight Truck,887,5,4,On Time,0,38,760.25
+USHP2177,"Owens, Martin and Watson",Chicago,Los Angeles,Spark Plugs,Trailer,104,5,5,On Time,0,260,728
+USHP2178,Clark-Gonzalez,Chicago,New York,Oil Filters,Freight Truck,748,2,2,On Time,0,579,2008.5
+USHP2179,Brown Ltd,Chicago,Houston,Windshield Wipers,Cargo Van,1306,1,9,Delayed,1,411,2007
+USHP2180,Ryan Group,Houston,New York,Spark Plugs,Trailer,462,1,2,Delayed,1,152,726.5
+USHP2181,Harper LLC,Houston,New York,Car Batteries,Trailer,158,3,8,Delayed,1,500,1368.5
+USHP2182,Morales-Shields,Houston,Phoenix,Brake Discs,Cargo Van,563,3,2,On Time,0,506,1687.25
+USHP2183,"Harrington, Brown and Holland",Houston,Phoenix,Oil Filters,Trailer,1212,7,1,On Time,0,332,1739
+USHP2184,Hernandez-Morrow,Houston,Houston,Oil Filters,Trailer,802,6,5,On Time,0,452,1731.5
+USHP2185,Edwards-Sims,Chicago,Houston,Car Batteries,Trailer,1301,4,4,On Time,0,320,1775.75
+USHP2186,Hunter-Rodriguez,New York,Los Angeles,Car Batteries,Cargo Van,1360,2,5,Delayed,1,196,1510
+USHP2187,Cooper-Fitzpatrick,Phoenix,Phoenix,Windshield Wipers,Trailer,310,4,9,Delayed,1,468,1402.5
+USHP2188,Graham Ltd,New York,Phoenix,Windshield Wipers,Cargo Van,890,3,5,Delayed,1,25,730
+USHP2189,"Adkins, Carrillo and Doyle",New York,Los Angeles,Brake Discs,Cargo Van,1427,6,4,On Time,0,313,1852.75
+USHP2190,Chang Ltd,Los Angeles,Los Angeles,Windshield Wipers,Trailer,815,4,4,On Time,0,429,1683.75
+USHP2191,"Thompson, Ward and Kelley",Phoenix,Chicago,Oil Filters,Trailer,1370,7,9,Delayed,1,288,1747.5
+USHP2192,Patrick-Mcclure,Los Angeles,New York,Spark Plugs,Freight Truck,903,5,8,Delayed,1,76,867.25
+USHP2193,"Colon, Tate and Dougherty",New York,Houston,Oil Filters,Trailer,449,1,6,Delayed,1,139,684.25
+USHP2194,Mcintosh-Dean,New York,Phoenix,Windshield Wipers,Freight Truck,451,2,9,Delayed,1,273,1020.75
+USHP2195,Oneill-Russo,Los Angeles,Los Angeles,Windshield Wipers,Cargo Van,857,5,4,On Time,0,376,1582.75
+USHP2196,Jackson PLC,Chicago,Los Angeles,Oil Filters,Freight Truck,873,2,5,Delayed,1,20,704.75
+USHP2197,Hancock and Sons,Phoenix,Chicago,Spark Plugs,Cargo Van,1267,4,6,Delayed,1,574,2385.25
+USHP2198,"Cain, Anderson and Miller",Los Angeles,Chicago,Car Batteries,Freight Truck,789,6,6,On Time,0,215,1129.25
+USHP2199,Hoffman and Sons,Los Angeles,New York,Car Batteries,Cargo Van,959,4,1,On Time,0,465,1881.75
+USHP2200,Garrison-Martin,Los Angeles,Phoenix,Spark Plugs,Freight Truck,1084,2,8,Delayed,1,175,1250.5
+USHP2201,"Calderon, Harris and Booker",New York,Chicago,Brake Discs,Freight Truck,592,2,1,On Time,0,225,1006.5
+USHP2202,Chandler and Sons,Houston,Houston,Car Batteries,Cargo Van,568,2,1,On Time,0,251,1053.5
+USHP2203,Sanchez LLC,Los Angeles,Los Angeles,Windshield Wipers,Cargo Van,480,3,1,On Time,0,218,905
+USHP2204,"Frazier, Briggs and Huynh",New York,New York,Spark Plugs,Cargo Van,1417,7,8,Delayed,1,575,2500.25
+USHP2205,Hicks-Davis,Phoenix,New York,Oil Filters,Freight Truck,1247,3,7,Delayed,1,422,1990.25
+USHP2206,Pena and Sons,Houston,Chicago,Windshield Wipers,Trailer,742,7,4,On Time,0,94,791.5
+USHP2207,"York, Stanley and Beard",Los Angeles,Houston,Windshield Wipers,Trailer,1340,4,3,On Time,0,173,1437.5
+USHP2208,"Hall, Hayes and Sanchez",New York,New York,Brake Discs,Trailer,853,3,6,Delayed,1,136,979.75
+USHP2209,Andrews LLC,New York,Los Angeles,Car Batteries,Freight Truck,589,3,6,Delayed,1,523,1749.25
+USHP2210,"Perez, Jennings and Stewart",Phoenix,New York,Windshield Wipers,Cargo Van,50,1,9,Delayed,1,270,712.5
+USHP2211,Leon-Miller,Houston,Houston,Windshield Wipers,Cargo Van,1093,6,8,Delayed,1,242,1424.75
+USHP2212,Norman-Gonzalez,Chicago,Chicago,Oil Filters,Trailer,857,7,6,On Time,0,446,1757.75
+USHP2213,Owens Inc,Los Angeles,Houston,Car Batteries,Cargo Van,1443,7,3,On Time,0,71,1259.75
+USHP2214,Sellers-Douglas,Chicago,Phoenix,Spark Plugs,Freight Truck,1490,3,4,Delayed,1,578,2562.5
+USHP2215,"Alvarez, Lowe and Carter",Los Angeles,Los Angeles,Windshield Wipers,Trailer,1415,4,5,Delayed,1,291,1788.75
+USHP2216,Jones Group,Houston,Chicago,Windshield Wipers,Cargo Van,581,2,6,Delayed,1,598,1930.75
+USHP2217,Warren-Gonzalez,Chicago,Chicago,Spark Plugs,Trailer,1193,6,3,On Time,0,405,1907.25
+USHP2218,"Johnson, Flores and Lopez",Chicago,Houston,Windshield Wipers,Cargo Van,708,1,8,Delayed,1,69,703.5
+USHP2219,Delacruz-Martin,Chicago,Chicago,Spark Plugs,Trailer,877,2,1,On Time,0,230,1232.75
+USHP2220,"Austin, Graham and Blair",Chicago,Phoenix,Windshield Wipers,Cargo Van,756,4,9,Delayed,1,581,2019.5
+USHP2221,Long-Wheeler,New York,Chicago,Oil Filters,Cargo Van,160,3,4,Delayed,1,352,1000
+USHP2222,"Brewer, Ho and Jackson",Los Angeles,Phoenix,Car Batteries,Freight Truck,416,3,6,Delayed,1,528,1632
+USHP2223,Mann Ltd,New York,New York,Spark Plugs,Cargo Van,1428,7,8,Delayed,1,100,1321
+USHP2224,Parker-Farmer,Phoenix,Los Angeles,Windshield Wipers,Freight Truck,851,4,4,On Time,0,106,903.25
+USHP2225,"Gomez, Pham and Bradley",Houston,Chicago,Windshield Wipers,Trailer,1392,7,2,On Time,0,408,2064
+USHP2226,Lee-Thompson,Houston,New York,Oil Filters,Cargo Van,1444,6,4,On Time,0,407,2100.5
+USHP2227,Patterson-Kelly,Houston,New York,Spark Plugs,Trailer,304,3,1,On Time,0,185,690.5
+USHP2228,Roberts-Logan,Chicago,Houston,Car Batteries,Trailer,1159,4,4,On Time,0,126,1184.25
+USHP2229,Wilson-Grant,Phoenix,New York,Oil Filters,Freight Truck,1257,6,9,Delayed,1,417,1985.25
+USHP2230,Flores Inc,Phoenix,Houston,Brake Discs,Freight Truck,993,6,6,On Time,0,168,1164.75
+USHP2231,Weaver-Wilson,Phoenix,Chicago,Windshield Wipers,Freight Truck,486,4,4,On Time,0,567,1782
+USHP2232,Gross Ltd,Houston,Houston,Brake Discs,Trailer,556,2,2,On Time,0,492,1647
+USHP2233,Simmons-Hall,Phoenix,Los Angeles,Spark Plugs,Trailer,459,3,8,Delayed,1,208,864.25
+USHP2234,Lang and Sons,Phoenix,Phoenix,Oil Filters,Freight Truck,1183,3,8,Delayed,1,163,1294.75
+USHP2235,Mitchell and Sons,Houston,Chicago,Car Batteries,Freight Truck,465,1,9,Delayed,1,190,823.75
+USHP2236,Byrd-King,Phoenix,Los Angeles,Car Batteries,Freight Truck,71,5,1,On Time,0,296,793.25
+USHP2237,Sharp-Moore,Houston,Phoenix,Windshield Wipers,Trailer,546,4,1,On Time,0,374,1344.5
+USHP2238,"Jones, Clark and Vaughn",Phoenix,Houston,Windshield Wipers,Freight Truck,1062,3,3,On Time,0,525,2109
+USHP2239,"Morris, Stafford and Herring",Houston,New York,Brake Discs,Cargo Van,193,5,7,Delayed,1,165,557.25
+USHP2240,Wilson LLC,Chicago,Houston,Car Batteries,Cargo Van,1366,6,2,On Time,0,459,2172
+USHP2241,Delgado Inc,Chicago,Chicago,Oil Filters,Cargo Van,1472,2,1,On Time,0,157,1496.5
+USHP2242,"Schroeder, Sandoval and Anderson",Chicago,Los Angeles,Spark Plugs,Trailer,841,6,3,On Time,0,101,883.25
+USHP2243,"Brandt, Petersen and Munoz",New York,Houston,Oil Filters,Freight Truck,206,1,2,Delayed,1,538,1499.5
+USHP2244,Mcfarland Ltd,Chicago,Phoenix,Oil Filters,Trailer,1297,7,8,Delayed,1,475,2160.25
+USHP2245,Beasley-Khan,New York,Los Angeles,Brake Discs,Freight Truck,318,7,6,On Time,0,136,578.5
+USHP2246,"Thompson, Torres and Martin",New York,Houston,Car Batteries,Trailer,1432,5,4,On Time,0,566,2489
+USHP2247,"Watts, Harding and Moore",Los Angeles,Los Angeles,Brake Discs,Cargo Van,1024,3,8,Delayed,1,154,1153
+USHP2248,"Brewer, Bird and Ford",Phoenix,Houston,Car Batteries,Freight Truck,979,6,2,On Time,0,504,1994.25
+USHP2249,Smith LLC,Houston,Los Angeles,Windshield Wipers,Trailer,552,7,3,On Time,0,598,1909
+USHP2250,"Jordan, Bryant and Walter",New York,Los Angeles,Car Batteries,Cargo Van,1380,2,3,Delayed,1,286,1750
+USHP2251,"Little, Bryant and Mccormick",Houston,Houston,Brake Discs,Cargo Van,1031,1,6,Delayed,1,362,1678.25
+USHP2252,Austin-Barnett,Phoenix,Chicago,Brake Discs,Freight Truck,284,1,7,Delayed,1,553,1595.5
+USHP2253,"Medina, Beard and Wiggins",Phoenix,Phoenix,Oil Filters,Trailer,991,6,6,On Time,0,213,1275.75
+USHP2254,"Callahan, Peterson and Moss",Houston,New York,Windshield Wipers,Cargo Van,815,1,5,Delayed,1,363,1518.75
+USHP2255,Sanders LLC,Phoenix,Houston,Spark Plugs,Trailer,423,4,3,On Time,0,212,847.25
+USHP2256,Davis-Thompson,Chicago,Houston,Brake Discs,Freight Truck,504,5,4,On Time,0,241,980.5
+USHP2257,Ritter LLC,Chicago,Phoenix,Spark Plugs,Trailer,1372,7,6,On Time,0,62,1184
+USHP2258,"Thomas, Jones and Horn",Phoenix,Los Angeles,Car Batteries,Cargo Van,1032,7,6,On Time,0,499,2021.5
+USHP2259,Becker Group,Phoenix,Chicago,Car Batteries,Trailer,781,3,1,On Time,0,565,1998.25
+USHP2260,"Faulkner, Valdez and Alexander",Chicago,Chicago,Windshield Wipers,Cargo Van,421,1,6,Delayed,1,392,1295.75
+USHP2261,King and Sons,Phoenix,Houston,Spark Plugs,Trailer,693,7,9,Delayed,1,384,1479.75
+USHP2262,Cooper Ltd,Houston,Los Angeles,Spark Plugs,Freight Truck,1478,1,4,Delayed,1,187,1576
+USHP2263,Davis-Hansen,Houston,Los Angeles,Oil Filters,Cargo Van,1120,1,7,Delayed,1,290,1565
+USHP2264,Martinez LLC,Phoenix,Phoenix,Oil Filters,Freight Truck,186,7,5,On Time,0,210,664.5
+USHP2265,"Kelly, Bradshaw and Montoya",Chicago,Houston,Spark Plugs,Trailer,883,4,9,Delayed,1,169,1084.75
+USHP2266,Johnson Ltd,Chicago,New York,Oil Filters,Trailer,1166,1,9,Delayed,1,312,1654.5
+USHP2267,"Douglas, Webb and Zamora",Houston,Houston,Windshield Wipers,Cargo Van,908,7,5,On Time,0,319,1478.5
+USHP2268,Valdez-Ayers,Phoenix,Los Angeles,Spark Plugs,Trailer,348,7,5,On Time,0,385,1223.5
+USHP2269,"Mercer, Clark and Davis",Houston,Los Angeles,Car Batteries,Cargo Van,1092,5,7,Delayed,1,294,1554
+USHP2270,"Rosales, Mercer and Patel",New York,Chicago,Spark Plugs,Trailer,102,4,1,On Time,0,501,1329
+USHP2271,Johnson and Sons,Phoenix,New York,Brake Discs,Trailer,1152,4,6,Delayed,1,485,2076.5
+USHP2272,"Garrett, Fleming and Myers",Phoenix,Chicago,Spark Plugs,Freight Truck,1238,1,4,Delayed,1,175,1366
+USHP2273,Lucas-Jackson,Phoenix,Houston,Brake Discs,Cargo Van,293,5,9,Delayed,1,170,644.75
+USHP2274,Johnson LLC,Los Angeles,Houston,Spark Plugs,Trailer,846,7,7,On Time,0,40,734.5
+USHP2275,Rodgers LLC,Los Angeles,Phoenix,Oil Filters,Cargo Van,1215,1,8,Delayed,1,330,1736.25
+USHP2276,"Patton, Morgan and Lee",Houston,Houston,Brake Discs,Cargo Van,91,3,8,Delayed,1,264,728.25
+USHP2277,Williams LLC,Phoenix,Phoenix,Oil Filters,Trailer,556,6,9,Delayed,1,424,1477
+USHP2278,"Harris, Pittman and Green",Phoenix,Phoenix,Spark Plugs,Freight Truck,612,6,5,On Time,0,574,1894
+USHP2279,"Rios, Mcguire and Stewart",Houston,Los Angeles,Windshield Wipers,Freight Truck,230,6,1,On Time,0,475,1360
+USHP2280,"Farmer, Lang and Turner",Houston,Los Angeles,Windshield Wipers,Freight Truck,519,2,2,On Time,0,467,1556.75
+USHP2281,Shields PLC,Los Angeles,Phoenix,Spark Plugs,Trailer,1189,6,5,On Time,0,571,2319.25
+USHP2282,Watts Ltd,Los Angeles,Los Angeles,Brake Discs,Cargo Van,67,6,3,On Time,0,386,1015.25
+USHP2283,Gregory and Sons,Phoenix,Los Angeles,Spark Plugs,Freight Truck,924,3,9,Delayed,1,287,1410.5
+USHP2284,"Smith, Welch and Willis",Houston,Houston,Windshield Wipers,Trailer,775,5,6,Delayed,1,545,1943.75
+USHP2285,Hayes-Hood,Phoenix,Chicago,Car Batteries,Cargo Van,1204,1,7,Delayed,1,340,1753
+USHP2286,Chase Group,Houston,Houston,Spark Plugs,Freight Truck,182,1,7,Delayed,1,274,821.5
+USHP2287,Townsend-Mendez,Los Angeles,Houston,Windshield Wipers,Trailer,625,1,7,Delayed,1,355,1356.25
+USHP2288,Smith-Reed,Phoenix,Chicago,Oil Filters,Freight Truck,217,6,3,On Time,0,463,1320.25
+USHP2289,Reid-Morton,New York,Phoenix,Spark Plugs,Freight Truck,684,6,3,On Time,0,564,1923
+USHP2290,Moyer-Wheeler,Phoenix,Los Angeles,Windshield Wipers,Trailer,340,4,2,On Time,0,580,1705
+USHP2291,"Parker, Maldonado and Parks",Phoenix,Los Angeles,Oil Filters,Trailer,1339,3,3,On Time,0,530,2329.25
+USHP2292,Young-Roy,Los Angeles,Houston,Car Batteries,Trailer,1356,7,5,On Time,0,235,1604.5
+USHP2293,Taylor-Rodriguez,New York,Houston,Brake Discs,Freight Truck,1043,7,2,On Time,0,240,1382.25
+USHP2294,"Pittman, Garcia and Carter",Phoenix,New York,Brake Discs,Cargo Van,813,1,4,Delayed,1,325,1422.25
+USHP2295,Henderson PLC,Phoenix,Los Angeles,Oil Filters,Cargo Van,916,6,7,Delayed,1,120,987
+USHP2296,Burke Ltd,Chicago,New York,Car Batteries,Freight Truck,450,2,5,Delayed,1,191,815
+USHP2297,Smith-Mccoy,Houston,Chicago,Oil Filters,Cargo Van,816,2,6,Delayed,1,422,1667
+USHP2298,King-Leonard,Los Angeles,Phoenix,Oil Filters,Trailer,75,4,3,On Time,0,150,431.25
+USHP2299,Martinez-Torres,Chicago,Phoenix,Oil Filters,Cargo Van,495,2,8,Delayed,1,80,571.25
+USHP2300,Shelton and Sons,New York,New York,Spark Plugs,Freight Truck,483,7,2,On Time,0,339,1209.75
+USHP2301,"Espinoza, Garza and Terry",Phoenix,Houston,Oil Filters,Trailer,1020,2,6,Delayed,1,465,1927.5
+USHP2302,Jackson PLC,New York,Los Angeles,Windshield Wipers,Trailer,475,3,6,Delayed,1,157,748.75
+USHP2303,Johnson LLC,Los Angeles,New York,Windshield Wipers,Trailer,1158,7,7,On Time,0,373,1801
+USHP2304,White-Jones,New York,New York,Oil Filters,Cargo Van,655,5,7,Delayed,1,329,1313.75
+USHP2305,Salazar-Mccoy,Phoenix,Chicago,Windshield Wipers,Trailer,1358,3,2,On Time,0,152,1398.5
+USHP2306,Montes-Diaz,Los Angeles,Los Angeles,Windshield Wipers,Cargo Van,971,4,2,On Time,0,466,1893.25
+USHP2307,Williams-King,Los Angeles,Phoenix,Oil Filters,Freight Truck,219,4,3,On Time,0,445,1276.75
+USHP2308,James-Rhodes,Chicago,New York,Spark Plugs,Trailer,1153,2,8,Delayed,1,304,1624.75
+USHP2309,"Gonzalez, Cook and Jones",Phoenix,Los Angeles,Oil Filters,Cargo Van,1251,4,7,Delayed,1,580,2388.25
+USHP2310,Hughes-Silva,Houston,Chicago,Spark Plugs,Cargo Van,955,5,5,On Time,0,346,1581.25
+USHP2311,"Robinson, Cook and Beck",Chicago,Houston,Car Batteries,Cargo Van,107,3,8,Delayed,1,45,192.75
+USHP2312,"Swanson, Dixon and Mckay",New York,New York,Brake Discs,Trailer,867,1,1,On Time,0,83,857.75
+USHP2313,Rivera-Hood,Phoenix,Chicago,Car Batteries,Freight Truck,819,7,9,Delayed,1,350,1489.25
+USHP2314,Wallace Inc,Los Angeles,Chicago,Car Batteries,Freight Truck,138,2,6,Delayed,1,175,541
+USHP2315,Robertson-Lopez,Los Angeles,Phoenix,Windshield Wipers,Cargo Van,1133,6,9,Delayed,1,70,1024.75
+USHP2316,"Mcdonald, Miller and Perry",New York,New York,Windshield Wipers,Freight Truck,258,6,3,On Time,0,263,851
+USHP2317,"Richardson, Frederick and Marshall",Houston,Los Angeles,Car Batteries,Cargo Van,66,5,2,On Time,0,67,217
+USHP2318,Fowler-Dixon,Phoenix,New York,Spark Plugs,Trailer,1263,2,2,On Time,0,269,1619.75
+USHP2319,Fisher-Bond,Los Angeles,New York,Windshield Wipers,Cargo Van,1253,7,1,On Time,0,351,1817.25
+USHP2320,Gutierrez-Nelson,Chicago,Houston,Oil Filters,Trailer,322,2,3,Delayed,1,74,426.5
+USHP2321,"Chang, Hall and Gray",Chicago,New York,Spark Plugs,Cargo Van,1119,2,1,On Time,0,166,1254.25
+USHP2322,Allen Ltd,Los Angeles,New York,Brake Discs,Trailer,1158,3,4,Delayed,1,464,2028.5
+USHP2323,Flores Inc,Phoenix,Los Angeles,Spark Plugs,Trailer,355,4,5,Delayed,1,393,1248.75
+USHP2324,"Schmidt, Smith and Bell",Houston,Los Angeles,Windshield Wipers,Cargo Van,1467,7,1,On Time,0,479,2297.75
+USHP2325,Mcgee-Price,Houston,Los Angeles,Spark Plugs,Freight Truck,432,4,9,Delayed,1,417,1366.5
+USHP2326,Ware PLC,Chicago,Chicago,Brake Discs,Freight Truck,786,3,1,On Time,0,567,2007
+USHP2327,Cox-Glover,Chicago,Phoenix,Oil Filters,Cargo Van,1106,4,5,Delayed,1,503,2087
+USHP2328,Ross-Martinez,New York,Chicago,Spark Plugs,Cargo Van,683,7,4,On Time,0,390,1487.25
+USHP2329,Bishop-Thomas,Houston,Houston,Car Batteries,Trailer,1009,2,9,Delayed,1,404,1766.75
+USHP2330,"Morgan, Mason and Boyd",Chicago,Los Angeles,Windshield Wipers,Freight Truck,217,6,5,On Time,0,590,1637.75
+USHP2331,Bender-Arnold,Chicago,Houston,Brake Discs,Freight Truck,266,1,5,Delayed,1,31,277
+USHP2332,"Morgan, Lindsey and Flores",Chicago,New York,Car Batteries,Cargo Van,358,1,3,Delayed,1,214,803.5
+USHP2333,Ballard LLC,Houston,New York,Oil Filters,Cargo Van,204,5,9,Delayed,1,400,1153
+USHP2334,Sanchez Group,Los Angeles,Chicago,Oil Filters,Trailer,437,3,4,Delayed,1,203,835.25
+USHP2335,"Middleton, Anderson and Cortez",New York,Los Angeles,Brake Discs,Freight Truck,1461,5,3,On Time,0,218,1640.75
+USHP2336,Murphy-Wilson,Houston,Phoenix,Car Batteries,Cargo Van,690,5,9,Delayed,1,55,655
+USHP2337,Ward PLC,New York,Houston,Spark Plugs,Cargo Van,112,2,4,Delayed,1,82,289
+USHP2338,"Rhodes, Hernandez and Lee",Phoenix,Houston,Brake Discs,Cargo Van,296,7,2,On Time,0,232,802
+USHP2339,Howe-Chavez,New York,Chicago,Car Batteries,Cargo Van,1250,6,3,On Time,0,439,2035
+USHP2340,Hale PLC,Chicago,New York,Oil Filters,Cargo Van,513,7,9,Delayed,1,75,572.25
+USHP2341,Martinez Ltd,Los Angeles,Phoenix,Spark Plugs,Trailer,582,4,9,Delayed,1,409,1459
+USHP2342,"Jensen, Evans and Gardner",Houston,Houston,Car Batteries,Cargo Van,881,2,7,Delayed,1,504,1920.75
+USHP2343,Thompson LLC,Chicago,Chicago,Car Batteries,Trailer,1438,2,2,On Time,0,511,2356
+USHP2344,Dunn-Larson,Houston,Phoenix,Oil Filters,Freight Truck,1209,1,3,Delayed,1,422,1961.75
+USHP2345,Sanchez-Lopez,Houston,New York,Spark Plugs,Trailer,767,1,6,Delayed,1,554,1960.25
+USHP2346,"Vasquez, Howard and Roy",Los Angeles,Chicago,Oil Filters,Cargo Van,528,6,9,Delayed,1,400,1396
+USHP2347,Johnston-Carter,Phoenix,New York,Oil Filters,Trailer,61,2,5,Delayed,1,547,1413.25
+USHP2348,"Park, Kelly and Terrell",Houston,Phoenix,Car Batteries,Cargo Van,704,2,3,Delayed,1,40,628
+USHP2349,Hudson-Fischer,Los Angeles,Houston,Oil Filters,Cargo Van,134,6,2,On Time,0,176,540.5
+USHP2350,Mora-White,Los Angeles,Houston,Brake Discs,Freight Truck,545,3,4,Delayed,1,277,1101.25
+USHP2351,"Kelly, Schultz and Barajas",Phoenix,Houston,Brake Discs,Trailer,703,6,8,Delayed,1,520,1827.25
+USHP2352,Ramirez Ltd,Los Angeles,Phoenix,Car Batteries,Trailer,835,5,1,On Time,0,339,1473.75
+USHP2353,Turner PLC,Los Angeles,Phoenix,Spark Plugs,Trailer,1127,2,3,Delayed,1,55,982.75
+USHP2354,Jordan Ltd,Phoenix,Houston,Spark Plugs,Freight Truck,415,6,7,Delayed,1,469,1483.75
+USHP2355,Lynch Ltd,New York,Houston,Spark Plugs,Cargo Van,843,5,6,Delayed,1,599,2129.75
+USHP2356,Camacho-Stevenson,Los Angeles,Chicago,Car Batteries,Freight Truck,114,4,4,On Time,0,240,685.5
+USHP2357,Young-Cook,Los Angeles,Los Angeles,Spark Plugs,Freight Truck,1436,5,7,Delayed,1,63,1234.5
+USHP2358,Harper and Sons,Phoenix,Chicago,Spark Plugs,Cargo Van,1300,1,6,Delayed,1,299,1722.5
+USHP2359,"Lin, Mcbride and Mccoy",New York,Chicago,Spark Plugs,Cargo Van,1267,5,9,Delayed,1,292,1680.25
+USHP2360,Torres LLC,New York,Los Angeles,Brake Discs,Freight Truck,1387,2,1,On Time,0,118,1335.25
+USHP2361,Clark and Sons,Chicago,Chicago,Brake Discs,Trailer,471,3,4,Delayed,1,400,1353.25
+USHP2362,"Johnson, Clark and Perez",Chicago,New York,Spark Plugs,Freight Truck,598,4,5,Delayed,1,98,693.5
+USHP2363,"Stephenson, Jones and Riley",New York,Phoenix,Car Batteries,Cargo Van,373,2,9,Delayed,1,446,1394.75
+USHP2364,"Newton, Walker and Barnes",Los Angeles,Chicago,Spark Plugs,Freight Truck,171,4,2,On Time,0,141,480.75
+USHP2365,Figueroa and Sons,Los Angeles,New York,Brake Discs,Cargo Van,1396,2,6,Delayed,1,39,1144.5
+USHP2366,Bauer Inc,Los Angeles,New York,Brake Discs,Freight Truck,409,6,4,On Time,0,265,969.25
+USHP2367,"Smith, Burns and Taylor",Chicago,New York,Spark Plugs,Trailer,1212,2,1,On Time,0,169,1331.5
+USHP2368,Mccormick-Sanchez,Phoenix,Houston,Spark Plugs,Freight Truck,549,3,3,On Time,0,279,1109.25
+USHP2369,Stewart-Grimes,New York,Phoenix,Spark Plugs,Trailer,970,2,9,Delayed,1,587,2195
+USHP2370,"Spencer, Wallace and Cohen",Los Angeles,Chicago,Brake Discs,Freight Truck,977,7,6,On Time,0,553,2115.25
+USHP2371,Hunter Group,Houston,Houston,Brake Discs,Freight Truck,1138,7,4,On Time,0,59,1001
+USHP2372,Davis-Smith,Chicago,Chicago,Brake Discs,Freight Truck,1438,5,8,Delayed,1,99,1326
+USHP2373,Shaw PLC,Chicago,Phoenix,Windshield Wipers,Trailer,758,1,8,Delayed,1,113,851
+USHP2374,Allen PLC,Chicago,New York,Spark Plugs,Cargo Van,443,3,2,On Time,0,178,777.25
+USHP2375,"Castaneda, Dominguez and Levine",Chicago,Houston,Spark Plugs,Trailer,1133,4,4,On Time,0,275,1537.25
+USHP2376,"Curtis, Boone and Daniel",New York,Phoenix,Brake Discs,Cargo Van,1430,1,9,Delayed,1,76,1262.5
+USHP2377,Jackson Ltd,Phoenix,New York,Car Batteries,Cargo Van,1234,4,5,Delayed,1,510,2200.5
+USHP2378,"Howard, Cunningham and Moreno",Houston,Los Angeles,Oil Filters,Trailer,960,4,9,Delayed,1,203,1227.5
+USHP2379,Miller Inc,Los Angeles,Houston,Car Batteries,Freight Truck,1426,6,4,On Time,0,77,1262
+USHP2380,Coffey-Davis,Los Angeles,Phoenix,Oil Filters,Freight Truck,945,3,8,Delayed,1,589,2181.25
+USHP2381,Harris-Martinez,Chicago,Los Angeles,Brake Discs,Cargo Van,1320,7,8,Delayed,1,207,1507.5
+USHP2382,Brown-Vargas,Houston,New York,Brake Discs,Cargo Van,276,6,4,On Time,0,386,1172
+USHP2383,Perez LLC,Houston,Houston,Spark Plugs,Freight Truck,495,3,4,Delayed,1,580,1821.25
+USHP2384,Maxwell-Moore,New York,New York,Brake Discs,Cargo Van,936,5,6,Delayed,1,24,762
+USHP2385,Sosa Ltd,Houston,Houston,Oil Filters,Freight Truck,706,3,7,Delayed,1,298,1274.5
+USHP2386,Chaney PLC,Chicago,Chicago,Windshield Wipers,Trailer,141,5,7,Delayed,1,262,760.75
+USHP2387,Ross-Nichols,Los Angeles,Phoenix,Oil Filters,Cargo Van,1061,6,3,On Time,0,80,995.75
+USHP2388,"Greene, James and Martin",New York,Houston,Brake Discs,Trailer,509,2,3,Delayed,1,456,1521.75
+USHP2389,Hammond-Ward,Phoenix,Phoenix,Oil Filters,Trailer,696,6,9,Delayed,1,292,1252
+USHP2390,"Vaughan, Boyd and Fisher",Los Angeles,Los Angeles,Brake Discs,Trailer,777,4,8,Delayed,1,560,1982.75
+USHP2391,Wilson-Simmons,Los Angeles,Chicago,Spark Plugs,Cargo Van,180,4,5,Delayed,1,183,592.5
+USHP2392,Gonzalez LLC,Houston,Chicago,Brake Discs,Cargo Van,1403,6,8,Delayed,1,398,2047.25
+USHP2393,Moore Inc,Houston,Chicago,Windshield Wipers,Freight Truck,413,1,8,Delayed,1,421,1362.25
+USHP2394,Bonilla-Nelson,New York,Phoenix,Oil Filters,Cargo Van,736,3,8,Delayed,1,24,612
+USHP2395,Gomez-Jackson,New York,Los Angeles,Windshield Wipers,Freight Truck,1148,2,6,Delayed,1,156,1251
+USHP2396,Carey-Tyler,Houston,Los Angeles,Spark Plugs,Freight Truck,1250,5,6,Delayed,1,393,1920
+USHP2397,"Oliver, Gregory and Hernandez",Houston,Chicago,Windshield Wipers,Freight Truck,283,3,8,Delayed,1,227,779.75
+USHP2398,"Foster, Thomas and Reyes",New York,Chicago,Oil Filters,Freight Truck,894,1,3,Delayed,1,306,1435.5
+USHP2399,"Guzman, Ortiz and Silva",New York,Los Angeles,Windshield Wipers,Cargo Van,379,2,9,Delayed,1,260,934.25
+USHP2400,"Mendoza, Landry and Tanner",New York,Los Angeles,Oil Filters,Freight Truck,721,2,6,Delayed,1,125,853.25
+USHP2401,Rubio-Woods,New York,New York,Windshield Wipers,Cargo Van,803,1,2,Delayed,1,502,1857.25
+USHP2402,Lawson-Young,Los Angeles,Phoenix,Windshield Wipers,Cargo Van,413,6,7,Delayed,1,248,929.75
+USHP2403,Bowman Inc,Houston,Houston,Spark Plugs,Freight Truck,535,4,1,On Time,0,304,1161.25
+USHP2404,Hill-Burgess,Phoenix,Chicago,Car Batteries,Trailer,982,1,4,Delayed,1,166,1151.5
+USHP2405,Ramirez PLC,Phoenix,Houston,Car Batteries,Cargo Van,1212,7,6,On Time,0,527,2226.5
+USHP2406,"Lewis, Allen and Houston",Phoenix,Phoenix,Car Batteries,Cargo Van,1403,6,9,Delayed,1,289,1774.75
+USHP2407,Griffin Ltd,Chicago,New York,Windshield Wipers,Cargo Van,348,1,4,Delayed,1,428,1331
+USHP2408,Melendez Group,Phoenix,Houston,Oil Filters,Trailer,750,1,5,Delayed,1,400,1562.5
+USHP2409,Austin LLC,Phoenix,New York,Windshield Wipers,Trailer,394,4,4,On Time,0,571,1723
+USHP2410,"Matthews, Hood and Pearson",New York,Los Angeles,Oil Filters,Trailer,1018,4,9,Delayed,1,180,1213.5
+USHP2411,"Nguyen, Rivera and Ayala",Chicago,Houston,Oil Filters,Trailer,930,7,2,On Time,0,267,1365
+USHP2412,Jackson LLC,Chicago,Los Angeles,Brake Discs,Trailer,1199,4,8,Delayed,1,328,1719.25
+USHP2413,"Bennett, Frazier and Ramirez",Phoenix,Chicago,Brake Discs,Cargo Van,415,1,7,Delayed,1,398,1306.25
+USHP2414,Brown-Price,Los Angeles,Phoenix,Spark Plugs,Cargo Van,770,2,7,Delayed,1,537,1920
+USHP2415,Galloway Inc,Phoenix,Los Angeles,Spark Plugs,Trailer,512,4,6,Delayed,1,282,1089
+USHP2416,"Patel, Reyes and Yang",Chicago,Los Angeles,Oil Filters,Trailer,305,5,5,On Time,0,267,896.25
+USHP2417,Brock Group,Phoenix,Phoenix,Oil Filters,Freight Truck,846,7,4,On Time,0,474,1819.5
+USHP2418,"Frost, Rowe and Wood",Chicago,Phoenix,Oil Filters,Cargo Van,273,3,1,On Time,0,525,1517.25
+USHP2419,"Keith, Webster and Casey",Los Angeles,Phoenix,Spark Plugs,Freight Truck,1223,6,9,Delayed,1,582,2372.25
+USHP2420,"Mcgee, Anderson and Barnes",Houston,Houston,Car Batteries,Trailer,490,1,5,Delayed,1,152,747.5
+USHP2421,Strickland Group,Phoenix,Houston,Car Batteries,Cargo Van,141,2,7,Delayed,1,556,1495.75
+USHP2422,"Rodriguez, Shepherd and Oliver",Chicago,New York,Spark Plugs,Freight Truck,1342,7,8,Delayed,1,112,1286.5
+USHP2423,"Young, Williams and Estrada",Phoenix,Los Angeles,Windshield Wipers,Freight Truck,1107,4,6,Delayed,1,193,1312.75
+USHP2424,Wallace PLC,Chicago,Houston,Brake Discs,Cargo Van,1164,7,1,On Time,0,105,1135.5
+USHP2425,Flowers-Orozco,New York,New York,Oil Filters,Freight Truck,1436,3,1,On Time,0,210,1602
+USHP2426,Morris-Santos,Houston,New York,Windshield Wipers,Freight Truck,394,5,6,Delayed,1,339,1143
+USHP2427,Fernandez-Allen,Los Angeles,New York,Windshield Wipers,Trailer,982,7,2,On Time,0,210,1261.5
+USHP2428,Lowe Inc,Phoenix,New York,Car Batteries,Freight Truck,1401,3,8,Delayed,1,208,1570.75
+USHP2429,Edwards PLC,New York,Chicago,Windshield Wipers,Cargo Van,1302,7,8,Delayed,1,139,1324
+USHP2430,Lewis-Warner,Chicago,Phoenix,Car Batteries,Freight Truck,144,5,5,On Time,0,378,1053
+USHP2431,Davis-Marquez,New York,Chicago,Spark Plugs,Freight Truck,1006,5,6,Delayed,1,346,1619.5
+USHP2432,"Jackson, Martin and Cisneros",Phoenix,Houston,Car Batteries,Cargo Van,555,1,2,Delayed,1,472,1596.25
+USHP2433,Williams Ltd,Chicago,Chicago,Brake Discs,Cargo Van,232,7,6,On Time,0,597,1666.5
+USHP2434,Jackson Ltd,Chicago,New York,Car Batteries,Cargo Van,764,4,5,Delayed,1,405,1585.5
+USHP2435,Wood Ltd,Chicago,Phoenix,Windshield Wipers,Freight Truck,865,6,6,On Time,0,306,1413.75
+USHP2436,Christian and Sons,New York,Phoenix,Oil Filters,Freight Truck,935,5,9,Delayed,1,553,2083.75
+USHP2437,Maldonado-James,Chicago,Houston,Spark Plugs,Cargo Van,134,2,8,Delayed,1,236,690.5
+USHP2438,Price Inc,New York,Los Angeles,Car Batteries,Cargo Van,149,5,4,On Time,0,105,374.25
+USHP2439,White Ltd,Los Angeles,Chicago,Windshield Wipers,Trailer,248,7,4,On Time,0,383,1143.5
+USHP2440,"Walsh, Phillips and Larsen",Houston,New York,Car Batteries,Trailer,665,1,8,Delayed,1,337,1341.25
+USHP2441,"Schmidt, Owens and Kim",Los Angeles,Houston,Oil Filters,Cargo Van,652,3,2,On Time,0,458,1634
+USHP2442,"Fowler, Petty and Torres",Los Angeles,Los Angeles,Windshield Wipers,Cargo Van,149,1,7,Delayed,1,170,536.75
+USHP2443,Valdez-Jones,New York,Los Angeles,Windshield Wipers,Freight Truck,1204,6,6,On Time,0,149,1275.5
+USHP2444,Allen Group,Chicago,Phoenix,Windshield Wipers,Freight Truck,492,6,8,Delayed,1,557,1761.5
+USHP2445,Neal LLC,Chicago,Phoenix,Car Batteries,Trailer,737,7,2,On Time,0,98,797.75
+USHP2446,"Ramsey, Allen and Horton",Phoenix,Phoenix,Oil Filters,Trailer,1423,3,5,Delayed,1,190,1542.25
+USHP2447,Walker-Smith,Phoenix,Phoenix,Oil Filters,Freight Truck,64,2,1,On Time,0,442,1153
+USHP2448,Harrison-Williams,New York,Los Angeles,Brake Discs,Cargo Van,402,3,4,Delayed,1,400,1301.5
+USHP2449,Lee-Wallace,Houston,Los Angeles,Oil Filters,Freight Truck,303,5,9,Delayed,1,479,1424.75
+USHP2450,Bennett-Oneill,Los Angeles,Los Angeles,Car Batteries,Freight Truck,222,1,3,Delayed,1,579,1614
+USHP2451,Barber-Smith,Chicago,Chicago,Brake Discs,Cargo Van,560,5,5,On Time,0,586,1885
+USHP2452,Dunn-Watts,Phoenix,New York,Windshield Wipers,Cargo Van,1066,2,6,Delayed,1,510,2074.5
+USHP2453,Meyer-Jefferson,New York,Los Angeles,Car Batteries,Trailer,257,1,6,Delayed,1,199,690.25
+USHP2454,Scott-Rosario,Houston,Los Angeles,Spark Plugs,Cargo Van,846,5,2,On Time,0,233,1217
+USHP2455,"Martinez, Pierce and Banks",Phoenix,Phoenix,Brake Discs,Cargo Van,1089,6,5,On Time,0,93,1049.25
+USHP2456,Jackson-Liu,Houston,Los Angeles,Windshield Wipers,Freight Truck,394,4,7,Delayed,1,314,1080.5
+USHP2457,Hawkins-Vazquez,Chicago,New York,Oil Filters,Cargo Van,199,1,3,Delayed,1,431,1226.75
+USHP2458,George-Torres,New York,Chicago,Oil Filters,Freight Truck,1044,2,2,On Time,0,107,1050.5
+USHP2459,Waters PLC,New York,New York,Oil Filters,Trailer,705,5,6,Delayed,1,415,1566.25
+USHP2460,Mckay-Perry,Chicago,New York,Spark Plugs,Cargo Van,882,7,1,On Time,0,465,1824
+USHP2461,Patel and Sons,New York,Chicago,Spark Plugs,Cargo Van,441,3,8,Delayed,1,148,700.75
+USHP2462,"Hale, Sanchez and Lewis",Houston,Houston,Windshield Wipers,Trailer,1386,7,9,Delayed,1,47,1157
+USHP2463,Mays Group,Los Angeles,New York,Car Batteries,Freight Truck,931,5,4,On Time,0,55,835.75
+USHP2464,"Webster, Campbell and Wood",Chicago,Houston,Oil Filters,Cargo Van,714,3,7,Delayed,1,331,1363
+USHP2465,"Mccoy, Stafford and Hughes",Los Angeles,New York,Spark Plugs,Cargo Van,693,5,2,On Time,0,553,1902.25
+USHP2466,Lopez Ltd,Los Angeles,Chicago,Brake Discs,Cargo Van,1398,1,6,Delayed,1,414,2083.5
+USHP2467,"Pham, Elliott and Moody",Phoenix,Phoenix,Car Batteries,Cargo Van,203,7,5,On Time,0,399,1149.75
+USHP2468,Romero-Jacobson,Houston,Houston,Brake Discs,Freight Truck,408,2,2,On Time,0,33,388.5
+USHP2469,"Miller, Gray and Sanders",Phoenix,Phoenix,Brake Discs,Cargo Van,1300,6,4,On Time,0,203,1482.5
+USHP2470,Norman PLC,Los Angeles,Los Angeles,Oil Filters,Cargo Van,355,2,5,Delayed,1,537,1608.75
+USHP2471,Duncan PLC,Los Angeles,New York,Windshield Wipers,Freight Truck,1000,1,8,Delayed,1,441,1852.5
+USHP2472,Rodriguez LLC,Houston,Houston,Spark Plugs,Cargo Van,750,6,4,On Time,0,24,622.5
+USHP2473,"Miller, Williams and Johnson",Chicago,New York,Brake Discs,Cargo Van,1119,3,6,Delayed,1,156,1229.25
+USHP2474,"Thomas, Richards and Valdez",New York,Phoenix,Brake Discs,Cargo Van,234,1,4,Delayed,1,484,1385.5
+USHP2475,Bauer and Sons,Chicago,Phoenix,Spark Plugs,Cargo Van,392,5,7,Delayed,1,557,1686.5
+USHP2476,"Gutierrez, Gutierrez and Ritter",Chicago,Phoenix,Spark Plugs,Trailer,309,1,8,Delayed,1,62,386.75
+USHP2477,Tate-Lloyd,New York,Houston,Spark Plugs,Trailer,606,7,1,On Time,0,356,1344.5
+USHP2478,"Blackburn, Cruz and Robles",Chicago,New York,Spark Plugs,Cargo Van,137,6,6,On Time,0,133,435.25
+USHP2479,Ford Ltd,Phoenix,Phoenix,Oil Filters,Freight Truck,227,5,4,On Time,0,220,720.25
+USHP2480,Romero-Greene,Phoenix,Chicago,Brake Discs,Trailer,748,2,3,Delayed,1,500,1811
+USHP2481,"Finley, Lewis and Freeman",New York,Phoenix,Brake Discs,Trailer,488,3,9,Delayed,1,448,1486
+USHP2482,Roberts-Hayes,Houston,Los Angeles,Spark Plugs,Freight Truck,464,3,8,Delayed,1,517,1640.5
+USHP2483,Griffin-Gilbert,Los Angeles,New York,Oil Filters,Trailer,1457,4,2,On Time,0,223,1650.25
+USHP2484,"Ward, Long and Murphy",Phoenix,New York,Car Batteries,Trailer,1258,6,8,Delayed,1,126,1258.5
+USHP2485,"Jackson, Torres and Aguilar",Phoenix,Phoenix,Oil Filters,Trailer,921,3,8,Delayed,1,236,1280.75
+USHP2486,Boyd LLC,Houston,Chicago,Windshield Wipers,Cargo Van,1493,2,2,On Time,0,571,2547.25
+USHP2487,"Patterson, Taylor and Hughes",Los Angeles,Chicago,Brake Discs,Freight Truck,542,6,1,On Time,0,509,1679
+USHP2488,"Green, Brady and Arias",Houston,Chicago,Brake Discs,Cargo Van,1243,5,4,On Time,0,346,1797.25
+USHP2489,Williams-Mckay,Phoenix,New York,Brake Discs,Cargo Van,1439,4,3,On Time,0,239,1676.75
+USHP2490,"Bowen, Moore and Perry",Chicago,Houston,Oil Filters,Trailer,856,6,1,On Time,0,158,1037
+USHP2491,Walsh-Hansen,Chicago,New York,Car Batteries,Freight Truck,918,7,5,On Time,0,479,1886
+USHP2492,Patel-Smith,Chicago,Houston,Brake Discs,Trailer,59,3,7,Delayed,1,346,909.25
+USHP2493,Weaver-Nelson,Phoenix,New York,Oil Filters,Trailer,319,6,2,On Time,0,374,1174.25
+USHP2494,Tucker-Hall,New York,New York,Brake Discs,Freight Truck,1246,1,1,On Time,0,154,1319.5
+USHP2495,Winters-Brown,Los Angeles,Houston,Car Batteries,Trailer,582,1,9,Delayed,1,571,1864
+USHP2496,Oneill-Price,Phoenix,Chicago,Windshield Wipers,Cargo Van,344,6,8,Delayed,1,242,863
+USHP2497,Lowe-Long,Houston,Chicago,Oil Filters,Cargo Van,901,2,3,Delayed,1,430,1750.75
+USHP2498,"Robinson, Hubbard and Mitchell",Chicago,Los Angeles,Windshield Wipers,Cargo Van,1238,1,6,Delayed,1,534,2263.5
+USHP2499,"Wright, Salas and Hardin",Los Angeles,Phoenix,Spark Plugs,Cargo Van,417,5,6,Delayed,1,447,1430.25
+USHP2500,Jimenez-Garcia,New York,Los Angeles,Windshield Wipers,Cargo Van,707,3,4,Delayed,1,117,822.75
+USHP2501,Garcia and Sons,Chicago,Chicago,Car Batteries,Freight Truck,1148,7,7,On Time,0,141,1213.5
+USHP2502,"Fernandez, Meza and Meyers",Phoenix,Houston,Oil Filters,Freight Truck,1276,7,1,On Time,0,92,1187
+USHP2503,Watson-Vazquez,Houston,Phoenix,Oil Filters,Cargo Van,261,2,8,Delayed,1,360,1095.75
+USHP2504,Brown Ltd,Los Angeles,Phoenix,Car Batteries,Trailer,423,1,7,Delayed,1,330,1142.25
+USHP2505,Conway-Harrison,Houston,New York,Windshield Wipers,Freight Truck,1302,2,8,Delayed,1,415,2014
+USHP2506,Young Group,Chicago,New York,Brake Discs,Trailer,1140,3,5,Delayed,1,489,2077.5
+USHP2507,Morris-Maldonado,Phoenix,Chicago,Car Batteries,Freight Truck,1125,5,6,Delayed,1,286,1558.75
+USHP2508,Chan-Wilson,New York,Los Angeles,Windshield Wipers,Freight Truck,391,2,6,Delayed,1,163,700.75
+USHP2509,"Gomez, Clark and Jones",Houston,New York,Oil Filters,Cargo Van,1050,6,6,On Time,0,489,2010
+USHP2510,"Smith, Gallegos and Stafford",Phoenix,Houston,Brake Discs,Cargo Van,727,3,9,Delayed,1,377,1487.75
+USHP2511,"Acevedo, Martinez and Miller",Los Angeles,Chicago,Car Batteries,Cargo Van,687,7,5,On Time,0,253,1147.75
+USHP2512,Bates Inc,New York,Phoenix,Windshield Wipers,Freight Truck,1256,2,3,Delayed,1,108,1212
+USHP2513,"Martinez, Alexander and Kelly",Los Angeles,Phoenix,Oil Filters,Freight Truck,752,2,8,Delayed,1,162,969
+USHP2514,Brown-Nguyen,Phoenix,Chicago,Car Batteries,Cargo Van,650,6,5,On Time,0,445,1600
+USHP2515,Graham-Sparks,Houston,Los Angeles,Oil Filters,Freight Truck,1374,5,6,Delayed,1,273,1713
+USHP2516,Mann-Mccullough,Houston,Los Angeles,Car Batteries,Cargo Van,214,4,9,Delayed,1,431,1238
+USHP2517,Rodriguez-Hernandez,Chicago,Phoenix,Windshield Wipers,Trailer,350,4,8,Delayed,1,558,1657.5
+USHP2518,Cobb-Burgess,Phoenix,Chicago,Spark Plugs,Freight Truck,1492,5,4,On Time,0,557,2511.5
+USHP2519,Cortez-Davis,Chicago,Phoenix,Car Batteries,Cargo Van,1463,3,3,On Time,0,441,2199.75
+USHP2520,Lucas LLC,Chicago,New York,Brake Discs,Freight Truck,1390,1,7,Delayed,1,207,1560
+USHP2521,"Williams, Carter and Morales",Houston,Houston,Car Batteries,Freight Truck,112,4,5,Delayed,1,451,1211.5
+USHP2522,Spencer LLC,Houston,Phoenix,Windshield Wipers,Trailer,1195,1,9,Delayed,1,296,1636.25
+USHP2523,"Humphrey, Perez and Meyer",Phoenix,Houston,Spark Plugs,Freight Truck,103,4,3,On Time,0,137,419.75
+USHP2524,"Orozco, Hill and Marks",Chicago,Los Angeles,Windshield Wipers,Trailer,928,5,8,Delayed,1,249,1318.5
+USHP2525,"Rowe, Coleman and Mejia",Phoenix,Houston,Oil Filters,Freight Truck,571,2,8,Delayed,1,590,1903.25
+USHP2526,"Gill, Phillips and Vega",Phoenix,New York,Spark Plugs,Trailer,1047,1,4,Delayed,1,89,1007.75
+USHP2527,Kim-Ellis,New York,Phoenix,Brake Discs,Freight Truck,452,6,1,On Time,0,22,394
+USHP2528,"Haynes, Robinson and Snyder",Los Angeles,Los Angeles,Oil Filters,Freight Truck,1046,5,4,On Time,0,471,1962
+USHP2529,"Russell, Meyer and Henderson",New York,Houston,Spark Plugs,Trailer,288,6,9,Delayed,1,310,991
+USHP2530,Bowman PLC,Los Angeles,Los Angeles,Car Batteries,Trailer,1298,5,2,On Time,0,383,1931
+USHP2531,Roberts Inc,Los Angeles,Chicago,Windshield Wipers,Trailer,771,7,9,Delayed,1,426,1643.25
+USHP2532,"Moreno, Owens and Smith",New York,Phoenix,Windshield Wipers,Freight Truck,849,2,3,Delayed,1,52,766.75
+USHP2533,Frazier-Waller,Phoenix,New York,Brake Discs,Trailer,434,3,8,Delayed,1,370,1250.5
+USHP2534,Banks Inc,Chicago,Los Angeles,Oil Filters,Freight Truck,894,7,2,On Time,0,445,1783
+USHP2535,King-Banks,Houston,Phoenix,Brake Discs,Freight Truck,381,3,1,On Time,0,596,1775.75
+USHP2536,"Wells, Wilson and Williams",New York,Phoenix,Car Batteries,Cargo Van,1385,1,2,Delayed,1,108,1308.75
+USHP2537,Rodriguez PLC,Phoenix,Chicago,Brake Discs,Freight Truck,1439,1,5,Delayed,1,366,1994.25
+USHP2538,"Wilson, Whitehead and Horne",Houston,Chicago,Spark Plugs,Trailer,1125,6,1,On Time,0,159,1241.25
+USHP2539,Nguyen-Walker,New York,Houston,Oil Filters,Freight Truck,1168,3,9,Delayed,1,290,1601
+USHP2540,Miranda-Walsh,New York,Chicago,Spark Plugs,Trailer,62,5,8,Delayed,1,536,1386.5
+USHP2541,"King, Scott and Klein",Chicago,Los Angeles,Spark Plugs,Cargo Van,1164,4,2,On Time,0,123,1180.5
+USHP2542,"Ramsey, Clay and Turner",Los Angeles,New York,Brake Discs,Trailer,518,1,2,Delayed,1,450,1513.5
+USHP2543,"Johnson, Clay and Krueger",New York,Chicago,Car Batteries,Freight Truck,837,1,5,Delayed,1,494,1862.75
+USHP2544,Choi Inc,New York,Los Angeles,Brake Discs,Cargo Van,1276,2,2,On Time,0,468,2127
+USHP2545,"Quinn, Perry and Vega",Los Angeles,Houston,Car Batteries,Trailer,170,5,5,On Time,0,204,637.5
+USHP2546,Carey-Lindsey,Los Angeles,New York,Brake Discs,Freight Truck,1123,2,5,Delayed,1,294,1577.25
+USHP2547,Huynh-Mitchell,Phoenix,Phoenix,Oil Filters,Cargo Van,150,4,1,On Time,0,572,1542.5
+USHP2548,Smith Group,Phoenix,Houston,Spark Plugs,Freight Truck,327,4,8,Delayed,1,554,1630.25
+USHP2549,"Marshall, Hickman and Shepherd",Phoenix,Houston,Spark Plugs,Freight Truck,822,1,8,Delayed,1,51,744
+USHP2550,Williamson Inc,New York,Houston,Oil Filters,Trailer,669,3,3,On Time,0,410,1526.75
+USHP2551,"Abbott, Roberson and Daniels",New York,Houston,Oil Filters,Trailer,1446,7,9,Delayed,1,534,2419.5
+USHP2552,Morgan-Huang,Los Angeles,Houston,Windshield Wipers,Cargo Van,948,2,5,Delayed,1,277,1403.5
+USHP2553,Reynolds Group,Houston,New York,Windshield Wipers,Trailer,1148,6,1,On Time,0,280,1561
+USHP2554,Brown-Trevino,Houston,Los Angeles,Oil Filters,Freight Truck,1061,4,4,On Time,0,221,1348.25
+USHP2555,Newton-Thomas,Houston,Los Angeles,Oil Filters,Freight Truck,1216,1,5,Delayed,1,21,964.5
+USHP2556,Jones-Guerrero,New York,Chicago,Car Batteries,Trailer,58,7,8,Delayed,1,180,493.5
+USHP2557,"Weber, Miller and Allen",New York,Phoenix,Brake Discs,Cargo Van,139,2,1,On Time,0,232,684.25
+USHP2558,Adams Group,Houston,Chicago,Car Batteries,Trailer,1041,6,2,On Time,0,334,1615.75
+USHP2559,Lawrence and Sons,Houston,Houston,Car Batteries,Freight Truck,1381,6,8,Delayed,1,159,1433.25
+USHP2560,Barker Ltd,Chicago,New York,Windshield Wipers,Cargo Van,803,4,3,On Time,0,357,1494.75
+USHP2561,Crawford and Sons,Phoenix,Phoenix,Brake Discs,Cargo Van,245,7,4,On Time,0,281,886.25
+USHP2562,Bailey PLC,Phoenix,Houston,Car Batteries,Cargo Van,848,3,5,Delayed,1,228,1206
+USHP2563,Williams Inc,Phoenix,Houston,Brake Discs,Trailer,1098,5,1,On Time,0,204,1333.5
+USHP2564,David Inc,New York,Phoenix,Windshield Wipers,Freight Truck,574,6,7,Delayed,1,248,1050.5
+USHP2565,Shelton-Mckinney,Chicago,Phoenix,Car Batteries,Freight Truck,413,5,4,On Time,0,111,587.25
+USHP2566,Davis-Avery,Chicago,New York,Car Batteries,Cargo Van,596,7,8,Delayed,1,127,764.5
+USHP2567,Campbell Ltd,New York,Phoenix,Car Batteries,Cargo Van,723,6,7,Delayed,1,131,869.75
+USHP2568,"Strickland, Hale and Perez",Los Angeles,Chicago,Brake Discs,Cargo Van,489,3,4,Delayed,1,528,1686.75
+USHP2569,Garcia-Mcgee,Houston,New York,Oil Filters,Cargo Van,339,2,6,Delayed,1,123,561.75
+USHP2570,Wallace-Pierce,Los Angeles,New York,Windshield Wipers,Trailer,318,7,1,On Time,0,580,1688.5
+USHP2571,Brown Inc,Los Angeles,Houston,Car Batteries,Cargo Van,1278,7,5,On Time,0,82,1163.5
+USHP2572,Rivera Inc,Houston,Chicago,Spark Plugs,Trailer,579,4,4,On Time,0,140,784.25
+USHP2573,Acosta-Moore,Chicago,New York,Windshield Wipers,Cargo Van,1151,6,4,On Time,0,39,960.75
+USHP2574,"Tran, Watson and Carlson",Chicago,Chicago,Oil Filters,Trailer,1444,1,6,Delayed,1,535,2420.5
+USHP2575,"Brooks, Smith and Vaughn",Chicago,Los Angeles,Windshield Wipers,Cargo Van,476,5,2,On Time,0,211,884.5
+USHP2576,Joseph-Jennings,Phoenix,Chicago,Oil Filters,Trailer,995,2,2,On Time,0,151,1123.75
+USHP2577,"Gonzales, Clark and Curtis",Phoenix,New York,Spark Plugs,Cargo Van,676,6,7,Delayed,1,158,902
+USHP2578,"Alexander, Goodwin and Maxwell",Los Angeles,Chicago,Spark Plugs,Trailer,876,1,3,Delayed,1,599,2154.5
+USHP2579,Cohen-Randall,Houston,New York,Oil Filters,Trailer,1147,1,9,Delayed,1,88,1080.25
+USHP2580,"Ellis, Hutchinson and Mcmillan",Phoenix,Houston,Spark Plugs,Trailer,1079,7,7,On Time,0,551,2186.75
+USHP2581,Guerrero-Washington,Los Angeles,Phoenix,Car Batteries,Freight Truck,463,1,4,Delayed,1,386,1312.25
+USHP2582,"Daniel, Hart and Johnson",Houston,Chicago,Oil Filters,Cargo Van,205,5,3,On Time,0,484,1363.75
+USHP2583,Evans-Kidd,New York,Houston,Oil Filters,Cargo Van,541,7,8,Delayed,1,247,1023.25
+USHP2584,Mullins-Reeves,New York,Houston,Brake Discs,Freight Truck,740,3,6,Delayed,1,452,1685
+USHP2585,Marsh Group,New York,Phoenix,Windshield Wipers,Trailer,465,1,9,Delayed,1,287,1066.25
+USHP2586,Cannon-Hill,Phoenix,Houston,Windshield Wipers,Freight Truck,1108,2,2,On Time,0,342,1686
+USHP2587,Stevens and Sons,Phoenix,Los Angeles,Car Batteries,Trailer,1317,4,2,On Time,0,336,1827.75
+USHP2588,"Perez, Barnes and Caldwell",Houston,Los Angeles,Spark Plugs,Trailer,458,3,9,Delayed,1,134,678.5
+USHP2589,"Robbins, Bell and Green",Houston,Chicago,Brake Discs,Freight Truck,1499,6,3,On Time,0,251,1751.75
+USHP2590,Moore LLC,Chicago,Phoenix,Car Batteries,Trailer,757,5,4,On Time,0,120,867.75
+USHP2591,Brown Inc,New York,New York,Windshield Wipers,Cargo Van,630,5,8,Delayed,1,128,792.5
+USHP2592,Taylor-Mclaughlin,Houston,Houston,Windshield Wipers,Cargo Van,1003,5,8,Delayed,1,345,1614.75
+USHP2593,"Gallegos, Bender and Christian",Chicago,Houston,Brake Discs,Freight Truck,1145,5,2,On Time,0,127,1176.25
+USHP2594,Acosta and Sons,New York,New York,Car Batteries,Cargo Van,441,3,2,On Time,0,433,1413.25
+USHP2595,Duffy-Jenkins,Chicago,Chicago,Brake Discs,Freight Truck,206,7,9,Delayed,1,316,944.5
+USHP2596,Ramos-Hawkins,Phoenix,Chicago,Oil Filters,Trailer,837,5,9,Delayed,1,228,1197.75
+USHP2597,"King, Lopez and Chavez",Houston,New York,Windshield Wipers,Cargo Van,548,2,9,Delayed,1,183,868.5
+USHP2598,Curtis-Mitchell,Houston,Phoenix,Spark Plugs,Cargo Van,1419,5,2,On Time,0,167,1481.75
+USHP2599,"Blake, Clarke and Rice",Houston,New York,Windshield Wipers,Freight Truck,1237,6,5,On Time,0,68,1097.75
+USHP2600,Walker Inc,Phoenix,Chicago,Brake Discs,Freight Truck,590,1,7,Delayed,1,76,632.5
+USHP2601,"Jennings, Snyder and Jimenez",Los Angeles,Chicago,Brake Discs,Trailer,840,4,6,Delayed,1,65,792.5
+USHP2602,"Vazquez, York and Ellis",Phoenix,Los Angeles,Car Batteries,Cargo Van,1106,7,4,On Time,0,370,1754.5
+USHP2603,Collier LLC,Houston,Houston,Oil Filters,Freight Truck,873,4,8,Delayed,1,599,2152.25
+USHP2604,Walker-Horne,Phoenix,Houston,Brake Discs,Cargo Van,1283,5,7,Delayed,1,153,1344.75
+USHP2605,White PLC,Phoenix,Los Angeles,Car Batteries,Cargo Van,769,2,8,Delayed,1,309,1349.25
+USHP2606,"Fisher, Mcguire and Lopez",Los Angeles,Chicago,Spark Plugs,Cargo Van,459,6,1,On Time,0,85,556.75
+USHP2607,Solis-Johns,Phoenix,Chicago,Spark Plugs,Freight Truck,733,7,1,On Time,0,336,1389.75
+USHP2608,Jordan PLC,New York,Phoenix,Car Batteries,Cargo Van,442,5,1,On Time,0,426,1396.5
+USHP2609,"Wright, Grant and Monroe",Houston,Los Angeles,Brake Discs,Trailer,148,5,2,On Time,0,127,428.5
+USHP2610,Mann-Ball,Phoenix,Houston,Brake Discs,Trailer,509,6,4,On Time,0,467,1549.25
+USHP2611,"Reid, Ramos and Burns",Chicago,Los Angeles,Windshield Wipers,Freight Truck,1251,5,4,On Time,0,88,1158.25
+USHP2612,Davila PLC,Los Angeles,Los Angeles,Windshield Wipers,Cargo Van,378,4,9,Delayed,1,595,1771
+USHP2613,"Bryan, Gutierrez and Sanchez",New York,Los Angeles,Oil Filters,Cargo Van,530,5,2,On Time,0,342,1252.5
+USHP2614,Jackson-Brown,Houston,Phoenix,Car Batteries,Cargo Van,200,1,8,Delayed,1,96,390
+USHP2615,Marsh-Bell,Phoenix,Phoenix,Brake Discs,Freight Truck,1180,1,3,Delayed,1,375,1822.5
+USHP2616,"Faulkner, Mcdonald and Levine",New York,Phoenix,Car Batteries,Freight Truck,329,3,7,Delayed,1,139,594.25
+USHP2617,Watson-Hernandez,Phoenix,New York,Windshield Wipers,Trailer,1025,6,9,Delayed,1,316,1558.75
+USHP2618,Cook-Curry,Houston,Chicago,Brake Discs,Freight Truck,282,4,9,Delayed,1,573,1644
+USHP2619,"Miller, Spence and Campbell",Los Angeles,Chicago,Car Batteries,Trailer,450,7,9,Delayed,1,332,1167.5
+USHP2620,Gonzalez-Bowman,Houston,Houston,Spark Plugs,Trailer,1043,7,7,On Time,0,97,1024.75
+USHP2621,"Riley, Kelley and Walsh",Houston,Houston,Car Batteries,Cargo Van,599,6,1,On Time,0,558,1844.25
+USHP2622,"Thornton, Nguyen and Spencer",Houston,Los Angeles,Car Batteries,Cargo Van,839,5,3,On Time,0,525,1941.75
+USHP2623,Spencer-Morrow,Houston,Houston,Spark Plugs,Freight Truck,380,3,7,Delayed,1,368,1205
+USHP2624,Campos and Sons,Los Angeles,Phoenix,Windshield Wipers,Freight Truck,1024,7,5,On Time,0,498,2013
+USHP2625,"Cross, Fitzgerald and Trevino",Houston,Los Angeles,Oil Filters,Freight Truck,126,6,9,Delayed,1,450,1219.5
+USHP2626,Stark-Roberts,Chicago,Chicago,Windshield Wipers,Trailer,629,4,2,On Time,0,546,1836.75
+USHP2627,"Reynolds, Bennett and Wilson",New York,Los Angeles,Windshield Wipers,Trailer,480,3,4,Delayed,1,353,1242.5
+USHP2628,Jones and Sons,Phoenix,Phoenix,Oil Filters,Cargo Van,1090,4,3,On Time,0,530,2142.5
+USHP2629,"Lawson, Crosby and Hoffman",New York,Houston,Car Batteries,Trailer,883,5,3,On Time,0,436,1752.25
+USHP2630,"Bowers, Vazquez and Williams",New York,New York,Car Batteries,Freight Truck,941,5,9,Delayed,1,143,1063.25
+USHP2631,Dodson and Sons,New York,New York,Car Batteries,Cargo Van,391,3,3,On Time,0,318,1088.25
+USHP2632,Wilkins Ltd,Houston,Houston,Spark Plugs,Freight Truck,961,1,6,Delayed,1,245,1333.25
+USHP2633,"Norman, Wallace and Baker",New York,Houston,Oil Filters,Trailer,150,1,9,Delayed,1,436,1202.5
+USHP2634,Lee Ltd,Los Angeles,Chicago,Windshield Wipers,Freight Truck,826,5,5,On Time,0,516,1909.5
+USHP2635,"Farmer, Smith and Nelson",Houston,Houston,Brake Discs,Trailer,1193,5,2,On Time,0,256,1534.75
+USHP2636,Ingram Ltd,Houston,New York,Oil Filters,Cargo Van,596,2,4,Delayed,1,415,1484.5
+USHP2637,Greene PLC,Phoenix,New York,Brake Discs,Freight Truck,913,3,6,Delayed,1,481,1887.25
+USHP2638,Hernandez Inc,New York,Chicago,Car Batteries,Freight Truck,1018,2,6,Delayed,1,276,1453.5
+USHP2639,Price Group,Houston,Houston,Spark Plugs,Trailer,1207,4,5,Delayed,1,502,2160.25
+USHP2640,"Gomez, Mckenzie and Jordan",Chicago,New York,Oil Filters,Trailer,569,4,9,Delayed,1,28,496.75
+USHP2641,Robinson LLC,Los Angeles,Los Angeles,Brake Discs,Freight Truck,580,7,6,On Time,0,437,1527.5
+USHP2642,Ibarra-Martinez,Chicago,Houston,Windshield Wipers,Freight Truck,1398,2,5,Delayed,1,371,1976
+USHP2643,"Hunter, Ross and Allen",New York,Los Angeles,Brake Discs,Freight Truck,1163,2,8,Delayed,1,346,1737.25
+USHP2644,"Blevins, Anderson and Price",Houston,New York,Oil Filters,Cargo Van,931,7,1,On Time,0,277,1390.75
+USHP2645,"Mcdonald, Woods and Rubio",Los Angeles,Houston,Brake Discs,Cargo Van,86,3,3,On Time,0,143,422
+USHP2646,"Bell, Moore and Manning",Chicago,Phoenix,Brake Discs,Cargo Van,1414,1,2,Delayed,1,207,1578
+USHP2647,"Ayala, Montgomery and Boone",New York,Houston,Brake Discs,Freight Truck,308,1,3,Delayed,1,360,1131
+USHP2648,Edwards-Smith,Phoenix,Los Angeles,Windshield Wipers,Cargo Van,1341,5,3,On Time,0,579,2453.25
+USHP2649,"Young, Kim and Scott",Phoenix,Phoenix,Brake Discs,Trailer,1073,7,8,Delayed,1,192,1284.75
+USHP2650,Hall-Reynolds,Phoenix,Chicago,Windshield Wipers,Freight Truck,739,2,4,Delayed,1,413,1586.75
+USHP2651,"Blackburn, Williams and Yu",Chicago,New York,Car Batteries,Freight Truck,1255,4,9,Delayed,1,73,1123.75
+USHP2652,Greene Ltd,Phoenix,Los Angeles,Car Batteries,Cargo Van,298,7,7,On Time,0,181,676
+USHP2653,Dickson LLC,Los Angeles,Chicago,Brake Discs,Trailer,953,7,3,On Time,0,311,1492.25
+USHP2654,Mullins and Sons,New York,New York,Car Batteries,Freight Truck,1270,1,1,On Time,0,97,1195
+USHP2655,"Fowler, Dean and Morrison",Los Angeles,Chicago,Car Batteries,Trailer,935,7,9,Delayed,1,111,978.75
+USHP2656,Gomez-Strong,Phoenix,Los Angeles,Oil Filters,Trailer,903,7,6,On Time,0,38,772.25
+USHP2657,Edwards-Giles,Chicago,New York,Windshield Wipers,Freight Truck,631,6,7,Delayed,1,354,1358.25
+USHP2658,"Green, Morales and Miller",Chicago,Chicago,Oil Filters,Cargo Van,991,3,4,Delayed,1,39,840.75
+USHP2659,Brown-Castro,New York,New York,Spark Plugs,Cargo Van,317,4,5,Delayed,1,262,892.75
+USHP2660,Vega PLC,Houston,Houston,Car Batteries,Trailer,1460,2,7,Delayed,1,248,1715
+USHP2661,King-Haney,Phoenix,Los Angeles,Oil Filters,Cargo Van,541,3,5,Delayed,1,138,750.75
+USHP2662,Martinez PLC,Houston,Phoenix,Oil Filters,Cargo Van,1329,5,4,On Time,0,48,1116.75
+USHP2663,Massey and Sons,New York,Los Angeles,Oil Filters,Freight Truck,59,7,9,Delayed,1,562,1449.25
+USHP2664,Macdonald Inc,Los Angeles,Chicago,Oil Filters,Trailer,1445,5,3,On Time,0,306,1848.75
+USHP2665,Newton and Sons,New York,Los Angeles,Spark Plugs,Cargo Van,234,3,8,Delayed,1,174,610.5
+USHP2666,Henderson-Jimenez,Chicago,New York,Spark Plugs,Freight Truck,1077,5,3,On Time,0,404,1817.75
+USHP2667,Miller-Hernandez,Chicago,Los Angeles,Oil Filters,Freight Truck,359,6,1,On Time,0,304,1029.25
+USHP2668,"Day, Bailey and Murray",Houston,Phoenix,Spark Plugs,Cargo Van,1497,4,2,On Time,0,418,2167.75
+USHP2669,Smith-Barnes,Los Angeles,New York,Brake Discs,Freight Truck,842,3,1,On Time,0,354,1516.5
+USHP2670,Richards-Nelson,Phoenix,Los Angeles,Oil Filters,Freight Truck,84,3,1,On Time,0,513,1345.5
+USHP2671,Greer-Wilson,Houston,Los Angeles,Windshield Wipers,Freight Truck,526,3,1,On Time,0,311,1172
+USHP2672,"Jones, Olson and Walker",Los Angeles,Los Angeles,Car Batteries,Freight Truck,700,6,3,On Time,0,524,1835
+USHP2673,Rivera-Miller,New York,Los Angeles,Car Batteries,Freight Truck,118,7,1,On Time,0,529,1411
+USHP2674,Ford-Deleon,Los Angeles,Houston,Oil Filters,Trailer,1135,2,6,Delayed,1,523,2158.75
+USHP2675,Mcneil-Middleton,Chicago,New York,Oil Filters,Freight Truck,1360,6,6,On Time,0,411,2047.5
+USHP2676,Hunt Group,New York,Houston,Windshield Wipers,Cargo Van,1330,4,9,Delayed,1,217,1540
+USHP2677,"Wells, Smith and Young",Chicago,Chicago,Windshield Wipers,Freight Truck,979,1,2,Delayed,1,157,1126.75
+USHP2678,Garcia-Baker,Los Angeles,Houston,Oil Filters,Freight Truck,1151,1,8,Delayed,1,93,1095.75
+USHP2679,"Thompson, Arias and Hall",Los Angeles,Chicago,Spark Plugs,Trailer,211,4,6,Delayed,1,565,1570.75
+USHP2680,Newman-Rodriguez,New York,Chicago,Car Batteries,Trailer,1240,3,1,On Time,0,451,2057.5
+USHP2681,Aguilar LLC,Phoenix,Chicago,Windshield Wipers,Cargo Van,1209,4,2,On Time,0,160,1306.75
+USHP2682,Baker-Morris,New York,Los Angeles,Brake Discs,Cargo Van,882,5,1,On Time,0,366,1576.5
+USHP2683,Morton Ltd,New York,Los Angeles,Windshield Wipers,Freight Truck,1038,5,2,On Time,0,73,961
+USHP2684,"Robbins, Anderson and Zhang",Los Angeles,Phoenix,Windshield Wipers,Cargo Van,822,2,1,On Time,0,232,1196.5
+USHP2685,Nguyen-Mckinney,Chicago,Los Angeles,Spark Plugs,Freight Truck,1278,1,1,On Time,0,523,2266
+USHP2686,Fuller-Tyler,Phoenix,New York,Oil Filters,Cargo Van,1209,7,9,Delayed,1,46,1021.75
+USHP2687,Mcdonald-Hicks,Houston,New York,Oil Filters,Freight Truck,604,2,5,Delayed,1,586,1918
+USHP2688,Williams-Blair,Houston,Los Angeles,Car Batteries,Trailer,596,2,6,Delayed,1,196,937
+USHP2689,Hall-Martinez,Chicago,Los Angeles,Brake Discs,Trailer,450,3,3,On Time,0,585,1800
+USHP2690,"Jenkins, Hunt and Curtis",New York,Houston,Car Batteries,Freight Truck,867,5,6,Delayed,1,386,1615.25
+USHP2691,Harper-Arroyo,Houston,Houston,Car Batteries,Cargo Van,1024,3,6,Delayed,1,187,1235.5
+USHP2692,Calderon Group,Houston,Phoenix,Car Batteries,Freight Truck,750,3,7,Delayed,1,163,970
+USHP2693,Williamson-Gordon,Phoenix,Chicago,Brake Discs,Trailer,119,3,9,Delayed,1,221,641.75
+USHP2694,"Kelly, Barnes and Chapman",Chicago,Houston,Car Batteries,Trailer,1237,5,7,Delayed,1,158,1322.75
+USHP2695,Brown PLC,Chicago,New York,Brake Discs,Freight Truck,1214,6,6,On Time,0,336,1750.5
+USHP2696,Hill-Gibson,Houston,Houston,Spark Plugs,Trailer,107,1,5,Delayed,1,244,690.25
+USHP2697,"Ingram, Bailey and White",Los Angeles,Houston,Brake Discs,Trailer,1205,5,7,Delayed,1,40,1003.75
+USHP2698,Morgan LLC,Chicago,Chicago,Spark Plugs,Cargo Van,1145,1,1,On Time,0,68,1028.75
+USHP2699,"Pacheco, Clark and Bowers",New York,Chicago,Spark Plugs,Trailer,1102,7,4,On Time,0,588,2296.5
+USHP2700,Ward-Reed,Los Angeles,Houston,Brake Discs,Freight Truck,1420,2,9,Delayed,1,566,2480
+USHP2701,"Wilkinson, Gomez and Edwards",New York,Houston,Oil Filters,Freight Truck,655,4,5,Delayed,1,96,731.25
+USHP2702,Thomas LLC,Los Angeles,New York,Oil Filters,Cargo Van,202,4,1,On Time,0,71,329
+USHP2703,Mendez-Smith,Los Angeles,Los Angeles,Car Batteries,Freight Truck,614,3,5,Delayed,1,492,1690.5
+USHP2704,"Bradley, Guzman and Best",New York,Los Angeles,Brake Discs,Cargo Van,472,4,7,Delayed,1,532,1684
+USHP2705,Brooks-Morales,Phoenix,Chicago,Oil Filters,Freight Truck,626,5,7,Delayed,1,253,1102
+USHP2706,Flores PLC,New York,New York,Car Batteries,Cargo Van,523,4,4,On Time,0,90,617.25
+USHP2707,Oconnor Group,Los Angeles,New York,Oil Filters,Freight Truck,657,6,8,Delayed,1,515,1780.25
+USHP2708,Dixon-Hubbard,Houston,New York,Car Batteries,Cargo Van,1281,6,9,Delayed,1,280,1660.75
+USHP2709,"Greer, Perez and Mullins",Houston,New York,Car Batteries,Cargo Van,1230,2,8,Delayed,1,484,2132.5
+USHP2710,"Ford, Rodriguez and Harper",New York,Chicago,Brake Discs,Cargo Van,606,1,9,Delayed,1,527,1772
+USHP2711,"Moran, Tucker and Mccormick",Chicago,Phoenix,Windshield Wipers,Cargo Van,611,5,6,Delayed,1,385,1420.75
+USHP2712,"Clarke, Small and Vasquez",Phoenix,Los Angeles,Oil Filters,Trailer,174,5,8,Delayed,1,339,978
+USHP2713,Palmer PLC,Los Angeles,Phoenix,Windshield Wipers,Freight Truck,257,2,5,Delayed,1,365,1105.25
+USHP2714,Taylor-Brown,New York,Chicago,Brake Discs,Cargo Van,1164,2,4,Delayed,1,299,1620.5
+USHP2715,"Duncan, Moses and Castillo",Los Angeles,Los Angeles,Brake Discs,Trailer,1337,7,3,On Time,0,464,2162.75
+USHP2716,"Massey, Steele and Bruce",Chicago,Los Angeles,Brake Discs,Freight Truck,1327,7,1,On Time,0,108,1265.25
+USHP2717,"Acosta, West and Allen",Chicago,Los Angeles,Brake Discs,Freight Truck,687,5,9,Delayed,1,156,905.25
+USHP2718,Davis Inc,New York,New York,Windshield Wipers,Cargo Van,293,6,8,Delayed,1,357,1112.25
+USHP2719,Price-Martin,Houston,Los Angeles,Brake Discs,Cargo Van,739,1,6,Delayed,1,306,1319.25
+USHP2720,"Hernandez, Peterson and Foley",Phoenix,Houston,Windshield Wipers,Trailer,1123,5,7,Delayed,1,322,1647.25
+USHP2721,"Peterson, Lucas and Preston",Los Angeles,Houston,Car Batteries,Cargo Van,791,6,5,On Time,0,231,1170.75
+USHP2722,"Cain, Brown and Smith",Los Angeles,New York,Windshield Wipers,Freight Truck,679,1,8,Delayed,1,395,1496.75
+USHP2723,Franco-Henry,Houston,Phoenix,Oil Filters,Freight Truck,151,1,6,Delayed,1,547,1480.75
+USHP2724,Sims-Cruz,Los Angeles,Chicago,Oil Filters,Cargo Van,695,2,4,Delayed,1,346,1386.25
+USHP2725,Lee PLC,Chicago,New York,Car Batteries,Trailer,742,6,8,Delayed,1,570,1981.5
+USHP2726,"Hill, Hill and Conner",Phoenix,Los Angeles,Car Batteries,Trailer,725,7,5,On Time,0,34,628.75
+USHP2727,"Jones, Gray and Barker",Chicago,New York,Brake Discs,Freight Truck,538,5,1,On Time,0,577,1846
+USHP2728,"Barnes, Rivera and Oneill",Chicago,Phoenix,Oil Filters,Cargo Van,1293,5,2,On Time,0,598,2464.75
+USHP2729,Nguyen-Martin,Phoenix,Houston,Car Batteries,Cargo Van,268,1,5,Delayed,1,539,1548.5
+USHP2730,Mckee-Miller,Houston,New York,Windshield Wipers,Cargo Van,570,7,7,On Time,0,514,1712.5
+USHP2731,Summers PLC,Los Angeles,Phoenix,Brake Discs,Freight Truck,946,3,1,On Time,0,230,1284.5
+USHP2732,"Frazier, Gonzalez and Collins",Houston,Phoenix,Brake Discs,Trailer,316,6,6,On Time,0,500,1487
+USHP2733,"Hughes, Ramos and Kelley",Phoenix,Chicago,Spark Plugs,Trailer,798,7,2,On Time,0,42,703.5
+USHP2734,"Pacheco, Solis and Carter",New York,Chicago,Brake Discs,Trailer,494,6,8,Delayed,1,444,1480.5
+USHP2735,Duncan-Jimenez,New York,Los Angeles,Windshield Wipers,Freight Truck,73,5,4,On Time,0,188,524.75
+USHP2736,Beasley-Singleton,Chicago,Phoenix,Oil Filters,Cargo Van,1229,5,3,On Time,0,101,1174.25
+USHP2737,"Petersen, Johnson and Graham",New York,Phoenix,Windshield Wipers,Cargo Van,1412,4,5,Delayed,1,526,2374
+USHP2738,"Mitchell, Perez and Ramsey",Chicago,Los Angeles,Oil Filters,Freight Truck,525,5,5,On Time,0,469,1566.25
+USHP2739,"Cunningham, Sawyer and Wallace",Chicago,Houston,Windshield Wipers,Trailer,1126,5,5,On Time,0,282,1549.5
+USHP2740,"Ford, Green and Bridges",Houston,Los Angeles,Brake Discs,Freight Truck,1131,7,2,On Time,0,370,1773.25
+USHP2741,"Osborn, Becker and Garrison",New York,Chicago,Car Batteries,Freight Truck,1319,3,9,Delayed,1,528,2309.25
+USHP2742,Washington Inc,Phoenix,Los Angeles,Brake Discs,Cargo Van,320,4,2,On Time,0,555,1627.5
+USHP2743,"Thomas, Phillips and Martin",Chicago,New York,Oil Filters,Freight Truck,1082,2,4,Delayed,1,131,1139
+USHP2744,Melton Inc,New York,Chicago,Windshield Wipers,Freight Truck,1076,4,5,Delayed,1,276,1497
+USHP2745,"Robles, Roberts and Patterson",New York,Phoenix,Oil Filters,Freight Truck,859,7,4,On Time,0,304,1404.25
+USHP2746,Brooks-Taylor,New York,Chicago,Oil Filters,Freight Truck,60,1,5,Delayed,1,400,1045
+USHP2747,Romero-Bass,Chicago,Chicago,Windshield Wipers,Trailer,1113,5,2,On Time,0,97,1077.25
+USHP2748,Aguirre Group,Chicago,Chicago,Brake Discs,Cargo Van,74,1,2,Delayed,1,580,1505.5
+USHP2749,"Osborne, Ayala and Jackson",Los Angeles,Los Angeles,Oil Filters,Freight Truck,749,6,3,On Time,0,473,1744.25
+USHP2750,Scott Ltd,Chicago,Chicago,Windshield Wipers,Freight Truck,1348,6,8,Delayed,1,51,1138.5
+USHP2751,"Bentley, Gonzalez and Jones",Chicago,Chicago,Spark Plugs,Trailer,629,2,7,Delayed,1,545,1834.25
+USHP2752,Wilson Ltd,Houston,Chicago,Oil Filters,Freight Truck,504,1,1,On Time,0,537,1720.5
+USHP2753,Davis-Bradford,Houston,Phoenix,Oil Filters,Freight Truck,550,6,4,On Time,0,61,565
+USHP2754,Wilcox-Moses,Los Angeles,Los Angeles,Brake Discs,Cargo Van,960,5,2,On Time,0,469,1892.5
+USHP2755,Johnson-Williams,Los Angeles,Houston,Car Batteries,Freight Truck,933,1,7,Delayed,1,419,1747.25
+USHP2756,Moreno-Warren,Chicago,Phoenix,Spark Plugs,Trailer,553,4,7,Delayed,1,299,1162.25
+USHP2757,Davis-Ross,Chicago,New York,Oil Filters,Trailer,352,7,9,Delayed,1,198,759
+USHP2758,Hoover-Simpson,Chicago,Los Angeles,Oil Filters,Freight Truck,1319,7,1,On Time,0,210,1514.25
+USHP2759,"Garza, Castillo and Barnes",New York,Houston,Car Batteries,Cargo Van,625,6,2,On Time,0,109,741.25
+USHP2760,Glass-Larsen,New York,Los Angeles,Car Batteries,Freight Truck,599,6,6,On Time,0,392,1429.25
+USHP2761,Schroeder-Smith,Phoenix,Houston,Oil Filters,Trailer,1290,1,5,Delayed,1,268,1637.5
+USHP2762,Wright Ltd,New York,Phoenix,Windshield Wipers,Trailer,933,4,3,On Time,0,97,942.25
+USHP2763,Baker Ltd,Houston,Houston,Brake Discs,Cargo Van,234,6,3,On Time,0,125,488
+USHP2764,"Ford, Hudson and Parker",Chicago,Chicago,Spark Plugs,Freight Truck,1462,3,1,On Time,0,114,1381.5
+USHP2765,Torres-Griffin,New York,Chicago,Brake Discs,Cargo Van,598,7,9,Delayed,1,333,1281
+USHP2766,"Adams, Rogers and Barton",Los Angeles,Houston,Brake Discs,Trailer,624,6,6,On Time,0,83,675.5
+USHP2767,Hardy Group,Houston,Phoenix,Oil Filters,Freight Truck,647,2,1,On Time,0,505,1747.75
+USHP2768,"Payne, Williams and Spencer",Los Angeles,New York,Spark Plugs,Freight Truck,770,1,4,Delayed,1,600,2077.5
+USHP2769,Mejia-Johnson,Los Angeles,Phoenix,Windshield Wipers,Trailer,340,6,3,On Time,0,323,1062.5
+USHP2770,Parsons-Kim,Phoenix,Phoenix,Oil Filters,Freight Truck,1103,4,6,Delayed,1,463,1984.75
+USHP2771,"Moreno, Montoya and Nelson",Phoenix,Chicago,Spark Plugs,Cargo Van,680,4,3,On Time,0,305,1272.5
+USHP2772,Burke-Villa,Houston,Houston,Spark Plugs,Trailer,941,6,5,On Time,0,63,863.25
+USHP2773,"Bradley, Simmons and Hoffman",Chicago,Chicago,Oil Filters,Trailer,295,5,6,Delayed,1,553,1603.75
+USHP2774,Kennedy Group,Chicago,New York,Oil Filters,Trailer,459,3,6,Delayed,1,417,1386.75
+USHP2775,Acosta-Salazar,Chicago,Chicago,Oil Filters,Freight Truck,390,2,1,On Time,0,220,842.5
+USHP2776,Hendrix Group,New York,New York,Brake Discs,Freight Truck,830,6,7,Delayed,1,94,857.5
+USHP2777,"Johnson, Fischer and Murphy",Los Angeles,Phoenix,Oil Filters,Freight Truck,423,6,5,On Time,0,356,1207.25
+USHP2778,"Pacheco, Waller and Johnson",Phoenix,Los Angeles,Spark Plugs,Freight Truck,1189,3,1,On Time,0,459,2039.25
+USHP2779,"Nash, Palmer and Morrison",Houston,Chicago,Spark Plugs,Trailer,1386,1,3,Delayed,1,53,1172
+USHP2780,Manning and Sons,New York,Houston,Car Batteries,Freight Truck,770,3,5,Delayed,1,470,1752.5
+USHP2781,"Scott, Castillo and White",New York,New York,Oil Filters,Cargo Van,1255,7,3,On Time,0,529,2263.75
+USHP2782,Lewis and Sons,Phoenix,New York,Spark Plugs,Freight Truck,1326,3,2,On Time,0,508,2264.5
+USHP2783,Tran Group,Houston,Phoenix,Windshield Wipers,Freight Truck,704,7,2,On Time,0,288,1248
+USHP2784,"Grant, Smith and Hunter",Houston,Phoenix,Car Batteries,Trailer,1087,5,9,Delayed,1,298,1560.25
+USHP2785,Mueller LLC,Phoenix,Los Angeles,Brake Discs,Trailer,486,1,2,Delayed,1,349,1237
+USHP2786,"Terry, Jimenez and Hardy",Chicago,Los Angeles,Car Batteries,Freight Truck,191,5,7,Delayed,1,64,303.25
+USHP2787,Smith-Juarez,Chicago,New York,Oil Filters,Cargo Van,920,1,6,Delayed,1,287,1407.5
+USHP2788,Shields-Clark,Chicago,Los Angeles,Brake Discs,Cargo Van,831,6,6,On Time,0,256,1263.25
+USHP2789,Perry-Mcbride,Phoenix,Houston,Spark Plugs,Cargo Van,1252,7,7,On Time,0,77,1131.5
+USHP2790,Griffin PLC,Phoenix,Houston,Car Batteries,Cargo Van,583,6,3,On Time,0,429,1509.75
+USHP2791,Webb Group,Phoenix,Houston,Brake Discs,Trailer,117,6,9,Delayed,1,93,320.25
+USHP2792,Rivera PLC,New York,Los Angeles,Spark Plugs,Freight Truck,1205,5,7,Delayed,1,276,1593.75
+USHP2793,Holland Inc,Los Angeles,New York,Brake Discs,Trailer,1377,6,4,On Time,0,365,1945.25
+USHP2794,Weaver-Nelson,Phoenix,Houston,Car Batteries,Freight Truck,440,6,4,On Time,0,464,1490
+USHP2795,"Davis, Lowery and Spencer",Houston,Phoenix,Oil Filters,Cargo Van,50,1,7,Delayed,1,507,1305
+USHP2796,"Silva, Mckee and Dean",New York,New York,Spark Plugs,Cargo Van,147,1,4,Delayed,1,574,1545.25
+USHP2797,Beltran-Boyer,Los Angeles,Houston,Windshield Wipers,Cargo Van,903,6,7,Delayed,1,362,1582.25
+USHP2798,"Walton, Mcneil and Sparks",Chicago,Los Angeles,Oil Filters,Cargo Van,1471,7,3,On Time,0,369,2025.75
+USHP2799,Arroyo Inc,New York,Houston,Windshield Wipers,Freight Truck,515,5,7,Delayed,1,194,871.25
+USHP2800,Pacheco-Leonard,Houston,Los Angeles,Brake Discs,Freight Truck,1224,5,7,Delayed,1,317,1710.5
+USHP2801,"Bryant, Gomez and Morris",Chicago,Chicago,Car Batteries,Cargo Van,951,1,3,Delayed,1,49,835.75
+USHP2802,"Callahan, Smith and Davis",Phoenix,Houston,Brake Discs,Freight Truck,328,7,4,On Time,0,160,646
+USHP2803,Wallace-Castillo,Houston,New York,Windshield Wipers,Freight Truck,1291,5,7,Delayed,1,335,1805.75
+USHP2804,Burns-Williams,Chicago,Houston,Oil Filters,Freight Truck,1340,3,8,Delayed,1,508,2275
+USHP2805,"Smith, Martin and Walker",Phoenix,Chicago,Spark Plugs,Trailer,1387,3,7,Delayed,1,593,2522.75
+USHP2806,"Bass, Murray and Carter",New York,Houston,Brake Discs,Freight Truck,373,2,3,Delayed,1,212,809.75
+USHP2807,Rodriguez PLC,Houston,Houston,Brake Discs,Trailer,526,1,9,Delayed,1,117,687
+USHP2808,Ramos LLC,New York,New York,Brake Discs,Cargo Van,1300,5,3,On Time,0,518,2270
+USHP2809,Carlson-Gilmore,Phoenix,Chicago,Car Batteries,Cargo Van,791,4,4,On Time,0,480,1793.25
+USHP2810,Cook Ltd,Houston,New York,Oil Filters,Trailer,441,3,9,Delayed,1,31,408.25
+USHP2811,"Munoz, Luna and Burch",Chicago,New York,Windshield Wipers,Freight Truck,566,6,2,On Time,0,64,584.5
+USHP2812,Barnes-Bell,New York,Phoenix,Car Batteries,Trailer,174,7,9,Delayed,1,94,365.5
+USHP2813,Castaneda Ltd,Chicago,Los Angeles,Windshield Wipers,Trailer,88,3,5,Delayed,1,497,1308.5
+USHP2814,Yates Ltd,Los Angeles,Houston,Brake Discs,Freight Truck,595,2,8,Delayed,1,286,1161.25
+USHP2815,Hill-Herrera,Chicago,Los Angeles,Car Batteries,Cargo Van,551,6,2,On Time,0,110,688.25
+USHP2816,"White, Finley and Ho",Chicago,Phoenix,Spark Plugs,Trailer,1319,2,8,Delayed,1,516,2279.25
+USHP2817,"Griffin, Mcdonald and Haynes",Phoenix,Los Angeles,Spark Plugs,Trailer,63,6,6,On Time,0,109,319.75
+USHP2818,Callahan Inc,Phoenix,New York,Spark Plugs,Freight Truck,913,4,8,Delayed,1,368,1604.75
+USHP2819,Stephenson-Morrison,Houston,Los Angeles,Oil Filters,Freight Truck,438,5,9,Delayed,1,103,586
+USHP2820,Scott-Guerrero,Chicago,Chicago,Windshield Wipers,Freight Truck,344,6,6,On Time,0,563,1665.5
+USHP2821,Harris-Davis,New York,Houston,Oil Filters,Freight Truck,1086,2,2,On Time,0,337,1657
+USHP2822,"Anderson, Scott and Silva",New York,Phoenix,Windshield Wipers,Trailer,830,1,8,Delayed,1,413,1655
+USHP2823,Smith-Cole,Houston,Phoenix,Spark Plugs,Freight Truck,1328,3,2,On Time,0,530,2321
+USHP2824,Benjamin PLC,Los Angeles,Los Angeles,Windshield Wipers,Cargo Van,514,7,9,Delayed,1,552,1765.5
+USHP2825,"Hall, Taylor and Santos",Phoenix,New York,Spark Plugs,Freight Truck,958,3,1,On Time,0,162,1123.5
+USHP2826,"Weeks, Flores and Mayer",New York,Chicago,Windshield Wipers,Freight Truck,1200,1,9,Delayed,1,355,1787.5
+USHP2827,Carter-Ramos,New York,Houston,Car Batteries,Freight Truck,190,6,6,On Time,0,241,745
+USHP2828,Miranda-Nguyen,Chicago,New York,Car Batteries,Cargo Van,1461,3,8,Delayed,1,29,1168.25
+USHP2829,Richardson and Sons,Chicago,Phoenix,Car Batteries,Cargo Van,710,5,5,On Time,0,59,680
+USHP2830,"Brown, Green and Sellers",Los Angeles,Houston,Windshield Wipers,Freight Truck,426,6,1,On Time,0,281,1022
+USHP2831,Stewart-Walton,Houston,New York,Car Batteries,Freight Truck,307,6,8,Delayed,1,520,1530.25
+USHP2832,Robertson-Marquez,Houston,Chicago,Windshield Wipers,Trailer,915,4,3,On Time,0,108,956.25
+USHP2833,Ford-Mcdonald,Phoenix,Houston,Oil Filters,Cargo Van,1216,4,8,Delayed,1,576,2352
+USHP2834,Oneal PLC,Houston,Los Angeles,Brake Discs,Freight Truck,638,5,8,Delayed,1,440,1578.5
+USHP2835,"Miller, Velasquez and Long",Los Angeles,Houston,Brake Discs,Freight Truck,583,7,5,On Time,0,182,892.25
+USHP2836,Roth-Khan,Phoenix,Chicago,Brake Discs,Cargo Van,683,3,7,Delayed,1,475,1699.75
+USHP2837,"Smith, Schmitt and Jones",Houston,Los Angeles,Car Batteries,Cargo Van,376,2,6,Delayed,1,418,1327
+USHP2838,Olsen PLC,New York,New York,Windshield Wipers,Freight Truck,826,7,8,Delayed,1,249,1242
+USHP2839,Chavez Ltd,Chicago,New York,Oil Filters,Freight Truck,1075,2,9,Delayed,1,421,1858.75
+USHP2840,Walker-Reed,Chicago,Los Angeles,Oil Filters,Cargo Van,375,1,5,Delayed,1,144,641.25
+USHP2841,"Noble, Hawkins and Sullivan",Houston,New York,Spark Plugs,Cargo Van,251,7,4,On Time,0,521,1490.75
+USHP2842,"Walker, Barnes and Palmer",Phoenix,Chicago,Spark Plugs,Freight Truck,880,6,7,Delayed,1,128,980
+USHP2843,Rodriguez-Carson,Chicago,Chicago,Windshield Wipers,Cargo Van,1012,6,9,Delayed,1,100,1009
+USHP2844,Griffin-Perry,Chicago,Houston,Car Batteries,Trailer,1183,5,9,Delayed,1,239,1484.75
+USHP2845,Gonzalez LLC,Los Angeles,New York,Oil Filters,Freight Truck,1066,4,9,Delayed,1,547,2167
+USHP2846,Reeves Ltd,Phoenix,Los Angeles,Windshield Wipers,Cargo Van,522,1,9,Delayed,1,71,569
+USHP2847,"Pitts, Bass and Goodman",Phoenix,Los Angeles,Brake Discs,Freight Truck,605,2,5,Delayed,1,546,1818.75
+USHP2848,"Noble, Conley and Hess",New York,New York,Spark Plugs,Cargo Van,392,7,9,Delayed,1,483,1501.5
+USHP2849,Carroll-Petersen,New York,New York,Oil Filters,Cargo Van,985,6,8,Delayed,1,226,1303.75
+USHP2850,Turner-Rich,Los Angeles,Phoenix,Car Batteries,Cargo Van,120,1,1,On Time,0,35,177.5
+USHP2851,Grant-Harper,New York,New York,Windshield Wipers,Freight Truck,953,1,1,On Time,0,497,1957.25
+USHP2852,"Johnson, Dodson and Gonzalez",Phoenix,Chicago,Windshield Wipers,Trailer,1096,1,6,Delayed,1,283,1529.5
+USHP2853,"Ortiz, Williamson and Martin",Houston,Chicago,Windshield Wipers,Freight Truck,890,3,4,Delayed,1,301,1420
+USHP2854,Copeland Ltd,Chicago,Phoenix,Car Batteries,Cargo Van,905,5,3,On Time,0,590,2153.75
+USHP2855,Bishop-Sanders,New York,Phoenix,Car Batteries,Trailer,961,6,6,On Time,0,554,2105.75
+USHP2856,Nelson PLC,Chicago,New York,Car Batteries,Freight Truck,1168,6,1,On Time,0,456,2016
+USHP2857,Davis-Brown,New York,Los Angeles,Car Batteries,Trailer,877,2,2,On Time,0,565,2070.25
+USHP2858,Vasquez and Sons,Los Angeles,Chicago,Oil Filters,Trailer,792,5,8,Delayed,1,109,866.5
+USHP2859,Beasley Ltd,Phoenix,Phoenix,Car Batteries,Trailer,1148,3,1,On Time,0,461,2013.5
+USHP2860,"Rose, Cline and Harris",Phoenix,Los Angeles,Spark Plugs,Freight Truck,918,5,5,On Time,0,498,1933.5
+USHP2861,"Hamilton, Baxter and Smith",Chicago,Chicago,Windshield Wipers,Freight Truck,1473,5,7,Delayed,1,53,1237.25
+USHP2862,"Mcclain, Dunn and Reid",Houston,New York,Car Batteries,Cargo Van,1231,3,4,Delayed,1,304,1683.25
+USHP2863,"Terrell, Cook and Brennan",New York,Houston,Oil Filters,Freight Truck,668,3,4,Delayed,1,25,563.5
+USHP2864,Hernandez-Patel,Phoenix,Phoenix,Windshield Wipers,Freight Truck,138,2,7,Delayed,1,438,1198.5
+USHP2865,"Black, Ayala and Garcia",Phoenix,New York,Spark Plugs,Cargo Van,179,7,6,On Time,0,292,864.25
+USHP2866,Gonzalez and Sons,New York,New York,Oil Filters,Cargo Van,1360,1,6,Delayed,1,545,2382.5
+USHP2867,Barnett LLC,New York,Chicago,Car Batteries,Trailer,986,5,2,On Time,0,429,1812
+USHP2868,Hebert-Adams,Chicago,Los Angeles,Oil Filters,Cargo Van,1410,5,3,On Time,0,436,2147.5
+USHP2869,Good PLC,New York,Phoenix,Spark Plugs,Cargo Van,1483,1,5,Delayed,1,484,2322.25
+USHP2870,Strong LLC,Houston,New York,Spark Plugs,Trailer,1298,6,7,Delayed,1,56,1113.5
+USHP2871,"Gordon, Hampton and Davidson",New York,New York,Windshield Wipers,Trailer,1229,6,7,Delayed,1,174,1356.75
+USHP2872,Vasquez-Noble,Chicago,Los Angeles,Brake Discs,Cargo Van,1034,3,1,On Time,0,295,1513
+USHP2873,"Bowen, Davis and Nguyen",Chicago,Phoenix,Car Batteries,Cargo Van,1344,3,3,On Time,0,414,2043
+USHP2874,Cook Inc,Phoenix,Houston,Oil Filters,Cargo Van,180,5,4,On Time,0,113,417.5
+USHP2875,Herrera PLC,Phoenix,Houston,Brake Discs,Cargo Van,630,6,1,On Time,0,357,1365
+USHP2876,Underwood LLC,Chicago,New York,Windshield Wipers,Trailer,864,2,8,Delayed,1,30,723
+USHP2877,Alvarez-Wagner,New York,Phoenix,Brake Discs,Trailer,1041,7,6,On Time,0,530,2105.75
+USHP2878,"Clements, Gamble and Jones",Houston,Phoenix,Oil Filters,Cargo Van,1294,3,7,Delayed,1,41,1073
+USHP2879,"Jimenez, Davis and Mills",Houston,Phoenix,Windshield Wipers,Freight Truck,91,5,4,On Time,0,392,1048.25
+USHP2880,"Curtis, Sexton and Jones",New York,Phoenix,Brake Discs,Cargo Van,1260,6,1,On Time,0,120,1245
+USHP2881,"Carpenter, Campbell and Wilkins",New York,Phoenix,Car Batteries,Freight Truck,1041,6,1,On Time,0,436,1870.75
+USHP2882,Clark LLC,New York,Chicago,Brake Discs,Trailer,596,6,8,Delayed,1,201,949.5
+USHP2883,Reeves Ltd,Phoenix,New York,Brake Discs,Freight Truck,582,4,1,On Time,0,239,1034
+USHP2884,Romero Group,Phoenix,Los Angeles,Windshield Wipers,Freight Truck,1083,6,7,Delayed,1,586,2277.25
+USHP2885,Diaz-King,Houston,Houston,Windshield Wipers,Freight Truck,1370,7,5,On Time,0,553,2410
+USHP2886,"Townsend, Davidson and Bailey",Chicago,New York,Spark Plugs,Freight Truck,654,5,7,Delayed,1,42,595.5
+USHP2887,Perkins PLC,New York,Chicago,Oil Filters,Cargo Van,1241,5,7,Delayed,1,261,1583.25
+USHP2888,Hudson-Cooper,Houston,Phoenix,Spark Plugs,Trailer,1062,1,8,Delayed,1,62,951.5
+USHP2889,"Lyons, Richard and Maldonado",Chicago,Los Angeles,Oil Filters,Freight Truck,910,6,3,On Time,0,227,1250
+USHP2890,"Stevenson, Fox and Mcneil",New York,New York,Windshield Wipers,Trailer,425,5,4,On Time,0,40,418.75
+USHP2891,Richardson PLC,Los Angeles,Phoenix,Brake Discs,Freight Truck,296,4,2,On Time,0,184,682
+USHP2892,Singleton and Sons,Los Angeles,Los Angeles,Car Batteries,Trailer,1290,3,4,Delayed,1,477,2160
+USHP2893,Beck PLC,Phoenix,Chicago,Brake Discs,Trailer,914,1,7,Delayed,1,295,1423
+USHP2894,Simon and Sons,New York,Los Angeles,Brake Discs,Cargo Van,498,1,3,Delayed,1,293,1106
+USHP2895,"Jones, Ortega and Navarro",New York,Phoenix,Car Batteries,Cargo Van,240,7,1,On Time,0,338,1025
+USHP2896,"Santos, Cisneros and Daugherty",Chicago,Los Angeles,Oil Filters,Cargo Van,1097,7,6,On Time,0,442,1927.75
+USHP2897,Jones Ltd,Phoenix,Houston,Oil Filters,Cargo Van,1315,5,7,Delayed,1,241,1588.75
+USHP2898,Dixon-Sanchez,New York,New York,Spark Plugs,Cargo Van,964,1,5,Delayed,1,418,1768
+USHP2899,Wells-Carlson,Phoenix,Phoenix,Windshield Wipers,Cargo Van,162,4,2,On Time,0,29,194
+USHP2900,"Jones, Simmons and Rodriguez",Phoenix,New York,Car Batteries,Trailer,1399,4,1,On Time,0,479,2246.75
+USHP2901,"Keith, Jacobson and Arnold",Phoenix,Phoenix,Windshield Wipers,Trailer,289,6,2,On Time,0,492,1446.75
+USHP2902,Boone PLC,Los Angeles,New York,Car Batteries,Trailer,847,6,2,On Time,0,505,1897.75
+USHP2903,"Frank, Yates and Martinez",Phoenix,Phoenix,Oil Filters,Trailer,609,2,3,Delayed,1,36,546.75
+USHP2904,Kelly and Sons,Los Angeles,Phoenix,Oil Filters,Trailer,579,5,9,Delayed,1,538,1779.25
+USHP2905,"Yang, Allen and Romero",Los Angeles,New York,Windshield Wipers,Cargo Van,541,3,4,Delayed,1,495,1643.25
+USHP2906,"Nguyen, Hardy and Castillo",New York,Phoenix,Windshield Wipers,Trailer,1281,4,2,On Time,0,80,1160.75
+USHP2907,Martinez and Sons,New York,New York,Brake Discs,Trailer,1409,1,2,Delayed,1,168,1476.75
+USHP2908,Sanchez LLC,Houston,New York,Car Batteries,Trailer,291,4,1,On Time,0,266,883.25
+USHP2909,Bruce and Sons,Chicago,Phoenix,Car Batteries,Cargo Van,1157,3,6,Delayed,1,456,2007.75
+USHP2910,Hayes Group,New York,New York,Oil Filters,Trailer,98,3,7,Delayed,1,26,138.5
+USHP2911,Brown Inc,New York,Chicago,Car Batteries,Trailer,225,6,6,On Time,0,21,221.25
+USHP2912,"Mejia, Hernandez and Leonard",Houston,Chicago,Spark Plugs,Freight Truck,495,3,4,Delayed,1,146,736.25
+USHP2913,Beck Inc,New York,Los Angeles,Spark Plugs,Cargo Van,1364,4,1,On Time,0,299,1770.5
+USHP2914,Webb and Sons,Chicago,Phoenix,Oil Filters,Freight Truck,292,7,1,On Time,0,58,364
+USHP2915,"Shaffer, Archer and Walton",Los Angeles,Phoenix,Car Batteries,Freight Truck,209,4,2,On Time,0,309,929.25
+USHP2916,"Hamilton, Kane and Woods",Chicago,Phoenix,Brake Discs,Trailer,520,2,4,Delayed,1,218,935
+USHP2917,Ferguson-Meyer,Phoenix,New York,Windshield Wipers,Freight Truck,1456,7,7,On Time,0,493,2324.5
+USHP2918,"Price, Ward and Jefferson",New York,Phoenix,Spark Plugs,Trailer,1208,4,4,On Time,0,338,1751
+USHP2919,"Weeks, Dorsey and Wilson",New York,New York,Car Batteries,Trailer,167,6,3,On Time,0,111,402.75
+USHP2920,House-Scott,Phoenix,Houston,Car Batteries,Cargo Van,185,5,3,On Time,0,46,253.75
+USHP2921,Moore Ltd,New York,New York,Windshield Wipers,Cargo Van,1376,6,8,Delayed,1,395,2019.5
+USHP2922,"Johnson, Hall and Wise",Los Angeles,Los Angeles,Car Batteries,Freight Truck,150,2,7,Delayed,1,473,1295
+USHP2923,Dominguez Ltd,New York,Chicago,Spark Plugs,Freight Truck,859,6,5,On Time,0,162,1049.25
+USHP2924,Clark-Boyd,Los Angeles,New York,Spark Plugs,Trailer,176,2,5,Delayed,1,183,589.5
+USHP2925,Preston Inc,Houston,Los Angeles,Car Batteries,Trailer,765,2,8,Delayed,1,231,1151.25
+USHP2926,"Boyer, Gutierrez and Hernandez",New York,Chicago,Spark Plugs,Cargo Van,1382,5,5,On Time,0,569,2459
+USHP2927,Mathews-Butler,Houston,Chicago,Oil Filters,Freight Truck,1321,2,6,Delayed,1,574,2425.75
+USHP2928,Curtis-Harvey,Phoenix,Los Angeles,Windshield Wipers,Freight Truck,673,3,3,On Time,0,452,1634.75
+USHP2929,Brown PLC,Phoenix,Los Angeles,Oil Filters,Cargo Van,680,5,6,Delayed,1,591,1987.5
+USHP2930,"Harris, Lucero and Skinner",Chicago,Phoenix,Brake Discs,Cargo Van,96,5,7,Delayed,1,202,577
+USHP2931,Humphrey-Wilson,Los Angeles,Phoenix,Windshield Wipers,Cargo Van,701,6,4,On Time,0,107,793.25
+USHP2932,"Travis, Cooper and Reid",Phoenix,Houston,Car Batteries,Trailer,696,5,7,Delayed,1,403,1529.5
+USHP2933,Harvey LLC,Houston,Houston,Car Batteries,Trailer,383,7,4,On Time,0,295,1024.75
+USHP2934,Hall Ltd,Chicago,Houston,Brake Discs,Cargo Van,1264,3,2,On Time,0,181,1400.5
+USHP2935,David-Nelson,Chicago,New York,Oil Filters,Cargo Van,807,1,9,Delayed,1,567,2022.75
+USHP2936,Spencer Inc,Phoenix,Houston,Oil Filters,Trailer,1288,1,3,Delayed,1,155,1353.5
+USHP2937,"Shaw, Sanders and Powell",Chicago,Chicago,Brake Discs,Trailer,992,7,9,Delayed,1,598,2239
+USHP2938,"Davis, Lopez and Adams",Houston,Chicago,Spark Plugs,Cargo Van,1182,2,8,Delayed,1,479,2084
+USHP2939,Stanley Group,Los Angeles,Los Angeles,Oil Filters,Cargo Van,210,1,4,Delayed,1,295,895
+USHP2940,"Allen, Smith and Yoder",Houston,Houston,Brake Discs,Trailer,1267,1,4,Delayed,1,558,2345.25
+USHP2941,"Young, Greene and Anderson",Houston,Phoenix,Oil Filters,Trailer,163,6,4,On Time,0,354,1007.25
+USHP2942,Beck Group,Los Angeles,Phoenix,Spark Plugs,Trailer,722,6,2,On Time,0,91,769
+USHP2943,Campbell-Mendoza,Houston,Phoenix,Oil Filters,Trailer,1011,7,3,On Time,0,430,1833.25
+USHP2944,Maldonado-Whitney,Phoenix,Phoenix,Car Batteries,Trailer,1376,4,9,Delayed,1,365,1944.5
+USHP2945,Gonzales and Sons,Los Angeles,Houston,Windshield Wipers,Freight Truck,794,4,5,Delayed,1,189,1068
+USHP2946,Cruz-Johnson,Phoenix,Phoenix,Windshield Wipers,Cargo Van,1045,4,2,On Time,0,46,898.75
+USHP2947,"Bishop, Greer and Best",Houston,Chicago,Brake Discs,Freight Truck,1310,2,2,On Time,0,258,1627.5
+USHP2948,Ryan-Cruz,New York,Chicago,Brake Discs,Freight Truck,542,5,6,Delayed,1,579,1854
+USHP2949,Williamson-Martin,Phoenix,Los Angeles,Windshield Wipers,Trailer,57,6,3,On Time,0,347,910.25
+USHP2950,"Mcmahon, Hughes and Gomez",Los Angeles,Houston,Brake Discs,Cargo Van,1491,7,3,On Time,0,239,1715.75
+USHP2951,Salazar PLC,Chicago,Phoenix,Spark Plugs,Cargo Van,301,6,2,On Time,0,412,1255.75
+USHP2952,"Rocha, Miller and Alexander",Houston,Houston,Spark Plugs,Freight Truck,871,4,6,Delayed,1,394,1638.25
+USHP2953,Marshall-Stevens,New York,Phoenix,Windshield Wipers,Trailer,579,4,9,Delayed,1,533,1766.75
+USHP2954,King-Adkins,Houston,Los Angeles,Oil Filters,Trailer,1295,4,4,On Time,0,102,1226.25
+USHP2955,"Williams, Hunter and Bonilla",Houston,New York,Brake Discs,Freight Truck,844,7,7,On Time,0,39,730.5
+USHP2956,"Taylor, Strickland and Harper",Houston,Phoenix,Brake Discs,Trailer,1120,7,5,On Time,0,472,2020
+USHP2957,Steele Ltd,Los Angeles,Los Angeles,Brake Discs,Trailer,630,1,7,Delayed,1,145,835
+USHP2958,Daniels Ltd,Los Angeles,Houston,Windshield Wipers,Cargo Van,816,3,6,Delayed,1,31,689.5
+USHP2959,May Group,New York,Los Angeles,Brake Discs,Cargo Van,703,6,3,On Time,0,260,1177.25
+USHP2960,Young-Peck,Houston,Los Angeles,Oil Filters,Trailer,1044,6,4,On Time,0,301,1535.5
+USHP2961,"Tapia, Graves and Miller",Phoenix,Houston,Windshield Wipers,Freight Truck,181,2,1,On Time,0,145,498.25
+USHP2962,"Jones, Newman and Shannon",New York,Phoenix,Windshield Wipers,Trailer,853,1,7,Delayed,1,340,1489.75
+USHP2963,"Owens, Long and Harris",Houston,Phoenix,Windshield Wipers,Trailer,1256,5,1,On Time,0,473,2124.5
+USHP2964,Wright Group,Houston,Los Angeles,Car Batteries,Freight Truck,137,6,8,Delayed,1,488,1322.75
+USHP2965,"Buckley, Hunter and Silva",Phoenix,Los Angeles,Brake Discs,Freight Truck,1042,4,9,Delayed,1,135,1119
+USHP2966,Cox Inc,New York,Phoenix,Brake Discs,Freight Truck,610,1,8,Delayed,1,421,1510
+USHP2967,"Johnson, Bailey and Levy",Phoenix,New York,Brake Discs,Freight Truck,101,6,4,On Time,0,600,1575.75
+USHP2968,"Beck, Gonzales and Chase",Chicago,New York,Car Batteries,Cargo Van,538,7,8,Delayed,1,539,1751
+USHP2969,Sanchez-Rojas,Phoenix,Los Angeles,Car Batteries,Trailer,178,3,3,On Time,0,401,1136
+USHP2970,"Brown, Gardner and Johnson",Phoenix,Phoenix,Car Batteries,Freight Truck,787,3,8,Delayed,1,209,1112.75
+USHP2971,Jimenez and Sons,New York,Houston,Car Batteries,Trailer,581,5,7,Delayed,1,560,1835.75
+USHP2972,Foley-Contreras,Houston,Los Angeles,Car Batteries,Trailer,789,5,3,On Time,0,325,1404.25
+USHP2973,Miller-Taylor,Chicago,Chicago,Brake Discs,Cargo Van,1414,4,4,On Time,0,105,1323
+USHP2974,Scott-Wilson,Houston,Chicago,Spark Plugs,Freight Truck,708,3,2,On Time,0,291,1258.5
+USHP2975,Thomas LLC,Los Angeles,Phoenix,Brake Discs,Cargo Van,134,2,6,Delayed,1,64,260.5
+USHP2976,Terry Inc,Houston,Los Angeles,Car Batteries,Cargo Van,1171,7,9,Delayed,1,369,1800.75
+USHP2977,Baker-Baker,Chicago,Los Angeles,Spark Plugs,Cargo Van,667,3,1,On Time,0,313,1282.75
+USHP2978,Martinez-Murray,Chicago,Houston,Car Batteries,Cargo Van,1451,5,6,Delayed,1,438,2183.25
+USHP2979,Lynn-Cherry,Chicago,Chicago,Spark Plugs,Trailer,1166,4,2,On Time,0,237,1467
+USHP2980,"Clark, Chan and Vance",Phoenix,Los Angeles,Oil Filters,Cargo Van,209,3,9,Delayed,1,469,1329.25
+USHP2981,Lawrence-Clark,New York,Los Angeles,Windshield Wipers,Freight Truck,329,1,6,Delayed,1,429,1319.25
+USHP2982,"Brown, Smith and Hayes",New York,Chicago,Windshield Wipers,Freight Truck,483,3,1,On Time,0,545,1724.75
+USHP2983,Curtis-Kelly,Los Angeles,Phoenix,Oil Filters,Cargo Van,437,7,1,On Time,0,208,847.75
+USHP2984,"Simpson, Jackson and Myers",Los Angeles,Los Angeles,Brake Discs,Freight Truck,402,6,4,On Time,0,121,604
+USHP2985,Martin-Burch,Houston,Phoenix,Brake Discs,Freight Truck,712,7,9,Delayed,1,476,1724
+USHP2986,Franklin Group,New York,Phoenix,Spark Plugs,Trailer,1446,7,9,Delayed,1,189,1557
+USHP2987,Powers Group,Houston,New York,Brake Discs,Cargo Van,1224,5,4,On Time,0,90,1143
+USHP2988,"Thompson, Wilson and Miller",Chicago,New York,Brake Discs,Cargo Van,271,6,9,Delayed,1,456,1343.25
+USHP2989,"Johnson, Thompson and Robinson",New York,Houston,Oil Filters,Cargo Van,672,4,2,On Time,0,529,1826.5
+USHP2990,"Barrera, Bell and Thomas",Houston,Chicago,Windshield Wipers,Freight Truck,1335,2,2,On Time,0,254,1636.25
+USHP2991,Vaughn-Olsen,Los Angeles,Los Angeles,Oil Filters,Trailer,1315,4,6,Delayed,1,193,1468.75
+USHP2992,Powers-Li,Chicago,Los Angeles,Spark Plugs,Cargo Van,744,4,7,Delayed,1,376,1498
+USHP2993,Mitchell-Lambert,Los Angeles,Houston,Brake Discs,Cargo Van,794,7,4,On Time,0,559,1993
+USHP2994,"Glover, Williams and Taylor",New York,Houston,Spark Plugs,Freight Truck,290,3,9,Delayed,1,468,1387.5
+USHP2995,"Hurst, Callahan and Peck",Phoenix,Chicago,Car Batteries,Cargo Van,1081,6,4,On Time,0,351,1688.25
+USHP2996,Phillips-Medina,Chicago,Los Angeles,Car Batteries,Cargo Van,149,3,4,Delayed,1,347,979.25
+USHP2997,"Beck, Price and Davis",Los Angeles,Houston,Oil Filters,Trailer,114,3,7,Delayed,1,29,158
+USHP2998,Greene-Taylor,Phoenix,Los Angeles,Windshield Wipers,Freight Truck,379,5,7,Delayed,1,245,896.75
+USHP2999,Lee Inc,Los Angeles,Chicago,Oil Filters,Cargo Van,686,4,2,On Time,0,585,1977
