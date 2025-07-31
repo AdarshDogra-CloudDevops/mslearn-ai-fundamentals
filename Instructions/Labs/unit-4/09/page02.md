@@ -294,7 +294,9 @@ Cluster** from the drop down **(1)**
 
 Upload your training dataset that contains only 10–20 rows.
 
-1. Navigate back to the Pipeline designer, by switching the previous tab.
+1. Navigate back to the Pipeline designer, select **Designer (1)** and then select the the Pipeline to edit.
+
+    ![](../images/g14.png)
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
@@ -406,9 +408,9 @@ Introduce noise or errors into your dataset. You can:
 This run helps you test how your model reacts when trained on inaccurate or inconsistent 
 data.    
 
-1. Navigate back to the Pipeline designer, select **Designer (1)** and then select the the Pipeline to edit.
+1. Navigate back to the Pipeline designer, select **Designer (1)** and then select the the `Training` type Pipeline to edit.
 
-    ![](../images/g14.png)
+    ![](../images/g-18.png)
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
