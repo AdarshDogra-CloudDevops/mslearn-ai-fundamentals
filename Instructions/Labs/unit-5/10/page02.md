@@ -281,10 +281,11 @@ You will intentionally trigger the error:
 
     - Right input: connect to the **output of Split Data** (**left port = training data**) **(1)**
     - Left input: connect to the **Linear Regression module** **(2)**
-    - Select **Save (3)**
-    - Select **Configure & Submit (4)**
+    - Train model to score model **(3)**
+    - Select **Save (4)**
+    - Select **Configure & Submit (5)**
 
-      ![](../images/N10c28.png)    
+      ![](../images/U5lab013-image59.png)    
 
 1. You will now walk through a few configuration steps, then click **Review + Submit (3)**:
   
@@ -606,7 +607,7 @@ This is a common and real-world issue in team workflows, file versioning, and wo
 
        The label column specified `('PTS')` was not found in the dataset.
 
-1. Expand the **module_statistics** folder on the left. Click on the **error_info.json** file
+1. Once the review is complete, close the page. Then, go to the **Outputs + Logs** tab and Expand the **module_statistics** folder on the left. Click on the **error_info.json** file
 
      ![](../images/N10c62.png)
 
