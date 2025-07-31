@@ -269,13 +269,28 @@ pipeline.
 
      ![](../images/n56c35.png)
 
-1. Go back to the **Designer** and select your pipeline. Double click on the **Split Data (1)** and Change the Split Data fraction to **0.9 2()** for a 90/10 split. Click on **Save (3)**.
+1. Navigate to **Designer (1)**  from left and then select the pipeline **(2)**.  
+
+     ![](../images/g25.png)
+
+1. Double click on the **Split Data (1)** and Change the Split Data fraction to `0.9` **(2)** for a 90/10 split. Click on **Save (3)**.
 
      ![](../images/n56c36.png)
 
 1. Select **Configure & Submit**.
 
      ![](../images/n56c37.png)
+
+1. You will now walk through a few configuration steps, then click **Next (3)**:
+  
+   - Experiment name: **Select existing (1)**
+   - Existing experiment: **PTS_Split_70_30(2)**     
+
+     ![](../images/g26.png)  
+
+1. **Inputs & Outputs**: We'll skip the section by clicking **Next**.
+
+1. Click on **Review +Submit**.
 
 1. Select **Submit**.
 
@@ -297,9 +312,24 @@ pipeline.
 
      ![](../images/n56c40.png)
 
-1. Go back to the **Designer** and select your pipeline. Double click on the **Split Data (1)** and Change the Split Data fraction to **0.6 2()** for a 90/10 split. Click on **Save (3)** and select **Configure & Submit (4)**.
+1. Navigate back to the **Designer (1)**  from left and then select Training type pipeline **(2)**.  
+
+     ![](../images/g25.png)     
+
+1. Double click on the **Split Data (1)** and Change the Split Data fraction to `0.6` **(2)** for a 90/10 split. Click on **Save (3)** and select **Configure & Submit (4)**.
 
      ![](../images/n56c41.png)
+
+1. You will now walk through a few configuration steps, then click **Next (3)**:
+  
+   - Experiment name: **Select existing (1)**
+   - Existing experiment: **PTS_Split_70_30(2)**     
+
+     ![](../images/g26.png)  
+
+1. **Inputs & Outputs**: We'll skip the section by clicking **Next**.
+
+1. Click on **Review +Submit**.     
 
 1. Select **Submit**.
 
