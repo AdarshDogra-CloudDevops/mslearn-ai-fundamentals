@@ -2,13 +2,29 @@
 
 In this hands-on lab, you will build and experiment with machine learning models for both classification and clustering tasks. You will apply supervised learning techniques to train models that can predict outcomes based on labeled data, and use unsupervised learning methods to group data based on underlying patterns without predefined labels. By comparing the performance and results of these different algorithms, you will gain insights into how each approach can be used to categorize and understand data in unique ways.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Set Up the Azure ML Workspace
+- Task 2: Create a Preprocessing Pipeline
+- Task 3: Add the Dataset to Your Pipeline Canvas
+- Task 4: Cloning our Preprocessing Pipeline
+- Task 5: Classification in Azure (Supervised)
+- Task 6: Run the Supervised Pipeline
+- Task 7: Clustering in Azure (Unsupervised)
+- Task 8: Evaluate the Models
+
+
 ### Task 1: Set Up the Azure ML Workspace
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
@@ -38,19 +54,29 @@ In this hands-on lab, you will build and experiment with machine learning models
 
      ![](../images/n57c4.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="e8c67e43-1e2e-4cfa-849b-c2a20cc39f49" />
+
+---   
+
 ### Task 2: Create a Preprocessing Pipeline     
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Clean Missing Data (2).** Drag that component onto the canvas **(3)**.   
 
-     ![](../images/n57c5.png)
+   ![](../images/n57c5.png)
 
 1. Double click on **Clean Missing Data (1)** and then select **Edit Column (2)** under `Columns to be cleaned`.
 
-     ![](../images/n57c6.png)
+   ![](../images/n57c6.png)
 
 1. Select **All Columns (1)** and then **Save (2)**.
 
-     ![](../images/n57c7.png)
+   ![](../images/n57c7.png)
 
 1. Select **Save**.
 
@@ -86,11 +112,21 @@ In this hands-on lab, you will build and experiment with machine learning models
 
      ![](../images/n57c14.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+<validation step="2cf274aa-3ba9-470b-8225-3a5bbc90ddba" />
+
+---   
+
 ### Task 3: Add the Dataset to Your Pipeline Canvas     
 
 1. Navigate to **Data (1)** from the left navigation and then select **+ Create (2)**.
 
-     ![](../images/n57c3.png)
+   ![](../images/n57c3.png)
 
 1. On **Create data asset** page enter the following data.
 
@@ -474,9 +510,21 @@ as before and then **Next (2)**.
 
      Keep in mind that K-Means Clustering does not label clusters automatically. It is up to the human analyst to interpret the patterns and decide what each group represents.
 
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Set Up the Azure ML Workspace
+- Created a Preprocessing Pipeline
+- Added the Dataset to Your Pipeline Canvas
+- Clonned our Preprocessing Pipeline
+- Classification in Azure (Supervised)
+- Run the Supervised Pipeline
+- Clustering in Azure (Unsupervised)
+- Evaluated the Models
 
 
-
+## You have successfully completed the lab
 
 
 
