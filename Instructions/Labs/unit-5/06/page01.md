@@ -1,6 +1,17 @@
 # Hands-On-Lab: Training, Validation, and Testing Data in Sports Analytics
 
-In this hands-on lab, you will build a machine learning pipeline in Azure ML Designer to predict a basketball player’s points per game (PTS). You will experiment with different train/test split ratios—70/30, 90/10, and 60/40—to observe how data partitioning impacts model performance. By comparing the results, you'll gain insights into the effect of training data size on learning accuracy and generalization.
+In this hands-on lab, you will build and evaluate a machine learning pipeline using Azure ML Designer to predict basketball players’ points per game. You'll explore how different train/test split ratios affect model performance by experimenting with 70/30, 90/10, and 60/40 partitions. As you train and evaluate the model, you'll gain an understanding of how training data size influences learning accuracy and the model's ability to generalize. This lab provides practical experience in model training, pipeline execution, and performance evaluation within a sports analytics context.
+
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Set Up the Azure ML Workspace
+- Task 2: Add a dataset to your Azure ML pipeline in the Designer
+- Task 3: Add the Dataset to Your Pipeline Canvas
+- Task 4: Train the Model
+- Task 5: Run the Pipeline and Submit the Job
+- Task 6: Model Evaluation Results (Azure ML Designer)
 
 ### Task 1: Set Up the Azure ML Workspace
 
@@ -303,4 +314,18 @@ pipeline.
 
      ![](../images/n56c43.png)    
 
-1. After each run, evaluate the model and record your results for comparison. Use the recorded values to decide which split gives the best balance between learning and fair testing.          
+1. After each run, evaluate the model and record your results for comparison. Use the recorded values to decide which split gives the best balance between learning and fair testing.
+
+
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Set Up the Azure ML Workspace
+- Added a dataset to your Azure ML pipeline in the Designer
+- Added the Dataset to Your Pipeline Canvas
+- Trained the Model
+- Run the Pipeline and Submitted the Job
+- Task 6: Model Evaluation Results (Azure ML Designer)
+
+## You have successfully completed the lab
