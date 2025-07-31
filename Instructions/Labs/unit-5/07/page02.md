@@ -240,7 +240,7 @@ the **Right** **“Dataset”** input of the **“Train Model”** component **(
 
     ![](../images/n57c31.png)
 
-1. Under Label column, select **“Win/Loss” (1)**  and then **Save (2)**.     
+1. Under Label column, type **“Win/Loss” (1)** then hit **Enter** and then **Save (2)**.     
 
     ![](../images/n57c32.png) 
 
