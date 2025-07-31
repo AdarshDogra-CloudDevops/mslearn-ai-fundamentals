@@ -1,0 +1,1001 @@
+Customer_ID,Date,Product,Feedback,Rating,Age_Group,Location,Issue_Reported,Satisfaction_Score
+CUST0001,1/15/2025,Sedan,Excellent performance and smooth ride,1,36-50,Texas,None,Unsatisfied
+CUST0002,8/17/2024,SUV,Engine noise is too loud,5,18-25,California,Transmission,Satisfied
+CUST0003,10/29/2024,Sedan,Reliable and easy to maintain,5,36-50,New York,Battery,Satisfied
+CUST0004,2/2/2025,Hybrid,Great design and technology features,5,36-50,Ohio,Transmission,Satisfied
+CUST0005,1/23/2025,SUV,Battery life could be better,3,26-35,California,Brakes,Unsatisfied
+CUST0006,12/12/2024,SUV,Excellent performance and smooth ride,5,26-35,Texas,Battery,Satisfied
+CUST0007,1/16/2025,Hybrid,Great design and technology features,4,36-50,Illinois,AC,Satisfied
+CUST0008,3/19/2025,Truck,Transmission issues after 2 months,3,18-25,Texas,Battery,Unsatisfied
+CUST0009,2/20/2025,Electric Car,Excellent performance and smooth ride,5,18-25,Michigan,Other,Satisfied
+CUST0010,1/2/2025,Electric Car,Great design and technology features,1,36-50,Michigan,Transmission,Unsatisfied
+CUST0011,5/6/2024,SUV,Reliable and easy to maintain,5,36-50,Texas,AC,Satisfied
+CUST0012,5/2/2024,SUV,Brakes are not responsive,2,36-50,Michigan,Engine,Unsatisfied
+CUST0013,4/21/2024,Truck,Great design and technology features,5,26-35,Michigan,Engine,Satisfied
+CUST0014,3/13/2025,Sedan,Transmission issues after 2 months,4,51+,New York,Transmission,Satisfied
+CUST0015,9/7/2024,Truck,Battery life could be better,5,26-35,New York,Battery,Satisfied
+CUST0016,11/10/2024,Sedan,Excellent performance and smooth ride,5,26-35,New York,Engine,Satisfied
+CUST0017,2/2/2025,Sedan,Excellent performance and smooth ride,2,18-25,Michigan,Brakes,Unsatisfied
+CUST0018,6/1/2024,Hybrid,Reliable and easy to maintain,1,18-25,Michigan,Other,Unsatisfied
+CUST0019,9/25/2024,SUV,Great design and technology features,2,36-50,Illinois,Brakes,Unsatisfied
+CUST0020,5/17/2024,Sedan,Great design and technology features,5,18-25,Illinois,AC,Satisfied
+CUST0021,7/13/2024,Truck,Brakes are not responsive,4,51+,Ohio,Battery,Satisfied
+CUST0022,1/7/2025,SUV,Brakes are not responsive,5,36-50,Ohio,Electrical,Satisfied
+CUST0023,12/9/2024,Truck,Brakes are not responsive,4,51+,California,Other,Satisfied
+CUST0024,1/13/2025,Truck,Exceeded my expectations,5,18-25,New York,Electrical,Satisfied
+CUST0025,9/29/2024,Sedan,Excellent performance and smooth ride,4,18-25,Michigan,Electrical,Satisfied
+CUST0026,8/21/2024,Electric Car,Exceeded my expectations,4,36-50,Texas,AC,Satisfied
+CUST0027,2/12/2025,SUV,Exceeded my expectations,4,51+,California,Transmission,Satisfied
+CUST0028,5/23/2024,Hybrid,Reliable and easy to maintain,4,18-25,Ohio,Engine,Satisfied
+CUST0029,3/18/2025,SUV,AC stopped working after a week,5,51+,Ohio,AC,Satisfied
+CUST0030,6/16/2024,Electric Car,Great design and technology features,4,26-35,California,Engine,Satisfied
+CUST0031,12/9/2024,Sedan,Excellent performance and smooth ride,5,51+,New York,Transmission,Satisfied
+CUST0032,8/6/2024,Truck,Excellent performance and smooth ride,4,51+,Illinois,Electrical,Satisfied
+CUST0033,11/14/2024,Hybrid,AC stopped working after a week,5,26-35,Michigan,Transmission,Satisfied
+CUST0034,5/26/2024,Truck,AC stopped working after a week,5,18-25,New York,None,Satisfied
+CUST0035,11/7/2024,Electric Car,Excellent performance and smooth ride,4,18-25,New York,Other,Satisfied
+CUST0036,12/17/2024,Truck,Transmission issues after 2 months,1,36-50,California,Electrical,Unsatisfied
+CUST0037,9/7/2024,Hybrid,Great design and technology features,3,51+,Illinois,Electrical,Unsatisfied
+CUST0038,5/19/2024,Electric Car,Reliable and easy to maintain,3,36-50,New York,Electrical,Unsatisfied
+CUST0039,3/25/2025,Hybrid,Excellent performance and smooth ride,3,18-25,Texas,AC,Unsatisfied
+CUST0040,11/29/2024,Electric Car,Very comfortable and fuel efficient,1,36-50,New York,Electrical,Unsatisfied
+CUST0041,9/1/2024,SUV,Engine noise is too loud,3,26-35,California,Electrical,Unsatisfied
+CUST0042,4/21/2024,Sedan,Engine noise is too loud,4,51+,New York,Transmission,Satisfied
+CUST0043,7/6/2024,Electric Car,Reliable and easy to maintain,4,18-25,New York,Brakes,Satisfied
+CUST0044,3/31/2025,Hybrid,Reliable and easy to maintain,3,36-50,Texas,None,Unsatisfied
+CUST0045,9/9/2024,Sedan,Excellent performance and smooth ride,4,26-35,Ohio,Engine,Satisfied
+CUST0046,3/8/2025,Electric Car,Excellent performance and smooth ride,3,51+,California,Transmission,Unsatisfied
+CUST0047,4/3/2025,Sedan,Engine noise is too loud,2,18-25,Texas,Battery,Unsatisfied
+CUST0048,6/6/2024,Truck,Brakes are not responsive,4,51+,California,Other,Satisfied
+CUST0049,2/23/2025,Electric Car,Engine noise is too loud,3,26-35,New York,Electrical,Unsatisfied
+CUST0050,9/29/2024,Sedan,Exceeded my expectations,1,18-25,California,Other,Unsatisfied
+CUST0051,12/8/2024,Sedan,Reliable and easy to maintain,3,18-25,Texas,Other,Unsatisfied
+CUST0052,11/5/2024,Sedan,Transmission issues after 2 months,5,26-35,New York,Electrical,Satisfied
+CUST0053,11/4/2024,Sedan,Transmission issues after 2 months,4,26-35,Texas,Battery,Satisfied
+CUST0054,12/15/2024,Hybrid,Transmission issues after 2 months,2,18-25,Michigan,Electrical,Unsatisfied
+CUST0055,6/11/2024,Electric Car,Engine noise is too loud,4,26-35,New York,None,Satisfied
+CUST0056,4/30/2024,Sedan,Excellent performance and smooth ride,4,51+,Texas,AC,Satisfied
+CUST0057,12/20/2024,Hybrid,Brakes are not responsive,4,18-25,California,Other,Satisfied
+CUST0058,3/8/2025,SUV,Engine noise is too loud,5,51+,Michigan,Other,Satisfied
+CUST0059,8/20/2024,Hybrid,Brakes are not responsive,4,51+,Illinois,Engine,Satisfied
+CUST0060,8/12/2024,Truck,Battery life could be better,5,18-25,Texas,None,Satisfied
+CUST0061,2/13/2025,Truck,Great design and technology features,5,36-50,Ohio,Electrical,Satisfied
+CUST0062,10/21/2024,SUV,Reliable and easy to maintain,4,18-25,Ohio,AC,Satisfied
+CUST0063,1/21/2025,Truck,Battery life could be better,3,18-25,Texas,None,Unsatisfied
+CUST0064,4/28/2024,Electric Car,AC stopped working after a week,3,36-50,Illinois,Transmission,Unsatisfied
+CUST0065,12/5/2024,Hybrid,Brakes are not responsive,4,51+,California,Engine,Satisfied
+CUST0066,4/4/2025,Hybrid,Excellent performance and smooth ride,5,18-25,Texas,Transmission,Satisfied
+CUST0067,7/28/2024,Truck,Excellent performance and smooth ride,4,18-25,New York,Transmission,Satisfied
+CUST0068,5/20/2024,Sedan,Engine noise is too loud,3,26-35,California,Electrical,Unsatisfied
+CUST0069,4/28/2024,Electric Car,AC stopped working after a week,3,26-35,New York,AC,Unsatisfied
+CUST0070,10/29/2024,Sedan,Transmission issues after 2 months,5,26-35,Michigan,Battery,Satisfied
+CUST0071,10/11/2024,Electric Car,Exceeded my expectations,5,36-50,Texas,None,Satisfied
+CUST0072,1/24/2025,Truck,Battery life could be better,4,51+,Ohio,Electrical,Satisfied
+CUST0073,11/8/2024,Truck,Battery life could be better,3,51+,Michigan,Electrical,Unsatisfied
+CUST0074,8/25/2024,Sedan,Battery life could be better,5,51+,New York,Transmission,Satisfied
+CUST0075,12/21/2024,Hybrid,Very comfortable and fuel efficient,1,36-50,New York,Transmission,Unsatisfied
+CUST0076,1/5/2025,Truck,Brakes are not responsive,3,36-50,California,Electrical,Unsatisfied
+CUST0077,5/18/2024,Electric Car,Very comfortable and fuel efficient,5,51+,New York,Electrical,Satisfied
+CUST0078,3/5/2025,Hybrid,Excellent performance and smooth ride,5,51+,California,Other,Satisfied
+CUST0079,10/26/2024,Hybrid,Exceeded my expectations,4,36-50,Ohio,Transmission,Satisfied
+CUST0080,4/10/2025,Truck,Engine noise is too loud,5,26-35,Illinois,Transmission,Satisfied
+CUST0081,9/4/2024,SUV,Battery life could be better,4,26-35,Michigan,Engine,Satisfied
+CUST0082,8/11/2024,SUV,Brakes are not responsive,5,51+,New York,Electrical,Satisfied
+CUST0083,8/9/2024,SUV,Transmission issues after 2 months,4,36-50,New York,AC,Satisfied
+CUST0084,12/4/2024,Electric Car,Transmission issues after 2 months,3,51+,Ohio,Brakes,Unsatisfied
+CUST0085,8/31/2024,Hybrid,Very comfortable and fuel efficient,5,36-50,Illinois,Brakes,Satisfied
+CUST0086,12/20/2024,Sedan,Brakes are not responsive,5,51+,Texas,Battery,Satisfied
+CUST0087,6/17/2024,Electric Car,Exceeded my expectations,1,36-50,Ohio,AC,Unsatisfied
+CUST0088,6/18/2024,Truck,Brakes are not responsive,5,51+,Texas,Brakes,Satisfied
+CUST0089,4/5/2025,Sedan,Reliable and easy to maintain,4,18-25,Illinois,Transmission,Satisfied
+CUST0090,3/6/2025,Sedan,Exceeded my expectations,2,26-35,Texas,Brakes,Unsatisfied
+CUST0091,10/3/2024,SUV,Very comfortable and fuel efficient,1,51+,Michigan,Engine,Unsatisfied
+CUST0092,4/29/2024,SUV,Transmission issues after 2 months,5,36-50,Texas,AC,Satisfied
+CUST0093,12/26/2024,Sedan,Transmission issues after 2 months,3,18-25,Illinois,Transmission,Unsatisfied
+CUST0094,5/2/2024,SUV,Battery life could be better,5,51+,New York,Battery,Satisfied
+CUST0095,12/6/2024,Electric Car,AC stopped working after a week,5,51+,Ohio,Electrical,Satisfied
+CUST0096,9/6/2024,SUV,Exceeded my expectations,2,26-35,New York,Transmission,Unsatisfied
+CUST0097,12/31/2024,Sedan,Brakes are not responsive,3,18-25,Ohio,Transmission,Unsatisfied
+CUST0098,6/28/2024,SUV,Exceeded my expectations,4,26-35,New York,Brakes,Satisfied
+CUST0099,5/16/2024,SUV,Very comfortable and fuel efficient,5,36-50,Illinois,Engine,Satisfied
+CUST0100,6/28/2024,Sedan,Transmission issues after 2 months,3,26-35,Michigan,Engine,Unsatisfied
+CUST0101,8/23/2024,Hybrid,AC stopped working after a week,4,18-25,Illinois,Other,Satisfied
+CUST0102,3/3/2025,Truck,Transmission issues after 2 months,4,18-25,Michigan,Transmission,Satisfied
+CUST0103,8/21/2024,Electric Car,Engine noise is too loud,4,36-50,Illinois,None,Satisfied
+CUST0104,6/18/2024,Electric Car,Very comfortable and fuel efficient,4,36-50,Michigan,Transmission,Satisfied
+CUST0105,2/26/2025,Truck,Excellent performance and smooth ride,2,26-35,New York,Battery,Unsatisfied
+CUST0106,11/1/2024,Truck,Excellent performance and smooth ride,4,26-35,Texas,Electrical,Satisfied
+CUST0107,2/18/2025,Sedan,Brakes are not responsive,1,51+,Texas,AC,Unsatisfied
+CUST0108,3/11/2025,Electric Car,Engine noise is too loud,4,18-25,Ohio,Engine,Satisfied
+CUST0109,12/18/2024,Sedan,Engine noise is too loud,3,26-35,New York,Electrical,Unsatisfied
+CUST0110,7/27/2024,Hybrid,Battery life could be better,4,26-35,Illinois,Brakes,Satisfied
+CUST0111,8/21/2024,Hybrid,Engine noise is too loud,5,26-35,Texas,AC,Satisfied
+CUST0112,5/3/2024,Electric Car,Exceeded my expectations,3,26-35,Michigan,Brakes,Unsatisfied
+CUST0113,10/29/2024,Truck,Exceeded my expectations,2,51+,California,Brakes,Unsatisfied
+CUST0114,7/16/2024,Hybrid,Exceeded my expectations,4,26-35,Illinois,None,Satisfied
+CUST0115,9/9/2024,Sedan,Excellent performance and smooth ride,5,51+,Michigan,None,Satisfied
+CUST0116,7/2/2024,SUV,Exceeded my expectations,5,18-25,Texas,Battery,Satisfied
+CUST0117,3/24/2025,Electric Car,Brakes are not responsive,5,51+,Texas,Engine,Satisfied
+CUST0118,2/13/2025,Hybrid,Very comfortable and fuel efficient,4,18-25,New York,Other,Satisfied
+CUST0119,4/15/2025,Truck,Battery life could be better,5,18-25,Michigan,None,Satisfied
+CUST0120,10/30/2024,Truck,Brakes are not responsive,4,26-35,Ohio,Other,Satisfied
+CUST0121,7/18/2024,Truck,Exceeded my expectations,3,18-25,Ohio,AC,Unsatisfied
+CUST0122,12/11/2024,Truck,Reliable and easy to maintain,3,26-35,New York,Electrical,Unsatisfied
+CUST0123,10/14/2024,Sedan,Very comfortable and fuel efficient,4,26-35,New York,Engine,Satisfied
+CUST0124,10/4/2024,Truck,Excellent performance and smooth ride,3,51+,Ohio,Electrical,Unsatisfied
+CUST0125,11/15/2024,Electric Car,Engine noise is too loud,2,36-50,Michigan,Engine,Unsatisfied
+CUST0126,7/5/2024,Sedan,Exceeded my expectations,1,51+,Illinois,Electrical,Unsatisfied
+CUST0127,2/20/2025,Truck,Brakes are not responsive,4,26-35,California,None,Satisfied
+CUST0128,12/5/2024,SUV,Battery life could be better,3,51+,Texas,Electrical,Unsatisfied
+CUST0129,12/19/2024,Hybrid,Engine noise is too loud,3,36-50,Illinois,AC,Unsatisfied
+CUST0130,1/5/2025,Truck,Excellent performance and smooth ride,3,51+,Illinois,Brakes,Unsatisfied
+CUST0131,9/29/2024,Sedan,Very comfortable and fuel efficient,5,36-50,California,Brakes,Satisfied
+CUST0132,9/27/2024,SUV,AC stopped working after a week,2,51+,Illinois,Other,Unsatisfied
+CUST0133,3/29/2025,Sedan,Very comfortable and fuel efficient,4,26-35,Ohio,None,Satisfied
+CUST0134,9/23/2024,Sedan,AC stopped working after a week,4,26-35,Michigan,Engine,Satisfied
+CUST0135,2/17/2025,SUV,AC stopped working after a week,4,26-35,New York,Engine,Satisfied
+CUST0136,12/11/2024,Hybrid,Exceeded my expectations,4,36-50,Ohio,AC,Satisfied
+CUST0137,8/22/2024,Electric Car,Engine noise is too loud,5,18-25,Michigan,None,Satisfied
+CUST0138,10/6/2024,SUV,Very comfortable and fuel efficient,4,26-35,California,Engine,Satisfied
+CUST0139,12/1/2024,SUV,Brakes are not responsive,2,26-35,Texas,Electrical,Unsatisfied
+CUST0140,6/18/2024,Hybrid,Very comfortable and fuel efficient,3,51+,Michigan,Battery,Unsatisfied
+CUST0141,5/16/2024,Electric Car,Very comfortable and fuel efficient,3,51+,Texas,None,Unsatisfied
+CUST0142,10/18/2024,Hybrid,Exceeded my expectations,5,18-25,California,Electrical,Satisfied
+CUST0143,11/21/2024,Truck,Very comfortable and fuel efficient,2,26-35,Ohio,Transmission,Unsatisfied
+CUST0144,11/26/2024,Truck,Very comfortable and fuel efficient,1,18-25,Texas,Battery,Unsatisfied
+CUST0145,12/10/2024,Truck,Excellent performance and smooth ride,5,18-25,California,Battery,Satisfied
+CUST0146,3/7/2025,Hybrid,Excellent performance and smooth ride,3,18-25,Ohio,Brakes,Unsatisfied
+CUST0147,2/19/2025,Truck,AC stopped working after a week,5,26-35,California,Electrical,Satisfied
+CUST0148,11/3/2024,Sedan,Brakes are not responsive,4,36-50,Michigan,Brakes,Satisfied
+CUST0149,9/3/2024,Truck,Exceeded my expectations,5,26-35,Texas,AC,Satisfied
+CUST0150,2/11/2025,Electric Car,Brakes are not responsive,5,26-35,California,None,Satisfied
+CUST0151,12/14/2024,Truck,Exceeded my expectations,5,18-25,Illinois,Battery,Satisfied
+CUST0152,11/28/2024,Truck,Battery life could be better,4,51+,Illinois,Engine,Satisfied
+CUST0153,10/30/2024,Hybrid,Very comfortable and fuel efficient,4,26-35,New York,Brakes,Satisfied
+CUST0154,3/5/2025,SUV,Reliable and easy to maintain,5,26-35,California,AC,Satisfied
+CUST0155,2/26/2025,Hybrid,Reliable and easy to maintain,5,36-50,California,Engine,Satisfied
+CUST0156,8/25/2024,Hybrid,Great design and technology features,4,51+,New York,Transmission,Satisfied
+CUST0157,7/25/2024,Sedan,Battery life could be better,5,36-50,California,Brakes,Satisfied
+CUST0158,6/27/2024,SUV,Brakes are not responsive,2,36-50,Michigan,Battery,Unsatisfied
+CUST0159,12/21/2024,SUV,Engine noise is too loud,5,26-35,California,None,Satisfied
+CUST0160,5/21/2024,Electric Car,Excellent performance and smooth ride,5,18-25,California,Engine,Satisfied
+CUST0161,1/24/2025,SUV,Brakes are not responsive,4,51+,New York,AC,Satisfied
+CUST0162,7/16/2024,Electric Car,Engine noise is too loud,2,51+,Ohio,AC,Unsatisfied
+CUST0163,1/7/2025,Hybrid,AC stopped working after a week,1,51+,Michigan,AC,Unsatisfied
+CUST0164,4/19/2024,Truck,Transmission issues after 2 months,1,36-50,California,Transmission,Unsatisfied
+CUST0165,2/18/2025,SUV,Exceeded my expectations,3,51+,Texas,AC,Unsatisfied
+CUST0166,11/8/2024,SUV,Reliable and easy to maintain,5,26-35,New York,Other,Satisfied
+CUST0167,10/24/2024,Hybrid,Very comfortable and fuel efficient,3,26-35,Michigan,Engine,Unsatisfied
+CUST0168,1/19/2025,Hybrid,Very comfortable and fuel efficient,3,26-35,California,Other,Unsatisfied
+CUST0169,5/4/2024,SUV,Transmission issues after 2 months,1,26-35,Ohio,Electrical,Unsatisfied
+CUST0170,7/4/2024,Sedan,Engine noise is too loud,4,26-35,New York,Brakes,Satisfied
+CUST0171,6/6/2024,Sedan,AC stopped working after a week,3,26-35,Illinois,Battery,Unsatisfied
+CUST0172,1/28/2025,SUV,Engine noise is too loud,4,51+,New York,Battery,Satisfied
+CUST0173,3/16/2025,Hybrid,Very comfortable and fuel efficient,4,18-25,Michigan,Brakes,Satisfied
+CUST0174,5/11/2024,Sedan,Exceeded my expectations,4,51+,Texas,Other,Satisfied
+CUST0175,8/1/2024,SUV,Engine noise is too loud,3,26-35,Michigan,Engine,Unsatisfied
+CUST0176,8/6/2024,Electric Car,Transmission issues after 2 months,5,36-50,Michigan,Transmission,Satisfied
+CUST0177,9/8/2024,Sedan,Exceeded my expectations,5,36-50,Texas,AC,Satisfied
+CUST0178,2/3/2025,Electric Car,Battery life could be better,4,18-25,Michigan,Brakes,Satisfied
+CUST0179,10/11/2024,Truck,Engine noise is too loud,1,36-50,Ohio,Brakes,Unsatisfied
+CUST0180,12/19/2024,Electric Car,AC stopped working after a week,4,18-25,Ohio,Battery,Satisfied
+CUST0181,3/22/2025,Sedan,AC stopped working after a week,4,18-25,Ohio,Other,Satisfied
+CUST0182,8/30/2024,Hybrid,Engine noise is too loud,2,51+,Illinois,Other,Unsatisfied
+CUST0183,10/24/2024,Sedan,Engine noise is too loud,5,18-25,Illinois,Transmission,Satisfied
+CUST0184,8/6/2024,SUV,AC stopped working after a week,2,18-25,Ohio,Brakes,Unsatisfied
+CUST0185,4/17/2024,Truck,Battery life could be better,5,26-35,California,Other,Satisfied
+CUST0186,8/12/2024,Truck,Transmission issues after 2 months,4,18-25,New York,None,Satisfied
+CUST0187,7/22/2024,Electric Car,Reliable and easy to maintain,5,36-50,Illinois,Transmission,Satisfied
+CUST0188,4/19/2024,Hybrid,AC stopped working after a week,3,51+,New York,Transmission,Unsatisfied
+CUST0189,2/26/2025,Sedan,AC stopped working after a week,1,36-50,Michigan,Brakes,Unsatisfied
+CUST0190,5/13/2024,Hybrid,Great design and technology features,3,51+,Texas,Other,Unsatisfied
+CUST0191,7/22/2024,Electric Car,AC stopped working after a week,2,18-25,California,Transmission,Unsatisfied
+CUST0192,9/16/2024,Electric Car,Transmission issues after 2 months,5,51+,Michigan,Battery,Satisfied
+CUST0193,5/18/2024,Hybrid,Excellent performance and smooth ride,1,26-35,Texas,Electrical,Unsatisfied
+CUST0194,12/14/2024,SUV,Transmission issues after 2 months,5,18-25,Illinois,AC,Satisfied
+CUST0195,12/14/2024,Electric Car,Transmission issues after 2 months,4,51+,New York,Brakes,Satisfied
+CUST0196,12/5/2024,Truck,Very comfortable and fuel efficient,4,36-50,California,AC,Satisfied
+CUST0197,1/20/2025,Truck,Battery life could be better,4,36-50,Michigan,Transmission,Satisfied
+CUST0198,4/6/2025,Hybrid,Excellent performance and smooth ride,3,51+,New York,AC,Unsatisfied
+CUST0199,10/1/2024,SUV,Excellent performance and smooth ride,2,18-25,Texas,AC,Unsatisfied
+CUST0200,12/5/2024,Hybrid,Engine noise is too loud,4,18-25,California,Transmission,Satisfied
+CUST0201,11/2/2024,Sedan,Great design and technology features,3,26-35,Illinois,Brakes,Unsatisfied
+CUST0202,11/4/2024,SUV,Very comfortable and fuel efficient,3,51+,Ohio,None,Unsatisfied
+CUST0203,4/12/2025,SUV,Very comfortable and fuel efficient,3,26-35,New York,Other,Unsatisfied
+CUST0204,7/19/2024,Hybrid,AC stopped working after a week,3,36-50,New York,AC,Unsatisfied
+CUST0205,6/19/2024,Sedan,Reliable and easy to maintain,4,18-25,California,Other,Satisfied
+CUST0206,9/15/2024,Electric Car,Very comfortable and fuel efficient,3,26-35,Illinois,Transmission,Unsatisfied
+CUST0207,2/27/2025,SUV,Very comfortable and fuel efficient,2,18-25,New York,Engine,Unsatisfied
+CUST0208,10/8/2024,Truck,Exceeded my expectations,3,51+,Texas,Transmission,Unsatisfied
+CUST0209,8/9/2024,Electric Car,Transmission issues after 2 months,5,18-25,Ohio,Brakes,Satisfied
+CUST0210,8/30/2024,Electric Car,Exceeded my expectations,3,51+,Texas,Other,Unsatisfied
+CUST0211,12/18/2024,Sedan,Exceeded my expectations,1,26-35,Michigan,Brakes,Unsatisfied
+CUST0212,5/15/2024,Sedan,Exceeded my expectations,4,51+,New York,Transmission,Satisfied
+CUST0213,12/9/2024,Truck,AC stopped working after a week,3,26-35,Illinois,AC,Unsatisfied
+CUST0214,7/30/2024,Sedan,Transmission issues after 2 months,4,36-50,Ohio,Brakes,Satisfied
+CUST0215,5/6/2024,Electric Car,Reliable and easy to maintain,5,36-50,Illinois,Other,Satisfied
+CUST0216,2/19/2025,Sedan,Exceeded my expectations,4,51+,New York,Other,Satisfied
+CUST0217,5/9/2024,Electric Car,Excellent performance and smooth ride,5,51+,California,Brakes,Satisfied
+CUST0218,1/30/2025,SUV,Very comfortable and fuel efficient,4,51+,California,Engine,Satisfied
+CUST0219,9/10/2024,Truck,Brakes are not responsive,4,26-35,Michigan,Brakes,Satisfied
+CUST0220,1/12/2025,Electric Car,Transmission issues after 2 months,4,18-25,Ohio,Electrical,Satisfied
+CUST0221,9/14/2024,Hybrid,Reliable and easy to maintain,4,18-25,Texas,Brakes,Satisfied
+CUST0222,10/29/2024,Electric Car,Battery life could be better,5,36-50,Michigan,Transmission,Satisfied
+CUST0223,10/9/2024,Hybrid,Very comfortable and fuel efficient,5,36-50,Texas,Brakes,Satisfied
+CUST0224,7/29/2024,Hybrid,Very comfortable and fuel efficient,4,36-50,Ohio,Other,Satisfied
+CUST0225,3/27/2025,Hybrid,Great design and technology features,3,18-25,Ohio,Battery,Unsatisfied
+CUST0226,12/24/2024,SUV,Great design and technology features,5,51+,California,Engine,Satisfied
+CUST0227,7/22/2024,Hybrid,Engine noise is too loud,4,51+,Illinois,Engine,Satisfied
+CUST0228,3/20/2025,Sedan,Excellent performance and smooth ride,5,26-35,California,Engine,Satisfied
+CUST0229,12/18/2024,Electric Car,Excellent performance and smooth ride,1,36-50,Michigan,Battery,Unsatisfied
+CUST0230,1/16/2025,Sedan,Reliable and easy to maintain,2,51+,Michigan,AC,Unsatisfied
+CUST0231,3/22/2025,Truck,AC stopped working after a week,4,26-35,Texas,AC,Satisfied
+CUST0232,4/12/2025,Hybrid,Very comfortable and fuel efficient,4,51+,California,Brakes,Satisfied
+CUST0233,7/31/2024,Hybrid,Brakes are not responsive,5,18-25,Michigan,Electrical,Satisfied
+CUST0234,2/17/2025,Electric Car,Exceeded my expectations,4,26-35,Ohio,Other,Satisfied
+CUST0235,1/18/2025,SUV,Great design and technology features,5,26-35,Ohio,None,Satisfied
+CUST0236,12/3/2024,Truck,Transmission issues after 2 months,3,36-50,New York,Other,Unsatisfied
+CUST0237,1/17/2025,Hybrid,Excellent performance and smooth ride,3,51+,Texas,AC,Unsatisfied
+CUST0238,1/29/2025,Truck,Very comfortable and fuel efficient,5,51+,Illinois,AC,Satisfied
+CUST0239,8/16/2024,Sedan,Great design and technology features,4,18-25,New York,None,Satisfied
+CUST0240,3/5/2025,Electric Car,Excellent performance and smooth ride,3,26-35,Michigan,Transmission,Unsatisfied
+CUST0241,11/9/2024,Sedan,Transmission issues after 2 months,4,36-50,Illinois,None,Satisfied
+CUST0242,8/7/2024,Hybrid,Engine noise is too loud,5,18-25,California,AC,Satisfied
+CUST0243,2/2/2025,Electric Car,Brakes are not responsive,3,26-35,New York,Electrical,Unsatisfied
+CUST0244,2/4/2025,Truck,Engine noise is too loud,4,51+,Texas,Electrical,Satisfied
+CUST0245,7/16/2024,Truck,Exceeded my expectations,5,36-50,New York,Transmission,Satisfied
+CUST0246,12/14/2024,Truck,AC stopped working after a week,5,18-25,New York,Electrical,Satisfied
+CUST0247,8/22/2024,Electric Car,Great design and technology features,3,26-35,Texas,Battery,Unsatisfied
+CUST0248,10/8/2024,Hybrid,Excellent performance and smooth ride,4,18-25,California,None,Satisfied
+CUST0249,11/23/2024,Sedan,AC stopped working after a week,4,36-50,Texas,Electrical,Satisfied
+CUST0250,9/4/2024,Electric Car,Battery life could be better,5,18-25,Ohio,Engine,Satisfied
+CUST0251,1/27/2025,Sedan,Engine noise is too loud,5,36-50,Michigan,Engine,Satisfied
+CUST0252,7/23/2024,Truck,Great design and technology features,4,51+,Ohio,Transmission,Satisfied
+CUST0253,7/31/2024,SUV,Great design and technology features,2,18-25,California,None,Unsatisfied
+CUST0254,10/18/2024,Hybrid,Exceeded my expectations,2,36-50,Illinois,Brakes,Unsatisfied
+CUST0255,3/7/2025,Truck,AC stopped working after a week,4,36-50,Michigan,Battery,Satisfied
+CUST0256,4/8/2025,Electric Car,Transmission issues after 2 months,4,26-35,California,None,Satisfied
+CUST0257,7/20/2024,Hybrid,AC stopped working after a week,4,36-50,Ohio,Transmission,Satisfied
+CUST0258,5/8/2024,Hybrid,Brakes are not responsive,3,18-25,Texas,Brakes,Unsatisfied
+CUST0259,6/11/2024,Sedan,Transmission issues after 2 months,2,18-25,Ohio,AC,Unsatisfied
+CUST0260,4/22/2024,Truck,Transmission issues after 2 months,3,26-35,Texas,AC,Unsatisfied
+CUST0261,12/10/2024,Hybrid,Reliable and easy to maintain,4,18-25,Illinois,Electrical,Satisfied
+CUST0262,4/24/2024,SUV,Brakes are not responsive,4,26-35,Illinois,Battery,Satisfied
+CUST0263,3/10/2025,Electric Car,Excellent performance and smooth ride,1,18-25,Ohio,Transmission,Unsatisfied
+CUST0264,4/4/2025,Truck,Great design and technology features,3,26-35,Illinois,Other,Unsatisfied
+CUST0265,7/6/2024,Sedan,Excellent performance and smooth ride,5,36-50,California,Engine,Satisfied
+CUST0266,9/23/2024,Sedan,Excellent performance and smooth ride,2,36-50,Illinois,Transmission,Unsatisfied
+CUST0267,11/17/2024,Truck,Very comfortable and fuel efficient,3,18-25,Ohio,Battery,Unsatisfied
+CUST0268,11/12/2024,Sedan,Great design and technology features,5,18-25,New York,Brakes,Satisfied
+CUST0269,6/22/2024,Hybrid,Excellent performance and smooth ride,5,36-50,Illinois,Engine,Satisfied
+CUST0270,11/6/2024,SUV,Very comfortable and fuel efficient,5,18-25,Ohio,Engine,Satisfied
+CUST0271,12/5/2024,Sedan,Battery life could be better,5,26-35,New York,Other,Satisfied
+CUST0272,10/4/2024,Truck,Reliable and easy to maintain,5,36-50,New York,None,Satisfied
+CUST0273,7/5/2024,Hybrid,AC stopped working after a week,5,36-50,California,Transmission,Satisfied
+CUST0274,12/30/2024,Hybrid,Battery life could be better,3,36-50,New York,Brakes,Unsatisfied
+CUST0275,4/13/2025,Hybrid,Great design and technology features,1,36-50,Michigan,Transmission,Unsatisfied
+CUST0276,6/13/2024,Electric Car,Brakes are not responsive,5,26-35,Michigan,AC,Satisfied
+CUST0277,11/5/2024,Hybrid,Reliable and easy to maintain,2,26-35,Ohio,Other,Unsatisfied
+CUST0278,1/9/2025,SUV,Very comfortable and fuel efficient,3,26-35,Michigan,Brakes,Unsatisfied
+CUST0279,9/24/2024,Hybrid,Exceeded my expectations,1,18-25,Texas,Electrical,Unsatisfied
+CUST0280,4/15/2025,SUV,Battery life could be better,1,18-25,Michigan,AC,Unsatisfied
+CUST0281,8/25/2024,Electric Car,Battery life could be better,4,51+,Ohio,Transmission,Satisfied
+CUST0282,12/3/2024,Truck,Battery life could be better,5,26-35,Michigan,Engine,Satisfied
+CUST0283,10/26/2024,Electric Car,Transmission issues after 2 months,1,18-25,California,AC,Unsatisfied
+CUST0284,1/11/2025,Sedan,Excellent performance and smooth ride,5,26-35,Texas,Electrical,Satisfied
+CUST0285,6/10/2024,Hybrid,Engine noise is too loud,5,26-35,California,Other,Satisfied
+CUST0286,10/23/2024,SUV,Brakes are not responsive,5,26-35,Ohio,Other,Satisfied
+CUST0287,6/17/2024,Hybrid,Brakes are not responsive,5,26-35,Illinois,AC,Satisfied
+CUST0288,1/4/2025,SUV,Battery life could be better,3,26-35,New York,Electrical,Unsatisfied
+CUST0289,12/28/2024,SUV,Battery life could be better,3,36-50,Texas,Electrical,Unsatisfied
+CUST0290,9/21/2024,Sedan,Engine noise is too loud,1,26-35,Ohio,Battery,Unsatisfied
+CUST0291,2/23/2025,SUV,Exceeded my expectations,4,51+,Ohio,Engine,Satisfied
+CUST0292,7/1/2024,Sedan,Engine noise is too loud,3,26-35,Illinois,Other,Unsatisfied
+CUST0293,7/19/2024,Sedan,Transmission issues after 2 months,5,26-35,California,Engine,Satisfied
+CUST0294,9/20/2024,Truck,Brakes are not responsive,4,18-25,Ohio,Other,Satisfied
+CUST0295,3/27/2025,Electric Car,Great design and technology features,5,36-50,California,Transmission,Satisfied
+CUST0296,9/8/2024,SUV,Great design and technology features,4,36-50,Michigan,Electrical,Satisfied
+CUST0297,10/22/2024,Sedan,Battery life could be better,1,26-35,Illinois,Engine,Unsatisfied
+CUST0298,10/26/2024,SUV,Great design and technology features,4,51+,Ohio,AC,Satisfied
+CUST0299,5/21/2024,Sedan,Very comfortable and fuel efficient,5,18-25,California,Other,Satisfied
+CUST0300,4/19/2024,Sedan,Excellent performance and smooth ride,1,36-50,California,AC,Unsatisfied
+CUST0301,11/3/2024,Hybrid,Brakes are not responsive,5,51+,Ohio,Transmission,Satisfied
+CUST0302,4/26/2024,Sedan,Great design and technology features,3,51+,Illinois,Brakes,Unsatisfied
+CUST0303,2/14/2025,Hybrid,AC stopped working after a week,3,26-35,Illinois,Battery,Unsatisfied
+CUST0304,7/6/2024,Sedan,Brakes are not responsive,5,18-25,Michigan,Engine,Satisfied
+CUST0305,3/21/2025,Hybrid,Transmission issues after 2 months,4,36-50,California,None,Satisfied
+CUST0306,3/3/2025,SUV,Transmission issues after 2 months,4,36-50,Texas,Battery,Satisfied
+CUST0307,9/27/2024,Sedan,Battery life could be better,5,26-35,Texas,Battery,Satisfied
+CUST0308,2/19/2025,Sedan,Excellent performance and smooth ride,4,36-50,New York,Electrical,Satisfied
+CUST0309,12/10/2024,Truck,Very comfortable and fuel efficient,4,51+,Texas,Transmission,Satisfied
+CUST0310,2/28/2025,Hybrid,Excellent performance and smooth ride,3,26-35,Ohio,Battery,Unsatisfied
+CUST0311,10/8/2024,Sedan,Brakes are not responsive,3,18-25,Texas,Other,Unsatisfied
+CUST0312,6/21/2024,Electric Car,AC stopped working after a week,3,51+,Ohio,Electrical,Unsatisfied
+CUST0313,6/8/2024,Truck,Battery life could be better,5,26-35,Michigan,Transmission,Satisfied
+CUST0314,4/24/2024,Hybrid,Battery life could be better,4,18-25,California,AC,Satisfied
+CUST0315,6/22/2024,Hybrid,Very comfortable and fuel efficient,3,26-35,New York,Electrical,Unsatisfied
+CUST0316,2/15/2025,Electric Car,Transmission issues after 2 months,5,18-25,Ohio,Transmission,Satisfied
+CUST0317,11/30/2024,Hybrid,Reliable and easy to maintain,2,26-35,Ohio,Battery,Unsatisfied
+CUST0318,11/15/2024,Truck,Engine noise is too loud,5,36-50,Ohio,Battery,Satisfied
+CUST0319,12/29/2024,SUV,AC stopped working after a week,3,36-50,Ohio,Battery,Unsatisfied
+CUST0320,10/6/2024,Sedan,Battery life could be better,3,26-35,Michigan,Battery,Unsatisfied
+CUST0321,1/10/2025,Sedan,Great design and technology features,3,51+,New York,Transmission,Unsatisfied
+CUST0322,9/5/2024,Sedan,Reliable and easy to maintain,3,51+,Illinois,Brakes,Unsatisfied
+CUST0323,6/10/2024,Electric Car,Transmission issues after 2 months,3,26-35,Michigan,Electrical,Unsatisfied
+CUST0324,8/5/2024,Truck,Battery life could be better,4,51+,Michigan,Brakes,Satisfied
+CUST0325,1/24/2025,Electric Car,Engine noise is too loud,1,51+,Michigan,Electrical,Unsatisfied
+CUST0326,12/11/2024,SUV,Battery life could be better,5,18-25,California,Engine,Satisfied
+CUST0327,2/13/2025,SUV,Very comfortable and fuel efficient,5,18-25,California,AC,Satisfied
+CUST0328,12/11/2024,Electric Car,Excellent performance and smooth ride,3,26-35,New York,None,Unsatisfied
+CUST0329,8/14/2024,Electric Car,Excellent performance and smooth ride,4,26-35,Ohio,AC,Satisfied
+CUST0330,4/10/2025,Truck,Great design and technology features,5,18-25,Illinois,Brakes,Satisfied
+CUST0331,9/12/2024,Sedan,Excellent performance and smooth ride,2,26-35,California,Battery,Unsatisfied
+CUST0332,9/12/2024,Electric Car,Reliable and easy to maintain,3,26-35,Texas,Brakes,Unsatisfied
+CUST0333,4/4/2025,Electric Car,Brakes are not responsive,3,51+,New York,Electrical,Unsatisfied
+CUST0334,10/29/2024,Electric Car,Battery life could be better,4,36-50,New York,Engine,Satisfied
+CUST0335,3/3/2025,Electric Car,Engine noise is too loud,5,26-35,New York,AC,Satisfied
+CUST0336,2/3/2025,Sedan,Excellent performance and smooth ride,1,36-50,Michigan,Brakes,Unsatisfied
+CUST0337,12/4/2024,Truck,Brakes are not responsive,5,51+,Texas,Transmission,Satisfied
+CUST0338,11/19/2024,Truck,Exceeded my expectations,4,36-50,Texas,AC,Satisfied
+CUST0339,10/26/2024,Sedan,AC stopped working after a week,4,36-50,California,Engine,Satisfied
+CUST0340,8/31/2024,Hybrid,Transmission issues after 2 months,4,51+,Texas,Battery,Satisfied
+CUST0341,7/21/2024,Sedan,Exceeded my expectations,5,18-25,Michigan,Transmission,Satisfied
+CUST0342,10/17/2024,Hybrid,AC stopped working after a week,4,36-50,Ohio,AC,Satisfied
+CUST0343,9/17/2024,SUV,Brakes are not responsive,5,36-50,New York,AC,Satisfied
+CUST0344,10/19/2024,Hybrid,Reliable and easy to maintain,1,18-25,Michigan,Battery,Unsatisfied
+CUST0345,1/21/2025,Electric Car,Brakes are not responsive,2,51+,Illinois,Battery,Unsatisfied
+CUST0346,7/9/2024,SUV,Great design and technology features,5,36-50,Michigan,Electrical,Satisfied
+CUST0347,6/1/2024,Truck,Excellent performance and smooth ride,3,36-50,New York,Brakes,Unsatisfied
+CUST0348,11/26/2024,Electric Car,Excellent performance and smooth ride,3,26-35,Michigan,Battery,Unsatisfied
+CUST0349,11/28/2024,Truck,Exceeded my expectations,3,36-50,California,Electrical,Unsatisfied
+CUST0350,10/16/2024,Hybrid,AC stopped working after a week,4,18-25,California,Transmission,Satisfied
+CUST0351,12/30/2024,Truck,Exceeded my expectations,5,18-25,Texas,AC,Satisfied
+CUST0352,2/26/2025,Sedan,Excellent performance and smooth ride,4,18-25,Ohio,None,Satisfied
+CUST0353,8/11/2024,SUV,Battery life could be better,3,36-50,California,Electrical,Unsatisfied
+CUST0354,2/16/2025,Truck,AC stopped working after a week,1,51+,Texas,None,Unsatisfied
+CUST0355,2/5/2025,Electric Car,Battery life could be better,2,26-35,Texas,Battery,Unsatisfied
+CUST0356,1/8/2025,Sedan,Excellent performance and smooth ride,4,36-50,Illinois,Other,Satisfied
+CUST0357,7/25/2024,Truck,Battery life could be better,2,51+,Michigan,Transmission,Unsatisfied
+CUST0358,12/26/2024,Truck,Excellent performance and smooth ride,3,51+,Illinois,Brakes,Unsatisfied
+CUST0359,6/8/2024,SUV,Very comfortable and fuel efficient,1,51+,Ohio,AC,Unsatisfied
+CUST0360,7/2/2024,SUV,Transmission issues after 2 months,2,36-50,Illinois,Engine,Unsatisfied
+CUST0361,2/6/2025,Electric Car,Exceeded my expectations,5,51+,Illinois,Brakes,Satisfied
+CUST0362,5/20/2024,Truck,Transmission issues after 2 months,5,51+,New York,Brakes,Satisfied
+CUST0363,8/5/2024,SUV,Engine noise is too loud,3,51+,New York,Battery,Unsatisfied
+CUST0364,1/1/2025,Hybrid,Engine noise is too loud,3,26-35,Ohio,Other,Unsatisfied
+CUST0365,11/11/2024,Electric Car,Reliable and easy to maintain,4,36-50,New York,Transmission,Satisfied
+CUST0366,12/8/2024,SUV,Reliable and easy to maintain,3,51+,California,Electrical,Unsatisfied
+CUST0367,8/10/2024,SUV,Exceeded my expectations,4,26-35,Ohio,Brakes,Satisfied
+CUST0368,4/18/2024,Electric Car,Battery life could be better,1,26-35,Texas,Transmission,Unsatisfied
+CUST0369,12/16/2024,Truck,Exceeded my expectations,3,51+,New York,AC,Unsatisfied
+CUST0370,8/27/2024,Electric Car,Battery life could be better,4,18-25,Michigan,None,Satisfied
+CUST0371,11/24/2024,Hybrid,Engine noise is too loud,1,36-50,Michigan,Other,Unsatisfied
+CUST0372,8/8/2024,Truck,Very comfortable and fuel efficient,3,26-35,Michigan,Brakes,Unsatisfied
+CUST0373,2/7/2025,Sedan,Brakes are not responsive,4,51+,New York,AC,Satisfied
+CUST0374,3/2/2025,Hybrid,Brakes are not responsive,3,51+,Illinois,Engine,Unsatisfied
+CUST0375,9/14/2024,Electric Car,Great design and technology features,3,18-25,Ohio,Brakes,Unsatisfied
+CUST0376,12/17/2024,SUV,Transmission issues after 2 months,4,51+,California,Other,Satisfied
+CUST0377,5/12/2024,SUV,Very comfortable and fuel efficient,5,26-35,Illinois,Electrical,Satisfied
+CUST0378,7/12/2024,Hybrid,Engine noise is too loud,5,36-50,Michigan,None,Satisfied
+CUST0379,7/25/2024,SUV,Exceeded my expectations,5,36-50,Texas,Electrical,Satisfied
+CUST0380,7/5/2024,Truck,Brakes are not responsive,4,18-25,Michigan,None,Satisfied
+CUST0381,2/5/2025,SUV,Reliable and easy to maintain,1,51+,Illinois,AC,Unsatisfied
+CUST0382,4/13/2025,Electric Car,Reliable and easy to maintain,4,36-50,California,Battery,Satisfied
+CUST0383,2/1/2025,Sedan,Battery life could be better,4,36-50,Illinois,Electrical,Satisfied
+CUST0384,11/21/2024,Sedan,AC stopped working after a week,5,51+,California,Transmission,Satisfied
+CUST0385,3/15/2025,Hybrid,Excellent performance and smooth ride,5,26-35,California,Transmission,Satisfied
+CUST0386,2/15/2025,SUV,Exceeded my expectations,3,51+,New York,Battery,Unsatisfied
+CUST0387,2/25/2025,Hybrid,Great design and technology features,4,26-35,Ohio,Other,Satisfied
+CUST0388,2/7/2025,Electric Car,Reliable and easy to maintain,2,36-50,Illinois,Battery,Unsatisfied
+CUST0389,9/11/2024,Hybrid,Engine noise is too loud,5,18-25,Texas,AC,Satisfied
+CUST0390,6/16/2024,Electric Car,AC stopped working after a week,3,51+,California,Battery,Unsatisfied
+CUST0391,9/9/2024,Sedan,Engine noise is too loud,3,26-35,Michigan,AC,Unsatisfied
+CUST0392,6/27/2024,Truck,Excellent performance and smooth ride,4,36-50,Texas,Engine,Satisfied
+CUST0393,8/14/2024,Hybrid,Engine noise is too loud,1,26-35,Michigan,Other,Unsatisfied
+CUST0394,9/17/2024,SUV,AC stopped working after a week,5,51+,New York,Battery,Satisfied
+CUST0395,1/30/2025,SUV,Excellent performance and smooth ride,4,36-50,California,None,Satisfied
+CUST0396,3/6/2025,Electric Car,Battery life could be better,2,18-25,Michigan,Electrical,Unsatisfied
+CUST0397,2/8/2025,SUV,AC stopped working after a week,1,36-50,Ohio,Other,Unsatisfied
+CUST0398,10/7/2024,Truck,Reliable and easy to maintain,4,51+,California,None,Satisfied
+CUST0399,6/24/2024,SUV,Exceeded my expectations,3,18-25,Illinois,Electrical,Unsatisfied
+CUST0400,11/15/2024,Hybrid,Battery life could be better,4,18-25,Michigan,AC,Satisfied
+CUST0401,6/4/2024,SUV,Battery life could be better,3,51+,California,AC,Unsatisfied
+CUST0402,4/17/2024,Truck,Battery life could be better,4,36-50,Texas,Electrical,Satisfied
+CUST0403,1/25/2025,Electric Car,Brakes are not responsive,1,51+,Illinois,Brakes,Unsatisfied
+CUST0404,10/16/2024,Electric Car,Great design and technology features,4,36-50,California,Engine,Satisfied
+CUST0405,12/19/2024,Electric Car,Very comfortable and fuel efficient,4,51+,Michigan,Other,Satisfied
+CUST0406,9/21/2024,Hybrid,Engine noise is too loud,4,36-50,Texas,Transmission,Satisfied
+CUST0407,5/4/2024,SUV,Very comfortable and fuel efficient,5,18-25,Michigan,Battery,Satisfied
+CUST0408,9/9/2024,Electric Car,Very comfortable and fuel efficient,4,18-25,New York,Engine,Satisfied
+CUST0409,8/27/2024,Truck,Exceeded my expectations,5,51+,Ohio,AC,Satisfied
+CUST0410,2/18/2025,Electric Car,Reliable and easy to maintain,4,36-50,Ohio,Engine,Satisfied
+CUST0411,5/14/2024,SUV,Exceeded my expectations,1,26-35,Michigan,AC,Unsatisfied
+CUST0412,7/8/2024,Hybrid,Transmission issues after 2 months,3,26-35,Texas,Electrical,Unsatisfied
+CUST0413,9/19/2024,Electric Car,Great design and technology features,3,26-35,California,Engine,Unsatisfied
+CUST0414,4/17/2025,Truck,Exceeded my expectations,5,36-50,Texas,Engine,Satisfied
+CUST0415,5/20/2024,Truck,Excellent performance and smooth ride,4,26-35,Ohio,Transmission,Satisfied
+CUST0416,5/15/2024,Electric Car,Very comfortable and fuel efficient,5,26-35,Illinois,Engine,Satisfied
+CUST0417,4/18/2024,Hybrid,AC stopped working after a week,5,26-35,Michigan,Other,Satisfied
+CUST0418,9/9/2024,Sedan,AC stopped working after a week,3,36-50,Ohio,Brakes,Unsatisfied
+CUST0419,10/8/2024,Sedan,Very comfortable and fuel efficient,3,51+,California,None,Unsatisfied
+CUST0420,6/5/2024,Electric Car,Engine noise is too loud,2,18-25,New York,Other,Unsatisfied
+CUST0421,12/25/2024,Sedan,AC stopped working after a week,4,36-50,Texas,AC,Satisfied
+CUST0422,3/3/2025,Electric Car,Very comfortable and fuel efficient,5,51+,New York,Engine,Satisfied
+CUST0423,4/11/2025,Sedan,Engine noise is too loud,2,18-25,California,Other,Unsatisfied
+CUST0424,5/6/2024,SUV,Great design and technology features,4,18-25,Michigan,Transmission,Satisfied
+CUST0425,12/27/2024,Hybrid,AC stopped working after a week,5,26-35,Michigan,Electrical,Satisfied
+CUST0426,1/6/2025,SUV,Brakes are not responsive,3,51+,New York,Engine,Unsatisfied
+CUST0427,10/8/2024,Truck,Very comfortable and fuel efficient,5,51+,Ohio,None,Satisfied
+CUST0428,11/16/2024,Hybrid,AC stopped working after a week,4,18-25,New York,Battery,Satisfied
+CUST0429,2/9/2025,SUV,Transmission issues after 2 months,4,18-25,Illinois,Electrical,Satisfied
+CUST0430,4/28/2024,Truck,Excellent performance and smooth ride,4,51+,Ohio,Engine,Satisfied
+CUST0431,3/28/2025,Sedan,AC stopped working after a week,3,26-35,New York,Electrical,Unsatisfied
+CUST0432,3/4/2025,Truck,Transmission issues after 2 months,1,26-35,Michigan,AC,Unsatisfied
+CUST0433,8/27/2024,Electric Car,Exceeded my expectations,4,26-35,Ohio,Other,Satisfied
+CUST0434,10/5/2024,SUV,Very comfortable and fuel efficient,4,18-25,Ohio,None,Satisfied
+CUST0435,6/15/2024,Hybrid,Engine noise is too loud,4,26-35,Illinois,Transmission,Satisfied
+CUST0436,12/25/2024,SUV,Exceeded my expectations,4,36-50,Michigan,Brakes,Satisfied
+CUST0437,3/18/2025,SUV,Exceeded my expectations,1,51+,New York,Battery,Unsatisfied
+CUST0438,3/15/2025,Truck,Engine noise is too loud,5,51+,California,Battery,Satisfied
+CUST0439,3/15/2025,Sedan,Transmission issues after 2 months,3,36-50,Michigan,Battery,Unsatisfied
+CUST0440,5/24/2024,SUV,Great design and technology features,4,26-35,Ohio,Battery,Satisfied
+CUST0441,10/15/2024,Truck,AC stopped working after a week,5,26-35,Illinois,Engine,Satisfied
+CUST0442,4/19/2024,Truck,Great design and technology features,2,18-25,Ohio,Engine,Unsatisfied
+CUST0443,8/10/2024,Electric Car,Engine noise is too loud,2,51+,Michigan,AC,Unsatisfied
+CUST0444,4/19/2024,Sedan,Transmission issues after 2 months,4,26-35,Illinois,Electrical,Satisfied
+CUST0445,9/30/2024,Electric Car,Reliable and easy to maintain,3,36-50,Ohio,Brakes,Unsatisfied
+CUST0446,3/29/2025,Hybrid,Brakes are not responsive,3,26-35,New York,Electrical,Unsatisfied
+CUST0447,3/24/2025,Electric Car,Engine noise is too loud,1,26-35,New York,Electrical,Unsatisfied
+CUST0448,2/5/2025,SUV,Engine noise is too loud,5,36-50,Texas,Engine,Satisfied
+CUST0449,3/12/2025,Hybrid,Brakes are not responsive,4,36-50,Texas,AC,Satisfied
+CUST0450,7/8/2024,SUV,Great design and technology features,4,26-35,Michigan,Transmission,Satisfied
+CUST0451,11/1/2024,Hybrid,Exceeded my expectations,3,26-35,Texas,Transmission,Unsatisfied
+CUST0452,8/5/2024,Truck,Battery life could be better,5,18-25,New York,None,Satisfied
+CUST0453,6/8/2024,Electric Car,Exceeded my expectations,5,36-50,Michigan,AC,Satisfied
+CUST0454,5/14/2024,Sedan,Transmission issues after 2 months,5,51+,New York,Electrical,Satisfied
+CUST0455,1/15/2025,Hybrid,Engine noise is too loud,4,36-50,Michigan,Electrical,Satisfied
+CUST0456,4/10/2025,Sedan,AC stopped working after a week,5,36-50,Michigan,AC,Satisfied
+CUST0457,8/18/2024,SUV,Very comfortable and fuel efficient,5,26-35,California,Engine,Satisfied
+CUST0458,1/23/2025,Truck,Very comfortable and fuel efficient,4,26-35,Texas,Battery,Satisfied
+CUST0459,4/25/2024,Electric Car,Excellent performance and smooth ride,3,51+,New York,AC,Unsatisfied
+CUST0460,3/2/2025,Electric Car,Brakes are not responsive,4,18-25,Ohio,Battery,Satisfied
+CUST0461,9/24/2024,Sedan,Reliable and easy to maintain,3,18-25,Texas,None,Unsatisfied
+CUST0462,7/18/2024,Electric Car,Engine noise is too loud,4,51+,Ohio,AC,Satisfied
+CUST0463,7/9/2024,Electric Car,Transmission issues after 2 months,5,51+,New York,Other,Satisfied
+CUST0464,10/20/2024,SUV,Engine noise is too loud,4,18-25,Ohio,None,Satisfied
+CUST0465,4/5/2025,Hybrid,Transmission issues after 2 months,2,26-35,Texas,Brakes,Unsatisfied
+CUST0466,3/30/2025,Sedan,Engine noise is too loud,5,18-25,California,Electrical,Satisfied
+CUST0467,8/19/2024,Sedan,Very comfortable and fuel efficient,3,26-35,Ohio,Transmission,Unsatisfied
+CUST0468,7/13/2024,Sedan,AC stopped working after a week,4,26-35,Illinois,Engine,Satisfied
+CUST0469,3/26/2025,Sedan,Battery life could be better,4,18-25,Illinois,Brakes,Satisfied
+CUST0470,7/11/2024,Truck,Great design and technology features,5,26-35,New York,None,Satisfied
+CUST0471,5/28/2024,Electric Car,Excellent performance and smooth ride,3,26-35,Ohio,AC,Unsatisfied
+CUST0472,11/27/2024,Electric Car,Transmission issues after 2 months,1,51+,Ohio,Other,Unsatisfied
+CUST0473,1/19/2025,Truck,Excellent performance and smooth ride,5,26-35,Texas,Electrical,Satisfied
+CUST0474,6/25/2024,Hybrid,Great design and technology features,2,26-35,Texas,Other,Unsatisfied
+CUST0475,6/2/2024,Electric Car,Excellent performance and smooth ride,4,18-25,Illinois,Transmission,Satisfied
+CUST0476,4/8/2025,SUV,Excellent performance and smooth ride,4,36-50,Illinois,AC,Satisfied
+CUST0477,8/10/2024,Hybrid,Exceeded my expectations,5,36-50,California,Other,Satisfied
+CUST0478,7/28/2024,Truck,Excellent performance and smooth ride,5,18-25,Texas,Brakes,Satisfied
+CUST0479,2/6/2025,Hybrid,Transmission issues after 2 months,4,36-50,California,Battery,Satisfied
+CUST0480,7/31/2024,Electric Car,Transmission issues after 2 months,3,51+,New York,Engine,Unsatisfied
+CUST0481,11/3/2024,Truck,Great design and technology features,2,51+,New York,Transmission,Unsatisfied
+CUST0482,4/16/2025,Truck,Reliable and easy to maintain,2,51+,Illinois,Transmission,Unsatisfied
+CUST0483,11/26/2024,Hybrid,Great design and technology features,1,51+,Ohio,AC,Unsatisfied
+CUST0484,2/7/2025,SUV,Great design and technology features,4,36-50,Michigan,Brakes,Satisfied
+CUST0485,1/3/2025,Sedan,AC stopped working after a week,4,36-50,California,AC,Satisfied
+CUST0486,5/17/2024,Electric Car,Excellent performance and smooth ride,2,18-25,Michigan,None,Unsatisfied
+CUST0487,4/29/2024,Electric Car,Very comfortable and fuel efficient,3,18-25,Ohio,AC,Unsatisfied
+CUST0488,6/22/2024,Hybrid,Transmission issues after 2 months,5,26-35,Texas,Other,Satisfied
+CUST0489,7/6/2024,Electric Car,AC stopped working after a week,5,18-25,Texas,AC,Satisfied
+CUST0490,11/8/2024,Truck,Engine noise is too loud,3,36-50,Texas,None,Unsatisfied
+CUST0491,5/4/2024,Hybrid,Engine noise is too loud,4,36-50,Illinois,Transmission,Satisfied
+CUST0492,1/18/2025,Electric Car,Brakes are not responsive,2,51+,New York,Electrical,Unsatisfied
+CUST0493,2/25/2025,Sedan,AC stopped working after a week,5,18-25,Illinois,Transmission,Satisfied
+CUST0494,5/31/2024,SUV,Exceeded my expectations,2,18-25,California,Transmission,Unsatisfied
+CUST0495,10/20/2024,Sedan,Excellent performance and smooth ride,4,18-25,New York,None,Satisfied
+CUST0496,8/1/2024,Truck,Reliable and easy to maintain,5,26-35,New York,Battery,Satisfied
+CUST0497,5/15/2024,Electric Car,Transmission issues after 2 months,3,51+,Texas,Transmission,Unsatisfied
+CUST0498,8/31/2024,Truck,Excellent performance and smooth ride,5,26-35,Texas,Engine,Satisfied
+CUST0499,9/29/2024,Truck,Reliable and easy to maintain,4,18-25,California,Engine,Satisfied
+CUST0500,6/19/2024,Truck,Very comfortable and fuel efficient,5,36-50,New York,Transmission,Satisfied
+CUST0501,6/17/2024,Sedan,Exceeded my expectations,4,26-35,Illinois,Transmission,Satisfied
+CUST0502,10/4/2024,Truck,Transmission issues after 2 months,5,18-25,Ohio,Electrical,Satisfied
+CUST0503,9/28/2024,Electric Car,AC stopped working after a week,1,51+,Texas,Transmission,Unsatisfied
+CUST0504,10/7/2024,Sedan,AC stopped working after a week,4,51+,California,Battery,Satisfied
+CUST0505,12/24/2024,Sedan,AC stopped working after a week,3,26-35,California,AC,Unsatisfied
+CUST0506,12/29/2024,Hybrid,Brakes are not responsive,1,36-50,Texas,Other,Unsatisfied
+CUST0507,10/14/2024,Electric Car,AC stopped working after a week,4,18-25,Michigan,None,Satisfied
+CUST0508,3/12/2025,Electric Car,AC stopped working after a week,2,26-35,Texas,Other,Unsatisfied
+CUST0509,7/2/2024,Electric Car,Great design and technology features,1,51+,Texas,Battery,Unsatisfied
+CUST0510,6/12/2024,SUV,Engine noise is too loud,4,36-50,Michigan,Electrical,Satisfied
+CUST0511,7/14/2024,Electric Car,Great design and technology features,2,51+,Ohio,AC,Unsatisfied
+CUST0512,8/23/2024,Sedan,Exceeded my expectations,3,18-25,Michigan,Other,Unsatisfied
+CUST0513,6/14/2024,SUV,AC stopped working after a week,5,36-50,New York,Other,Satisfied
+CUST0514,7/21/2024,Sedan,Engine noise is too loud,4,18-25,Illinois,Engine,Satisfied
+CUST0515,6/16/2024,Electric Car,AC stopped working after a week,5,26-35,Texas,Transmission,Satisfied
+CUST0516,5/23/2024,Hybrid,Exceeded my expectations,2,26-35,California,Engine,Unsatisfied
+CUST0517,7/5/2024,Truck,Reliable and easy to maintain,2,36-50,California,Transmission,Unsatisfied
+CUST0518,3/21/2025,SUV,AC stopped working after a week,5,26-35,Ohio,None,Satisfied
+CUST0519,9/11/2024,Hybrid,Very comfortable and fuel efficient,4,51+,California,Engine,Satisfied
+CUST0520,9/16/2024,Hybrid,Reliable and easy to maintain,1,18-25,Texas,AC,Unsatisfied
+CUST0521,8/7/2024,Electric Car,Battery life could be better,1,36-50,Illinois,Battery,Unsatisfied
+CUST0522,10/7/2024,SUV,Very comfortable and fuel efficient,5,36-50,Michigan,Electrical,Satisfied
+CUST0523,6/25/2024,SUV,Battery life could be better,4,51+,Texas,Electrical,Satisfied
+CUST0524,8/23/2024,Sedan,Exceeded my expectations,3,26-35,New York,Brakes,Unsatisfied
+CUST0525,8/5/2024,Electric Car,Brakes are not responsive,4,51+,Ohio,Brakes,Satisfied
+CUST0526,3/11/2025,SUV,Exceeded my expectations,3,18-25,Illinois,Electrical,Unsatisfied
+CUST0527,9/3/2024,Hybrid,Exceeded my expectations,5,26-35,Michigan,Other,Satisfied
+CUST0528,10/27/2024,Truck,Brakes are not responsive,5,26-35,Texas,Brakes,Satisfied
+CUST0529,1/10/2025,Sedan,Brakes are not responsive,4,26-35,Ohio,None,Satisfied
+CUST0530,11/1/2024,Electric Car,Excellent performance and smooth ride,5,51+,Michigan,Battery,Satisfied
+CUST0531,8/11/2024,Hybrid,Very comfortable and fuel efficient,2,51+,Texas,None,Unsatisfied
+CUST0532,10/31/2024,SUV,Brakes are not responsive,2,36-50,California,None,Unsatisfied
+CUST0533,5/20/2024,SUV,Excellent performance and smooth ride,3,26-35,Ohio,Brakes,Unsatisfied
+CUST0534,7/23/2024,SUV,AC stopped working after a week,1,36-50,Illinois,Transmission,Unsatisfied
+CUST0535,1/8/2025,Truck,AC stopped working after a week,1,36-50,Ohio,None,Unsatisfied
+CUST0536,1/10/2025,Truck,AC stopped working after a week,4,36-50,Texas,Transmission,Satisfied
+CUST0537,11/20/2024,SUV,Very comfortable and fuel efficient,5,36-50,Michigan,Engine,Satisfied
+CUST0538,3/25/2025,Truck,Battery life could be better,5,18-25,Illinois,Battery,Satisfied
+CUST0539,7/20/2024,Electric Car,Brakes are not responsive,2,51+,Texas,AC,Unsatisfied
+CUST0540,10/3/2024,Sedan,AC stopped working after a week,4,18-25,Illinois,Engine,Satisfied
+CUST0541,1/19/2025,SUV,AC stopped working after a week,5,18-25,California,Electrical,Satisfied
+CUST0542,5/23/2024,Electric Car,AC stopped working after a week,3,26-35,California,AC,Unsatisfied
+CUST0543,10/22/2024,Sedan,AC stopped working after a week,5,36-50,Michigan,Transmission,Satisfied
+CUST0544,10/14/2024,Sedan,Engine noise is too loud,2,51+,Ohio,None,Unsatisfied
+CUST0545,3/20/2025,SUV,Great design and technology features,5,36-50,Texas,Transmission,Satisfied
+CUST0546,9/8/2024,Sedan,Transmission issues after 2 months,4,18-25,California,Electrical,Satisfied
+CUST0547,6/28/2024,Sedan,Brakes are not responsive,4,18-25,Texas,Other,Satisfied
+CUST0548,3/5/2025,Hybrid,Brakes are not responsive,4,51+,California,Other,Satisfied
+CUST0549,4/15/2025,Sedan,Excellent performance and smooth ride,4,18-25,New York,None,Satisfied
+CUST0550,10/28/2024,Hybrid,Engine noise is too loud,2,36-50,Michigan,Brakes,Unsatisfied
+CUST0551,6/5/2024,SUV,Brakes are not responsive,5,18-25,Texas,AC,Satisfied
+CUST0552,6/17/2024,Hybrid,Brakes are not responsive,5,26-35,New York,None,Satisfied
+CUST0553,4/16/2025,Electric Car,Reliable and easy to maintain,3,36-50,Ohio,None,Unsatisfied
+CUST0554,4/23/2024,Hybrid,Very comfortable and fuel efficient,5,18-25,Illinois,Transmission,Satisfied
+CUST0555,8/26/2024,Truck,Great design and technology features,2,36-50,New York,AC,Unsatisfied
+CUST0556,7/30/2024,Truck,Excellent performance and smooth ride,4,51+,New York,Transmission,Satisfied
+CUST0557,1/21/2025,Sedan,Very comfortable and fuel efficient,3,18-25,Illinois,Other,Unsatisfied
+CUST0558,2/7/2025,Sedan,Reliable and easy to maintain,4,18-25,Ohio,Other,Satisfied
+CUST0559,11/9/2024,Sedan,Excellent performance and smooth ride,3,26-35,Texas,None,Unsatisfied
+CUST0560,8/6/2024,Sedan,AC stopped working after a week,5,51+,New York,Electrical,Satisfied
+CUST0561,10/14/2024,Sedan,Reliable and easy to maintain,1,51+,Texas,Engine,Unsatisfied
+CUST0562,8/29/2024,Electric Car,AC stopped working after a week,5,51+,Michigan,AC,Satisfied
+CUST0563,6/27/2024,Truck,Reliable and easy to maintain,3,36-50,California,AC,Unsatisfied
+CUST0564,3/26/2025,Hybrid,Very comfortable and fuel efficient,5,18-25,Texas,Engine,Satisfied
+CUST0565,2/3/2025,Truck,Exceeded my expectations,4,36-50,Illinois,Transmission,Satisfied
+CUST0566,6/8/2024,Truck,Brakes are not responsive,3,51+,Texas,Other,Unsatisfied
+CUST0567,5/21/2024,SUV,Transmission issues after 2 months,4,18-25,California,Transmission,Satisfied
+CUST0568,10/19/2024,Sedan,Reliable and easy to maintain,4,51+,Ohio,Electrical,Satisfied
+CUST0569,9/30/2024,Sedan,Brakes are not responsive,5,26-35,New York,Electrical,Satisfied
+CUST0570,12/28/2024,SUV,Exceeded my expectations,1,18-25,Illinois,None,Unsatisfied
+CUST0571,8/8/2024,Electric Car,Exceeded my expectations,5,36-50,New York,Electrical,Satisfied
+CUST0572,10/5/2024,Electric Car,Reliable and easy to maintain,3,18-25,Michigan,Engine,Unsatisfied
+CUST0573,7/31/2024,Electric Car,Battery life could be better,1,51+,California,Electrical,Unsatisfied
+CUST0574,3/24/2025,Hybrid,Excellent performance and smooth ride,1,51+,Ohio,Transmission,Unsatisfied
+CUST0575,5/25/2024,Truck,Engine noise is too loud,2,51+,Texas,Brakes,Unsatisfied
+CUST0576,10/23/2024,Hybrid,Excellent performance and smooth ride,1,26-35,California,Engine,Unsatisfied
+CUST0577,3/21/2025,Truck,Reliable and easy to maintain,5,26-35,New York,Battery,Satisfied
+CUST0578,4/17/2024,SUV,Reliable and easy to maintain,5,18-25,Illinois,Electrical,Satisfied
+CUST0579,11/3/2024,Truck,Battery life could be better,4,36-50,California,Transmission,Satisfied
+CUST0580,10/9/2024,SUV,Very comfortable and fuel efficient,5,36-50,Illinois,AC,Satisfied
+CUST0581,12/16/2024,Electric Car,Engine noise is too loud,1,18-25,Michigan,Brakes,Unsatisfied
+CUST0582,6/1/2024,Sedan,Exceeded my expectations,3,36-50,Illinois,None,Unsatisfied
+CUST0583,3/29/2025,Sedan,AC stopped working after a week,3,26-35,California,Other,Unsatisfied
+CUST0584,4/11/2025,Truck,AC stopped working after a week,3,51+,California,Engine,Unsatisfied
+CUST0585,3/18/2025,Sedan,Very comfortable and fuel efficient,3,26-35,Texas,Electrical,Unsatisfied
+CUST0586,9/24/2024,Truck,Very comfortable and fuel efficient,5,36-50,Michigan,Engine,Satisfied
+CUST0587,1/8/2025,Hybrid,Transmission issues after 2 months,4,18-25,Michigan,Electrical,Satisfied
+CUST0588,11/2/2024,Truck,Transmission issues after 2 months,5,26-35,Illinois,Battery,Satisfied
+CUST0589,5/16/2024,SUV,Exceeded my expectations,3,36-50,Texas,AC,Unsatisfied
+CUST0590,6/22/2024,Electric Car,Exceeded my expectations,2,36-50,California,Other,Unsatisfied
+CUST0591,8/16/2024,Sedan,Exceeded my expectations,5,26-35,New York,None,Satisfied
+CUST0592,12/15/2024,Hybrid,Engine noise is too loud,3,36-50,Michigan,Other,Unsatisfied
+CUST0593,2/11/2025,Electric Car,Battery life could be better,4,26-35,Michigan,Brakes,Satisfied
+CUST0594,3/19/2025,Hybrid,Engine noise is too loud,5,26-35,Ohio,None,Satisfied
+CUST0595,9/13/2024,Sedan,Reliable and easy to maintain,2,51+,New York,Brakes,Unsatisfied
+CUST0596,12/13/2024,Electric Car,Brakes are not responsive,5,26-35,Illinois,Brakes,Satisfied
+CUST0597,12/12/2024,Electric Car,Brakes are not responsive,5,51+,Michigan,None,Satisfied
+CUST0598,10/13/2024,Truck,Excellent performance and smooth ride,5,36-50,New York,Other,Satisfied
+CUST0599,6/18/2024,Electric Car,Excellent performance and smooth ride,5,51+,Texas,Other,Satisfied
+CUST0600,1/19/2025,Truck,Excellent performance and smooth ride,2,36-50,Ohio,Engine,Unsatisfied
+CUST0601,10/3/2024,Truck,Brakes are not responsive,4,51+,Texas,Battery,Satisfied
+CUST0602,4/12/2025,SUV,Great design and technology features,5,26-35,New York,None,Satisfied
+CUST0603,1/1/2025,Sedan,Excellent performance and smooth ride,4,26-35,New York,Other,Satisfied
+CUST0604,2/2/2025,Sedan,Brakes are not responsive,1,51+,Michigan,Engine,Unsatisfied
+CUST0605,10/24/2024,Hybrid,AC stopped working after a week,5,36-50,Michigan,Battery,Satisfied
+CUST0606,9/30/2024,Truck,Excellent performance and smooth ride,5,18-25,New York,Engine,Satisfied
+CUST0607,1/5/2025,Sedan,Reliable and easy to maintain,4,18-25,Michigan,None,Satisfied
+CUST0608,12/7/2024,Sedan,Reliable and easy to maintain,5,51+,Michigan,None,Satisfied
+CUST0609,7/26/2024,Sedan,Battery life could be better,3,18-25,Illinois,Other,Unsatisfied
+CUST0610,11/15/2024,Electric Car,Very comfortable and fuel efficient,3,36-50,Illinois,Transmission,Unsatisfied
+CUST0611,9/28/2024,Truck,Engine noise is too loud,5,26-35,California,Electrical,Satisfied
+CUST0612,3/16/2025,Hybrid,Battery life could be better,4,36-50,New York,Transmission,Satisfied
+CUST0613,3/4/2025,Hybrid,Exceeded my expectations,1,18-25,California,Brakes,Unsatisfied
+CUST0614,6/2/2024,Electric Car,Exceeded my expectations,2,26-35,California,None,Unsatisfied
+CUST0615,10/11/2024,Truck,Brakes are not responsive,1,51+,California,Electrical,Unsatisfied
+CUST0616,9/18/2024,Hybrid,Reliable and easy to maintain,5,36-50,Illinois,None,Satisfied
+CUST0617,11/2/2024,Hybrid,Excellent performance and smooth ride,5,26-35,Texas,Electrical,Satisfied
+CUST0618,3/20/2025,Sedan,Excellent performance and smooth ride,2,51+,Ohio,Other,Unsatisfied
+CUST0619,4/28/2024,Electric Car,Transmission issues after 2 months,4,51+,Illinois,Electrical,Satisfied
+CUST0620,5/27/2024,SUV,Great design and technology features,4,26-35,Texas,Brakes,Satisfied
+CUST0621,8/29/2024,SUV,Very comfortable and fuel efficient,2,26-35,Texas,Electrical,Unsatisfied
+CUST0622,4/21/2024,Hybrid,Reliable and easy to maintain,2,26-35,Ohio,Electrical,Unsatisfied
+CUST0623,12/2/2024,SUV,Brakes are not responsive,5,26-35,Ohio,Battery,Satisfied
+CUST0624,4/10/2025,SUV,Battery life could be better,3,51+,Illinois,AC,Unsatisfied
+CUST0625,12/26/2024,Electric Car,Reliable and easy to maintain,3,51+,California,Battery,Unsatisfied
+CUST0626,3/25/2025,Truck,Transmission issues after 2 months,1,18-25,Michigan,Other,Unsatisfied
+CUST0627,8/30/2024,Hybrid,Reliable and easy to maintain,5,51+,New York,AC,Satisfied
+CUST0628,11/3/2024,Truck,Very comfortable and fuel efficient,3,36-50,New York,None,Unsatisfied
+CUST0629,8/26/2024,Electric Car,Very comfortable and fuel efficient,2,18-25,Ohio,None,Unsatisfied
+CUST0630,2/1/2025,Electric Car,Reliable and easy to maintain,4,36-50,New York,Battery,Satisfied
+CUST0631,6/19/2024,Truck,Reliable and easy to maintain,1,26-35,California,Other,Unsatisfied
+CUST0632,8/1/2024,Electric Car,Reliable and easy to maintain,4,51+,New York,None,Satisfied
+CUST0633,10/3/2024,Sedan,Reliable and easy to maintain,3,36-50,Ohio,Battery,Unsatisfied
+CUST0634,12/29/2024,Hybrid,Excellent performance and smooth ride,2,51+,Illinois,None,Unsatisfied
+CUST0635,11/13/2024,Truck,Excellent performance and smooth ride,1,26-35,Illinois,None,Unsatisfied
+CUST0636,4/18/2024,Electric Car,Great design and technology features,2,36-50,California,AC,Unsatisfied
+CUST0637,9/28/2024,Sedan,Very comfortable and fuel efficient,1,26-35,New York,AC,Unsatisfied
+CUST0638,7/22/2024,Truck,Engine noise is too loud,3,26-35,Illinois,AC,Unsatisfied
+CUST0639,2/16/2025,Hybrid,Engine noise is too loud,1,26-35,California,Battery,Unsatisfied
+CUST0640,11/26/2024,SUV,AC stopped working after a week,4,51+,New York,Engine,Satisfied
+CUST0641,2/9/2025,SUV,Engine noise is too loud,1,51+,Ohio,Other,Unsatisfied
+CUST0642,3/16/2025,SUV,Reliable and easy to maintain,1,18-25,Michigan,Other,Unsatisfied
+CUST0643,2/2/2025,Sedan,Exceeded my expectations,4,18-25,New York,AC,Satisfied
+CUST0644,10/31/2024,Hybrid,Excellent performance and smooth ride,4,26-35,Illinois,AC,Satisfied
+CUST0645,4/23/2024,Truck,Transmission issues after 2 months,4,26-35,California,Brakes,Satisfied
+CUST0646,1/2/2025,Truck,Brakes are not responsive,5,51+,California,Engine,Satisfied
+CUST0647,3/30/2025,Hybrid,Brakes are not responsive,4,36-50,New York,Battery,Satisfied
+CUST0648,3/3/2025,SUV,Very comfortable and fuel efficient,5,18-25,Texas,Transmission,Satisfied
+CUST0649,7/27/2024,SUV,Engine noise is too loud,5,26-35,Ohio,Battery,Satisfied
+CUST0650,8/28/2024,Electric Car,Battery life could be better,5,18-25,California,Engine,Satisfied
+CUST0651,12/25/2024,Truck,Great design and technology features,4,26-35,California,AC,Satisfied
+CUST0652,8/26/2024,Truck,Reliable and easy to maintain,5,36-50,California,Battery,Satisfied
+CUST0653,2/12/2025,Sedan,AC stopped working after a week,1,36-50,California,None,Unsatisfied
+CUST0654,2/26/2025,Sedan,Very comfortable and fuel efficient,4,18-25,Ohio,Other,Satisfied
+CUST0655,12/23/2024,Electric Car,Transmission issues after 2 months,2,26-35,California,AC,Unsatisfied
+CUST0656,1/22/2025,Hybrid,Exceeded my expectations,5,18-25,Illinois,None,Satisfied
+CUST0657,7/5/2024,Electric Car,AC stopped working after a week,4,36-50,Michigan,Engine,Satisfied
+CUST0658,6/5/2024,Sedan,Great design and technology features,3,36-50,California,Battery,Unsatisfied
+CUST0659,1/1/2025,SUV,Very comfortable and fuel efficient,4,18-25,Illinois,Transmission,Satisfied
+CUST0660,5/15/2024,Sedan,Battery life could be better,4,26-35,Ohio,Brakes,Satisfied
+CUST0661,6/21/2024,Sedan,Excellent performance and smooth ride,2,26-35,Ohio,Other,Unsatisfied
+CUST0662,4/1/2025,SUV,AC stopped working after a week,1,18-25,Texas,Transmission,Unsatisfied
+CUST0663,5/13/2024,SUV,Transmission issues after 2 months,4,36-50,New York,Battery,Satisfied
+CUST0664,10/11/2024,Electric Car,Brakes are not responsive,4,18-25,Michigan,AC,Satisfied
+CUST0665,5/13/2024,Sedan,Reliable and easy to maintain,3,26-35,Texas,Transmission,Unsatisfied
+CUST0666,9/3/2024,Truck,Exceeded my expectations,3,26-35,New York,Engine,Unsatisfied
+CUST0667,2/21/2025,Hybrid,Battery life could be better,3,18-25,Ohio,Brakes,Unsatisfied
+CUST0668,4/17/2024,Electric Car,Transmission issues after 2 months,3,26-35,Michigan,AC,Unsatisfied
+CUST0669,3/21/2025,Sedan,Reliable and easy to maintain,5,51+,Michigan,Other,Satisfied
+CUST0670,4/8/2025,Electric Car,Exceeded my expectations,3,18-25,Ohio,Transmission,Unsatisfied
+CUST0671,11/16/2024,Truck,Great design and technology features,4,18-25,California,Battery,Satisfied
+CUST0672,4/8/2025,Electric Car,AC stopped working after a week,4,18-25,California,Transmission,Satisfied
+CUST0673,5/13/2024,Sedan,Exceeded my expectations,5,18-25,California,Other,Satisfied
+CUST0674,3/3/2025,Electric Car,Transmission issues after 2 months,3,36-50,New York,Other,Unsatisfied
+CUST0675,12/25/2024,Sedan,Reliable and easy to maintain,5,51+,California,Battery,Satisfied
+CUST0676,7/8/2024,Hybrid,Battery life could be better,2,26-35,New York,Other,Unsatisfied
+CUST0677,1/19/2025,Electric Car,Exceeded my expectations,4,51+,Ohio,AC,Satisfied
+CUST0678,3/1/2025,Sedan,Transmission issues after 2 months,5,26-35,California,Brakes,Satisfied
+CUST0679,5/24/2024,Truck,Exceeded my expectations,5,51+,Texas,Transmission,Satisfied
+CUST0680,3/11/2025,Sedan,Reliable and easy to maintain,3,18-25,California,Other,Unsatisfied
+CUST0681,10/17/2024,Hybrid,Exceeded my expectations,4,26-35,Ohio,Transmission,Satisfied
+CUST0682,8/28/2024,Truck,Battery life could be better,4,51+,Illinois,Electrical,Satisfied
+CUST0683,1/14/2025,Truck,Excellent performance and smooth ride,5,36-50,Texas,Engine,Satisfied
+CUST0684,2/12/2025,SUV,Reliable and easy to maintain,4,51+,Illinois,None,Satisfied
+CUST0685,5/25/2024,Sedan,Reliable and easy to maintain,3,18-25,Ohio,Other,Unsatisfied
+CUST0686,6/23/2024,SUV,Exceeded my expectations,1,26-35,California,Battery,Unsatisfied
+CUST0687,4/27/2024,Hybrid,Transmission issues after 2 months,4,36-50,Michigan,None,Satisfied
+CUST0688,2/2/2025,Electric Car,Brakes are not responsive,1,36-50,California,AC,Unsatisfied
+CUST0689,3/3/2025,Electric Car,Great design and technology features,3,26-35,Ohio,None,Unsatisfied
+CUST0690,1/26/2025,Hybrid,Brakes are not responsive,3,26-35,Illinois,Battery,Unsatisfied
+CUST0691,3/7/2025,Truck,Brakes are not responsive,4,36-50,Illinois,Other,Satisfied
+CUST0692,3/30/2025,Truck,Engine noise is too loud,4,18-25,Texas,Other,Satisfied
+CUST0693,1/2/2025,Hybrid,Brakes are not responsive,4,36-50,Texas,Other,Satisfied
+CUST0694,1/15/2025,Sedan,Excellent performance and smooth ride,5,18-25,Illinois,None,Satisfied
+CUST0695,8/9/2024,SUV,Very comfortable and fuel efficient,4,26-35,Illinois,Electrical,Satisfied
+CUST0696,10/10/2024,Hybrid,Great design and technology features,5,51+,California,None,Satisfied
+CUST0697,11/17/2024,SUV,Excellent performance and smooth ride,2,36-50,Ohio,Brakes,Unsatisfied
+CUST0698,8/18/2024,SUV,Reliable and easy to maintain,4,36-50,Texas,Engine,Satisfied
+CUST0699,12/20/2024,Hybrid,Reliable and easy to maintain,2,26-35,Michigan,Other,Unsatisfied
+CUST0700,6/16/2024,Hybrid,Transmission issues after 2 months,1,18-25,Illinois,Other,Unsatisfied
+CUST0701,10/27/2024,Truck,Brakes are not responsive,4,26-35,California,Electrical,Satisfied
+CUST0702,2/17/2025,Truck,Transmission issues after 2 months,3,26-35,New York,Engine,Unsatisfied
+CUST0703,10/12/2024,Sedan,AC stopped working after a week,4,51+,New York,Other,Satisfied
+CUST0704,4/17/2025,Truck,Engine noise is too loud,1,36-50,Texas,Brakes,Unsatisfied
+CUST0705,7/13/2024,Sedan,Brakes are not responsive,4,36-50,California,Other,Satisfied
+CUST0706,6/29/2024,Electric Car,Reliable and easy to maintain,4,26-35,Texas,Brakes,Satisfied
+CUST0707,1/8/2025,Sedan,Very comfortable and fuel efficient,5,36-50,California,Electrical,Satisfied
+CUST0708,11/20/2024,Hybrid,Very comfortable and fuel efficient,4,18-25,Illinois,Other,Satisfied
+CUST0709,12/11/2024,SUV,Brakes are not responsive,4,51+,Illinois,Other,Satisfied
+CUST0710,5/17/2024,SUV,Reliable and easy to maintain,1,36-50,California,Battery,Unsatisfied
+CUST0711,10/26/2024,Hybrid,AC stopped working after a week,3,18-25,Ohio,Engine,Unsatisfied
+CUST0712,5/12/2024,Sedan,Great design and technology features,4,26-35,Illinois,Other,Satisfied
+CUST0713,5/9/2024,Hybrid,Transmission issues after 2 months,4,51+,California,Transmission,Satisfied
+CUST0714,10/27/2024,Truck,AC stopped working after a week,3,18-25,Illinois,Battery,Unsatisfied
+CUST0715,12/2/2024,Electric Car,Battery life could be better,1,26-35,California,Engine,Unsatisfied
+CUST0716,3/22/2025,Sedan,Very comfortable and fuel efficient,3,51+,New York,Engine,Unsatisfied
+CUST0717,11/22/2024,Electric Car,Battery life could be better,4,36-50,Michigan,Engine,Satisfied
+CUST0718,5/31/2024,SUV,Great design and technology features,5,18-25,California,Transmission,Satisfied
+CUST0719,9/15/2024,Hybrid,Excellent performance and smooth ride,3,18-25,Michigan,None,Unsatisfied
+CUST0720,7/1/2024,Sedan,Great design and technology features,4,26-35,New York,None,Satisfied
+CUST0721,6/12/2024,Electric Car,Transmission issues after 2 months,4,26-35,Texas,None,Satisfied
+CUST0722,9/23/2024,Sedan,Transmission issues after 2 months,3,36-50,Ohio,None,Unsatisfied
+CUST0723,3/31/2025,SUV,Exceeded my expectations,1,18-25,Illinois,Engine,Unsatisfied
+CUST0724,5/1/2024,Hybrid,Excellent performance and smooth ride,5,26-35,New York,Engine,Satisfied
+CUST0725,12/10/2024,Electric Car,Battery life could be better,3,36-50,Texas,Battery,Unsatisfied
+CUST0726,6/6/2024,Truck,Very comfortable and fuel efficient,3,26-35,Michigan,Other,Unsatisfied
+CUST0727,7/9/2024,Sedan,Great design and technology features,4,18-25,California,Other,Satisfied
+CUST0728,3/2/2025,Electric Car,Great design and technology features,4,26-35,New York,None,Satisfied
+CUST0729,3/2/2025,Hybrid,AC stopped working after a week,3,18-25,Illinois,Other,Unsatisfied
+CUST0730,10/1/2024,Sedan,Reliable and easy to maintain,4,51+,Ohio,Other,Satisfied
+CUST0731,2/26/2025,Truck,Excellent performance and smooth ride,5,26-35,New York,Other,Satisfied
+CUST0732,8/25/2024,Sedan,Battery life could be better,5,26-35,New York,Engine,Satisfied
+CUST0733,12/2/2024,Truck,Excellent performance and smooth ride,3,51+,California,Brakes,Unsatisfied
+CUST0734,1/23/2025,Hybrid,Battery life could be better,4,36-50,Ohio,Transmission,Satisfied
+CUST0735,4/5/2025,Sedan,Reliable and easy to maintain,4,18-25,Texas,AC,Satisfied
+CUST0736,4/14/2025,Sedan,Exceeded my expectations,5,26-35,California,Transmission,Satisfied
+CUST0737,4/21/2024,Hybrid,Engine noise is too loud,4,18-25,California,Brakes,Satisfied
+CUST0738,6/23/2024,Electric Car,Brakes are not responsive,3,51+,Ohio,Electrical,Unsatisfied
+CUST0739,3/28/2025,Sedan,Excellent performance and smooth ride,5,51+,Texas,AC,Satisfied
+CUST0740,5/21/2024,Sedan,Brakes are not responsive,3,36-50,Ohio,AC,Unsatisfied
+CUST0741,6/24/2024,Electric Car,Brakes are not responsive,3,26-35,California,Electrical,Unsatisfied
+CUST0742,7/20/2024,Sedan,Transmission issues after 2 months,4,36-50,Ohio,Engine,Satisfied
+CUST0743,8/15/2024,Hybrid,Brakes are not responsive,2,18-25,New York,Battery,Unsatisfied
+CUST0744,6/14/2024,SUV,Battery life could be better,2,26-35,Texas,AC,Unsatisfied
+CUST0745,11/27/2024,SUV,Reliable and easy to maintain,4,26-35,Texas,Transmission,Satisfied
+CUST0746,1/10/2025,Truck,AC stopped working after a week,4,51+,California,Battery,Satisfied
+CUST0747,8/29/2024,Sedan,AC stopped working after a week,5,18-25,Illinois,None,Satisfied
+CUST0748,6/27/2024,SUV,Brakes are not responsive,4,36-50,Michigan,AC,Satisfied
+CUST0749,3/16/2025,SUV,Exceeded my expectations,5,18-25,Illinois,Transmission,Satisfied
+CUST0750,10/13/2024,Truck,AC stopped working after a week,1,18-25,Ohio,Engine,Unsatisfied
+CUST0751,7/10/2024,SUV,Great design and technology features,4,36-50,Ohio,Brakes,Satisfied
+CUST0752,9/1/2024,Hybrid,Excellent performance and smooth ride,3,18-25,Texas,Other,Unsatisfied
+CUST0753,11/16/2024,Electric Car,AC stopped working after a week,4,51+,Texas,Battery,Satisfied
+CUST0754,10/26/2024,Truck,Exceeded my expectations,4,36-50,Illinois,AC,Satisfied
+CUST0755,5/13/2024,SUV,Great design and technology features,5,36-50,California,Brakes,Satisfied
+CUST0756,7/26/2024,Sedan,Reliable and easy to maintain,3,51+,Michigan,Transmission,Unsatisfied
+CUST0757,8/29/2024,SUV,Engine noise is too loud,5,18-25,Ohio,Battery,Satisfied
+CUST0758,9/6/2024,Truck,Transmission issues after 2 months,4,51+,Michigan,Battery,Satisfied
+CUST0759,9/10/2024,Sedan,Battery life could be better,5,51+,Texas,None,Satisfied
+CUST0760,4/8/2025,Hybrid,Transmission issues after 2 months,3,51+,California,Brakes,Unsatisfied
+CUST0761,4/4/2025,Hybrid,Exceeded my expectations,3,36-50,Michigan,Other,Unsatisfied
+CUST0762,9/13/2024,Hybrid,Great design and technology features,4,26-35,Ohio,Other,Satisfied
+CUST0763,12/21/2024,Truck,Reliable and easy to maintain,4,26-35,Ohio,None,Satisfied
+CUST0764,4/15/2025,Hybrid,Very comfortable and fuel efficient,5,51+,California,Transmission,Satisfied
+CUST0765,2/2/2025,SUV,Great design and technology features,3,26-35,Illinois,Brakes,Unsatisfied
+CUST0766,8/23/2024,SUV,Excellent performance and smooth ride,3,51+,Michigan,Electrical,Unsatisfied
+CUST0767,11/15/2024,Truck,Brakes are not responsive,2,36-50,Illinois,Electrical,Unsatisfied
+CUST0768,5/20/2024,Electric Car,Very comfortable and fuel efficient,2,51+,New York,AC,Unsatisfied
+CUST0769,3/26/2025,Truck,Great design and technology features,4,36-50,Illinois,Transmission,Satisfied
+CUST0770,7/20/2024,SUV,Very comfortable and fuel efficient,3,18-25,Texas,Other,Unsatisfied
+CUST0771,7/11/2024,Sedan,Great design and technology features,2,51+,Texas,None,Unsatisfied
+CUST0772,8/28/2024,Truck,Engine noise is too loud,1,18-25,Texas,Other,Unsatisfied
+CUST0773,12/27/2024,Sedan,Transmission issues after 2 months,4,36-50,New York,Battery,Satisfied
+CUST0774,4/21/2024,Truck,Reliable and easy to maintain,4,51+,Illinois,Electrical,Satisfied
+CUST0775,11/2/2024,Truck,Battery life could be better,2,36-50,Michigan,Other,Unsatisfied
+CUST0776,11/25/2024,Sedan,Transmission issues after 2 months,4,26-35,New York,Brakes,Satisfied
+CUST0777,5/27/2024,SUV,Battery life could be better,5,26-35,Ohio,Electrical,Satisfied
+CUST0778,7/20/2024,Truck,Battery life could be better,3,26-35,Ohio,Transmission,Unsatisfied
+CUST0779,12/11/2024,SUV,Great design and technology features,2,51+,California,Engine,Unsatisfied
+CUST0780,4/25/2024,Electric Car,Brakes are not responsive,2,26-35,Illinois,Transmission,Unsatisfied
+CUST0781,3/15/2025,Truck,Engine noise is too loud,5,18-25,California,Transmission,Satisfied
+CUST0782,11/27/2024,Electric Car,Battery life could be better,1,36-50,Illinois,Brakes,Unsatisfied
+CUST0783,1/5/2025,Sedan,Excellent performance and smooth ride,3,26-35,Michigan,AC,Unsatisfied
+CUST0784,6/9/2024,Sedan,Excellent performance and smooth ride,5,26-35,Michigan,Other,Satisfied
+CUST0785,11/12/2024,Electric Car,AC stopped working after a week,2,36-50,Ohio,Transmission,Unsatisfied
+CUST0786,7/9/2024,SUV,Excellent performance and smooth ride,4,26-35,California,Brakes,Satisfied
+CUST0787,6/5/2024,Electric Car,Very comfortable and fuel efficient,5,26-35,Michigan,Battery,Satisfied
+CUST0788,6/21/2024,Electric Car,Great design and technology features,3,26-35,New York,Brakes,Unsatisfied
+CUST0789,5/13/2024,Hybrid,Excellent performance and smooth ride,4,26-35,Texas,Transmission,Satisfied
+CUST0790,6/2/2024,SUV,AC stopped working after a week,4,51+,Texas,Battery,Satisfied
+CUST0791,8/31/2024,Truck,Great design and technology features,4,26-35,Illinois,Transmission,Satisfied
+CUST0792,10/15/2024,Electric Car,Battery life could be better,5,18-25,New York,Engine,Satisfied
+CUST0793,3/19/2025,Sedan,Engine noise is too loud,5,26-35,Ohio,None,Satisfied
+CUST0794,12/21/2024,Sedan,Exceeded my expectations,2,18-25,Michigan,Electrical,Unsatisfied
+CUST0795,1/21/2025,Truck,Engine noise is too loud,4,18-25,California,Battery,Satisfied
+CUST0796,1/16/2025,Sedan,Engine noise is too loud,4,18-25,California,Transmission,Satisfied
+CUST0797,5/8/2024,Truck,AC stopped working after a week,4,36-50,Illinois,Brakes,Satisfied
+CUST0798,7/1/2024,Truck,Brakes are not responsive,3,26-35,Ohio,Other,Unsatisfied
+CUST0799,7/19/2024,Truck,Brakes are not responsive,4,36-50,Illinois,Battery,Satisfied
+CUST0800,1/14/2025,Truck,Very comfortable and fuel efficient,1,26-35,New York,Brakes,Unsatisfied
+CUST0801,9/3/2024,SUV,Excellent performance and smooth ride,5,51+,Ohio,Battery,Satisfied
+CUST0802,8/30/2024,Truck,Excellent performance and smooth ride,4,36-50,Ohio,Engine,Satisfied
+CUST0803,7/25/2024,Truck,Brakes are not responsive,2,36-50,Illinois,None,Unsatisfied
+CUST0804,10/14/2024,Electric Car,Very comfortable and fuel efficient,2,18-25,Texas,Brakes,Unsatisfied
+CUST0805,8/2/2024,Truck,Great design and technology features,2,26-35,Ohio,Battery,Unsatisfied
+CUST0806,10/5/2024,Truck,Battery life could be better,4,26-35,Illinois,Transmission,Satisfied
+CUST0807,2/26/2025,Hybrid,Exceeded my expectations,3,51+,Illinois,Electrical,Unsatisfied
+CUST0808,4/10/2025,SUV,Reliable and easy to maintain,4,51+,New York,None,Satisfied
+CUST0809,9/22/2024,Hybrid,Engine noise is too loud,4,18-25,Illinois,AC,Satisfied
+CUST0810,2/1/2025,Electric Car,AC stopped working after a week,5,18-25,Ohio,Brakes,Satisfied
+CUST0811,10/30/2024,Hybrid,Reliable and easy to maintain,4,18-25,Texas,Engine,Satisfied
+CUST0812,4/1/2025,Sedan,Great design and technology features,5,18-25,Michigan,Battery,Satisfied
+CUST0813,9/23/2024,Truck,Engine noise is too loud,1,26-35,Ohio,None,Unsatisfied
+CUST0814,3/17/2025,SUV,Engine noise is too loud,5,26-35,Ohio,Other,Satisfied
+CUST0815,6/1/2024,SUV,Engine noise is too loud,3,26-35,California,Electrical,Unsatisfied
+CUST0816,5/27/2024,SUV,Reliable and easy to maintain,2,26-35,California,Battery,Unsatisfied
+CUST0817,10/25/2024,Truck,Exceeded my expectations,5,36-50,Illinois,Battery,Satisfied
+CUST0818,3/10/2025,SUV,Reliable and easy to maintain,4,36-50,Ohio,Transmission,Satisfied
+CUST0819,5/12/2024,Truck,Great design and technology features,4,36-50,Texas,None,Satisfied
+CUST0820,2/24/2025,Hybrid,Reliable and easy to maintain,1,26-35,Illinois,Other,Unsatisfied
+CUST0821,10/10/2024,SUV,Reliable and easy to maintain,4,26-35,Texas,AC,Satisfied
+CUST0822,8/26/2024,Hybrid,AC stopped working after a week,4,18-25,California,Battery,Satisfied
+CUST0823,9/5/2024,Sedan,Battery life could be better,4,36-50,Ohio,Transmission,Satisfied
+CUST0824,8/6/2024,Hybrid,Engine noise is too loud,2,18-25,Ohio,Battery,Unsatisfied
+CUST0825,10/17/2024,Electric Car,Exceeded my expectations,1,36-50,Michigan,Transmission,Unsatisfied
+CUST0826,1/31/2025,Sedan,Brakes are not responsive,4,51+,New York,AC,Satisfied
+CUST0827,8/11/2024,Truck,Excellent performance and smooth ride,5,26-35,Texas,Battery,Satisfied
+CUST0828,9/8/2024,Electric Car,Brakes are not responsive,2,26-35,Ohio,None,Unsatisfied
+CUST0829,1/26/2025,SUV,Brakes are not responsive,4,18-25,Ohio,Electrical,Satisfied
+CUST0830,1/29/2025,SUV,Brakes are not responsive,5,26-35,Illinois,Brakes,Satisfied
+CUST0831,11/25/2024,Truck,Engine noise is too loud,5,26-35,California,Electrical,Satisfied
+CUST0832,2/24/2025,SUV,Excellent performance and smooth ride,3,26-35,Texas,None,Unsatisfied
+CUST0833,7/14/2024,Sedan,Exceeded my expectations,3,51+,Ohio,None,Unsatisfied
+CUST0834,12/28/2024,Electric Car,Great design and technology features,1,36-50,New York,Electrical,Unsatisfied
+CUST0835,11/24/2024,Sedan,Transmission issues after 2 months,5,36-50,California,Engine,Satisfied
+CUST0836,10/7/2024,Sedan,Reliable and easy to maintain,1,51+,Illinois,Other,Unsatisfied
+CUST0837,3/4/2025,Hybrid,Battery life could be better,4,36-50,Ohio,AC,Satisfied
+CUST0838,8/15/2024,Sedan,Battery life could be better,1,26-35,New York,Transmission,Unsatisfied
+CUST0839,10/5/2024,Sedan,Reliable and easy to maintain,5,36-50,New York,Other,Satisfied
+CUST0840,8/9/2024,Hybrid,Transmission issues after 2 months,5,51+,California,Battery,Satisfied
+CUST0841,8/7/2024,Sedan,Exceeded my expectations,2,18-25,Texas,Engine,Unsatisfied
+CUST0842,9/29/2024,SUV,Brakes are not responsive,5,18-25,Ohio,None,Satisfied
+CUST0843,10/21/2024,Sedan,Great design and technology features,4,18-25,New York,Transmission,Satisfied
+CUST0844,6/5/2024,SUV,Great design and technology features,5,26-35,Michigan,AC,Satisfied
+CUST0845,9/26/2024,Hybrid,AC stopped working after a week,5,18-25,California,AC,Satisfied
+CUST0846,10/14/2024,Truck,Exceeded my expectations,5,36-50,Ohio,Other,Satisfied
+CUST0847,3/24/2025,Sedan,Battery life could be better,5,26-35,Ohio,Other,Satisfied
+CUST0848,9/11/2024,Hybrid,AC stopped working after a week,3,18-25,Texas,AC,Unsatisfied
+CUST0849,7/13/2024,Hybrid,Exceeded my expectations,2,18-25,Michigan,Engine,Unsatisfied
+CUST0850,7/5/2024,Electric Car,Very comfortable and fuel efficient,3,36-50,Michigan,Brakes,Unsatisfied
+CUST0851,6/1/2024,Sedan,Transmission issues after 2 months,5,51+,Illinois,None,Satisfied
+CUST0852,10/25/2024,Sedan,Brakes are not responsive,4,51+,New York,AC,Satisfied
+CUST0853,10/18/2024,Truck,Battery life could be better,1,18-25,California,AC,Unsatisfied
+CUST0854,10/18/2024,Electric Car,Exceeded my expectations,3,18-25,Michigan,Electrical,Unsatisfied
+CUST0855,9/19/2024,Sedan,Reliable and easy to maintain,3,18-25,Texas,Brakes,Unsatisfied
+CUST0856,3/12/2025,Hybrid,Reliable and easy to maintain,4,36-50,Ohio,None,Satisfied
+CUST0857,6/20/2024,Electric Car,Great design and technology features,4,18-25,New York,AC,Satisfied
+CUST0858,4/3/2025,Electric Car,Battery life could be better,5,18-25,New York,Transmission,Satisfied
+CUST0859,12/13/2024,Electric Car,Exceeded my expectations,1,36-50,Illinois,None,Unsatisfied
+CUST0860,10/21/2024,Truck,Excellent performance and smooth ride,1,26-35,Ohio,None,Unsatisfied
+CUST0861,11/28/2024,Truck,Exceeded my expectations,4,51+,Illinois,None,Satisfied
+CUST0862,10/21/2024,Truck,Transmission issues after 2 months,4,51+,Ohio,Electrical,Satisfied
+CUST0863,8/7/2024,Hybrid,Battery life could be better,5,36-50,Illinois,AC,Satisfied
+CUST0864,5/21/2024,Truck,Brakes are not responsive,3,36-50,Texas,Battery,Unsatisfied
+CUST0865,1/23/2025,Sedan,Exceeded my expectations,4,26-35,Texas,Transmission,Satisfied
+CUST0866,12/14/2024,SUV,Battery life could be better,3,51+,Ohio,Transmission,Unsatisfied
+CUST0867,11/15/2024,Hybrid,Great design and technology features,5,51+,New York,Brakes,Satisfied
+CUST0868,5/15/2024,Sedan,Transmission issues after 2 months,1,51+,Ohio,AC,Unsatisfied
+CUST0869,10/2/2024,Hybrid,Reliable and easy to maintain,5,18-25,Ohio,None,Satisfied
+CUST0870,3/2/2025,Sedan,Battery life could be better,4,26-35,California,Electrical,Satisfied
+CUST0871,7/12/2024,Truck,Reliable and easy to maintain,5,51+,Michigan,Electrical,Satisfied
+CUST0872,12/28/2024,Truck,Excellent performance and smooth ride,3,18-25,New York,Transmission,Unsatisfied
+CUST0873,2/24/2025,Sedan,Great design and technology features,5,18-25,Ohio,Other,Satisfied
+CUST0874,9/15/2024,Hybrid,Excellent performance and smooth ride,5,51+,Texas,Transmission,Satisfied
+CUST0875,4/16/2025,Electric Car,Reliable and easy to maintain,4,51+,Texas,Engine,Satisfied
+CUST0876,4/9/2025,Sedan,Transmission issues after 2 months,2,51+,Ohio,Electrical,Unsatisfied
+CUST0877,12/15/2024,Truck,AC stopped working after a week,4,26-35,New York,AC,Satisfied
+CUST0878,8/22/2024,Sedan,Excellent performance and smooth ride,2,18-25,Michigan,Battery,Unsatisfied
+CUST0879,10/2/2024,Hybrid,Reliable and easy to maintain,5,51+,Michigan,Engine,Satisfied
+CUST0880,5/15/2024,Sedan,Very comfortable and fuel efficient,3,36-50,New York,Transmission,Unsatisfied
+CUST0881,1/8/2025,Electric Car,Very comfortable and fuel efficient,4,26-35,New York,None,Satisfied
+CUST0882,7/29/2024,Electric Car,Brakes are not responsive,5,51+,Michigan,None,Satisfied
+CUST0883,3/8/2025,Truck,Transmission issues after 2 months,2,26-35,Ohio,AC,Unsatisfied
+CUST0884,1/13/2025,Hybrid,Great design and technology features,3,26-35,Michigan,Battery,Unsatisfied
+CUST0885,5/20/2024,SUV,Excellent performance and smooth ride,2,51+,Texas,Transmission,Unsatisfied
+CUST0886,1/12/2025,Sedan,Excellent performance and smooth ride,4,51+,Illinois,Brakes,Satisfied
+CUST0887,10/24/2024,Sedan,Great design and technology features,2,26-35,Texas,Engine,Unsatisfied
+CUST0888,1/17/2025,Hybrid,Excellent performance and smooth ride,1,36-50,New York,Engine,Unsatisfied
+CUST0889,12/25/2024,Sedan,Brakes are not responsive,1,18-25,New York,Engine,Unsatisfied
+CUST0890,3/29/2025,SUV,Reliable and easy to maintain,1,26-35,Illinois,Brakes,Unsatisfied
+CUST0891,3/25/2025,SUV,Transmission issues after 2 months,5,36-50,California,Transmission,Satisfied
+CUST0892,12/21/2024,Hybrid,Engine noise is too loud,1,36-50,California,Transmission,Unsatisfied
+CUST0893,2/26/2025,Sedan,Very comfortable and fuel efficient,4,18-25,Illinois,AC,Satisfied
+CUST0894,12/15/2024,Hybrid,Great design and technology features,5,51+,Michigan,Electrical,Satisfied
+CUST0895,7/5/2024,SUV,Engine noise is too loud,2,26-35,Texas,Battery,Unsatisfied
+CUST0896,8/5/2024,Sedan,AC stopped working after a week,2,51+,Michigan,Battery,Unsatisfied
+CUST0897,2/3/2025,Sedan,Very comfortable and fuel efficient,5,26-35,New York,None,Satisfied
+CUST0898,9/11/2024,SUV,Transmission issues after 2 months,5,18-25,Texas,Electrical,Satisfied
+CUST0899,11/2/2024,Truck,Very comfortable and fuel efficient,2,51+,New York,Electrical,Unsatisfied
+CUST0900,4/29/2024,Electric Car,Battery life could be better,3,36-50,Ohio,Brakes,Unsatisfied
+CUST0901,2/22/2025,Hybrid,Reliable and easy to maintain,5,26-35,California,Other,Satisfied
+CUST0902,9/12/2024,Sedan,Excellent performance and smooth ride,3,36-50,Michigan,Transmission,Unsatisfied
+CUST0903,3/30/2025,Electric Car,Great design and technology features,3,26-35,Illinois,Electrical,Unsatisfied
+CUST0904,10/23/2024,Truck,Excellent performance and smooth ride,4,18-25,Illinois,Engine,Satisfied
+CUST0905,6/29/2024,Hybrid,Exceeded my expectations,3,26-35,Ohio,Brakes,Unsatisfied
+CUST0906,1/29/2025,Hybrid,Very comfortable and fuel efficient,3,36-50,Illinois,Electrical,Unsatisfied
+CUST0907,12/20/2024,Electric Car,Engine noise is too loud,5,36-50,New York,Brakes,Satisfied
+CUST0908,11/6/2024,Truck,Great design and technology features,4,18-25,New York,Transmission,Satisfied
+CUST0909,3/6/2025,Sedan,Very comfortable and fuel efficient,5,26-35,Illinois,Transmission,Satisfied
+CUST0910,1/7/2025,SUV,Brakes are not responsive,4,26-35,New York,Engine,Satisfied
+CUST0911,8/13/2024,Hybrid,Exceeded my expectations,1,36-50,California,Engine,Unsatisfied
+CUST0912,9/15/2024,Hybrid,Excellent performance and smooth ride,2,18-25,Texas,Transmission,Unsatisfied
+CUST0913,1/10/2025,Sedan,Battery life could be better,5,18-25,California,Electrical,Satisfied
+CUST0914,7/29/2024,SUV,Reliable and easy to maintain,4,18-25,Texas,Brakes,Satisfied
+CUST0915,1/22/2025,Hybrid,Battery life could be better,5,51+,Illinois,Brakes,Satisfied
+CUST0916,4/6/2025,Electric Car,Very comfortable and fuel efficient,5,51+,Ohio,Transmission,Satisfied
+CUST0917,4/17/2025,Sedan,Battery life could be better,2,36-50,Illinois,Brakes,Unsatisfied
+CUST0918,4/26/2024,Hybrid,Excellent performance and smooth ride,3,18-25,Texas,Brakes,Unsatisfied
+CUST0919,5/12/2024,SUV,Excellent performance and smooth ride,4,36-50,New York,Engine,Satisfied
+CUST0920,9/23/2024,Sedan,Excellent performance and smooth ride,3,26-35,Texas,Brakes,Unsatisfied
+CUST0921,6/4/2024,Hybrid,Battery life could be better,4,18-25,New York,None,Satisfied
+CUST0922,11/4/2024,Electric Car,Brakes are not responsive,4,18-25,Michigan,Transmission,Satisfied
+CUST0923,6/8/2024,Hybrid,AC stopped working after a week,3,51+,Texas,Transmission,Unsatisfied
+CUST0924,11/22/2024,Truck,Engine noise is too loud,5,36-50,Texas,Other,Satisfied
+CUST0925,2/27/2025,Sedan,Very comfortable and fuel efficient,2,51+,New York,Battery,Unsatisfied
+CUST0926,1/8/2025,SUV,AC stopped working after a week,4,26-35,New York,Other,Satisfied
+CUST0927,9/12/2024,Electric Car,Battery life could be better,1,36-50,Illinois,None,Unsatisfied
+CUST0928,8/5/2024,Truck,Transmission issues after 2 months,4,26-35,California,None,Satisfied
+CUST0929,12/20/2024,Electric Car,Battery life could be better,5,26-35,New York,Electrical,Satisfied
+CUST0930,4/15/2025,Hybrid,Great design and technology features,1,26-35,Ohio,Engine,Unsatisfied
+CUST0931,3/10/2025,Truck,Excellent performance and smooth ride,5,26-35,Illinois,Transmission,Satisfied
+CUST0932,4/11/2025,Sedan,Transmission issues after 2 months,4,18-25,California,Engine,Satisfied
+CUST0933,12/15/2024,Sedan,AC stopped working after a week,4,18-25,Illinois,Transmission,Satisfied
+CUST0934,10/27/2024,Electric Car,Reliable and easy to maintain,3,36-50,Illinois,Engine,Unsatisfied
+CUST0935,10/12/2024,Sedan,Reliable and easy to maintain,1,36-50,Texas,Electrical,Unsatisfied
+CUST0936,2/14/2025,Hybrid,Great design and technology features,5,36-50,Ohio,Electrical,Satisfied
+CUST0937,11/15/2024,Truck,Exceeded my expectations,3,26-35,California,Battery,Unsatisfied
+CUST0938,5/17/2024,SUV,Brakes are not responsive,5,26-35,Michigan,AC,Satisfied
+CUST0939,3/24/2025,Truck,Brakes are not responsive,2,36-50,New York,Battery,Unsatisfied
+CUST0940,12/19/2024,Sedan,Very comfortable and fuel efficient,4,18-25,Michigan,Electrical,Satisfied
+CUST0941,3/8/2025,Electric Car,Brakes are not responsive,4,51+,Ohio,None,Satisfied
+CUST0942,11/1/2024,Electric Car,Engine noise is too loud,2,51+,California,Transmission,Unsatisfied
+CUST0943,10/8/2024,Electric Car,Engine noise is too loud,5,18-25,New York,Electrical,Satisfied
+CUST0944,5/4/2024,Sedan,Very comfortable and fuel efficient,5,18-25,Illinois,AC,Satisfied
+CUST0945,1/25/2025,Electric Car,Transmission issues after 2 months,4,51+,New York,AC,Satisfied
+CUST0946,5/1/2024,Electric Car,Excellent performance and smooth ride,3,51+,California,AC,Unsatisfied
+CUST0947,1/24/2025,Hybrid,Very comfortable and fuel efficient,5,36-50,California,Electrical,Satisfied
+CUST0948,12/21/2024,Sedan,Excellent performance and smooth ride,5,36-50,Ohio,Electrical,Satisfied
+CUST0949,1/8/2025,SUV,Very comfortable and fuel efficient,1,26-35,Ohio,Battery,Unsatisfied
+CUST0950,1/29/2025,Truck,Great design and technology features,1,51+,Texas,Brakes,Unsatisfied
+CUST0951,11/1/2024,Hybrid,Very comfortable and fuel efficient,4,51+,Michigan,AC,Satisfied
+CUST0952,3/7/2025,Electric Car,Reliable and easy to maintain,4,51+,Texas,None,Satisfied
+CUST0953,12/14/2024,Truck,Excellent performance and smooth ride,5,36-50,Texas,Other,Satisfied
+CUST0954,2/14/2025,Electric Car,Reliable and easy to maintain,5,26-35,Illinois,Engine,Satisfied
+CUST0955,8/16/2024,Electric Car,Very comfortable and fuel efficient,3,26-35,Illinois,None,Unsatisfied
+CUST0956,10/26/2024,Sedan,Very comfortable and fuel efficient,5,26-35,Michigan,None,Satisfied
+CUST0957,3/2/2025,SUV,Excellent performance and smooth ride,1,36-50,California,None,Unsatisfied
+CUST0958,10/24/2024,Truck,AC stopped working after a week,5,36-50,New York,Engine,Satisfied
+CUST0959,10/23/2024,Sedan,Transmission issues after 2 months,3,36-50,Texas,Transmission,Unsatisfied
+CUST0960,7/15/2024,Sedan,Very comfortable and fuel efficient,4,26-35,California,Other,Satisfied
+CUST0961,2/10/2025,SUV,Brakes are not responsive,1,51+,Michigan,Engine,Unsatisfied
+CUST0962,5/10/2024,Electric Car,AC stopped working after a week,3,26-35,California,Battery,Unsatisfied
+CUST0963,7/3/2024,Truck,Excellent performance and smooth ride,1,36-50,New York,None,Unsatisfied
+CUST0964,1/25/2025,Truck,Great design and technology features,5,51+,Texas,Electrical,Satisfied
+CUST0965,9/7/2024,Hybrid,AC stopped working after a week,4,51+,California,AC,Satisfied
+CUST0966,11/25/2024,Hybrid,Reliable and easy to maintain,4,51+,New York,AC,Satisfied
+CUST0967,12/30/2024,Truck,Battery life could be better,5,26-35,Ohio,Engine,Satisfied
+CUST0968,5/16/2024,Hybrid,Great design and technology features,4,36-50,Ohio,AC,Satisfied
+CUST0969,10/25/2024,Truck,Exceeded my expectations,2,18-25,New York,Other,Unsatisfied
+CUST0970,4/3/2025,SUV,AC stopped working after a week,2,36-50,Illinois,None,Unsatisfied
+CUST0971,8/26/2024,SUV,Exceeded my expectations,5,36-50,Illinois,Electrical,Satisfied
+CUST0972,12/3/2024,Electric Car,Great design and technology features,3,51+,Michigan,AC,Unsatisfied
+CUST0973,10/10/2024,Hybrid,Great design and technology features,2,26-35,Texas,Battery,Unsatisfied
+CUST0974,3/22/2025,SUV,Transmission issues after 2 months,4,18-25,Michigan,Brakes,Satisfied
+CUST0975,5/14/2024,Sedan,Brakes are not responsive,2,18-25,Illinois,Electrical,Unsatisfied
+CUST0976,6/13/2024,Truck,Transmission issues after 2 months,5,36-50,New York,Electrical,Satisfied
+CUST0977,3/26/2025,Sedan,Transmission issues after 2 months,2,26-35,Illinois,Brakes,Unsatisfied
+CUST0978,7/2/2024,SUV,Great design and technology features,2,36-50,Michigan,None,Unsatisfied
+CUST0979,11/26/2024,Sedan,AC stopped working after a week,1,51+,California,Electrical,Unsatisfied
+CUST0980,5/4/2024,Hybrid,Excellent performance and smooth ride,5,18-25,California,Engine,Satisfied
+CUST0981,7/17/2024,Sedan,Reliable and easy to maintain,4,36-50,Texas,Other,Satisfied
+CUST0982,6/19/2024,Truck,Transmission issues after 2 months,3,18-25,Michigan,Engine,Unsatisfied
+CUST0983,5/15/2024,SUV,Brakes are not responsive,1,26-35,Ohio,Brakes,Unsatisfied
+CUST0984,1/22/2025,Electric Car,Very comfortable and fuel efficient,4,36-50,Illinois,None,Satisfied
+CUST0985,7/13/2024,Sedan,Transmission issues after 2 months,5,26-35,Michigan,AC,Satisfied
+CUST0986,8/11/2024,Truck,Very comfortable and fuel efficient,1,51+,New York,Battery,Unsatisfied
+CUST0987,12/29/2024,Hybrid,Transmission issues after 2 months,3,51+,Illinois,Brakes,Unsatisfied
+CUST0988,2/13/2025,Electric Car,Battery life could be better,4,36-50,Texas,None,Satisfied
+CUST0989,12/14/2024,SUV,Engine noise is too loud,2,18-25,Texas,AC,Unsatisfied
+CUST0990,8/31/2024,Hybrid,Battery life could be better,5,36-50,Ohio,Battery,Satisfied
+CUST0991,9/29/2024,Sedan,Exceeded my expectations,4,36-50,Ohio,Transmission,Satisfied
+CUST0992,8/4/2024,Electric Car,Reliable and easy to maintain,3,51+,Illinois,Other,Unsatisfied
+CUST0993,8/31/2024,Electric Car,Excellent performance and smooth ride,5,36-50,California,Other,Satisfied
+CUST0994,4/2/2025,Hybrid,Exceeded my expectations,1,26-35,Texas,AC,Unsatisfied
+CUST0995,7/1/2024,Sedan,Engine noise is too loud,5,51+,Texas,None,Satisfied
+CUST0996,9/7/2024,Truck,Transmission issues after 2 months,3,51+,Michigan,AC,Unsatisfied
+CUST0997,12/1/2024,Electric Car,Reliable and easy to maintain,4,36-50,California,None,Satisfied
+CUST0998,6/10/2024,SUV,Excellent performance and smooth ride,5,26-35,Michigan,None,Satisfied
+CUST0999,4/8/2025,Truck,AC stopped working after a week,5,18-25,Texas,Electrical,Satisfied
+CUST1000,5/5/2024,Hybrid,Battery life could be better,3,18-25,California,None,Unsatisfied
