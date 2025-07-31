@@ -5,7 +5,7 @@ Welcome to your Classification Two Ways - Supervised vs Unsupervised Categorizat
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](../media/g24.png)
+![Access Your VM and Lab Guide](../media/g27.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
