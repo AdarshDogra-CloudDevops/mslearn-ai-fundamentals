@@ -15,11 +15,13 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Set Up the Azure ML Workspace
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
@@ -51,18 +53,20 @@ In this lab, you will be able to complete the following tasks:
      ![](../images/n56c4.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Hit the Validate button for the corresponding task. You will receive a success message. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-  <validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />   
+<validation step="919e7555-d1b6-4705-afa7-0ee3e2ffab3d" />
+
+---   
   
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-     ![](../images/n56c5.png)
+   ![](../images/n56c5.png)
 
 1. On **Create data asset** page enter the following data.
 
@@ -108,22 +112,25 @@ In this lab, you will be able to complete the following tasks:
 
     ![](../images/n56c10.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:  
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.  
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.  
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.  
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-<validation step="a975c32b-812e-49d7-be44-8b2d62057066" />      
+<validation step="a975c32b-812e-49d7-be44-8b2d62057066" />
 
+---      
+ 
 ### Task 3: Add the Dataset to Your Pipeline Canvas
 
 1. From the left panel, drag your **Train_Test_Validation_Dataset** dataset onto the canvas.
 
-    ![](../images/n56c11.png) 
+   ![](../images/n56c11.png) 
 
 1. Click the **Save** button at the top of the canvas to avoid losing progress. 
 
-    ![](../images/n56c12.png)
+   ![](../images/n56c12.png)
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Split Data (2).** Drag that component onto the canvas **(3)**.   
 
