@@ -2,13 +2,26 @@
 
 In this hands-on lab, you will learn how to prepare sports-related data for analysis by using Azure tools. You will clean and transform raw data, organize it for efficient access, and store it in a structured format. Finally, you'll visualize the data to uncover insights and trends that can support predictive analytics in sports.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Creating Your Workspace
+- Task 2: Uploading the Data
+- Task 3: Cleaning the Data
+- Task 4: Storing the Data
+- Task 5: Running the Pipeline
+- Task 6: Visualizing the Data
+
 ### Task 1: Creating Your Workspace
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
@@ -40,18 +53,19 @@ In this hands-on lab, you will learn how to prepare sports-related data for anal
      ![](../images/n52c4.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="95a7b102-161c-4b14-9756-80ba9a3c752a" />    
+<validation step="95a7b102-161c-4b14-9756-80ba9a3c752a" />
 
+---
 ### Task 2: Uploading the Data
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
-    ![](../images/n52c5.png) 
+   ![](../images/n52c5.png) 
 
 1. On **Create data asset** page enter the following data.
 
@@ -98,14 +112,15 @@ cars throughout NASCAR’s history.` **(2)**
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
     ![](../images/n52c10.png)
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="124d18fa-11fd-4ecf-8a8b-ab68e555ccea" />       
+<validation step="124d18fa-11fd-4ecf-8a8b-ab68e555ccea" />
+
+---
  
 ### Task 3: Cleaning the Data
 
@@ -113,24 +128,23 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
 1. From the left panel, drag your **NASCAR_Season_History** dataset onto the canvas.
 
-    ![](../images/n52c11.png)
+   ![](../images/n52c11.png)
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Clean Missing Data (2).** Drag that component onto the canvas **(3)**.   
 
-    ![](../images/n52c12.png)
+   ![](../images/n52c12.png)
 
-1.  Connect your dataset to the component by clicking and dragging from **Data output** on the **dataset block** to **Dataset** on the **Clean Missing Data** component.    
+1. Connect your dataset to the component by clicking and dragging from **Data output** on the **dataset block** to **Dataset** on the **Clean Missing Data** component.    
 
-    ![](../images/n52c13.png)
+   ![](../images/n52c13.png)
 
-     >**Note**: This component helps us remove or handle any missing or improperly formatted data in the dataset.
+    >**Note**: This component helps us remove or handle any missing or improperly formatted data in the dataset.
 
 1. Double-click the **Clean Missing Data (1)** component to open its settings. Under **Columns to be cleaned**, click **Edit column (2).**     
 
-    ![](../images/n52c-10.png)
+   ![](../images/n52c-10.png)
 
-1. Choose “By name”, Select only the following columns:
-`Year`, `Driver`, `Car`, and `Wins` **(1)** and **Save (2)**.
+1. Choose “By name”, Select only the following columns:`Year`, `Driver`, `Car`, and `Wins` **(1)** and **Save (2)**.
 
     ![](../images/n52c-11.png)
 
@@ -144,19 +158,19 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
 1. Connect **Cleaned Dataset** output from the previous component to **Dataset** input on this component. 
 
-    ![](../images/n52c15.png)
+   ![](../images/n52c15.png)
 
 1. Double-click on the component to open the settings **(1)**. Click on **Edit Cloumn** under **Select Key columns selection filter expression**.
 
-    ![](../images/n52c16.png)
+   ![](../images/n52c16.png)
 
 1. Select “With rules,” then choose `All columns.` **(1)** and **Save (2)**.    
 
-    ![](../images/n52c17.png)
+   ![](../images/n52c17.png)
 
 1. Set “Retain first duplicate row” to **True (1)** and then click on **Save (2)**.
 
-    ![](../images/n52c-18.png)
+   ![](../images/n52c-18.png)
 
 
 ### Task 4: Storing the Data
@@ -194,8 +208,7 @@ By exporting the dataset this way, you are moving your cleaned, prepared data in
 
     ![](../images/n52c24.png)
 
-1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your 
-pipeline.
+1. Now we’re on the **Runtime settings** step of the pipeline submission process. This is where you choose the **computer (called a compute cluster)** that Azure will use to run your pipeline.
 
     - Select Compute Type: From the dropdown, select **Compute cluster (1)**.
 
@@ -239,8 +252,7 @@ pipeline.
 
     ![](../images/n52c32.png) 
 
-1. There, you can see our **Processed Data** file, which was the output path we 
-designated earlier during “Export Data.”     
+1. There, you can see our **Processed Data** file, which was the output path we designated earlier during “Export Data.”     
 
     ![](../images/n52c33.png)
 
@@ -253,23 +265,17 @@ read and learn from.
 
 One of the powerful features of Azure Machine Learning Designer is the ability to visualize the data at different stages of your pipeline. This allows you to see exactly how your data changes as it moves through each preprocessing step.
 
-1. Right-click the **NASCAR_Season_History (1)** component (your input 
-dataset). Then select **Preview Data (2)**.
+1. Right-click the **NASCAR_Season_History (1)** component (your input dataset). Then select **Preview Data (2)**.
 
     ![](../images/n52c35.png)
 
-1. In the preview window, switch to the **“Profile”** tab. Azure will automatically 
-generate a summary visualization for each column in the dataset, based on its 
-data type.    
+1. In the preview window, switch to the **“Profile”** tab. Azure will automatically generate a summary visualization for each column in the dataset, based on its data type.    
 
     ![](../images/n52c36.png)
 
-1. Azure offers different chart types depending on the type of data (numerical, 
-categorical, etc.). Some examples include:
+1. Azure offers different chart types depending on the type of data (numerical, categorical, etc.). Some examples include:
 
-   - **Box and Whisker plot**: Shows the distribution of numerical data by 
-displaying the median, quartiles, and outliers. Useful for spotting spread 
-and anomalies in values like Wins or Year.
+   - **Box and Whisker plot**: Shows the distribution of numerical data by displaying the median, quartiles, and outliers. Useful for spotting spread and anomalies in values like Wins or Year.
 
      ![](../images/n52c37.png)
 
@@ -277,8 +283,20 @@ and anomalies in values like Wins or Year.
 
       ![](../images/n52c38.png)
 
-    - **Value counts**: Displays the total number of occurrences of each unique 
-value. Helpful for categorical columns like Driver or Car
+    - **Value counts**: Displays the total number of occurrences of each unique value. Helpful for categorical columns like Driver or Car
+
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Created Your Workspace
+- Uploaded the Data
+- Cleaned the Data
+- Stored the Data
+- Running the Pipeline
+- Visualized the Data
+
+## You have successfully completed the lab
     
 
 
