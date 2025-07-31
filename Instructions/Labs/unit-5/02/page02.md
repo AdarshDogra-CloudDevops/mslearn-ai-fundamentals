@@ -95,7 +95,7 @@ cars throughout NASCAR’s history.` **(2)**
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `NASCAR Champions History Dataset.csv` **(1)** 
+    - In the file browser, navigate to avigate to `C:\LabFiles` and then select the file: `NASCAR Champions History Dataset.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
@@ -144,9 +144,9 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
    ![](../images/n52c-10.png)
 
-1. Choose “By name”, Select only the following columns:`Year`, `Driver`, `Car`, and `Wins` **(1)** and **Save (2)**.
+1. Choose **“By name” (1)**, From the `Available columns` click on `+` corresponding to `Year`, `Driver`, `Car Manufacturer`, and `Wins` **(2)** and then **Save (3)**.
 
-    ![](../images/n52c-11.png)
+    ![](../images/g21.png)
 
      >**Note**: We are selecting the features most relevant for identifying topperforming athletes. Columns like Index and Car Number are not helpful for our analysis and are excluded.
 
@@ -154,9 +154,11 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
 1. Click on **Save**.
 
+    ![](../images/g22.png)
+
 1. In the **Component (1)** tab, search for **Remove Duplicate Rows (2)**. Drag it into the canvas **(3)**.
 
-1. Connect **Cleaned Dataset** output from the previous component to **Dataset** input on this component. 
+1. Connect left **Cleaned Dataset** output from the previous component to **Dataset** input on this component. 
 
    ![](../images/n52c15.png)
 
@@ -164,7 +166,7 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
    ![](../images/n52c16.png)
 
-1. Select “With rules,” then choose `All columns.` **(1)** and **Save (2)**.    
+1. Select **“With rules,”** then choose `All columns.` **(1)** and **Save (2)**.    
 
    ![](../images/n52c17.png)
 
@@ -181,13 +183,13 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
 1. Double-click the **Export Data** component to open its settings **(1)**. Specify the following details and then **Save (7)**:
 
-  - Datastore Type:  Select **Azure Blob Storage (2)**
-  - Datastore: Select **workspaceblobstore (3)**
-  - Output path: **Processed-Data (4)**
-  - File format: **CSV (5)**
-  - Number of rows per operation: **50 (default) (6)**
+    - Datastore Type:  Select **Azure Blob Storage (2)**
+    - Datastore: Select **workspaceblobstore (3)**
+    - Output path: **Processed-Data (4)**
+    - File format: **CSV (5)**
+    - Number of rows per operation: **50 (default) (6)**
 
-    ![](../images/n52c20.png)
+      ![](../images/n52c20.png)
 
 By exporting the dataset this way, you are moving your cleaned, prepared data into cloud storage, where it can be accessed again later, shared with others, or used in new pipelines and experiments.   
 
@@ -234,7 +236,7 @@ By exporting the dataset this way, you are moving your cleaned, prepared data in
 
     ![](../images/n52c27.png) 
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
@@ -248,7 +250,7 @@ By exporting the dataset this way, you are moving your cleaned, prepared data in
 
     ![](../images/n52c30.png)     
 
-1. Navigate to **Data (1)** from the left navigation pane, then select the **Datastores (2)** tab. From there select our default **workspaceblobstorage (3)**.
+1. Navigate to **Data (1)** from the left navigation pane, then select the **Datastores (2)** tab. From there select our default **workspaceblobstorage(Default) (3)**.
 
     ![](../images/n52c32.png) 
 
@@ -267,7 +269,7 @@ One of the powerful features of Azure Machine Learning Designer is the ability t
 
 1. Right-click the **NASCAR_Season_History (1)** component (your input dataset). Then select **Preview Data (2)**.
 
-    ![](../images/n52c35.png)
+    ![](../images/g23.png)
 
 1. In the preview window, switch to the **“Profile”** tab. Azure will automatically generate a summary visualization for each column in the dataset, based on its data type.    
 
