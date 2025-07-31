@@ -1,6 +1,6 @@
 # Hands-On-Lab: Sports Data
 
-In this hands-on lab, you will learn how to prepare sports-related data for analysis by using Azure tools. You will clean and transform raw data, organize it for efficient access, and store it in a structured format. Finally, you'll visualize the data to uncover insights and trends that can support predictive analytics in sports.
+In this hands-on lab, you will work with sports-related data to prepare it for analysis using Azure tools. You will start by creating a workspace and uploading raw data, then clean and structure the data for better accessibility and performance. The lab will guide you through storing the processed data and running a pipeline to automate the workflow. Finally, you will visualize the results to uncover patterns and trends that can support predictive analytics in sports.
 
 ## Lab Objectives
 
