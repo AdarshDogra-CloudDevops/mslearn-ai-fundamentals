@@ -30,6 +30,7 @@ models for classification tasks.
 - Identify which type of learning is better suited for specific types of data or problems.
 
 ## Categorizing Categorization
+
 Let's begin the lesson by answering the questions on page 1 of the SREB_U5_L7_Handout
 and sharing our answers with the class.
 
