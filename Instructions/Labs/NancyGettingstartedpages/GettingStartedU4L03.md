@@ -1,6 +1,6 @@
-# Getting Started with Analyzing Manufacturing Feedback with Text Data Workshop
+# Getting Started with Optimizing Inventory with Logistics Data: A Supply Chain Simulation Workshop
 
-Welcome to your Analyzing Manufacturing Feedback with Text Data workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+Welcome to your Optimizing Inventory with Logistics Data: A Supply Chain Simulation workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
