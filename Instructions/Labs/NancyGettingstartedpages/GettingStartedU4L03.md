@@ -1,6 +1,6 @@
-# Getting Started with Your Training Makes It Smarter – Understanding the Role of Data in Machine Learning Workshop
+# Getting Started with Your Deploying Azure Based Anomaly Detection Pipeline and Evaluating Data Storage Workshop
 
-Welcome to your Training Makes It Smarter – Understanding the Role of Data in Machine Learning workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+Welcome to your Deploying Azure Based Anomaly Detection Pipeline and Evaluating Data Storage workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
