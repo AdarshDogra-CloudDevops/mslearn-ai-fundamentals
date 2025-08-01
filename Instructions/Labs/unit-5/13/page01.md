@@ -34,7 +34,7 @@ You’ve been hired as the head analyst for a South Carolina high school basketb
 
 Refer to Figure 1 below for more information.
 
-[](../images/U5lab013-image38.png)
+![](../images/g36.png)
 
 **Answer the following questions:**
    
@@ -56,7 +56,7 @@ Now we understand that humans use pattern logic to classify — and that this lo
 
 Let’s explore how a machine might learn to classify players like we just did — using something called a Decision Tree.
 
-  [](../images/U5lab013-image39.png)
+![](../images/U5lab013-image39.png)
 
 **Key points:**
 
@@ -82,7 +82,7 @@ Assists per game.
 
   - Analyze Figure 3 below.
 
-      [](../images/U5lab013-image40.png)
+    ![](../images/U5lab013-image40.png)
 
 **Step 2: Build Your Decision Tree**
   
@@ -235,7 +235,7 @@ We started with real team data from the 2024–25 South Carolina Gamecocks Women
 
 A sample of the dataset is shown in Figure 4 below.
  
-[](../images/U5lab013-image41.png)
+![](../images/U5lab013-image41.png)
 
 However, to train a supervised learning model, we needed a label column — something the model can learn to predict.
 
