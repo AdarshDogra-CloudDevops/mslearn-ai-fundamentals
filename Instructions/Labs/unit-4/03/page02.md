@@ -81,11 +81,11 @@ this tab.
 
 1. On **Create data asset** page enter the following data.
 
-   - Name the dataset: **`anomaly_dataset_manufacturing`**  **(1)**
-   - Select type: **Tabular (2)**  
-   - Click **Next (3)**  
+    - Name the dataset: **`anomaly_dataset_manufacturing`**  **(1)**
+    - Select type: **Tabular (2)**  
+    - Click **Next (3)**  
 
-     ![](../images/lab01-image8.png) 
+      ![](../images/lab01-image8.png) 
 
 1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**.
 
@@ -93,11 +93,11 @@ this tab.
 
 1. On the **Select a datastore** page select the following option:  
 
-   - Under **Datastore type**, select **Azure Blob Storage (1)**
-   - Choose the datastore named: **`workspaceblobstore` (3)**
-   - Click **Next (3)**  
+    - Under **Datastore type**, select **Azure Blob Storage (1)**
+    - Choose the datastore named: **`workspaceblobstore` (3)**
+    - Click **Next (3)**  
 
-     ![](../images/lab01-image10.png)
+      ![](../images/lab01-image10.png)
 
 1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
 
@@ -105,11 +105,11 @@ this tab.
 
 1. **File or Folder Selection**:  
 
-   - In the file browser, select the file:**`anomaly_data.csv`**  
-   - Wait for the file to appear under Upload list 
-   - Click **Next**  
+    - In the file browser, select the file:**`anomaly_data.csv`**  
+    - Wait for the file to appear under Upload list 
+    - Click **Next**  
 
-     ![](../images/lab01-image12.png) 
+      ![](../images/lab01-image12.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
@@ -143,35 +143,33 @@ this tab.
 
 <validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" />
 
----   
-
 ### Task 3: Preprocessing Our Data
 
 In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
 
 1. Switch to the **Component** tab and search for **"Clean Missing Data"** by Microsoft.  
     
-   ![](../images/lab01-image20.png) 
+    ![](../images/lab01-image20.png) 
 
 1. Click on the **Clean Missing Data** data component, then drag it from the left panel and drop it below the **Dataset card** in the pipeline canvas on the right.
 
-   ![](../images/lab01-image22.png)
+    ![](../images/lab01-image22.png)
    
 1. Now connect the Dataset to the Cleaning Component, hover over the small **circle at the bottom** of the dataset block labeled **Data output**. Click and **drag a line** to the **left circle** of the Clean Missing Data component labeled **Dataset**. **Save** your progress by clicking **Save** at the top right of the canvas.
 
-   ![](../images/lab01-image21.png) 
+    ![](../images/lab01-image21.png) 
 
 1. Now you will Configure the **Clean Missing Data** component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
 
-   ![](../images/lab01-image23.png) 
+    ![](../images/lab01-image23.png) 
 
 1. Select only **sensor_reading** - **Do not** include columns like `timestamp`, `machine_id`, or `anomaly_flag`. Click **Save** in the pop-up,
 
-   ![](../images/lab01-image24.png) 
+    ![](../images/lab01-image24.png) 
 
 1. Click **Save** again on the main screen.  
 
-   ![](../images/lab01-image25.png) 
+    ![](../images/lab01-image25.png) 
 
 ### Task 4: Adding Detection Models
 
