@@ -2,6 +2,18 @@
 
 In this hands-on lab, you will take on the role of a junior sports analyst to predict player performance for a South Carolina basketball team. Using Azure ML Designer, you will build and compare Linear Regression and Boosted Decision Tree models based on player statistics. You’ll experiment with feature selection, evaluate model accuracy using RMSE and R², and interpret the results. Based on predicted outcomes, you’ll make data-driven scouting recommendations.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Set Up the Azure ML Workspace
+- Task 2: Add a dataset to your Azure ML pipeline in the Designer
+- Task 3: Add the Dataset to Your Pipeline Canvas
+- Task 4: Train the Model
+- Task 5: Run the Pipeline and Submit the Job
+- Task 6: Model Evaluation Results (Azure ML Designer)
+- Task 7: Swap in Boosted Decision Tree Regression
+
 
 ### Task 1: Set Up the Azure ML Workspace
 
@@ -295,3 +307,18 @@ pipeline.
 1. Right click on the **Evaluate Model** and then on **Preview Data -> Evaluation Results**
 
      ![](../images/U5lab013-image51.png)
+
+
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Set Up the Azure ML Workspace
+- Added a dataset to your Azure ML pipeline in the Designer
+- Added the Dataset to Your Pipeline Canvas
+- Trained the Model
+- Run the Pipeline and Submit the Job
+- Model Evaluation Results (Azure ML Designer)
+- Swapped in Boosted Decision Tree Regression
+
+## You have successfully completed the lab
