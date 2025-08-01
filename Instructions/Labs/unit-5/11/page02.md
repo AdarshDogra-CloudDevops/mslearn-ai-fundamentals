@@ -17,11 +17,13 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Set Up the Azure ML Workspace
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
