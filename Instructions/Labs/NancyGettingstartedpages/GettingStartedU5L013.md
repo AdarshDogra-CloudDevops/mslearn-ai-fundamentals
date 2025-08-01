@@ -1,5 +1,6 @@
-# Getting Started with Your Using Decision Trees and Regression for Prediction in Sports
-Welcome to your Sports Data workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+# Getting Started with Your Troubleshooting in Azure Machine Learning Designer
+
+Welcome to your Data workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
