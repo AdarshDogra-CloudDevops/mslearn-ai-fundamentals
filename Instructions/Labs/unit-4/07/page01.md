@@ -7,6 +7,7 @@ whether a shipment will arrive on time or be delayed. The goal is to show how pr
 delays can help make smarter decisions to keep production running smoothly.
 
 ### Main Learning Goal:
+
 Students will analyze a manufacturing logistics dataset to identify delivery delays and build 
 a classification model using Azure ML Designer. They will explore how machine learning 
 supports inventory planning and improves supply chain decision-making.
