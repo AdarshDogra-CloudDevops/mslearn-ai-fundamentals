@@ -1,6 +1,6 @@
-# Getting Started with Your Deploying Azure Based Anomaly Detection Pipeline and Evaluating Data Storage
+# Getting Started with Using Machine Learning to Detect Anomalies in Manufacturing Workshop
 
-Welcome to your Using Deploying Azure Based Anomaly Detection Pipeline and Evaluating Data Storage workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+Welcome to your Using Machine Learning to Detect Anomalies in Manufacturing workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
