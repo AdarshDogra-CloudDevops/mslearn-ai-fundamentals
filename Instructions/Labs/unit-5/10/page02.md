@@ -2,13 +2,26 @@
 
 In this hands-on lab, you will step into the role of a junior data scientist tasked with diagnosing and fixing issues in a malfunctioning Azure Machine Learning pipeline. You will explore a pre-built pipeline containing common configuration errors, interpret system-generated error messages, and troubleshoot each problem step-by-step. By the end of the lab, you will have hands-on experience identifying and resolving real-world issues that can occur during model development, helping to reinforce your understanding of pipeline workflows and debugging techniques in Azure ML.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Set Up the Azure ML Workspace
+- Task 2: Add a dataset to your Azure ML pipeline in the Designer
+- Task 3: Add the Dataset to Your Pipeline Canvas
+- Task 4: Train the Model
+- Task 5: : Run the Pipeline and Submit the Job
+- Task 6: Use existing pipeline and walk through real Azure ML Designer errors
+
 ### Task 1: Set Up the Azure ML Workspace
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) when prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
@@ -649,8 +662,19 @@ This is a common and real-world issue in team workflows, file versioning, and wo
      ![](../images/N10c70.png)
 
        
+## Review
+
+In this lab, you have completed the following tasks:
+
+- Set Up the Azure ML Workspace
+- Added a dataset to your Azure ML pipeline in the Designer
+- Added the Dataset to Your Pipeline Canvas
+- Trained the Model
+- Run the Pipeline and Submit the Job
+- Used existing pipeline and walk through real Azure ML Designer errors
 
 
+## You have successfully completed the lab
 
 
 
