@@ -177,21 +177,22 @@ In this task you will add and configure the PCA-Based anomaly detection model to
 
 1. On the **Component** tab, search for **PCA-Based Anomaly Detection**. Then **Drag** the PCA-Based Anomaly Detection component into the canvas.
 
-   ![](../images/lab01-image26.png)
+    ![](../images/lab01-image26.png)
    
-   >**Note**: This is a built-in model that detects outliers in time-series data using **Principal Component Analysis**.
+     >**Note**: This is a built-in model that detects outliers in time-series data using **Principal Component Analysis**.
 
 1. Next, you will train the model using your cleaned dataset by adding the **Train Anomaly Detection Model** component.
 
 1. In the Component tab, search for **Train Anomaly Detection Model**. Drag the component into your canvas, placing it below the **PCA-Based Anomaly Detection** block.  
 
-   ![](../images/lab01-image27.png)
+    ![](../images/lab01-image27.png)
 
 1. Connect:
-   - The **Untrained model output** from the **PCA-Based Anomaly Detection** to the **Model input** of Train Anomaly Detection Model.
-   - The **Cleaned data output** from the **Clean Missing Data** to the **Dataset input** of Train Anomaly Detection Model.  
 
-    ![](../images/21.png) 
+    - The **Untrained model output** from the **PCA-Based Anomaly Detection** to the **Model input** of Train Anomaly Detection Model.
+    - The **Cleaned data output** from the **Clean Missing Data** to the **Dataset input** of Train Anomaly Detection Model.  
+
+      ![](../images/21.png) 
 
 1. Next, you will use the **Score Model** to apply the trained model and generate predictions.
 
@@ -202,10 +203,11 @@ In this task you will add and configure the PCA-Based anomaly detection model to
     ![](../images/22.png) 
 
 1. Connect:
-   - The **Trained model output** from **Train Anomaly Detection Model** to the **Trained model input** of **Score Model**.
-   - The **Cleaned data output** from **Clean Missing Data** to the **Dataset input** of **Score Model**.
 
-     > This ensures that your newly trained model is scoring the same dataset it learned from.
+    - The **Trained model output** from **Train Anomaly Detection Model** to the **Trained model input** of **Score Model**.
+    - The **Cleaned data output** from **Clean Missing Data** to the **Dataset input** of **Score Model**.
+
+      > This ensures that your newly trained model is scoring the same dataset it learned from.
 
 1. Click **Save** at the top of the screen to preserve your progress.
 
@@ -226,13 +228,16 @@ In this task you will convert the scored output from the model into a dataset fo
 1. Now that the pipeline is fully built with all the components connected—from data intake to anomaly scoring we're ready to run it to view our results!
 
 1. First, let’s make sure all components are connected as shown.
+
     - Confirm that:
-          a. The dataset flows through Clean Missing Data.
-          b. The cleaned data connects to both:
-               **Train Anomaly Detection Model**
-               **Score Model**
-          c. PCA-Based Anomaly Detection is connected to the Train component.
-          d. Score Model connects to Convert to Dataset.
+
+        - a. The dataset flows through Clean Missing Data.
+
+        - b. The cleaned data connects to both:**Train Anomaly Detection Model** and **Score Model**
+
+        - c. PCA-Based Anomaly Detection is connected to the Train component.
+
+        - d. Score Model connects to Convert to Dataset.
 
 1. **Save** your pipeline, if not auto-saved already.
 
@@ -246,9 +251,9 @@ In this task you will configure the details needed to run your pipeline, includi
 
 1. On the **Basics** page, perform the steps as mentioned below:
 
-   - In the Experiment name select **Create new**
-   - In **New experiment name** filed provide **`Test_Anomaly_Manufacturing`**
-   - Click the blue **Next** button at the bottom-right corner of the screen
+    - In the Experiment name select **Create new**
+    - In **New experiment name** filed provide **`Test_Anomaly_Manufacturing`**
+    - Click the blue **Next** button at the bottom-right corner of the screen
 
       ![](../images/lab01-image37.png)
 
@@ -257,7 +262,7 @@ In this task you will configure the details needed to run your pipeline, includi
 1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on Compute Cluster. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
 
 1. On the **Select virtual machine** page, specify the following then click on **Next** :
-  
+    
     - Location: Confirm that the selected region is the same as your workspace.
     
     - Virtual Machine Tier: Leave as default. 
@@ -266,7 +271,7 @@ In this task you will configure the details needed to run your pipeline, includi
 
     - Virtual Machine Size: Choose **Standard_DS11_v2**.
   
-        ![](../images/lab01-image38.png)
+      ![](../images/lab01-image38.png)
 
 1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
@@ -288,13 +293,13 @@ In this task you will configure the details needed to run your pipeline, includi
 
 1. Once submitted, a success notification appears at the top of the page. Click on 'View details' to monitor the pipeline. It may take some time for the pipeline to complete.
 
-      ![](../images/lab01-image42.png)
+    ![](../images/lab01-image42.png)
      
 1. Right-click on the **Convert to Dataset** component, hover over **Preview data** to click on **Results dataset**.
 
-   ![](../images/lab01-image43.png)
+    ![](../images/lab01-image43.png)
 
-   ![](../images/lab01-image44.png)
+    ![](../images/lab01-image44.png)
 
 1. Understanding the Output Each row represents a **timestamped data record** from the pipeline. Here's what the columns mean:
 
@@ -311,8 +316,7 @@ In this task you will configure the details needed to run your pipeline, includi
     
     - A pipeline in Azure ML Designer is a step-by-step process that moves data through different stages—starting from input, moving through cleaning and analysis, and ending with a final output. Each stage performs a specific operation to transform or analyze the data.
     
-    - At the beginning, you upload your raw dataset. Then, you may clean the data to handle missing or incorrect values. After cleaning, the data is sent to a machine learning model, 
-which processes it to find patterns or make predictions. The model then produces new output data—such as predicted labels or anomaly scores.
+    - At the beginning, you upload your raw dataset. Then, you may clean the data to handle missing or incorrect values. After cleaning, the data is sent to a machine learning model, which processes it to find patterns or make predictions. The model then produces new output data—such as predicted labels or anomaly scores.
     
     - However, after the model finishes running, it’s important to think about where the results go. If they are not stored or saved properly, it becomes difficult to access or share them later.
     
@@ -331,7 +335,7 @@ vibration levels.
     | 12:01 PM      |  M001          |   76             |      30.1    |     0.06      |      0            |
     | 12:02 PM      |  M001          |   120            |      80      |     1.5       |      1            |
 
-   >**Note**: The last column (anomaly_flag) tells us whether that row is normal (0) or an anomaly (1). This column is used for testing the model’s accuracy.
+     >**Note**: The last column (anomaly_flag) tells us whether that row is normal (0) or an anomaly (1). This column is used for testing the model’s accuracy.
 
 #### Clean Missing Data
 
@@ -382,25 +386,25 @@ column, “Scored Probabilities” is the confidence level of the prediction.
 In this task you will export the results of your anomaly detection pipeline to Azure Blob Storage for permanent storage. This ensures that your predictions are saved outside of the temporary pipeline environment, making them accessible for future reporting, sharing, or auditing.
 
 - Where Is the Data Stored?
-   
-   - After your pipeline processes the data and makes predictions, those results are not automatically saved in a permanent location. If you don’t store them externally, they may 
-     only exist temporarily inside the Azure ML pipeline. That means you can’t reuse them in other projects, download them later, or share them with your team.
+    
+    - After your pipeline processes the data and makes predictions, those results are not automatically saved in a permanent location. If you don’t store them externally, they may only exist temporarily inside the Azure ML pipeline. That means you can’t reuse them in other projects, download them later, or share them with your team.
 
-   - To solve this, you can connect your pipeline to Azure Blob Storage, which acts as a permanent cloud storage location.
+    - To solve this, you can connect your pipeline to Azure Blob Storage, which acts as a permanent cloud storage location.
 
 - Azure Blob Storage is like a big cloud-based folder. You can think of it as an online hard drive where you can store:
-     - Datasets (CSV files, Excel files)
-     - Images, logs, or sensor readings
-     - Output from your machine learning models
+
+    - Datasets (CSV files, Excel files)
+    - Images, logs, or sensor readings
+    - Output from your machine learning models
 
 - We will now export your final scored dataset (which includes anomaly predictions) to an external storage location such as Azure Blob Storage. This ensures the results are saved 
 even after the pipeline finishes.
 
 1. Azure Blob Storage is like a big cloud-based folder. You can think of it as an online hard drive where you can store:
 
-     -  Datasets (CSV files, Excel files)
-     -  Images, logs, or sensor readings
-     -  Output from your machine learning models
+    -  Datasets (CSV files, Excel files)
+    -  Images, logs, or sensor readings
+    -  Output from your machine learning models
 
 1. We will now export your final scored dataset (which includes anomaly predictions) to an external storage location such as Azure Blob Storage. This ensures the results are saved 
 even after the pipeline finishes.
@@ -408,11 +412,11 @@ even after the pipeline finishes.
 1. First, go to the Component tab and search for the **Export Data** component. Then, drag and drop the component into your canvas below the rest of 
 your pipeline, as seen in below image.
 
-     ![](../images/lab01-image45.png)
+    ![](../images/lab01-image45.png)
 
 1. Draw a line from the output of **Convert to Dataset** and connect it to the Input path of the **Export Data** component.
 
-     ![](../images/lab01-image46.png)
+    ![](../images/lab01-image46.png)
 
 1. Now, we need to configure Export Data to save our model’s output.
 
@@ -420,13 +424,17 @@ your pipeline, as seen in below image.
 
 1. Set the fields in the panel as follows:
 
-    a. Datastore Type: Azure Blob Storage - This tells Azure that you want to save the output file in a cloud-based blob container.
-    b. Datastore: workspaceblobstore - This is the default blob storage associated with your workspace. It acts like a cloud folder that stores files outside of the pipeline’s memory.
-    c. Output Path: predictions - This path acts like a folder name inside your blob storage. The system will save your file inside this path.
-    d. File Format: csv - This will save the output as a CSV file.
-    e. Save the configuration.
+    a. **Datastore Type: Azure Blob Storage** - This tells Azure that you want to save the output file in a cloud-based blob container.
 
-    ![](../images/lab01-image50.png)
+    b. **Datastore: workspaceblobstore** - This is the default blob storage associated with your workspace. It acts like a cloud folder that stores files outside of the pipeline’s memory.
+
+    c. **Output Path: predictions** - This path acts like a folder name inside your blob storage. The system will save your file inside this path.
+
+    d. **File Format: csv** - This will save the output as a CSV file.
+
+    e. **Save** the configuration.
+
+     ![](../images/lab01-image50.png)
         
 6. Click on **Configure & Submit** and the pipeline will run.
 
@@ -434,7 +442,7 @@ your pipeline, as seen in below image.
 
 1. On the Basics page, Under **Experiment name** choose **Select existing (1)** the click on **Review + Submit (2)**
    
-     ![](../images/lab01-image52.png)
+    ![](../images/lab01-image52.png)
 
 1. Once submitted, a success notification appears at the top of the page. Click on View details to monitor the pipeline. It may take some time for the pipeline to complete.
 
