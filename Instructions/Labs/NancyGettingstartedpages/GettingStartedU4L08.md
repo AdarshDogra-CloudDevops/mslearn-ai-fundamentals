@@ -1,4 +1,4 @@
-# Getting Started with Your Spot the Flaw - Detecting Defective Products with Image Classification
+# Getting Started with Your Spot the Flaw - Detecting Defective Products with Image Classification Workshop
 
 Welcome to your Spot the Flaw - Detecting Defective Products with Image Classification workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
