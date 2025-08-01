@@ -1,14 +1,31 @@
 # Hands-On-Lab: Exploring AI libraries and Tools
 
+In this hands-on lab, you will explore AI and ML tools in Python and Azure ML Studio by building a machine learning pipeline. You will create an Azure ML workspace, upload and preprocess a dataset, and build a Linear Regression model to predict a team’s win percentage. The lab guides you through configuring compute resources, splitting data, training the model, and evaluating its performance using Azure ML Designer.
+
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Create Azure ML Workspace
+- Task 2: Upload the Dataset
+- Task 3: Preprocessing Our Data
+- Task 4: Add Select Columns in Dataset Component
+- Task 5: Choose Features and Target Column and Add Split Data Module
+- Task 6: Add and Configure Linear Regression and Train Model Module
+- Task 7: Add and Configure Score Model and Evaluate Model
+- Task 8: Configure Pipeline Job Basics and Run the Pipeline
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 

@@ -1,8 +1,7 @@
 # Lesson 8: Exploring AI libraries and Tools 
 
 ## Lesson Description:
-In this lesson, students will explore software libraries and platforms used in artificial intelligence and machine learning, focusing on tools available in Python and Azure ML 
-Studio. 
+In this lesson, students will explore software libraries and platforms used in artificial intelligence and machine learning, focusing on tools available in Python and Azure ML Studio. 
 
 Using the Clemson Tigers Football School History dataset, students will develop a simple 
 regression model to predict team performance metrics. They will implement this model 
