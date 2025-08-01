@@ -30,21 +30,23 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
-   - **Name**: **`PCA_Anomaly_Model`**
+   - **Name**: **`PCA_Anomaly_Model` (1)**
    - **Friendly Name**: *(Optional)*.
       Azure will auto-fill this based on the name.
    - **Hub (Optional)**: Leave this as “None” unless instructed otherwise.
    - **Advanced Settings**:
-   - **Subscription**: Select the appropriate Azure subscription from the dropdown. 
-   - **Resource Group**: **ODL-SREB-U4L03**. 
-   - **Region**: Select **East US 2** for better performance.
-   - After filling out all the required fields, click the **“Create”** button.
+   - **Subscription**: Select the appropriate Azure subscription from the dropdown **(2)**
+   - **Resource Group**: **ODL-SREB-U4L03 (3)**
+   - **Region**: Select **East US 2** for better performance **(4)**
+   - After filling out all the required fields, click the **“Create” (5)** button.
 
      ![](../images/lab01-image2.png) 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
-1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces”**. Locate the workspace you just created `PCA Anomaly Model`.
+1. Wait for the workspace to create — it may take around 2–3 minutes.    
+
+1. Now navigate to your newly created workspace. On the **left-hand menu**, click **“Workspaces” (1)**. Locate the workspace you just created `PCA Anomaly Model` **(2)**.
 
    ![](../images/lab01-image3.png) 
    
@@ -73,7 +75,9 @@ this tab.
 
      >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a plus sign that says, **Create a new pipeline using classic prebuilt components**.
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** **(1)** tab under the “New pipeline” section. From here, click on the box with a plus sign that says **Create a new pipeline using classic prebuilt components** **(2)**.
+
+   ![](../images/nc2.png)
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset. 
 
@@ -87,7 +91,7 @@ this tab.
 
       ![](../images/lab01-image8.png) 
 
-1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**.
+1. On the **Choose a source for your data asset** page, choose **From local files (1)** the click on **Next (2)**.
 
     ![](../images/lab01-image9.png) 
 
@@ -105,9 +109,9 @@ this tab.
 
 1. **File or Folder Selection**:  
 
-    - In the file browser, select the file:**`anomaly_data.csv`**  
+    - In the file browser, select the file:**`anomaly_data.csv` (1)**  
     - Wait for the file to appear under Upload list 
-    - Click **Next**  
+    - Click **Next (2)**  
 
       ![](../images/lab01-image12.png) 
 
@@ -127,7 +131,7 @@ this tab.
 
     ![](../images/lab01-image16.png) 
 
-1. Click on the dataset card then select **Use data** to **drop it onto the pipeline canvas** on the right.
+1. Click on the dataset card **(1)** and then select **Use data (2)** to **drop it onto the pipeline canvas** on the right.
 
     ![](../images/lab01-image18.png) 
 
@@ -147,7 +151,7 @@ this tab.
 
 In this task you will prepare your dataset for modeling by cleaning missing values. You will add and configure the Clean Missing Data component to handle incomplete or missing sensor readings, ensuring the dataset is reliable for training your anomaly detection model.
 
-1. Switch to the **Component** tab and search for **"Clean Missing Data"** by Microsoft.  
+1. Switch to the **Component (1)** tab and search for **"Clean Missing Data" (2)** by Microsoft and select **"Clean Missing Data" (3)**.
     
     ![](../images/lab01-image20.png) 
 
@@ -155,15 +159,15 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
     ![](../images/lab01-image22.png)
    
-1. Now connect the Dataset to the Cleaning Component, hover over the small **circle at the bottom** of the dataset block labeled **Data output**. Click and **drag a line** to the **left circle** of the Clean Missing Data component labeled **Dataset**. **Save** your progress by clicking **Save** at the top right of the canvas.
+1. Now connect the Dataset to the Cleaning Component, hover over the small **circle at the bottom** of the dataset block labeled **Data output (1)**. Click and **drag a line** to the **left circle** of the Clean Missing Data component labeled **Dataset** **(2)**. Save your progress by clicking **Save (3)** at the top right of the canvas.
 
     ![](../images/lab01-image21.png) 
 
-1. Now you will Configure the **Clean Missing Data** component. Double-click the **Clean Missing Data** block on the canvas. Then click the blue **Edit column** link next to **Columns to be cleaned**. This will open a pop-up window.  
+1. Now you will Configure the **Clean Missing Data** component. Double-click the **Clean Missing Data (1)** block on the canvas. Then click the blue **Edit column (2)** link next to **Columns to be cleaned**. This will open a pop-up window.  
 
     ![](../images/lab01-image23.png) 
 
-1. Select only **sensor_reading** - **Do not** include columns like `timestamp`, `machine_id`, or `anomaly_flag`. Click **Save** in the pop-up,
+1. Select only **sensor_reading (1)** - **Do not** include columns like `timestamp`, `machine_id`, or `anomaly_flag`. Click **Save (2)** in the pop-up,
 
     ![](../images/lab01-image24.png) 
 
@@ -175,7 +179,7 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 
 In this task you will add and configure the PCA-Based anomaly detection model to your pipeline. You will train the model on the cleaned data, score the dataset to identify anomalies, and connect the necessary components for these steps in Azure ML Designer.
 
-1. On the **Component** tab, search for **PCA-Based Anomaly Detection**. Then **Drag** the PCA-Based Anomaly Detection component into the canvas.
+1. On the **Component (1)** tab, search for **PCA-Based Anomaly Detection (2)**. Then **Drag** the PCA-Based Anomaly Detection component into the canvas **(3)**.
 
     ![](../images/lab01-image26.png)
    
@@ -183,7 +187,7 @@ In this task you will add and configure the PCA-Based anomaly detection model to
 
 1. Next, you will train the model using your cleaned dataset by adding the **Train Anomaly Detection Model** component.
 
-1. In the Component tab, search for **Train Anomaly Detection Model**. Drag the component into your canvas, placing it below the **PCA-Based Anomaly Detection** block.  
+1. In the **Component (1)** tab, search for **Train Anomaly Detection Model (2)**. Drag the component into your canvas **(3)**, placing it below the **PCA-Based Anomaly Detection (4)** block.  
 
     ![](../images/lab01-image27.png)
 
@@ -251,25 +255,33 @@ In this task you will configure the details needed to run your pipeline, includi
 
 1. On the **Basics** page, perform the steps as mentioned below:
 
-    - In the Experiment name select **Create new**
-    - In **New experiment name** filed provide **`Test_Anomaly_Manufacturing`**
-    - Click the blue **Next** button at the bottom-right corner of the screen
+    - In the Experiment name select **Create new (1)**
+    - In **New experiment name** filed provide **`Test_Anomaly_Manufacturing` (2)**
+    - Click the blue **Next (3)** button at the bottom-right corner of the screen
 
       ![](../images/lab01-image37.png)
 
 1. On the **Inputs & outputs** page, click on **Next** to skip.
 
-1. On the Runtime Settings page, from the dropdown of the **Select Compute Type** section, click on Compute Cluster. Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster**.
+1. On the **Runtime Settings**, provide the following details:
 
-1. On the **Select virtual machine** page, specify the following then click on **Next** :
-    
-    - Location: Confirm that the selected region is the same as your workspace.
-    
-    - Virtual Machine Tier: Leave as default. 
-    
-    - Virtual Machine Type: Keep this as **CPU** (sufficient for our anomaly detection task).
+    - **Select Compute Type** section, select **Compute Cluster** from the drop down **(1)**
 
-    - Virtual Machine Size: Choose **Standard_DS11_v2**.
+    - Since no cluster is currently available, we’ll need to create one. Click on **Create Azure ML Compute Cluster (2)**.        
+
+      >**Note**: This will open a new pane or pop-up for you to configure your compute cluster
+
+       ![](../images/nc14.png) 
+
+1. On the **Select virtual machine** page, specify the following then click on **Next (5)** :
+    
+    - Location: Confirm that the selected region is the same as your workspace **(1)**
+    
+    - Virtual Machine Tier: Leave as default **(2)**
+    
+    - Virtual Machine Type: Keep this as **CPU** (sufficient for our anomaly detection task) **(3)**
+
+    - Virtual Machine Size: Choose **Standard_DS11_v2 (4)**
   
       ![](../images/lab01-image38.png)
 
@@ -281,7 +293,7 @@ In this task you will configure the details needed to run your pipeline, includi
 
     ![](../images/nc17.png) 
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+     >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
@@ -295,7 +307,7 @@ In this task you will configure the details needed to run your pipeline, includi
 
     ![](../images/lab01-image42.png)
      
-1. Right-click on the **Convert to Dataset** component, hover over **Preview data** to click on **Results dataset**.
+1. Right-click on the **Convert to Dataset** component, hover over **Preview data (1)** to click on **Results dataset (2)**.
 
     ![](../images/lab01-image43.png)
 
