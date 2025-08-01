@@ -62,7 +62,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />
 
-### Task 2: Upload Our Datasett
+### Task 2: Upload Our Dataset
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
