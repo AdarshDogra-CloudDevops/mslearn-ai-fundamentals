@@ -62,25 +62,22 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />
 
----   
-
-### Task 2: Upload Our Dataset
+### Task 2: Upload Our Datasett
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. Once you are inside your workspace **PCA Anomaly Model**, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
 this tab.
 
-   ![](../images/lab01-image5.png) 
+    ![](../images/lab01-image5.png) 
 
-    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
-components.
+     >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping components.
 
 1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a plus sign that says, **Create a new pipeline using classic prebuilt components**.
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset. 
 
-   ![](../images/lab01-image7.png)
+    ![](../images/lab01-image7.png)
 
 1. On **Create data asset** page enter the following data.
 
@@ -92,49 +89,51 @@ components.
 
 1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**.
 
-   ![](../images/lab01-image9.png) 
+    ![](../images/lab01-image9.png) 
 
 1. On the **Select a datastore** page select the following option:  
+
    - Under **Datastore type**, select **Azure Blob Storage (1)**
    - Choose the datastore named: **`workspaceblobstore` (3)**
    - Click **Next (3)**  
 
-   ![](../images/lab01-image10.png)
+     ![](../images/lab01-image10.png)
 
 1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
 
-   ![](../images/lab01-image11.png) 
+    ![](../images/lab01-image11.png) 
 
-1. **File or Folder Selection**  
+1. **File or Folder Selection**:  
+
    - In the file browser, select the file:**`anomaly_data.csv`**  
    - Wait for the file to appear under Upload list 
    - Click **Next**  
 
-   ![](../images/lab01-image12.png) 
+     ![](../images/lab01-image12.png) 
 
 1. On the **Settings** page, review the fields and ensure they match the expected format then click **Next**  
 
-   ![](../images/lab01-image13.png) 
+    ![](../images/lab01-image13.png) 
 
 1. On the **Schema** page, ensure the schema fields are correctly recognized then click **Next**  
 
-   ![](../images/lab01-image14.png) 
+    ![](../images/lab01-image14.png) 
 
 1. On the **Review** page, click **Create** to finalize the dataset upload
 
-   ![](../images/lab01-image15.png) 
+    ![](../images/lab01-image15.png) 
 
 1. Under the **Data** tab, locate the uploaded dataset named **`anomaly_dataset_manufacturing`**.  
 
-   ![](../images/lab01-image16.png) 
+    ![](../images/lab01-image16.png) 
 
 1. Click on the dataset card then select **Use data** to **drop it onto the pipeline canvas** on the right.
 
-   ![](../images/lab01-image18.png) 
+    ![](../images/lab01-image18.png) 
 
 1. Verify the data placed in the canvas, and click **'Save'** to avoid losing progress.
 
-   ![](../images/lab01-image19.png)
+    ![](../images/lab01-image19.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 >
