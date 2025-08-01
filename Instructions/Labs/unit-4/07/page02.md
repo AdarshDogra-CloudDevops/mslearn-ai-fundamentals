@@ -1,16 +1,33 @@
 ## Hands-On-Lab: Optimizing Inventory with Logistics Data: A Supply Chain Simulation
 
-This hands-on lab walks you through building a machine learning pipeline in Azure Machine Learning Designer to predict shipping delays using historical logistics data. You’ll learn how to create a workspace, prepare data, train a model, evaluate results, and deploy your pipeline in a no-code environment.
+In this hands-on lab, you will walk through building a machine learning pipeline in Azure Machine Learning Designer to predict shipping delays using historical logistics data. You’ll learn how to create a workspace, prepare data, train a model, evaluate results, and deploy your pipeline in a no-code environment.
+
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Create Azure ML Workspace
+- Task 2: Upload the Dataset 
+- Task 3: Configure Clean Missing Data
+- Task 4: Configure the Split Data Component
+- Task 5: Add the Two-Class Decision Forest Model
+- Task 6: Add and Connect the Train Model Component
+- Task 7: Add and Connect the Score Model Component
+- Task 8: Add and Configure the Evaluate Model Component
+- Task 9: Running the Pipeline: Configure and Submit
+- Task 10: Preview Evaluation Results in Azure ML Designer
 
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
