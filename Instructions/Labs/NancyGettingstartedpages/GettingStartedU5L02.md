@@ -5,7 +5,7 @@ Welcome to your Sports Data workshop! We've prepared a seamless environment for 
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](../media/g20.png)
+![Access Your VM and Lab Guide](../media/gettingstarted2-1.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
@@ -22,7 +22,6 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
 ![Access Your VM and Lab Guide](../media/g9.png)
-
 
 ## Utilizing the Split Window Feature
  
@@ -54,7 +53,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
 1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
-   ![Launch Azure Portal](../media/g3.png)
+   ![Launch Azure Portal](../media/gettingstarted2-2.png)
 
 2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
