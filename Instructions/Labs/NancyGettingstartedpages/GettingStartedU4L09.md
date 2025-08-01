@@ -1,4 +1,4 @@
-# Getting Started with Your Training Makes It Smarter – Understanding the Role of Data in Machine Learning
+# Getting Started with Your Training Makes It Smarter – Understanding the Role of Data in Machine Learning Workshop
 
 Welcome to your Training Makes It Smarter – Understanding the Role of Data in Machine Learning workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
