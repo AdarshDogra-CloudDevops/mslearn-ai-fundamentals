@@ -1,4 +1,5 @@
 # Lesson 2: Sports Data
+
 ## Lesson Description:
 In this lesson, students will explore the types of data needed for sports and predictive 
 analytics. They will learn the importance of preprocessing raw data to make it usable for 
@@ -93,8 +94,7 @@ prepare the dataset for more effective modeling and visualization.
 ## Data Storage
 In earlier lessons, we explored the importance of external storage. Data storage is 
 preserving digital information in a medium for subsequent retrieval. To learn more, refer to 
-the following source [What Is Data Storage?](https://www.paloaltonetworks.com/cyberpedia/data-storage). There are several types of storage, each 
-serving different purposes depending on how and where the data needs to be accessed.
+the following source [What Is Data Storage?](https://www.paloaltonetworks.com/cyberpedia/data-storage). There are several types of storage, each serving different purposes depending on how and where the data needs to be accessed.
 
 Common methods of data storage include:
 
@@ -102,7 +102,10 @@ Common methods of data storage include:
 - Portable storage – Saving on removable media like USB drives
 - Cloud storage – Saving remotely on platforms like Azure, Google Cloud, or AWS
 
-Proper storage ensures that data remains organized, secure, and accessible when needed, 
-which is critical for ongoing analysis, sharing, and building machine learning projects.
+Proper storage ensures that data remains organized, secure, and accessible when needed, which is critical for ongoing analysis, sharing, and building machine learning projects.
 
 Now, let us explore how we can prepare and manage our data using Azure
+
+### Using Data in Azure
+
+We have explored Azure Machine Learning in previous lessons, and today you will take that a step further by diving deeper into data preprocessing. While you will not be building a model today, you will practice preparing this dataset as if you are using it to identify top-performing NASCAR athletes.

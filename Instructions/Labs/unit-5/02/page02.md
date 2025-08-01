@@ -286,6 +286,7 @@ One of the powerful features of Azure Machine Learning Designer is the ability t
       ![](../images/n52c38.png)
 
     - **Value counts**: Displays the total number of occurrences of each unique value. Helpful for categorical columns like Driver or Car
+ 
 
 ## Review
 
