@@ -91,7 +91,7 @@ In this lab, you will be able to complete the following tasks:
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `SC_Basketball_Enhanced.csv` **(1)** 
+    - In the file browser, navigate to `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson10` and  select the file: `SC_Basketball_Enhanced.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
@@ -527,7 +527,7 @@ You will use a dataset that appears valid but is missing the target column (PTS)
 
 1. **File or Folder Selection**  
 
-    - In the file browser, select the file: `SC_Basketball_Enhanced Without PTS Column.csv` **(1)** 
+    - In the file browser, navigate to `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson10` select the file: `SC_Basketball_Enhanced Without PTS Column.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 

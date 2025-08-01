@@ -100,7 +100,7 @@ components.
     ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
-   - In the file browser, select the file: `SREB_U5_L8_CleanedDataset`  
+   - In the file browser, navigate to `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson8 and then select the file: `SREB_U5_L8_CleanedDataset`  
    - Wait for the file to appear under Upload list  
    - Click **Next**  
 

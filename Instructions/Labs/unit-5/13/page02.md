@@ -99,7 +99,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
-   - In the file browser, select the file: **`SC_Basketball_Enhanced_With_Starter`**  
+   - In the file browser, navigate to `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson13` select the file: **`SC_Basketball_Enhanced_With_Starter`**  
    - Wait for the file to appear under “Upload list”  
    - Click **Next**  
 

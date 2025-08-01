@@ -70,7 +70,7 @@ We will be using a notebook in Azure today to execute all our technical examples
 
    ![](../images/n59c5.png) 
 
-1. Navigate to  `C:\LabFiles` and then select the **L9_Notebook.ipynb** and then **Open**.
+1. Navigate to  ``C:\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson9` and then select the **L9_Notebook.ipynb** and then **Open**.
 
 1. Once the notebook is uploaded, check the **I trust contents of this file** box **(1)** and then **Upload (2)**.
 
@@ -84,7 +84,7 @@ We will be using a notebook in Azure today to execute all our technical examples
 
    ![](../images/n59c5.png)
 
-1. Navigate to  `C:\LabFiles` and then select **Gamecocks_Running_Stats.csv** and then **Open**.
+1. Navigate to  ``C:\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson9` and then select **Gamecocks_Running_Stats.csv** and then **Open**.
 
 1. Once the notebook is uploaded, check the **I trust contents of this file** box **(1)** and then **Upload (2)**.
 
