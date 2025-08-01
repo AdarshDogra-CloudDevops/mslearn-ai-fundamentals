@@ -8,11 +8,13 @@ You will begin by setting up an Azure ML workspace and uploading a dataset of ma
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. If prompted, provide the credentials below:
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
@@ -38,15 +40,17 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
    ![](../images/lab01-image4.png) 
 
-
    ![](../images/lab01-image6.png)
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />
+<validation step="a5f62ceb-23d9-4082-9f63-2b94da3ee1ed" />
+
+---   
 
 ### Task 2: Upload Our Dataset
 
@@ -57,11 +61,10 @@ this tab.
 
    ![](../images/lab01-image5.png) 
 
-   >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
+    >**Note**:  This will open the Azure Machine Learning Designer interface where you can  begin creating your machine learning pipeline by dragging and dropping 
 components.
 
-1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a plus sign 
-that says, **Create a new pipeline using classic prebuilt components**.
+1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** tab under the **New pipeline** section. From here, click on the box with a plus sign that says, **Create a new pipeline using classic prebuilt components**.
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset. 
 
@@ -73,7 +76,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
    - Select type: **Tabular (2)**  
    - Click **Next (3)**  
 
-   ![](../images/lab01-image8.png) 
+     ![](../images/lab01-image8.png) 
 
 1. On the **Choose a source for your data asset** page, choose **From local files** the click on **Next**.
 
@@ -122,10 +125,14 @@ that says, **Create a new pipeline using classic prebuilt components**.
    ![](../images/lab01-image19.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
-<validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" /> 
+
+<validation step="b5ee7dd0-0dc9-4f9d-872e-48a9545daddf" />
+
+---   
 
 ### Task 3: Preprocessing Our Data
 
@@ -189,7 +196,7 @@ In this task you will add and configure the PCA-Based anomaly detection model to
    - The **Trained model output** from **Train Anomaly Detection Model** to the **Trained model input** of **Score Model**.
    - The **Cleaned data output** from **Clean Missing Data** to the **Dataset input** of **Score Model**.
 
-   > This ensures that your newly trained model is scoring the same dataset it learned from.
+     > This ensures that your newly trained model is scoring the same dataset it learned from.
 
 1. Click **Save** at the top of the screen to preserve your progress.
 
@@ -197,11 +204,9 @@ In this task you will add and configure the PCA-Based anomaly detection model to
 
 In this task you will convert the scored output from the model into a dataset format that can be visualized within the Azure ML Designer. This allows you to review the model’s predictions, including anomaly labels and confidence scores.
 
-1. We can’t visualize the output directly using the Score Model component, so we’ll need to convert the scored results into a visual-friendly format. To do so, we’ll use a component 
-called “Convert to Dataset”.
+1. We can’t visualize the output directly using the Score Model component, so we’ll need to convert the scored results into a visual-friendly format. To do so, we’ll use a component called “Convert to Dataset”.
 
-1. In the left-side pane under the Component tab, search for the **Convert to Dataset** Component. Then **Drag** the Convert to Dataset component onto the canvas and place it under the 
-**Score Model** component.
+1. In the left-side pane under the Component tab, search for the **Convert to Dataset** Component. Then **Drag** the Convert to Dataset component onto the canvas and place it under the **Score Model** component.
 
    >**Note**: This tool takes the output from the model and converts it to a format that can be visualized in the Designer.
 
@@ -491,11 +496,11 @@ your pipeline, as seen in below image.
    
    - Or what if a sensor value isn’t extreme, but its pattern over time is suspicious?
 
-   - One alternative approach is using a model like Isolation Forest — a tree-based method that works well when anomalies are rare and different in value, not just direction. It       isolates each data point and sees how “deep” the tree has to go to separate it from others. 
+   - One alternative approach is using a model like Isolation Forest — a tree-based method that works well when anomalies are rare and different in value, not just direction. It isolates each data point and sees how “deep” the tree has to go to separate it from others.
+   - 
 Anomalies tend to get isolated quickly.
    
-   - Even though Azure ML Designer doesn’t support Isolation Forest directly, here's how you 
-might compare the two in theory:
+   - Even though Azure ML Designer doesn’t support Isolation Forest directly, here's how you might compare the two in theory:
 
       | **Model**                       | **How It Works**                                                                    |  **When It's Useful**                               | 
       |---------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------|
