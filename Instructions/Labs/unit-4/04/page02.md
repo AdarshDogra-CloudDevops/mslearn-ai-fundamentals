@@ -1,6 +1,6 @@
 ## Hands-On-Lab: Using Machine Learning to Detect Anomalies in Manufacturing
 
-In this lab, you will build and deploy a machine‑learning pipeline in Azure Machine Learning Designer that detects anomalies in factory‑floor sensor data using Principal Component Analysis (PCA), connects to external data storage for scalable ingest, and triggers simulated robotic responses when potential machine failures are identified.
+In this hands-on lab, you will build and deploy a machine‑learning pipeline in Azure Machine Learning Designer that detects anomalies in factory‑floor sensor data using Principal Component Analysis (PCA), connects to external data storage for scalable ingest, and triggers simulated robotic responses when potential machine failures are identified.
 
 ## Lab Objectives
 
