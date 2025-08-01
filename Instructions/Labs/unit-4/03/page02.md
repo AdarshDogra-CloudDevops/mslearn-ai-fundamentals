@@ -4,6 +4,18 @@ In this lab, you will build and deploy a machine learning pipeline in Azure Mach
 
 You will begin by setting up an Azure ML workspace and uploading a dataset of machine sensor readings. Then, you'll clean the data, apply PCA-based anomaly detection, and score the dataset to identify unusual behavior. Finally, you'll export the model’s predictions to Azure Blob Storage, ensuring the results are saved for reporting, auditing, and future analysis.
 
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Create Azure ML Workspace
+- Task 2: Upload Our Dataset
+- Task 3: Preprocessing Our Data
+- Task 4: Adding Detection Models
+- Task 5: Convert and View Results
+- Task 6: Configure Pipeline Job Basics
+- Task 7: Saving our Data to Azure Blob
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
@@ -515,4 +527,6 @@ By the end of this lab, you have:
 - Uploaded and prepared a dataset using Clean Missing Data.
 - Trained and scored a PCA-Based Anomaly Detection model.
 - Viewed and interpreted anomaly predictions.
-- Exported the output to Azure Blob Storage for permanent storage.       
+- Exported the output to Azure Blob Storage for permanent storage.
+
+## You have successfully completed the lab    
