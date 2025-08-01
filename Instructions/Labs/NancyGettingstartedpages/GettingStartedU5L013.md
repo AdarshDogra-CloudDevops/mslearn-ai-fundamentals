@@ -1,6 +1,6 @@
-# Getting Started with Your Classification Two Ways - Supervised vs Unsupervised Categorization
+# Getting Started with Your Algorithms in Action
 
-Welcome to your Classification Two Ways - Supervised vs Unsupervised Categorization workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+Welcome to your Algorithms in Action workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
