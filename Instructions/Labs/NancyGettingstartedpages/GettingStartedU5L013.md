@@ -1,6 +1,6 @@
-# Getting Started with Your Sports Data
+# Getting Started with Your Training, Validation, and Testing Data in Sports Analytics
 
-Welcome to your Sports Data workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+Welcome to your Training, Validation, and Testing Data in Sports Analytics workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
