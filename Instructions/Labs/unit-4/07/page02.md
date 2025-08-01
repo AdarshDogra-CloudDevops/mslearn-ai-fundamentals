@@ -117,7 +117,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
     ![](../images/lab01-image11.png) 
 
 1. **File or Folder Selection**  
-   - In the file browser, select the file: **`US_Manufacturing_Logistics_Dataset`**  
+   - In the file browser, navigate to `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit4-lesson7`and then select the file: **`US_Manufacturing_Logistics_Dataset`**  
    - Wait for the file to appear under Upload list  
    - Click **Next**  
 

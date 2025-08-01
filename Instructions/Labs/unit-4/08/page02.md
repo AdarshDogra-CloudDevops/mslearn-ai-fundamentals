@@ -181,8 +181,7 @@ Now that we’ve uploaded both sets of images, we're ready to train the image cl
     - Precision: Out of all the times the model predicted a specific class (Defect or NonDefective), how many were actually correct?
     - Recall: Out of all actual images of a specific class, how many did the model 
 correctly identify?
-    - AP (Average Precision): A comprehensive score that combines both precision and 
-recall over different thresholds.
+    - AP (Average Precision): A comprehensive score that combines both precision and recall over different thresholds.
     - False Negative: When the model predicts “non-defective” but the item is defective.
 
 Performance Per Tag shows separate precision and recall values for the Defect and NonDefective tags respectively.

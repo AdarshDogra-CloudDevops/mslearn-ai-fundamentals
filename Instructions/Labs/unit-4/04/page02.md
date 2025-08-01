@@ -112,7 +112,7 @@ In this task, you will upload the manufacturing sensor data to your Azure ML wor
 
 1. **File or Folder Selection**  
 
-    - In the file browser, navigate to  `C:\LabFiles` and then select the file: `anomaly_data.csv` **(1)** 
+    - In the file browser, navigate to  `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit4-lesson4` and then select the file: `anomaly_data.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 
