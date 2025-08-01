@@ -1,6 +1,6 @@
 ## Hands-On-Lab: Deploying PCA-Based Pipelines
 
-In this lab, you will build and deploy a machine learning pipeline in Azure Machine Learning Designer that detects anomalies in manufacturing sensor data using a technique called Principal Component Analysis (PCA).
+In this hands-on lab, you will build and deploy a machine learning pipeline in Azure Machine Learning Designer that detects anomalies in manufacturing sensor data using a technique called Principal Component Analysis (PCA).
 
 You will begin by setting up an Azure ML workspace and uploading a dataset of machine sensor readings. Then, you'll clean the data, apply PCA-based anomaly detection, and score the dataset to identify unusual behavior. Finally, you'll export the model’s predictions to Azure Blob Storage, ensuring the results are saved for reporting, auditing, and future analysis.
 
