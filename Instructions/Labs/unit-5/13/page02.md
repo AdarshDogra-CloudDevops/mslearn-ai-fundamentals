@@ -1,14 +1,29 @@
 # Hands-On-Lab: Classifying Players Using Decision Trees
 
+In this Hands-on lab, you will act as a basketball scouting analyst and work with real-world South Carolina sports data to classify players as starters or non-starters. You will use Azure ML Designer to build a decision tree classification model and learn how it splits data to make predictions. The lab involves selecting relevant features, configuring a Two-Class Decision Forest model, and interpreting the model’s performance using Azure’s evaluation tools.
+
+
+## Lab Objectives
+
+In this lab, you will be able to complete the following tasks:
+
+- Task 1: Create Azure ML Workspace
+- Task 2: Add a dataset to your Azure ML pipeline in the Designer
+- Task 3: Preprocessing Our Data
+- Task 4: Configure Pipeline Job Basics
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-1. **Log in** to [Azure Machine Learning Studio](https://ml.azure.com/) if prompted provide below credentials.
 
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
+1. If prompted, provide the credentials below:
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
    
 1. On the **Create a new workspace to get started with Azure ML** fill in the following fields:
 
@@ -41,7 +56,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 <validation step="d33ca28b-3a3c-48f0-8f97-5109a5b827fd" />
 
-### Task 2: Add a dataset to your Azure ML pipeline in the Designer:
+### Task 2: Add a dataset to your Azure ML pipeline in the Designer
 
 In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
@@ -77,7 +92,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
    - Choose the datastore named: **`workspaceblobstore` (2)**  
    - Click **Next (3)**  
 
-    ![](../images/lab07-image5.png) 
+    ![](../images/lab01-image10.png) 
 
 1. On the **Choose a file or folder** page, select **Upload files or folder (1)** from the dropdown, then select **Upload files (2)**.
 
