@@ -496,7 +496,7 @@ on test data.
 
 # Review 
 
-By the end of this lab, you have:
+In this lab, you have completed the following tasks:
 
 - Task 1: Created Azure ML Workspace
 - Task 2: Uploaded the Dataset 
