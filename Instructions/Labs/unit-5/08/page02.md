@@ -264,13 +264,16 @@ In this task you will configure the details needed to run your pipeline, includi
   
         ![](../images/lab01-image38.png)
 
-1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>** then click on **Create**
+1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> (1)** then click on **Create (2)**
 
     ![](../images/lab07-image34.png)
 
-1. Back on the **Runtime Settings** page, select the newly created **Azure ML compute cluster** from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit**.
+1. Back on the **Runtime Settings** page, select the newly created **Azure ML compute cluster (1)** from the dropdown in the **Select Azure ML compute cluster** field, then click on **Review + Submit (2)**.
 
      ![](../images/lab07-image35.png)
+
+      >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
+
 
 1. On **Review + Submit** page, click on **Submit**. 
 
