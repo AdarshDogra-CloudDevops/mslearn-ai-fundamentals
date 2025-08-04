@@ -98,7 +98,7 @@ Use your Evaluate Model screen and Azure pipeline as evidence during this conver
 Write a short reflection (3–4 sentences) responding to the questions mentioned below on your `SREB_U5_L13_Handout`.
 
 - Q1: How did the model decide who is a starter?
-Hint: Think about what stats it used most — and how trees make “yes/no” decisions.
+  **Hint:** Think about what stats it used most — and how trees make “yes/no” decisions.
 
 - Q2: Do you trust the model’s decisions? Why or why not?
 
