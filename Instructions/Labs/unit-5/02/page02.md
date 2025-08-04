@@ -37,10 +37,10 @@ In this task you will set up an Azure Machine Learning workspace where all your 
     - **Advanced Settings**:
     - **Subscription**: Select the appropriate Azure subscription from the dropdown **(4)**
     - **Resource Group**: Select **nascar-rg** **(5)**
-    - **Region**: Select **East US 2 (6)** for better performance.
+    - **Region**: Select **<inject key="Region" enableCopy="false" /> (6)** for better performance.
     - After filling out all the required fields, click the **Create (7)** button.
 
-      ![](../images/n52c1.png) 
+      ![](../images/n52-c1.png) 
 
        >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
@@ -232,13 +232,13 @@ In this task, you will configure and run your data preprocessing pipeline in Azu
 
 1. You are now in the **Virtual Machine** tab for setting up a compute cluster. This step helps Azure decide which kind of machine to use for running your pipeline.
 
-    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**)
-    - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes)
-    - **Virtual Machine Type**: Keep this as **CPU** 
-    - **Virtual Machine Size**: Choose **Standard_DS11_v2 (1)**
-    - Click **Next (2)**  
+    - **Location**: Confirm that the selected region is the same as your workspace (**<inject key="Region" enableCopy="false" /> (1)**)
+    - **Virtual Machine Tier**: Leave as default **(2)**. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes)
+    - **Virtual Machine Type**: Keep this as **CPU (3)** 
+    - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
+    - Click **Next (5)**  
 
-      ![](../images/n52c25.png)  
+      ![](../images/ag2.png)  
 
 1. **Advanced Settings**: Give a Compute Name as **Small-Cluster (1)** and leave everything default. Then click **Create (2)**.
 
