@@ -13,12 +13,12 @@ Write a short observation for each run:
 - **Q1: What changed and why?**
 
 ### Why This Matters:
+
 This experiment directly supports Standard 4.4 by helping you understand the answers to these questions:
 
 - Q1: How the amount and quality of training data influence a model’s accuracy?
 - Q2: Why bad or insufficient data can lead to dangerous mistakes?
-- Q3: What kind of model you would trust — or not trust — in a real manufacturing 
-system?
+- Q3: What kind of model you would trust — or not trust — in a real manufacturing system?
 
 Optional Guidance & Scaffolds:
 
@@ -47,6 +47,7 @@ Complete or review the results table provided in your `SREB_U4_L9_Handout`, like
 Answer these questions:
 
 - Q1: Which experiment produced the most reliable results — and why?
+- 
 - Q2: Which type of error is more dangerous in this project:
 
     i. False Positives (shuts down when it should not)?
@@ -54,12 +55,12 @@ Answer these questions:
     ii. False Negatives (keeps running when it should shut down)?
 
 - Q3: What happened when you gave your model:
+- 
     i. Less data?
 
     ii. Noisy or inconsistent data?
 
-- Q4: What did you learn about the importance of data preparation and label 
-accuracy?
+- Q4: What did you learn about the importance of data preparation and label accuracy?
 
 Think about your engineering work and answer these questions:
 
@@ -75,8 +76,7 @@ Complete the following individually:
 
 Consider missing values, label mistakes, sensor noise, or dataset size.
 
-- Q2: Would you trust your model to control your robot in the real world? Why or 
-why not?
+- Q2: Would you trust your model to control your robot in the real world? Why or why not?
 
 Support your answer using evidence from the Evaluate Model output.
 
