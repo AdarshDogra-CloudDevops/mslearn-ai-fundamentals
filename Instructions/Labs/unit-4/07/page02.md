@@ -498,15 +498,15 @@ on test data.
 
 In this lab, you have completed the following tasks:
 
-- Task 1: Created Azure ML Workspace
-- Task 2: Uploaded the Dataset 
-- Task 3: Configured Clean Missing Data
-- Task 4: Configured the Split Data Component
-- Task 5: Added the Two-Class Decision Forest Model
-- Task 6: Added and Connect the Train Model Component
-- Task 7: Added and Connect the Score Model Component
-- Task 8: Added and Configure the Evaluate Model Component
-- Task 9: Running the Pipeline: Configure and Submit
-- Task 10: Previewed Evaluation Results in Azure ML Designer
+- Created Azure ML Workspace
+- Uploaded the Dataset 
+- Configured Clean Missing Data
+- Configured the Split Data Component
+- Added the Two-Class Decision Forest Model
+- Added and Connect the Train Model Component
+- Added and Connect the Score Model Component
+- Added and Configure the Evaluate Model Component
+- Running the Pipeline: Configureed and Submitted
+- Previewed Evaluation Results in Azure ML Designer
 
 ## You have successfully completed the lab  
