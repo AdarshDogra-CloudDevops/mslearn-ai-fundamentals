@@ -37,7 +37,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Advanced Settings**:
    - **Subscription**: Select the appropriate Azure subscription from the dropdown **(2)**
    - **Resource Group**: **ODL-SREB-U4L03 (3)**
-   - **Region**: Select **East US 2** for better performance **(4)**
+   - **Region**: Select **<inject key="Region" enableCopy="false" />** **(4)**
    - After filling out all the required fields, click the **“Create” (5)** button.
 
      ![](../images/lab01-image2.png) 
@@ -275,7 +275,7 @@ In this task you will configure the details needed to run your pipeline, includi
 
 1. On the **Select virtual machine** page, specify the following then click on **Next (5)** :
     
-    - Location: Confirm that the selected region is the same as your workspace **(1)**
+    - Location: <inject key="Region" enableCopy="false" /> **(1)**
     
     - Virtual Machine Tier: Leave as default **(2)**
     
@@ -549,4 +549,5 @@ In this lab, you have completed the following tasks:
 - Saved our Data to Azure Blob
 
 ## You have successfully completed the lab    
+
 
