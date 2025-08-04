@@ -39,13 +39,13 @@ In this task, you will set up an Azure Machine Learning workspace where all your
    - **Advanced Settings**:
      - **Subscription**: Select the appropriate Azure subscription from the dropdown **(3)**
      - **Resource Group**: Select **ODL-SREB-U4L4** **(4)**
-     - **Region**: Select **East US 2** **(5)** for better performance.
+     - **Region**: Select **<inject key="Region" enableCopy="false" />** **(5)** for better performance.
 
    - After filling out all the required fields, click the **Create** **(6)** button.
 
-   ![](../images/nc1.png)
+     ![](../images/nc-1.png)
 
-   > **Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 3.
+      > **Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 3.
 
 1. Wait for the workspace to create — it may take around 2–3 minutes.
 
@@ -320,13 +320,13 @@ In this task, you will configure the experiment settings, create a compute clust
 
 1. **Virtual Machine**: 
 
-    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**) **(1)**
+    - **Location**: Confirm that the selected region is the same as your workspace (**<inject key="Region" enableCopy="false" />**) **(1)**
     - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes) **(2)**
     - **Virtual Machine Type**: Keep this as **CPU (3)** 
     - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
     - Click **Next (5)**  
 
-      ![](../images/nc15.png)     
+      ![](../images/ag2.png)     
 
 1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
