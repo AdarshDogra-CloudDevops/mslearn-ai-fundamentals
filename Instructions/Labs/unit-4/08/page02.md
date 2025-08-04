@@ -13,6 +13,9 @@ In this lab, you will be able to complete the following tasks:
 - Task 5: Test the Model with New Images
 - Task 6: Exporting Capabilities
 
+## Architecture diagram
+
+![](../images/unit4-lesson8.png) 
 
 ### Task 1: Create a Custom Vision resource
 
