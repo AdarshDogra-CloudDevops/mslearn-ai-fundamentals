@@ -15,6 +15,9 @@ In this lab, you will be able to complete the following tasks:
 - Task 7: Configure Pipeline Job Basics 
 - Task 8: Explore the Output with Azure's Built-In Visualization Tools
 
+## Architecture diagram
+
+![](../images/unit4-lesson4.png) 
 
 ### Task 1: Create Azure ML Workspace
 
