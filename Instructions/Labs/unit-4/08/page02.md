@@ -15,7 +15,7 @@ In this lab, you will be able to complete the following tasks:
 
 ## Architecture diagram
 
-![](../images/unit4-lesson(8).png) 
+![](../images/unit4-lesson(8).png)
 
 ### Task 1: Create a Custom Vision resource
 
