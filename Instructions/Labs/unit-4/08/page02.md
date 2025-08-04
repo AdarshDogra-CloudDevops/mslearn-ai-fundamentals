@@ -16,6 +16,8 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Create a Custom Vision resource
 
+In this task, you will create a Custom Vision resource in the Azure portal. This resource will be used to train and deploy your image classification model for detecting casting defects.
+
 1. On the **Azure portal**, search for **Azure AI Services (1)** and selct **Azure AI Foundry (2)**.
 
    ![](../images/n48c1.png) 
@@ -55,6 +57,8 @@ In this lab, you will be able to complete the following tasks:
 
 
 ### Task 2: Creating a New Project in Custom Vision
+
+In this task, you will sign in to the Custom Vision portal and create a new image classification project. You’ll configure the project settings to classify casting images as either defective or non-defective.
 
 1. Login to **Custom Vision portal** by copy and paste the following link [Custom Vision portal](https://customvision.ai/) in the new tab of the LabVM browser.
 
@@ -109,6 +113,8 @@ Once your project has been created, you'll land on the Training Images tab of yo
 
 #### Task 3.1: Adding Training Images for Non-Defective Parts
 
+In this task, you will upload and tag images of non-defective casting parts in your Custom Vision project. These images will be used to train the model to recognize defect-free components.
+
 1. Click on the **Add Images** button.
 
    ![](../images/n48c10.png) 
@@ -131,7 +137,7 @@ Once your project has been created, you'll land on the Training Images tab of yo
 
 #### Task 3.2: Adding Training Images for Defective Parts
 
-Now that all the Non Defective images have been uploaded and tagged, it's time to upload the Defect class images.
+In this task, you will upload and tag images of defective casting parts in your Custom Vision project. This will help train the model to distinguish between defective and non-defective components.
 
 1. Click on the **Add Images** button.
 
@@ -155,7 +161,7 @@ Now that all the Non Defective images have been uploaded and tagged, it's time t
 
 ### Task 4: Training the Model
 
-Now that we’ve uploaded both sets of images, we're ready to train the image classification model.
+In this task, you will train your image classification model using the uploaded images of defective and non-defective parts. You will initiate a quick training session and observe the model’s performance metrics upon completion.
 
 1. To get started, click the green **Train** button at the top of screen.
 
@@ -190,8 +196,12 @@ The high numbers seen in the figure above suggest that the model is performing v
 
 ### Task 5: Test the Model with New Images
 
+In this task, you will evaluate your trained model’s performance by testing it with new images of defective and non-defective parts using the Quick Test feature.
 
 #### Task 5.1 Testing the Model with New Defective Images
+
+In this task, you will use the Quick Test feature to test your trained model with a new image of a defective part and observe the prediction results.
+
 
 1. Click on the **Quick Test** button located in the top right corner of the screen.
 
@@ -209,8 +219,7 @@ percentages next to the tags **Defect and Non Defective** let us know the model�
 
 #### Task 5.2: Testing the Model with New Non-Defective Images
 
-Now you’ll take the same steps over to test the model’s capabilities with new images. 
-However, instead of picking from the def_front folder, you’ll pick one image from the ok_front folder under test.
+In this task, you’ll take the same steps over to test the model’s capabilities with new images. However, instead of picking from the def_front folder, you’ll pick one image from the ok_front folder under test.
 
 1. In the Quick Test Panel that opens, click on **Browse Local Files (1)**. Within the file explorer that opens, navigate to `C:\LabFiles\Dataset\casting_512x512\casting_512x512\ok_front`
 folder. Select any **one image** to perform a quick test **(3)** and then **Open (4)**.
@@ -218,6 +227,8 @@ folder. Select any **one image** to perform a quick test **(3)** and then **Open
      ![](../images/n48c27.png) 
 
 ### Task 6: Exporting Capabilities
+
+In this task, you will explore the export options available for deploying your trained model to different platforms such as TensorFlow, CoreML, and ONNX—though no export action is required.
 
 1. Once everything is done with testing the model with new images, let’s take a look at the export functionality. To do so, we’ll click on the **Export** button seen below.
 
