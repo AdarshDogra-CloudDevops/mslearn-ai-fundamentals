@@ -38,7 +38,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Advanced Settings**:
    - **Subscription**: Select the appropriate Azure subscription from the dropdown. 
    - **Resource Group**: **ODL-SREB-<inject key="DeploymentID" enableCopy="false"/>**
-   - **Region**: Select **East US 2** for better performance.
+   - **Region**: Select **<inject key="Region" enableCopy="false" />** for better performance.
    - After filling out all the required fields, click the **“Create”** button.
 
         ![](../images/U5lab013-image1.png) 
@@ -107,7 +107,7 @@ that says, **Create a new pipeline using classic prebuilt components**.
    - Wait for the file to appear under “Upload list”  
    - Click **Next**  
 
-    ![](../images/U5lab013-image5.png) 
+     ![](../images/U5lab013-image5.png) 
 
 1. In Next page, Click on **Next** Button **Twice** and then click on **Create** Button
 
@@ -218,15 +218,15 @@ In this task you will configure the details needed to run your pipeline, includi
 
 1. On the **Select virtual machine** page, specify the following then click on **Next** :
   
-    - Location: Confirm that the selected region is the same as your workspace.
+    - Location: Confirm that the selected region is the same as your workspace **<inject key="Region" enableCopy="false" /> (1)**
     
-    - Virtual Machine Tier: Leave as default. 
+    - Virtual Machine Tier: Leave as default **(2)**
     
-    - Virtual Machine Type: Keep this as **CPU** (sufficient for our anomaly detection task).
+    - Virtual Machine Type: Keep this as **CPU** (sufficient for our anomaly detection task) **(3)**
 
-    - Virtual Machine Size: Choose **Standard_DS11_v2**.
+    - Virtual Machine Size: Choose **Standard_DS11_v2 (4)**
   
-        ![](../images/lab01-image38.png)
+      ![](../images/ag2.png)
 
 1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/> (1)** then click on **Create (2)**
 
