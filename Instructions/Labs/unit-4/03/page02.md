@@ -538,12 +538,15 @@ Anomalies tend to get isolated quickly.
 
 ## Review
 
-By the end of this lab, you have:
+In this lab, you have completed the following tasks:
 
-- Created and configured an Azure ML workspace and compute cluster.
-- Uploaded and prepared a dataset using Clean Missing Data.
-- Trained and scored a PCA-Based Anomaly Detection model.
-- Viewed and interpreted anomaly predictions.
-- Exported the output to Azure Blob Storage for permanent storage.
+- Created Azure ML Workspace
+- Uploaded Our Dataset
+- Preprocessed Our Data
+- Added Detection Models
+- Converted and View Results
+- Configured Pipeline Job Basics
+- Saved our Data to Azure Blob
 
 ## You have successfully completed the lab    
+
