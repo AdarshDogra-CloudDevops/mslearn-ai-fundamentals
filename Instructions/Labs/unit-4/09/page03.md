@@ -47,7 +47,7 @@ Complete or review the results table provided in your `SREB_U4_L9_Handout`, like
 Answer these questions:
 
 - Q1: Which experiment produced the most reliable results — and why?
-- 
+
 - Q2: Which type of error is more dangerous in this project:
 
     i. False Positives (shuts down when it should not)?
@@ -55,7 +55,7 @@ Answer these questions:
     ii. False Negatives (keeps running when it should shut down)?
 
 - Q3: What happened when you gave your model:
-- 
+  
     i. Less data?
 
     ii. Noisy or inconsistent data?
