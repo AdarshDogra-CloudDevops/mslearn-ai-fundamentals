@@ -60,7 +60,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 ### Task 2: Upload the Dataset
 
-In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+In this task you will upload the SREB U5 L8 CleanedDataset data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. Once you are inside your workspace PCA Anomaly Model, look at the left hand side menu to find the **Designer** tab under the **Authoring** section. Click on 
 this tab.

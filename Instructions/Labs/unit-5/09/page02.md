@@ -11,6 +11,8 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Set Up the Azure ML Workspace
 
+In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Notebook interface to up your Notebook.
+
 1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
 1. If prompted, provide the credentials below:
@@ -56,7 +58,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 2: Setting Up Your Notebook
 
-We will be using a notebook in Azure today to execute all our technical examples. We will be examining 2024 season statistics from the South Carolina Gamecocks football team.
+In this task, you will upload and launch a Jupyter notebook in Azure to explore 2024 season stats from the South Carolina Gamecocks football team. This notebook will help you analyze player data using Python code, setting the foundation for your machine learning tasks.
 
 1. Navigate to **Notebooks (1)** from the left menu and then **Close (2)** the pop up.
 
@@ -119,6 +121,8 @@ We will be using a notebook in Azure today to execute all our technical examples
    ![](../images/n59c14.png)
 
 ### Task 3: Explore different sections of the Notebook (Read only)
+
+In this task, you will explore key programming concepts—Sequencing, Selection, Iteration, and Recursion—through interactive and technical examples provided in your Jupyter notebook.
 
 #### Sequencing
 
