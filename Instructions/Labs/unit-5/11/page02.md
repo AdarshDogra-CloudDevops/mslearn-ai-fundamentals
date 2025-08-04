@@ -14,6 +14,9 @@ In this lab, you will be able to complete the following tasks:
 - Task 6: Model Evaluation Results (Azure ML Designer)
 - Task 7: Swap in Boosted Decision Tree Regression
 
+## Architecture diagram
+
+![](../images/unit5-lesson11.png)
 
 ### Task 1: Set Up the Azure ML Workspace
 
