@@ -16,10 +16,6 @@ In this lab, you will be able to complete the following tasks:
 - Task 8: Explore the Output with Azure's Built-In Visualization Tools
 
 
-### Task 1: Create Azure ML Workspace 
-
-In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
-
 ### Task 1: Create Azure ML Workspace
 
 In this task, you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
@@ -150,7 +146,7 @@ In this task, you will upload the manufacturing sensor data to your Azure ML wor
      
 ### Task 3: Preprocessing our Data
 
-Now it’s time to add the clean missing data component.
+In this task, you will clean missing values from the sensor_reading column in the dataset using the Clean Missing Data component. This prepares the data for accurate model training by handling incomplete entries.
 
 1. Drag the **anomaly_dataset_manufacturing** dataset into the canvas.
 
@@ -182,7 +178,7 @@ Now it’s time to add the clean missing data component.
 
 ### Task 4: Split Data
 
-Now it’s time to add the Split Data component.
+In this task, you will split the cleaned dataset into training (70%) and testing (30%) sets using the Split Data component. This ensures a randomized and consistent data division for model evaluation.
 
 1. Switch to the **Component (1)** tab, search for **Split Data (2)** by Microsoft and then drag it from the left panel and drop it below **Clean Missing Data** in the pipeline canvas on the right **(3)**.
 
@@ -206,6 +202,8 @@ Now it’s time to add the Split Data component.
       ![](../images/nc4.png)    
 
 ### Task 5: Adding Detection Models 
+
+In this task, you will train a PCA-Based Anomaly Detection model using the training dataset and score it using the testing dataset. This helps identify anomalies and evaluate the model’s performance.
 
 1. On the **Component (1)** tab, search for **PCA-Based Anomaly Detection (2)**. Then **Drag** the **PCA-Based Anomaly Detection** component into the canvas **(3)**.
 
@@ -257,7 +255,7 @@ Now it’s time to add the Split Data component.
 
 ### Task 6: Convert and View Results
 
-We can’t visualize the output directly using the Score Model component, so we’ll need to convert the scored results into a visual-friendly format. To do so, we’ll use a component called **“Convert to Dataset”**.
+In this task, you’ll convert the model’s scored output into a format suitable for visualization using the Convert to Dataset component. This enables you to inspect anomaly predictions and analyze model performance in Azure ML Designer.
 
 1. In the left-side pane under the **Component (1)** tab, search for the **Convert to Dataset (2)** Component by Microsoft. This tool takes the output from the model and converts it to a format that can be visualized in the Designer.
 
@@ -291,7 +289,7 @@ We can’t visualize the output directly using the Score Model component, so we�
 
 ### Task 7: Configure Pipeline Job Basics    
 
-We now need to configure a bit more detail before running your pipeline in Azure ML Designer.
+In this task, you will configure the experiment settings, create a compute cluster, and submit your pipeline job for execution in Azure ML Designer.
 
 1. On the **Basics**: First, for easy tracking, we’ll set up a new experiment.
 
@@ -355,6 +353,8 @@ We now need to configure a bit more detail before running your pipeline in Azure
     ![](../images/nc22.png) 
 
 ### Task 8: Explore the Output with Azure's Built-In Visualization Tools
+
+In this task, you will register the scored results as a dataset and explore them using Azure ML’s visualization tools to understand model predictions and data distribution.
 
 1. On the left-hand menu under the **Assets** section, click on **Jobs (1)**. Click on the experiment name **Test_Anomaly_Manufacturing (2)**.
 
