@@ -497,10 +497,16 @@ on test data.
 # Review 
 
 By the end of this lab, you have:
-- Created and configured an Azure Machine Learning workspace and a compute cluster.
-- Uploaded and prepared a logistics dataset using the Clean Missing Data component.
-- Built a machine learning pipeline using Azure ML Designer with no code.
-- Trained and evaluated a Two-Class Decision Forest model to predict shipment delays.
-- Split data into training and test sets for proper model validation.
-- Scored the model on unseen data and interpreted key metrics like Accuracy, Precision, Recall, and AUC.
-- Viewed visual evaluation tools such as the ROC Curve, Precision-Recall Curve, and Lift Curve to assess model performance.
+
+- Task 1: Created Azure ML Workspace
+- Task 2: Uploaded the Dataset 
+- Task 3: Configured Clean Missing Data
+- Task 4: Configured the Split Data Component
+- Task 5: Added the Two-Class Decision Forest Model
+- Task 6: Added and Connect the Train Model Component
+- Task 7: Added and Connect the Score Model Component
+- Task 8: Added and Configure the Evaluate Model Component
+- Task 9: Running the Pipeline: Configure and Submit
+- Task 10: Previewed Evaluation Results in Azure ML Designer
+
+## You have successfully completed the lab  
