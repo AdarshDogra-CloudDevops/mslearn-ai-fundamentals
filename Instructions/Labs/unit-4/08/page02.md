@@ -28,7 +28,7 @@ In this lab, you will be able to complete the following tasks:
 
    - Subscription: Leave the deafult one **(1)**
    - Resource group: Select **ODL-SREB-U4L08 (2)**
-   - Region: **<inject key="Region" enableCopy="false"/>** **East US (3)**
+   - Region: **<inject key="Region" enableCopy="false"/>** **(3)**
    - Name: Enter **customvision-casting (4)**
    - Training pricing tier: Select **Free F0** (2 Transactions per second, 2 Projects) **(5)**
    - Prediction pricing tier: Select **Free F0 (6)** 
