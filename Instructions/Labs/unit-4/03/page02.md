@@ -223,7 +223,7 @@ In this task you will convert the scored output from the model into a dataset fo
 
 1. In the left-side pane under the Component tab, search for the **Convert to Dataset** Component. Then **Drag** the Convert to Dataset component onto the canvas and place it under the **Score Model** component.
 
-   >**Note**: This tool takes the output from the model and converts it to a format that can be visualized in the Designer.
+    >**Note**: This tool takes the output from the model and converts it to a format that can be visualized in the Designer.
 
 1. Connect the **Scored dataset** output from the **Score Model** to the **Dataset input** of the **Convert to Dataset** component.
 
@@ -549,6 +549,7 @@ In this lab, you have completed the following tasks:
 - Saved our Data to Azure Blob
 
 ## You have successfully completed the lab    
+
 
 
 
