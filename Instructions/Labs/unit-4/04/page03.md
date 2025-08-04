@@ -5,7 +5,7 @@ If you want to go deeper—for example, to:
 - Plot time series of sensor readings 
 - Overlay anomaly predictions with machine types 
 - Visualize trends over time
-- 
+
 You can use a **custom Python script** inside Azure ML Designer. By adding a **"Execute Python Script"** component, you can write code using libraries like:
 
 - matplotlib
