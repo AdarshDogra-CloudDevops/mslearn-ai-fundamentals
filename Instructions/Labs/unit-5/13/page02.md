@@ -197,6 +197,7 @@ In this task you will prepare your dataset for modeling by cleaning missing valu
 1. Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
 
 ### Task 4: Configure Pipeline Job Basics
+
 In this task you will configure the details needed to run your pipeline, including setting up a new experiment and creating a compute cluster. You will submit the pipeline job to Azure ML to execute your workflow.
 
 1. On the **Basics** page, perform the steps as mentioned below:
@@ -257,22 +258,11 @@ In this task you will configure the details needed to run your pipeline, includi
     
 ## Review 
 
-By the end of this lab, you have:
+In this lab, you have completed the following tasks:
 
-- Created an Azure ML Workspace to manage and run all your ML experiments.
-
-- Uploaded and configured a player performance dataset (SC_Basketball_Enhanced_With_Starter) in the Azure ML Designer.
-
-- Selected relevant features (e.g., FG%, AST, PTS, TRB) and cleaned the data for training.
-
-- Split the data into training and testing sets using the Split Data module (80/20).
-
-- Trained a classification model using the Two-Class Decision Forest algorithm.
-
-- Scored the model on test data and evaluated predictions against actual outcomes.
-
-- Analyzed model performance using Evaluate Model, interpreting metrics such as accuracy and AUC.
-
-- Successfully deployed the pipeline on a compute cluster and visualized scored predictions and evaluation results.
+- Task 1: Created Azure ML Workspace
+- Task 2: Added a dataset to your Azure ML pipeline in the Designer
+- Task 3: Preprocessed Our Data
+- Task 4: Configured Pipeline Job Basics
    
 ### You have successfully completed the lab.
