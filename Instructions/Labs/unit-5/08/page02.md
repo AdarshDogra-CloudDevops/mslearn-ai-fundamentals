@@ -292,18 +292,15 @@ In this task you will configure the details needed to run your pipeline, includi
 
 ## Review
 
-By the end of this lab, you have:
+In this lab, you have completed the following tasks:
 
-- **Created an Azure ML workspace** and set up a dedicated compute cluster for running ML experiments.
+- Task 1: Created Azure ML Workspace
+- Task 2: Uploaded the Dataset
+- Task 3: Preprocessed Our Data
+- Task 4: Added Select Columns in Dataset Component
+- Task 5: Choosed Features and Target Column and Added Split Data Module
+- Task 6: Added and Configured Linear Regression and Train Model Module
+- Task 7: Added and Configured Score Model and Evaluate Model
+- Task 8: Configured Pipeline Job Basics and Run the Pipeline
 
-- **Uploaded and registered a dataset (Clemson_Dataset)** in Azure ML, preparing it for analysis and modeling.
-
-- **Preprocessed the data** by selecting only relevant columns, reducing noise and improving model accuracy.
-
-- **Split** the dataset into training and testing subsets to ensure a fair evaluation of the model’s performance.
-
-- Built and trained a **Linear Regression model** to predict team win percentage (Pct) using historical sports data.
-
-- Scored and evaluated the model on unseen data using modules like **Score Model** and **Evaluate Model**.
-
-- **Configured and submitted** the pipeline, running it end-to-end using an Azure ML compute cluster.
+## You have successfully completed the lab  
