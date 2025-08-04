@@ -65,7 +65,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 ---
 ### Task 2: Uploading the Data
 
-In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+In this task you will upload the NASCAR Champions History data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 

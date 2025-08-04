@@ -62,7 +62,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
 ### Task 2: Upload the Dataset 
 
-In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
+In this task you will upload the US Manufacturing Logistics data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 You begin by uploading the logistics_dataset_manufacturing file to your Azure ML Workspace. This dataset includes details such as distance, ETA, vehicle type, and shipment status. 
 
