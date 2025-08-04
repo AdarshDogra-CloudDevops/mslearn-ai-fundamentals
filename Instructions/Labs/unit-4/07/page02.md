@@ -43,10 +43,10 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Advanced Settings**:
    - **Subscription**: Select the appropriate Azure subscription from the dropdown. 
    - **Resource Group**: **ODL-SREB-<inject key="DeploymentID" enableCopy="false"/>** 
-   - **Region**: Select **East US 2** for better performance.
+   - **Region**: Select **<inject key="Region" enableCopy="false" />** for better performance.
    - After filling out all the required fields, click the **“Create”** button.
 
-        ![](../images/lab07-image2.png) 
+        ![](../images/lab07-image-2.png) 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
@@ -383,7 +383,7 @@ This step simulates a real AI workflow in cloud environments. You will experienc
 
 1. On the **Select virtual machine** page, specify the following then click on **Next** :
   
-    - Location: Confirm that the selected region is the same as your workspace.
+    - Location: Confirm that the selected region is the same as your workspace (**<inject key="Region" enableCopy="false" />**).
     
     - Virtual Machine Tier: Leave as default. 
     
@@ -391,7 +391,7 @@ This step simulates a real AI workflow in cloud environments. You will experienc
 
     - Virtual Machine Size: Choose **Standard_DS11_v2**.
   
-        ![](../images/lab01-image38.png)
+        ![](../images/ag2.png)
 
 1. On the **Configure Settings** page, provide Compute name **Compute-cluster-<inject key="DeploymentID" enableCopy="false"/>** then click on **Create**
 
