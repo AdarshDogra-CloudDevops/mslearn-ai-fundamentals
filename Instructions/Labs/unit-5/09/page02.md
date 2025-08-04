@@ -9,6 +9,10 @@ In this lab, you will be able to complete the following tasks:
 - Task 1: Set Up the Azure ML Workspace
 - Task 2: Setting Up Your Notebook
 
+## Architecture diagram
+
+![](../images/unit5-lesson9.png)
+
 ### Task 1: Set Up the Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Notebook interface to up your Notebook.
