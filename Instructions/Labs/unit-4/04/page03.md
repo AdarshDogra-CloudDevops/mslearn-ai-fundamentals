@@ -42,8 +42,7 @@ Let us learn about three types of Azure storage and when to use each:
 
 #### 1. Azure Blob Storage 
 
-- What it is: A cloud-based “file folder” that stores large chunks of data like logs, 
-videos, or images. 
+- What it is: A cloud-based “file folder” that stores large chunks of data like logs, videos, or images. 
 - Speed: Medium (not meant for fast, frequent querying) 
 - Cost: Low (great for saving money when storing large amounts of data) 
 - Best For: 
@@ -54,15 +53,13 @@ videos, or images.
 
     iii. Backups that are not accessed often 
 
-- Real Example: You store 1 million rows of hourly machine sensor data in Blob 
-Storage. You do not need to access it every day, but it is there for audits or deeper 
+- Real Example: You store 1 million rows of hourly machine sensor data in Blob Storage. You do not need to access it every day, but it is there for audits or deeper 
 analysis.
 
 
 #### 2. Azure SQL Database 
 
-- What it is: A relational database—ideal for structured, searchable, and frequently 
-updated data. 
+- What it is: A relational database—ideal for structured, searchable, and frequently updated data. 
 
 - Speed: High (fast queries and updates) 
 - Cost: Medium (depends on usage and scaling) 
@@ -74,14 +71,12 @@ updated data.
 
     iii. Quick reports and updates 
 
-- Real Example: Your dashboard shows which machines had an anomaly in the last 
-2 hours. You store this in SQL Database so the dashboard can query it quickly. 
+- Real Example: Your dashboard shows which machines had an anomaly in the last 2 hours. You store this in SQL Database so the dashboard can query it quickly. 
 
 
 #### 3. Azure Data Lake 
 
-- What it is: A large-scale repository for storing all kinds of structured or unstructured 
-data (like JSON, CSV, images, etc.) 
+- What it is: A large-scale repository for storing all kinds of structured or unstructured data (like JSON, CSV, images, etc.) 
 - Speed: High (especially for analytics and big data processing) 
 - Cost: Medium 
 - Best For: 
@@ -98,8 +93,7 @@ data (like JSON, CSV, images, etc.)
 
 **Scenario:**
 
-You are the data engineer at a smart manufacturing plant. Your anomaly detection 
-pipeline runs every 10 minutes, checking for unusual sensor readings. 
+You are the data engineer at a smart manufacturing plant. Your anomaly detection pipeline runs every 10 minutes, checking for unusual sensor readings. 
 
 Your team needs to: 
 
@@ -112,6 +106,7 @@ Your team needs to:
 Work in teams and answer: 
 
 1. What storage would you use for…
+   
 Refer to Figure 51 below.
 
    ![](../images/g51.png) 
@@ -135,8 +130,7 @@ After the group presentations, reflect on the following questions:
 - Q1: What patterns did you see when you explored the prediction results? 
 - Q2: How do visualizations help you better understand ML output?
 - Q3: Why is it important to choose the right kind of storage?
-- Q4: How would your storage strategy change if the pipeline ran every second 
-instead of every 10 minutes? 
+- Q4: How would your storage strategy change if the pipeline ran every second instead of every 10 minutes? 
 
 Complete the Handout
 Please, complete the `SREB_U4_L4_Handout`.   
