@@ -15,6 +15,9 @@ In this lab, you will be able to complete the following tasks:
 - Task 7: Clustering in Azure (Unsupervised)
 - Task 8: Evaluate the Models
 
+## Architecture diagram
+
+![](../images/unit5-lesson7.png)
 
 ### Task 1: Set Up the Azure ML Workspace
 
