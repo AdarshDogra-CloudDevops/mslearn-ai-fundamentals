@@ -250,7 +250,7 @@ pipeline.
 
      ![](../images/n56c30.png)
 
-     >**Note**: It may take a few attempts to get selected. Please keep trying — you'll be able to proceed once the **Test** status turns **green**.
+      >**Note**: The creation of the compute cluster takes approximately 3–5 minutes. You’ll be able to select the cluster only after it’s fully created. Please wait until the process is complete, and keep refreshing the cluster.
 
 1. Once on the **final** page, click **Submit**.     
 
