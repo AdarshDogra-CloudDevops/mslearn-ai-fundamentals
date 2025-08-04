@@ -18,7 +18,7 @@ Now that we’ve seen our model in action, it’s time to make it better. You ca
 - Add more images of defective products from different angles
 - Fix any image labels that seem wrong
 - Retrain your model and see how the metrics (like precision and recall) change
-- 
+  
 Then reflect:
 
 **What changed in your model’s metrics after you made updates? Did it get more accurate? Why do you think that happened (or didn’t)**
