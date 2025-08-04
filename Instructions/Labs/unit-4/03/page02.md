@@ -44,7 +44,7 @@ In this task you will set up an Azure Machine Learning workspace where all your 
    - **Region**: Select **<inject key="Region" enableCopy="false" />** **(4)**
    - After filling out all the required fields, click the **“Create” (5)** button.
 
-     ![](../images/lab01-image2.png) 
+     ![](../images/ag1.png) 
 
     >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
@@ -287,7 +287,7 @@ In this task you will configure the details needed to run your pipeline, includi
 
     - Virtual Machine Size: Choose **Standard_DS11_v2 (4)**
   
-      ![](../images/lab01-image38.png)
+      ![](../images/ag2.png)
 
 1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
