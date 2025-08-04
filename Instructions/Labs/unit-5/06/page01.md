@@ -363,6 +363,6 @@ In this lab, you have completed the following tasks:
 - Added the Dataset to Your Pipeline Canvas
 - Trained the Model
 - Run the Pipeline and Submitted the Job
-- Task 6: Model Evaluation Results (Azure ML Designer)
+- Model Evaluation Results (Azure ML Designer)
 
 ## You have successfully completed the lab
