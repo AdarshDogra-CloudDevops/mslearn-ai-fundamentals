@@ -17,6 +17,8 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Set Up the Azure ML Workspace
 
+In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
+
 1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
 1. If prompted, provide the credentials below:
@@ -58,6 +60,8 @@ In this lab, you will be able to complete the following tasks:
 <validation step="75aee6ee-f1b5-48b0-a3d3-5da64fc6b8aa" />
 
 ### Task 2: Add a dataset to your Azure ML pipeline in the Designer
+
+In this task you will upload the SC Basketball Enhanced data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. Once you are inside your workspace **`Sports_Analytics`**, look at the left hand side menu to find the **Designer** tab under the Authoring section. Click on 
 this tab.
@@ -129,6 +133,8 @@ that says, **Create a new pipeline using classic prebuilt components**.
 
 ### Task 3: Add the Dataset to Your Pipeline Canvas
 
+In this task, you will add your dataset to the pipeline canvas and use the Split Data component to divide your data into training and testing sets. You will configure the split ratio and random seed to ensure consistent and reproducible results.
+
 1. From the left panel, drag your **SC_Basketball_Dataset** dataset onto the canvas. Click the **Save** button at the top of the canvas to avoid losing progress. 
 
    ![](../images/U5lab011-image3.png)
@@ -147,6 +153,8 @@ that says, **Create a new pipeline using classic prebuilt components**.
         ![](../images/U5lab013-image45.png)
 
 ### Task 4: Train the Model
+
+In this task, you will set up and connect components to train, score, and evaluate a regression model predicting player points (PTS) using Azure ML Designer.
 
 1. Switch to the **Component** tab in the left panel **(1)** and search for **Linear Regression (2).** Drag that component onto the canvas **(3)**.   
 
@@ -198,6 +206,8 @@ training data) **(2)**
 
 ### Task 5: Run the Pipeline and Submit the Job
       
+In this task, you will configure, submit, and run your Azure ML pipeline by selecting or creating a compute cluster, then monitor the pipeline’s execution until it completes successfully.      
+
 1. Make sure your pipeline is saved, then click **Configure & Submit** at the top of the screen. 
 
     ![](../images/n56c24.png)
@@ -256,6 +266,8 @@ pipeline.
 
 ### Task 6: Model Evaluation Results (Azure ML Designer)
 
+In this task, you will review and analyze the model’s performance by comparing predicted scores with actual values and examining key evaluation metrics like RMSE and R² to assess accuracy and predictive quality.
+
 1. Right click on the **Score Model** and Select **Preview Data -> Scored Dataset** to compare Scored Labels and actual PTS.
 
       ![](../images/U5lab013-image54.png)
@@ -273,6 +285,8 @@ pipeline.
      - Was the model accurate? Did it predict well for all players or only some.
 
 ### Task 7: Swap in Boosted Decision Tree Regression
+
+In this task, you will replace the Linear Regression model with a Boosted Decision Tree Regression model, rerun the pipeline, and compare the new model’s prediction performance using evaluation metrics to see if it improves accuracy.
 
 1. Navigate back to the Designer tab and select your pipeline.
 
