@@ -15,6 +15,8 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Creating Your Workspace
 
+In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
+
 1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
 1. If prompted, provide the credentials below:
@@ -62,6 +64,8 @@ In this lab, you will be able to complete the following tasks:
 
 ---
 ### Task 2: Uploading the Data
+
+In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset.  
 
@@ -124,7 +128,7 @@ cars throughout NASCAR’s history.` **(2)**
  
 ### Task 3: Cleaning the Data
 
-Azure provides many prebuilt components that simplify data preprocessing. Now let us walk through how to clean and prepare the NASCAR dataset using Azure ML Designer.  
+In this task, you will clean and prepare the NASCAR dataset using Azure ML Designer. You’ll use built-in components to remove missing values and eliminate duplicate records, helping improve the quality of the data before training your model.  
 
 1. From the left panel, drag your **NASCAR_Season_History** dataset onto the canvas.
 
@@ -177,6 +181,8 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 
 ### Task 4: Storing the Data
 
+In this task, you will export your cleaned NASCAR dataset to Azure Blob Storage using the Export Data component in Azure ML Designer. This ensures that your processed data is saved securely in the cloud and is ready for reuse in future experiments or analysis.
+
 1. In the **Component (1)** tab, search for **Export Data (2)** and drag the component into the canvas **(3)**. Connect the **Result dataset** from the last component into the **Input path** for the **Export Data** component **(4)**.
 
     ![](../images/n52c19.png)
@@ -194,6 +200,8 @@ Azure provides many prebuilt components that simplify data preprocessing. Now le
 By exporting the dataset this way, you are moving your cleaned, prepared data into cloud storage, where it can be accessed again later, shared with others, or used in new pipelines and experiments.   
 
 ### Task 5: Running the Pipeline
+
+In this task, you will configure and run your data preprocessing pipeline in Azure ML Designer using a compute cluster. After submission, you will monitor its execution and verify that the cleaned dataset has been successfully saved to cloud storage.
 
 1. Make sure your pipeline is saved, then click **Configure & Submit** at the top of the screen. 
 
@@ -265,7 +273,7 @@ read and learn from.
 
 ### Task 6: Visualizing the Data
 
-One of the powerful features of Azure Machine Learning Designer is the ability to visualize the data at different stages of your pipeline. This allows you to see exactly how your data changes as it moves through each preprocessing step.
+In this task, you will explore how to visualize your dataset at various stages of the pipeline using Azure ML Designer. You’ll preview the data, examine column profiles, and review visual summaries like histograms, box plots, and value counts to better understand the distribution and characteristics of your features.
 
 1. Right-click the **NASCAR_Season_History (1)** component (your input dataset). Then select **Preview Data (2)**.
 
