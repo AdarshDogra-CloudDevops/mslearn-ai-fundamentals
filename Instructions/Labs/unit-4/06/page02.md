@@ -102,7 +102,7 @@ In this lab, you will be able to complete the following tasks:
 
 1. **File or Folder Selection**  
 
-   - In the file browser, navigate to  `C:\mslearn-ai-fundamentals\Labs\Allfiles\unit4-lesson6` and then select the file: `Manufacturing_Customer_Feedback.csv` **(1)** 
+   - In the file browser, navigate to  `C:\mslearn-ai-fundamentals\mslearn-ai-fundamentals\Labs\Allfiles\unit4-lesson6` and then select the file: `Manufacturing_Customer_Feedback.csv` **(1)** 
    - Wait for the file to appear under “Upload list”  
    - Click **Next (2)**  
 
