@@ -133,4 +133,5 @@ After the group presentations, reflect on the following questions:
 - Q4: How would your storage strategy change if the pipeline ran every second instead of every 10 minutes? 
 
 Complete the Handout
+
 Please, complete the `SREB_U4_L4_Handout`.   
