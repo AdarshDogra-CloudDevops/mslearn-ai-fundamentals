@@ -15,7 +15,6 @@ In this lab, you will be able to complete the following tasks:
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
 
-
 1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
 1. If prompted, provide the credentials below:
@@ -133,6 +132,8 @@ In this task you will upload the Sensor_data_with_shutdown dataet to your Azure 
 ---    
 
 ### Task 3: Run the Pipeline    
+
+In this task, you will build and run a complete machine learning pipeline in Azure ML Designer. You'll clean the data, split it for training and testing, train a logistic regression model, score the results, evaluate the performance, and finally submit the pipeline for execution.
 
 1. Under the **Data** tab, locate the uploaded dataset named **`Sensor_Data`** and drag it to the canvas **(1)** and then **Save (2)**.  
 
@@ -275,7 +276,9 @@ Cluster** from the drop down **(1)**
 
     ![](../images/n49c26.png) 
 
-### Task 4: Evaluate Model Performance    
+### Task 4: Evaluate Model Performance 
+
+In this task, you will assess the performance of your trained model using Azure ML Designer. You’ll preview the scored results, analyze evaluation metrics such as accuracy and precision, and observe how changes in data quality impact model behavior. This task also includes experimenting with limited and corrupted datasets to see how they affect predictive outcomes.
 
 1. Right click on the **Score Model (1)** and Select **Preview Data (2)-> Scored Dataset (3)** to compare Scored Labels and actual shutdown
 
@@ -290,7 +293,7 @@ Cluster** from the drop down **(1)**
 
     ![](../images/n49c30.png) 
 
-#### Limited Dataset (10–20 Rows) – Low Data Volume
+#### Task 4.1 Limited Dataset (10–20 Rows) – Low Data Volume
 
 Upload your training dataset that contains only 10–20 rows.
 
@@ -395,7 +398,7 @@ performance changes.
 
     ![](../images/n49c43.png)     
 
-#### Corrupted Dataset – Noisy or Incomplete Data
+#### Task 4.2 Corrupted Dataset – Noisy or Incomplete Data
 
 Here you will be uploading a dataset file thats containes noisy or incomplete Data
 
