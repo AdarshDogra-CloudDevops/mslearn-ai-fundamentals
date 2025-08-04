@@ -1,6 +1,5 @@
 # Summary
-In this lesson, we took on the role of quality analysts at a factory, using Azure ML Designer to train a model that spots unhappy customers based on their feedback. We built a TwoClass Logistic Regression model and looked at how well it worked using tools like accuracy, precision, recall, and a confusion matrix. At the end, we wrote a memo 
-explaining our results to factory leaders.
+In this lesson, we took on the role of quality analysts at a factory, using Azure ML Designer to train a model that spots unhappy customers based on their feedback. We built a Two Class Logistic Regression model and looked at how well it worked using tools like accuracy, precision, recall, and a confusion matrix. At the end, we wrote a memo explaining our results to factory leaders.
 
 This hands-on activity connects directly to our final project. It helped us:
 
