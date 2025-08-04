@@ -15,7 +15,7 @@ In this lab, you will be able to complete the following tasks:
 
 ## Architecture diagram
 
-![](../images/unit5-lesson(6).png.png)
+![](../images/unit5-lesson(6).png)
 
 ### Task 1: Set Up the Azure ML Workspace
 
