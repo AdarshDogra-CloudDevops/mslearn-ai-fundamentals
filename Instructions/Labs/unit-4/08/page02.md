@@ -119,7 +119,7 @@ In this task, you will upload and tag images of non-defective casting parts in y
 
    ![](../images/n48c10.png) 
 
-1. Navigate to the `C:\LabFiles\Dataset\casting_512x512\casting_512x512\ok_front` folder. Click on one image and press **Ctrl+A** to select all the images **(1)** and then **Open (2)**.   
+1. Navigate to the `C:\srebdatafiles\Dataset\casting_512x512\casting_512x512\ok_front` folder. Click on one image and press **Ctrl+A** to select all the images **(1)** and then **Open (2)**.   
 
    ![](../images/n48c11.png)
 
@@ -143,7 +143,7 @@ In this task, you will upload and tag images of defective casting parts in your 
 
      ![](../images/n48c15.png)
 
-1. Navigate to `C:\LabFiles\Dataset\casting_512x512\casting_512x512\def_front` folder and select all the images within this folder **(1)** and Click **Open (2)** to upload these images.     
+1. Navigate to `C:\srebdatafiles\Dataset\casting_512x512\casting_512x512\def_front` folder and select all the images within this folder **(1)** and Click **Open (2)** to upload these images.     
 
      ![](../images/n48c16.png)
 
@@ -190,7 +190,7 @@ correctly identify?
     - AP (Average Precision): A comprehensive score that combines both precision and recall over different thresholds.
     - False Negative: When the model predicts “non-defective” but the item is defective.
 
-Performance Per Tag shows separate precision and recall values for the Defect and NonDefective tags respectively.
+Performance Per Tag shows separate precision and recall values for the Defect and Non-Defective tags respectively.
 
 The high numbers seen in the figure above suggest that the model is performing very well on the training dataset!  
 
