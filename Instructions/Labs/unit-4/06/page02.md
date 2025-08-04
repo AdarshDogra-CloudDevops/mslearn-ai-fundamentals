@@ -46,10 +46,10 @@ In this task you will set up an Azure Machine Learning workspace where all your 
 
      - Subscription: Leave the default Azure subscription **(3)**
      - Resource Group: Select **anomaly-rg (4)**
-     - Region: **East US 2 (5)**
+     - Region: Select **<inject key="Region" enableCopy="false" /> (5)**
    - After filling out all fields, click the **Create (6)** button.
 
-      ![](../images/n46c1.png) 
+      ![](../images/n46-c1.png) 
 
        >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
@@ -338,13 +338,13 @@ In this task, you will run the complete machine learning pipeline you built. Thi
 
 1. You are now in the **Virtual Machine** tab for setting up a compute cluster. This step helps Azure decide which kind of machine to use for running your pipeline.
 
-    - **Location**: Confirm that the selected region is the same as your workspace (**East US 2**) **(1)**
+    - **Location**: Confirm that the selected region is the same as your workspace (**<inject key="Region" enableCopy="false" />**) **(1)**
     - **Virtual Machine Tier**: Leave as default. (do not select "Dedicated" or "Low priority" unless specified otherwise for cost-saving purposes) **(2)**
     - **Virtual Machine Type**: Keep this as **CPU (3)** 
     - **Virtual Machine Size**: Choose **Standard_DS11_v2 (4)**
     - Click **Next (5)**  
 
-      ![](../images/n46c39.png)  
+      ![](../images/ag2.png)  
 
 1. **Advanced Settings**: Give a Compute Name as **Test (1)** and leave everything default. Then click **Create (2)**.
 
