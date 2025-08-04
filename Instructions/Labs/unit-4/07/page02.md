@@ -17,6 +17,11 @@ In this lab, you will be able to complete the following tasks:
 - Task 9: Running the Pipeline: Configure and Submit
 - Task 10: Preview Evaluation Results in Azure ML Designer
 
+## Architecture diagram
+
+![](../images/unit4-lesson7.png) 
+
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
