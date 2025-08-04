@@ -77,7 +77,7 @@ this tab.
 
 1. Once the **Designer** page is loaded, make sure that you’re on the **Classic prebuilt** **(1)** tab under the “New pipeline” section. From here, click on the box with a plus sign that says **Create a new pipeline using classic prebuilt components** **(2)**.
 
-   ![](../images/nc2.png)
+    ![](../images/nc2.png)
 
 1. On the **left panel**, under the **Data (1)** tab, click the **➕ (plus icon) (2)** to upload a dataset. 
 
@@ -549,5 +549,6 @@ In this lab, you have completed the following tasks:
 - Saved our Data to Azure Blob
 
 ## You have successfully completed the lab    
+
 
 
