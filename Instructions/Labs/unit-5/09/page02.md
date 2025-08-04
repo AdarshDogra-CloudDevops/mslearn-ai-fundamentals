@@ -33,10 +33,10 @@ In this task you will set up an Azure Machine Learning workspace where all your 
     - **Advanced Settings**:
     - **Subscription**: Select the appropriate Azure subscription from the dropdown **(3)**
     - **Resource Group**: Select **ODL-SREB-U5L09** **(4)**
-    - **Region**: Select **East US 2 (5)** for better performance.
+    - **Region**: Select **<inject key="Region" enableCopy="false" /> (5)** for better performance.
     - After filling out all the required fields, click the **Create (6)** button.
 
-      ![](../images/n59c1.png) 
+      ![](../images/n59-c1.png) 
 
        >**Note**: If you **did not** see the page like Figure 1, simply click **“Create Workspace”** on your dashboard and fill out the fields as described in Step 2.
 
