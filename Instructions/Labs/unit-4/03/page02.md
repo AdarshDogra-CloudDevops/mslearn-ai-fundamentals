@@ -16,6 +16,10 @@ In this lab, you will be able to complete the following tasks:
 - Task 6: Configure Pipeline Job Basics
 - Task 7: Saving our Data to Azure Blob
 
+## Architecture diagram
+
+![](../images/unit4-lesson3.png) 
+
 ### Task 1: Create Azure ML Workspace
 
 In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
@@ -549,6 +553,7 @@ In this lab, you have completed the following tasks:
 - Saved our Data to Azure Blob
 
 ## You have successfully completed the lab    
+
 
 
 
