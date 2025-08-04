@@ -19,6 +19,8 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Setting up the Project
 
+In this task you will set up an Azure Machine Learning workspace where all your machine learning assets and experiments will be organized and run. You will learn how to create a workspace in the Azure ML Studio, select the appropriate region and resource group, and navigate to the Designer interface to start building your pipeline.
+
 1. Open a new tab in the browser, right-click on the following link [Azure Machine Learning Studio](https://ml.azure.com/), then **Copy link** and paste it in a new browser tab to log in to **Azure Machine Learning Studio**.
 
 1. If prompted, provide the credentials below:
@@ -71,6 +73,8 @@ In this lab, you will be able to complete the following tasks:
 ---     
 
 ### Task 2: Uploading the Dataset
+
+In this task you will upload the manufacturing sensor data to your Azure ML workspace. You will create a tabular dataset from a local CSV file, configure the data source, and add it to your pipeline canvas for further processing.
 
 1. On the left panel, under the **Data (1)** tab, click the **+ (plus icon) (2)** to upload a dataset.
 
@@ -140,7 +144,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 3: Preprocess the Text
 
-Now it’s time to add the clean missing data component.
+In this task, you will use the Preprocess Text component to clean and prepare customer feedback data for machine learning. You'll specify the target text column and apply standard text preprocessing steps to ensure consistent input for modeling.
 
 1. In the **Component (1)** tab (left panel), search for the **Preprocess Text (2)** module by Microsoft. Drag the **Preprocess Text** module into your pipeline workspace **(3)**.
 
@@ -166,7 +170,8 @@ Now it’s time to add the clean missing data component.
 
 ### Task 4: Extract N-Gram Features
 
-This step transforms the cleaned customer feedback into numerical features that a machine learning model can understand.
+In this task, you will convert the cleaned text data into numerical features using the Extract N-Gram Features from Text module. You’ll configure it to generate bigrams (2-word combinations) with term frequency weighting, preparing the data for training machine learning models.
+
 
 1. Navigate to the **Component (1)** tab, search for **Extract N-Gram Features from Text (2)**. Drag the Extract N-Gram Features from Text module onto the canvas **(3)**.
 
@@ -203,6 +208,8 @@ This step transforms the cleaned customer feedback into numerical features that 
 
 ### Task 5: Split the Data
 
+In this task, you will use the Split Data module to divide your dataset into training and testing sets. This prepares your data so that 70% is used to train the model and 30% is reserved to evaluate its performance.
+
 1. In the **Component (1)** tab on the left, search for the **Split Data (2)** module. Drag it onto the canvas **(3)**.
 
     ![](../images/n46c22.png)
@@ -225,6 +232,8 @@ This step transforms the cleaned customer feedback into numerical features that 
       ![](../images/n46c24.png)    
 
 ### Task 6: Add Logistic Regression and Trace the Model
+
+In this task, you will add and configure a Two-Class Logistic Regression model to train on your dataset. You will link it with the training data and set the target column to predict customer satisfaction scores.
 
 1. In the **Component (1)** tab on the left, search for **Two-Class Logistic Regression (2)**. Drag it onto your pipeline canvas **(3)**.
 
@@ -255,8 +264,7 @@ This step transforms the cleaned customer feedback into numerical features that 
       
 ### Task 7: Score the Model
 
-This module runs your trained model on unseen reviews and generates predictions. These predictions will be compared to actual satisfaction labels in the next step to evaluate model performance.
-
+In this task, you will use the Score Model module to test your trained logistic regression model on new (unseen) customer reviews. This will generate predictions that can later be evaluated for accuracy.
 
 1. In the **Component (1)** tab, search for **Score Model (2)**. Drag it onto the canvas **(3)**.
 
@@ -272,6 +280,8 @@ This module runs your trained model on unseen reviews and generates predictions.
 
 
 ### Task 8: Evaluate the Model
+
+In this task, you will add the Evaluate Model component to analyze how well your trained model performs using key metrics like accuracy, precision, recall, and the confusion matrix.
 
 This component gives you the key metrics to assess the model’s performance, including:
 - Accuracy: How often the model is correct
@@ -293,7 +303,7 @@ Once this is complete, you'll be able to run the pipeline and preview your model
 
 ### Task 9: Run the Pipeline  
 
-Now that your pipeline is fully built with all the components connected—from data ingestion to anomaly scoring—you’re ready to run it.
+In this task, you will run the complete machine learning pipeline you built. This includes configuring the experiment, selecting the compute resource, and submitting the pipeline for execution in Azure Machine Learning Studio.
 
 1. Click on **Configure & Submit**.
 
@@ -356,7 +366,7 @@ Now that your pipeline is fully built with all the components connected—from d
 
 ### Task 10: View Preview Results
 
-To view how well your model performed we can use evaluation results in Azure ML Designer.
+In this task, you will preview and interpret the evaluation results of your trained model. You’ll analyze key metrics and charts such as the ROC curve, confusion matrix, and precision-recall to assess model performance.
 
 1. Right-click on the **Evaluate Model (1)** box. Select **Preview data (2)** > **Evaluation results (3)**.
 
