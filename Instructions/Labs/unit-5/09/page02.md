@@ -8,6 +8,7 @@ In this lab, you will be able to complete the following tasks:
 
 - Task 1: Set Up the Azure ML Workspace
 - Task 2: Setting Up Your Notebook
+- Task 3: Explore different sections of the Notebook
 
 ## Architecture diagram
 
@@ -124,7 +125,7 @@ In this task, you will upload and launch a Jupyter notebook in Azure to explore 
 
    ![](../images/n59c14.png)
 
-### Task 3: Explore different sections of the Notebook (Read only)
+### Task 3: Explore different sections of the Notebook
 
 In this task, you will explore key programming concepts—Sequencing, Selection, Iteration, and Recursion—through interactive and technical examples provided in your Jupyter notebook.
 
@@ -276,6 +277,7 @@ In this lab, you have completed the following tasks:
 
 - Set Up the Azure ML Workspace
 - Setting Up Your Notebook
+- Explored different sections of the Notebook
 
 ## You have successfully completed the lab
 
