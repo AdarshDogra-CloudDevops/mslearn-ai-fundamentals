@@ -1,4 +1,4 @@
-# Module 3b: Explore Speech in the Azure AI Foundry portal
+# Lab 3b: Explore Speech in the Azure AI Foundry portal
 
 ## Lab overview
 

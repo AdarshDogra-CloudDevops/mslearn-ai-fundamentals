@@ -1,4 +1,4 @@
-# Module 4a: Analyze images in the Azure AI Foundry portal
+# Lab 4a: Analyze images in the Azure AI Foundry portal
 
 ## Lab overview
 

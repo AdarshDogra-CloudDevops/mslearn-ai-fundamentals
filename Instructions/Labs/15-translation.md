@@ -1,4 +1,4 @@
-# Module 3c: Explore Azure AI Translator
+# Lab 3c: Explore Azure AI Translator
 
 Artificial Intelligence (AI) can help simplify translation between languages, helping to remove barriers to communication across countries and cultures.
 

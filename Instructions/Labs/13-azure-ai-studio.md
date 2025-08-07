@@ -1,4 +1,4 @@
-# Module 13: Azure AI Studio
+# Lab 13: Azure AI Studio
 
 ## Lab overview
 

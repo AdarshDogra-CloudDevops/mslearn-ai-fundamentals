@@ -1,4 +1,4 @@
-# Module 11: Explore an Azure AI Search index (UI)
+# Lab 11: Explore an Azure AI Search index (UI)
 
 ## Lab overview
 
