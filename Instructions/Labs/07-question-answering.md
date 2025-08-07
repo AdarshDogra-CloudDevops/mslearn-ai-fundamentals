@@ -1,4 +1,4 @@
-# Module 07: Use Question Answering with the Language Studio
+# Lab 07: Use Question Answering with the Language Studio
 
 ## Lab overview
 In this exercise, you will use Language Studio to create and train a knowledge base of questions and answers. Content for the knowledge base will come from an existing FAQ page on the website of Margie’s Travel, a fictitious travel agency. You will then use Language Studio to see how it would work when used by customers.

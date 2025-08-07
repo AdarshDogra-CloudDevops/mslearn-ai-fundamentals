@@ -1,4 +1,4 @@
-# Module 05: Read text in Vision Studio
+# Lab 05: Read text in Vision Studio
 
 ## Lab overview
 

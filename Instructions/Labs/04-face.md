@@ -1,4 +1,4 @@
-# Module 04: Detect faces in Vision Studio
+# Lab 04: Detect faces in Vision Studio
 
 ## Lab overview
 

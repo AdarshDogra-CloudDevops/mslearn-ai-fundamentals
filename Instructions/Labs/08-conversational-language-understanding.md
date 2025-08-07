@@ -1,4 +1,4 @@
-# Module 08: Use Conversational Language Understanding with Language Studio
+# Lab 08: Use Conversational Language Understanding with Language Studio
 
 ## Lab overview
 Increasingly, we expect computers to be able to use AI to understand natural language commands, either spoken or typed. For example, you might want a home automation system to control devices in your home by using voice commands such as “switch on the light” or “put the fan on.” AI-powered devices can understand these commands and take appropriate action.
