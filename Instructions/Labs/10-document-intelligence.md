@@ -1,5 +1,5 @@
 
-# Module 10: Extract data from documents in the Azure AI Foundry portal
+# Lab 05: Extract data from documents in the Azure AI Foundry portal
 
 ## Lab overview
 
