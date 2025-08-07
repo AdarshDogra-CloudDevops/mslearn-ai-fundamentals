@@ -1,4 +1,4 @@
-# Module 09: Explore Speech in the Azure AI Foundry portal
+# Lab 09: Explore Speech in the Azure AI Foundry portal
 
 ## Lab overview
 
