@@ -1,4 +1,4 @@
-# Lab 03: Analyze images in the Azure AI Foundry portal
+# Lab 02: Analyze images in the Azure AI Foundry portal
 
 ## Lab overview
 
