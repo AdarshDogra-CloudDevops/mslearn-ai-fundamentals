@@ -1,5 +1,5 @@
 
-# Lab 06: Analyze text in the Azure AI Foundry portal
+# Lab 03: Analyze text in the Azure AI Foundry portal
 
 ## Lab overview
 
