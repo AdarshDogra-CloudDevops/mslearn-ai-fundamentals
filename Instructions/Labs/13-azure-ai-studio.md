@@ -1,4 +1,4 @@
-# Module 13: Azure AI Foundry
+# Lab 13: Azure AI Foundry
 
 ## Lab overview
 
