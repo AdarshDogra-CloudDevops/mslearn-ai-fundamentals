@@ -1,5 +1,5 @@
-# Getting Started with Your Algorithms in Action
-Welcome to your Algorithms in Action workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
+# Getting Started with Your Build and Evaluate Your Predictive Model
+Welcome to your Build and Evaluate Your Predictive Model workshop! We've prepared a seamless environment for you to explore and learn about machine learning and AI concepts and related Microsoft Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
