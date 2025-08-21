@@ -199,13 +199,11 @@ When the automated machine learning job has completed, you can review the best m
 
 1. On the **Overview** tab of the automated machine learning job, note the best model summary.
 
-    ![](media/lab1-2.png)
+    ![](media/web40.png)
 
     > **Note**: You may see a message under the status "Warning: User specified exit score reached...". This is an expected message. Please continue to the next step.
   
-1. Select the text under **Algorithm name** for the best model to view its details.
-
-    ![](media/web40.png)
+1. Select the **text (2)** under Algorithm name for the best model to view its details.
 
 1. Select the **Metrics** tab and select the **residuals** and **predicted_true** charts if they are not already selected. 
 
