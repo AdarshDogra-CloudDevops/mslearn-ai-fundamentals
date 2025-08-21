@@ -114,18 +114,18 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
      ![Enter Your Password](../media/sc900-image-2.png)
- 
-4. If prompted to stay signed in, you can click **No**.
 
-5. If **Action required** pop-up window appears, click on **Ask later**.
+4. If **Action required** pop-up window appears, click on **Ask later**.
    
     ![](../media/asklater.png)
  
-6. If prompted to stay signed in, you can click "No."
+5. If prompted to **Stay signed in**, you can click "No."
 
     ![](../media/staysigned2.png)
  
-7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
+6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
+
+   ![](../media/AI-l6-4.png)
 
 ## Steps to Proceed with MFA Setup if the "Ask Later" Option is Not Visible
 

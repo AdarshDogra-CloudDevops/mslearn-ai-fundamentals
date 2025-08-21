@@ -49,7 +49,6 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 
 1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources`, Select **Create new**.
 
-
     ![](./media/010725(15).png)
 
 1. Choose the option to create a **AI hub resource (1)** then select **Next (2)**.
