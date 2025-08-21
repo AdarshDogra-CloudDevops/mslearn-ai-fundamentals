@@ -131,7 +131,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
 
               ![](media/ai900j3.png)
         - **MLtable selection**:
-            - **Upload folder**: Download and extract the contents of the folder from* [`https://aka.ms/bike-rentals`](https://aka.ms/bike-rentals), *which contains the two files you will need to upload. Once uploaded, click on **Next**.
+            - **Upload folder**: Download and extract the contents of the folder from [`https://aka.ms/bike-rentals`](https://aka.ms/bike-rentals), which contains the two files you will need to upload. Once uploaded, click on **Next**.
 
               ![](media/ai900j4.png)
 
