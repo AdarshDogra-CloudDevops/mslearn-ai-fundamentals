@@ -5,7 +5,7 @@ Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared
 
 # Module 03: Analyze images in the Azure AI Foundry portal
 
-### Overall Estimated timing: 30 minutes
+### Overall Estimated timing: 30 Minutes
 
 ## Overview
 
@@ -55,7 +55,7 @@ Once you're ready to dive in, your virtual machine and **lab guide** will be rig
  
 ![Access Your VM and Lab Guide](../media/4-7.png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
@@ -79,7 +79,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 ## Managing Your Virtual Machine
  
-Feel free to **start, stop, or restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../media/aig4.png)
 
