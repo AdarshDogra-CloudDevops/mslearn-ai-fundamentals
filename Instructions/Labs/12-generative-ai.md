@@ -23,12 +23,12 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. On the **Create an AI hub resource** pane, enter the following details:
 
-    - Subscription : **Leave default subscription (1)** 
+    - Subscription: **Leave default subscription (1)** 
     - Resource Group : Select **AI-900-Module-12 (2)** 
     - Region : **<inject key="Location" enableCopy="false"/>** Use the same location as the resource group **(3)**
     - Name : Use the format **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (4)** 
     - Connect AI Services incl. OpenAI : Click on **Create New (7)**
-    - Create new Azure AI Services: Provide a name to the AI Service,Use the format **AI<inject key="Deployment ID" enableCopy="false"></inject> (8)**  
+    - Create new Azure AI Services: Provide a name to the AI Service, Use the format **AI<inject key="Deployment ID" enableCopy="false"></inject> (8)**  
     - Click on **Save (9)**.
     - Click on **Review + Create (10)**
 
@@ -36,13 +36,13 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. Click on the **Create** button to begin the deployment process.
 
-    ![](./media/AI-l12-1.png) 
+    ![](./media/AI-l12-2.png) 
 
 1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
 
    ![](./media/3-27.png)
 
-1. On the Welcome to Azure AI Foundry page, Click on **Sign in** in the top right corner.
+1. On the Welcome to Azure AI Foundry page, click on **Sign in** in the top right corner.
 
    ![](./media/17-18.png)
 
@@ -72,7 +72,7 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
    
 1. Choose the option to create a **Azure AI Foundry resource (1)** then select **Next (2)**.
 
-    ![](./media/AI-l12-1.png) 
+    ![](./media/AI-l6-2.png) 
 
 1. In the **Create a new project** wizard, enter details as mentioned below and click **Create (5)**
 
@@ -85,7 +85,7 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
     ![](./media/AI-l12-1.png)
 
-1. Wait for your project created.
+1. Wait for your project to be created.
 
    >**Note**: If Explore and experiment prompted click on **Close**.
 
