@@ -3,9 +3,9 @@
 
 Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience.
 
-# Module 09 : Explore Speech in Azure AI Foundry portal
+# Lab 04 : Explore Speech in Azure AI Foundry portal
 
-### Overall Estimated timing: 30 minutes
+### Overall Estimated timing: 30 Minutes
 
 ## Overview
 
@@ -51,7 +51,7 @@ Once you're ready to dive in, your virtual machine and **lab guide** will be rig
  
 ![Access Your VM and Lab Guide](../media/4-7.png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
@@ -75,9 +75,19 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 ## Managing Your Virtual Machine
  
-Feel free to **start, stop, or restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../media/aig4.png)
+
+## Lab Progress Bar
+
+The **Progress Bar** at the top of the lab environment indicates your **validation status**. The percentage increases as you complete each validation and reaches 100% when all validations are successfully completed.  
+
+On the **Progress (1)** tab, you can view your overall points and validation status, **Validations 0/1 (2)**.    
+
+![Manage Your Virtual Machine](../media/AI-l12-prg.png)
+
+![Manage Your Virtual Machine](../media/AI-l12-prg1.png)
 
 ## Lab Duration Extension
 
@@ -95,7 +105,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 ## Let's Get Started with Azure Portal
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
    ![Launch Azure Portal](../media/sc900-image(1).png)
 
@@ -110,18 +120,18 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
      ![Enter Your Password](../media/sc900-image-2.png)
- 
-4. If prompted to stay signed in, you can click **No**.
 
-5. If **Action required** pop-up window appears, click on **Ask later**.
+4. If **Action required** pop-up window appears, click on **Ask later**.
    
     ![](../media/asklater.png)
  
-6. If prompted to stay signed in, you can click "No."
+5. If prompted to **Stay signed in**, you can click **No.**
 
     ![](../media/staysigned2.png)
  
-7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
+6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
+
+    ![](../media/AI-l6-4.png)
 
 ## Steps to Proceed with MFA Setup if the "Ask Later" Option is Not Visible
 
@@ -129,7 +139,6 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 1. If **Action required** pop-up window appears, click on **Next**.
 
-   
    ![](../media/mfa1.png)
 
 1. On **Start by getting the app** page, click on **Next**.

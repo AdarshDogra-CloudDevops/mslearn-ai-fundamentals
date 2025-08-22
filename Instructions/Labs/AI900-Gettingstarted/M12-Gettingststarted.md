@@ -3,7 +3,7 @@
 
 Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience.
 
-# Module 12: Explore generative AI in Azure AI Foundry portal
+# Lab 06: Explore generative AI in Azure AI Foundry portal
 
 ### Overall Estimated timing: 30 Minutes
 
@@ -90,6 +90,16 @@ For convenience, you can open the lab guide in a separate window by selecting th
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../media/aig4.png)
+
+## Lab Progress Bar
+
+The **Progress Bar** at the top of the lab environment indicates your **validation status**. The percentage increases as you complete each validation and reaches 100% when all validations are successfully completed.  
+
+On the **Progress (1)** tab, you can view your overall points and validation status, **Validations 0/1 (2)**.    
+
+![Manage Your Virtual Machine](../media/AI-l12-prg.png)
+
+![Manage Your Virtual Machine](../media/AI-l12-prg1.png)
 
 ## Lab Duration Extension
 
