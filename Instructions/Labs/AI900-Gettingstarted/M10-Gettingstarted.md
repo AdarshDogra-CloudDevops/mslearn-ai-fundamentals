@@ -55,7 +55,7 @@ Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **lab guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
 ![Access Your VM and Lab Guide](../media/4-7.png)
 
@@ -87,9 +87,9 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
  
 ![Manage Your Virtual Machine](../media/aig4.png)
 
-## Lab Progress Bar
+## Track Your Progress
 
-The **Progress Bar** at the top of the lab environment indicates your **validation status**. The percentage increases as you complete each validation and reaches 100% when all validations are successfully completed.  
+Click on the **Progress** tab to track your progress in the lab. The percentage increases as you complete each validation and reaches 100% when all validations are successfully completed.  
 
 On the **Progress (1)** tab, you can view your overall points and validation status, **Validations 0/1 (2)**.    
 
