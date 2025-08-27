@@ -48,7 +48,7 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
 
 1. On the Review + create tab, select **Create** and wait for deployment to complete.
 
->***Congrats! You've just created or provisioned an Azure AI services resource. The one you provisioned in particular is a multi-service resource.***
+    >***Congrats! You've just created or provisioned an Azure AI services resource. The one you provisioned in particular is a multi-service resource.***
 
 1. Once the deployment is complete, select *Go to resource*. 
 
