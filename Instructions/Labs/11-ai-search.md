@@ -22,7 +22,7 @@ In this task, you will learn how to create an **Azure AI Search** resource to en
 
      ![Picture1](media/lab11-01.png)
 
-1. In the Marketplace page search for **Azure AI Search (1)** and select **Azure AI Search (2)**.
+1. In the Marketplace page search for **Azure AI Search (1)** press **Enter** and select **Azure AI Search (2)**.
  
     ![Picture1](media/lab11-02.png)
 
@@ -36,7 +36,7 @@ In this task, you will learn how to create an **Azure AI Search** resource to en
     - **Resource group (2)**: Select **AI-900-Module-11-<inject key="DeploymentID" enableCopy="false" />**
     - **Service name (3)**: **aisearch<inject key="DeploymentID" enableCopy="false" />**
     - **Location (4)**: Select **<inject key="location" enableCopy="false"/>** 
-    - **Pricing tier (5)**: Basic
+    - **Pricing tier (5)**: Basic (If Basic is not seleted, select **Change pricing Tier** and then select **Basic**)
     - Select **Review + create (6)**
 
       ![Picture1](media/ch-2.png)
@@ -57,19 +57,23 @@ In this task, you will learn how to create an **AI Services** resource in Azure 
 
 You'll need to provision an **Azure AI services** resource that's in the same location as your Azure AI Search resource. Your search solution will use this resource to enrich the data in the datastore with AI-generated insights.
 
-1. In the Azure portal, search for **Azure AI services (1)**. Select an **Azure AI Foundry (2)**.
+1. In the Azure portal, Click the **＋Create a resource** button.
 
-    ![The image and its captions are displayed.](./media/upd-1.png)
+    ![The image and its captions are displayed.](./media/ai9873.png)
 
-1. In the **Azure AI Foundry**, Expand the **Classic AI services (1)** section from the left-hand menu and select **Azure AI services multi-service account (classic) (2)** to view classic AI resources.
+1. Search for **Azure AI services (1)** and select **Azure AI services (2)**.
 
-    ![Expand Classic AI services and select Azure AI services multi-service account (classic)](./media/upd-2.png)
- 
-1. Once you're in the **Azure AI services multi-service account (classic)** page, click on the **+ Create** button in the top menu bar to start provisioning a new AI service.
+    ![The image and its captions are displayed.](./media/ai2l1.png)
 
-    ![The full page view showing the Create button in Azure AI services (classic)](./media/upd-3.1.png)
+1. Select **Azure AI services**.
 
-1. You will be taken to a page to create an Azure AI services resource. Please click on **Create** configure it with the following settings:
+    ![](./media/ai2l2.png)
+
+1. Select **Create**.
+
+    ![The image and its captions are displayed.](./media/ai2l3.png)
+
+1. Configure Azure AI services with the following settings:
    
     - **Subscription (1)**: Use the existing Azure subscription.
     - **Resource group (2)**: **AI-900-Module-11-<inject key="DeploymentID" enableCopy="false" />**
@@ -77,10 +81,11 @@ You'll need to provision an **Azure AI services** resource that's in the same lo
     - **Name (4)**: Enter **aiservice<inject key="DeploymentID" enableCopy="false"/>**
     - **Pricing tier (5)**:Select **Standard S0**.
     - **By checking this box I acknowledge that I have read and understood all the terms below**: *Selected* **(6)**.
+    - Select **Review + create (7)**
 
       ![The image and its captions are displayed.](./media/ch-18.png)
 
-1. Select **Review + create (7)** then **Create** and wait for deployment to complete.
+1. Then **Create** and wait for deployment to complete.
 
 ### Task 3: Create a storage account
 
@@ -90,7 +95,7 @@ In this task, you will create a Storage account in Azure, configure its settings
 
     ![Picture1](media/lab11-01.png)
 
-1. In the Marketplace page search for **Storage account (1)** and select **Storage account (2)**.
+1. In the Marketplace page search for **Storage account (1)** Press **Enter** and select **Storage account (2)**.
  
     ![Picture1](media/lab11-11.png)
 
@@ -126,11 +131,7 @@ In this task, you will create a Storage account in Azure, configure its settings
 
 In this task, you will upload documents to an Azure Storage container. First, you will create a container called coffee-reviews, configure its access settings, and then upload a set of coffee-review documents into it. This process helps familiarize you with Azure Storage containers and blob uploads, which are crucial for storing and managing data in the cloud.
 
-1. In the left-hand menu pane, select **Containers (1)** (under **Data storage**).
-
-1. Select **+ Container (2)**. A pane on your right-hand side opens.
-
-1. Enter the following settings:
+1. In the left-hand menu pane, select **Containers (1)** (under **Data storage**). Select **+ Container (2)**. A pane on your right-hand side opens. Enter the following settings:
 
     - **Name (3)**: coffee-reviews  
     - **Anonymous access level (4)**: Container (anonymous read access for containers and blobs)
@@ -139,13 +140,35 @@ In this task, you will upload documents to an Azure Storage container. First, yo
 
       ![Picture1](media/storage.png)
 
-   > **Note**: If you're unable to adjust the Anonymous access level, please refresh the page and attempt the change again.
+       >**Note**: If you're unable to adjust the Anonymous access level, please refresh the page and attempt the change again.
 
-1. In the lab-VM,  open a  new browser tab, download the [zipped coffee reviews](https://aka.ms/mslearn-coffee-reviews) from `https://aka.ms/mslearn-coffee-reviews`, and extract the files to the *reviews* folder. 
+1. In the lab-VM,  open a  new browser tab, download the [zipped coffee reviews](https://aka.ms/mslearn-coffee-reviews) from `https://aka.ms/mslearn-coffee-reviews`.
 
-1. In the Azure portal, select your *coffee-reviews* container. In the container, select **Upload (1)**. In the **Upload blob** pane, select **Browse for files (2)**, and In the Explorer window, select **all** the files in the *reviews* folder, select **Open**, and then select **Upload (3)**.
+1. Click on the **Folder** icon.
 
-    ![Screenshot that shows the files uploaded to the Azure container.](media/lab11-18.png)
+    ![Picture1](media/ai2l15.png)
+
+1. Right click on reviews folder **(1)** and **Extract All (2)**.
+
+    ![Picture1](media/ai2l16.png)
+
+1. Enter `C:\Users\azureuser\Downloads` **(1)** as destination path and then **Extract (2)**.
+
+    ![Picture1](media/ai2l17.png)
+
+1. In the Azure portal, select your **coffee-reviews** container.
+
+1. In the container, select **Upload**.
+
+1. In the **Upload blob** pane, select **Browse for files (1)**.
+
+    - Navigate to `C:\Users\azureuser\Downloads`
+**(2)**. 
+    - Select all the reviews files **(3)** and then **Open (4)** 
+
+      ![Picture1](media/ai2l18.png)
+
+1. Then select **Upload (3)**.
 
 1. After the upload is complete, you can close the **Upload blob** pane. Your documents are now in your *coffee-reviews* storage container.
 
@@ -159,11 +182,10 @@ After you have the documents in storage, you can use Azure AI Search to extract 
 
    ![Screenshot that shows the import data wizard.](media/ch-5.png)
 
-2. On the **Overview** page, select **Import data**.
+1. On the **Overview** page, select **Import data**.
 
     ![Screenshot that shows the import data wizard.](media/ch-6.png)
-
-3. On the **Connect to your data** page, in the **Data Source** list, select **Azure Blob Storage (1)**. Complete the data store details with the following values:
+1. On the **Connect to your data** page, in the **Data Source** list, select **Azure Blob Storage (1)**. Complete the data store details with the following values:
     - **Data Source (2)**: Azure Blob Storage
     - **Data source name (3)**: coffee-customer-data
     - **Data to extract (4)**: Content and metadata
@@ -181,15 +203,15 @@ After you have the documents in storage, you can use Azure AI Search to extract 
     - **Blob folder (9)**: *Leave this blank*.
     - **Description (10)**: Reviews for Fourth Coffee shops.
 
-4. Select **Next: Add Cognitive Skills (Optional) (11)**.
+    - Select **Next: Add Cognitive Skills (Optional) (11)**.
 
-   ![Picture1](media/lab11-23.png)
+      ![Picture1](media/lab11-23.png)
 
-5. In the **Attach AI Services (1)** section, select your **aiservice<inject key="DeploymentID" enableCopy="false" /> (2)** Azure AI services resource.  
+1. In the **Attach AI Services (1)** section, select your **aiservice<inject key="DeploymentID" enableCopy="false" /> (2)** Azure AI services resource.  
 
    ![Picture1](media/ch-7.png)
 
-6. In the **Add enrichments (1)** section:
+1. In the **Add enrichments (1)** section:
     - Change the **Skillset name** to **coffee-skillset (2)**.
     - Select the checkbox **Enable OCR and merge all text into merged_content field (3)**.
         > **Note**
@@ -212,7 +234,7 @@ After you have the documents in storage, you can use Azure AI Search to extract 
 
         ![Picture1](media/lab11-26.png)
 
-10. Under **Save enrichments to a knowledge store**, Select:
+1. Under **Save enrichments to a knowledge store**, Select:
     - Image projections
     - Documents
     - Pages
@@ -225,23 +247,27 @@ After you have the documents in storage, you can use Azure AI Search to extract 
 
     > **Note**: A warning appears requesting a **Storage Account Connection String**.
     
-7. Under **Save enrichments to a knowledge store (1)**, If a warning asking for a **Storage Account Connection String (2)** appears.
+1. Under **Save enrichments to a knowledge store (1)**, If a warning asking for a Storage Account Connection String appears. Select **Choose an existing connection (2)**.
     
    ![Screenshot that shows the Storage account connection screen warning with 'Choose an existing connection' selected.](media/lab11-27.png)
     
-8. Select **Choose an existing connection**. Choose the storage account **aistorage<inject key="DeploymentID" enableCopy="false" /> (1)** you created earlier. Click on **+ Container (2)** to create a new container called **knowledge-store (3)** with the Anonymous access level set to **Private (4)**, and select **Create (5)**.
+1. Choose the storage account **aistorage<inject key="DeploymentID" enableCopy="false" />** you created earlier. 
 
-9. Select the **knowledge-store (1)** container, and then click **Select (2)** at the bottom of the screen.
+1. Click on **+ Container (1)** to create a new container called **knowledge-store (2)** with the Anonymous access level set to **Private (3)**, and select **Create (4)**.
+
+   ![Screenshot that shows the Storage account connection screen warning with 'Choose an existing connection' selected.](media/ai2l19.png)
+
+1. Select the **knowledge-store (1)** container, and then click **Select (2)** at the bottom of the screen.
 
     ![Picture1](media/lab11-29.png)
 
-11. Select **Azure blob projections: Document**. A setting for *Container name* with the *knowledge-store* container auto-populated displays. Don't change the container name.
+1. Select **Azure blob projections: Document**. A setting for *Container name* with the *knowledge-store* container auto-populated displays. Don't change the container name.
 
     ![Picture1](media/lab11-31.png)
 
-12. Select **Next: Customize target index**.
+1. Select **Next: Customize target index**.
 
-13. On the **Customize target index** page, follow the following steps:
+1. On the **Customize target index** page, follow the following steps:
 
     -  Change the **Index name** to **coffee-index (1)**.
     - Ensure that the **Key** is set to **metadata_storage_path (2)**.
@@ -250,24 +276,26 @@ After you have the documents in storage, you can use Azure AI Search to extract 
     - Review the index fields' default settings. Select **filterable (4)** for all the fields that are already selected by default.
     - Select **Next: Create an indexer (5)**.
 
-    ![](media/lab11-32.png)
+      ![](media/lab11-32.png)
   
-15. On the **Create an index** page, follow the following steps:
+1. On the **Create an index** page, follow the following steps:
 
-- Change the **Indexer name** to **coffee-indexer (1)**.
-- Leave the **Schedule** set to **Once (2)**.
-- Select **Submit (3)** to create the data source, skillset, index, and indexer. The indexer is run automatically and runs the indexing pipeline, which:
-    - Extracts the document metadata fields and content from the data source.
-    - Runs the skillset of AI skills to generate more enriched fields.
-    - Maps the extracted fields to the index.
+    - Change the **Indexer name** to **coffee-indexer (1)**.
+    - Leave the **Schedule** set to **Once (2)**.
+    - Select **Submit (3)** to create the data source, skillset, index, and indexer.
 
       ![Picture1](media/ch-1.png)
 
-16.  Return to your Azure AI Search resource page. On the left pane, under **Search Management**, select  **Indexers (1)**. Select the newly created **coffee-indexer (2)**. Wait a minute, and select **&orarr; Refresh** until the **Status** indicates success.
+      The indexer is run automatically and runs the indexing pipeline, which:
+      - Extracts the document metadata fields and content from the data source.
+      - Runs the skillset of AI skills to generate more enriched fields.
+     - Maps the extracted fields to the index.
+
+1.  Return to your Azure AI Search resource page. On the left pane, under **Search Management**, select  **Indexers (1)**. Select the newly created **coffee-indexer (2)**. Wait a minute, and select **&orarr; Refresh** until the **Status** indicates success.
 
      ![Picture1](media/lab11-34.png)
 
-17. Select the indexer name to see more details.
+1. Select the indexer name to see more details.
 
     ![Screenshot that shows the coffee-indexer Indexer successfully created.](media/lab11-35.png)
 
@@ -295,6 +323,8 @@ Use the Search Explorer to write and test queries. Search Explorer is a tool bui
     ```
 1. Select **Search**. The search query returns all the documents in the search index, including a count of all the documents in the **@odata.count** field. The search index should return a JSON document containing your search results.
 
+     ![](media/ai2l20.png)
+
 1. Now let's filter by location. In the **JSON query editor** field, copy and paste:
      
     ```json
@@ -304,6 +334,8 @@ Use the Search Explorer to write and test queries. Search Explorer is a tool bui
     }
     ```
 1. Select **Search**. The query searches all the documents in the  index and filters for reviews with a Chicago location. You should see `3` in the `@odata.count` field.
+
+     ![](media/ai2l21.png)
 
 1. Now let's filter by sentiment. In the **JSON query editor** field, copy and paste:
    
