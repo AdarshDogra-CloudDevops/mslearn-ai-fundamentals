@@ -22,17 +22,11 @@ In this task, you will learn how to create an **Azure AI Services** resource to 
 
 You can use Azure AI Vision's OCR capabilities with an **Azure AI services** multi-service resource. If you haven't already done so, create an **Azure AI services** resource in your Azure subscription.
 
-1. In the Azure portal, search for **Azure AI services**. 
+1. In the Azure portal, Click the **＋Create a resource** button and search and select **Azure AI services**
 
-   ![The image and its captions are displayed.](./media/aix1.png)
+    ![The image and its captions are displayed.](./media/ai9873.png)
 
-1. Select an **Azure AI services multi-service  account**.
-
-   ![The image and its captions are displayed.](./media/aix2.png)
-
-1. You will be taken to a page to create an Azure AI services resource. Please click on **Create** configure it with the following settings:
-
-    ![The image and its captions are displayed.](./media/ai900m5-2.png)
+    ![The image and its captions are displayed.](./media/mod4n1.png)
 
 1. You will be taken to a page to create an Azure AI services resource. Please click on **Create** configure it with the following settings:
 
@@ -64,15 +58,13 @@ Next, connect the Azure AI services resource you provisioned above to Vision Stu
 
     ![The View all resource link is highlighted under Getting started with Vision in Vision Studio.](./media/lab-5(3).png)
 
-1. On the **Select a resource to work with** page, hover your mouse cursor over the resource you created above in the list and then check the box to the left of the resource name **(1)**, then select **Select as default resource (2)**.
+1. On the **Select a resource to work with** page, make sure the resource you created above appears in the list. 
 
-    > **Note** : If your resource isn't listed, try **Refreshing** the page.
-
-    ![](./media/ai900m5-11.png)
-
-      >**Note**: If you dont see the **Select as default resource** button, please close the pop up related to AI Foundry by selecting "x" at the top right of the screen.
+    > **Note**: If your resource isn't listed, try **Refreshing** the page.
 
       ![](./media/ai900m5-12.png)
+
+1. Close the settings page by selecting the **x** at the top right of the screen.
 
 ### Task 3: Extract text from images in the Vision Studio
 
@@ -84,9 +76,15 @@ In this task, you will learn how to extract text from images in Vision Studio us
 
    ![An image of the text in the image outlined](media/ai900m5-5.png)
 
-1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box.
+1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box and select the **Please select a resource**
 
-   ![An image of the text in the image outlined](media/ai900m5-6.png)
+    ![The image and its captions are displayed.](./media/mod4n2.png)
+
+1. On the **Select an Azure resource** page, choose your existing **subscription (1)** from the drop-down menu, then select the **AI service (2)** resource from the **Azure resource** drop-down, and click **Confirm (3)**.
+
+    ![The image and its captions are displayed.](./media/mod5n1.png)
+
+1. **Check** the Acknowledge box once more.
 
 1. Open a new tab, copy and paste this link in the browser [**https://aka.ms/mslearn-ocr-images**](https://aka.ms/mslearn-ocr-images) to download **ocr-images.zip**. Then extract the zip folder.
 
