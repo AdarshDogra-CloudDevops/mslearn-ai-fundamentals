@@ -86,6 +86,8 @@ In this task, you will learn how to create a new project in the **Language** res
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
     
     * Password: <inject key="AzureAdUserPassword"></inject>
+
+1. Close the pop up.    
    
 1. If prompted to select an Azure resource, ensure the following settings and click on **Done (5)**:
     - **Azure directory**: *The Azure directory containing your subscription* **(1)**

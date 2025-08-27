@@ -15,8 +15,6 @@ In this lab, you will perform:
 - Task 4: Train the model
 - Task 5: Deploy and test the model
 
-## Exercise 1: Use Conversational Language Understanding with Language Studio
-
 ### Task 1: Create a *Language* resource
 
 In this task, you will learn how to create a **Language** resource in Azure to unlock advanced natural language processing capabilities for text analysis and AI-driven insights.
@@ -30,6 +28,8 @@ You can use many Azure AI Language features with either a **Language** or **Azur
 1. In the Marketplace page search for **Language service (1)** press **Enter** and Select **Language service (2)**.
 
    ![An image of the text in the image outlined](media/ai900m7-2.png)
+
+1. Select **Create**.   
 
 1. You will be taken to a page to **Select additional features**. Keep the default selection and click **Continue to create your resource**.
 
@@ -232,14 +232,14 @@ To use your trained model in a client application, you must deploy it as an endp
 
 1. Use these settings:
     - Create or select an existing deployment name: **Deploy<inject key="DeploymentID" enableCopy="false" /> (1)**
-    - Assign trained model to your deployment name: **Select the name of the trained model (2)**
+    - Assign trained model to your deployment name: Select the name of the trained model **Train<inject key="DeploymentID" enableCopy="false" /> (2)**
     - Select **Deploy (3)**
 
         > **Tip**: Note your *deployment name*, you will use it later.    
 
         ![Select add under Intents on the Build Schema pane.](media/ai900m8-25.png)
    
-1. When the model is deployed, select **Testing deployments (1)** on the left-hand side of the page, and then select your deployed model under **Deployment name (2)**. Enter the following text **(3)**, and then select **Run the test (4)**:
+1. When the model is deployed, select **Testing deployments (1)** on the left-hand side of the page, and then select your deployed model **Deploy<inject key="DeploymentID" enableCopy="false" />** under **Deployment name (2)**. Enter the following text **(3)**, and then select **Run the test (4)**:
 
     `switch the light on`
 
