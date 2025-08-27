@@ -161,12 +161,12 @@ In this task, you will upload documents to an Azure Storage container. First, yo
 1. In the container, select **Upload**.
 
 1. In the **Upload blob** pane, select **Browse for files (1)**.
+          
+     - Navigate to `C:\Users\azureuser\Downloads` **(2)**. 
 
-    - Navigate to `C:\Users\azureuser\Downloads` **(2)**. 
+     - Select all the reviews files **(3)** and then **Open (4)** 
 
-    - Select all the reviews files **(3)** and then **Open (4)** 
-
-      ![Picture1](media/ai2l18.png)
+       ![Picture1](media/ai2l18.png)
 
 1. Then select **Upload (3)**.
 
