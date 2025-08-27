@@ -357,17 +357,17 @@ In this task, you will learn how to review the knowledge store in your **AI Sear
 
 Let's see the power of the knowledge store in action. When you ran the *Import data wizard*, you also created a knowledge store. Inside the knowledge store, you'll find the enriched data extracted by AI skills persists in the form of projections and tables.
 
-1. In the Azure portal, navigate back to your Azure storage account.
+1. In the **Azure portal**, navigate back to your Azure storage account **aistorage<inject key="DeploymentID" enableCopy="false" />**.
 
 1. In the left-hand menu pane, select **Containers (1)**. Select the **knowledge-store (2)** container.
 
     ![Screenshot of the knowledge-store container.](media/containe(1).png)
 
-1. Select any of the items.
+1. You will see a list of folders. There is one folder for all of the metadata for each review document. **Select any of the folders**.
 
     ![](media/lab11-42.png)
 
-1.  You will see a list of folders. There is one folder for all of the metadata for each review document. **Select any of the folders**. Within the folder, click the **objectprojection.json** file.
+1. Within the folder, click the **objectprojection.json** file.
 
     ![Screenshot of the objectprojection.json.](media/lab11-44.png)
 
@@ -377,21 +377,27 @@ Let's see the power of the knowledge store in action. When you ran the *Import d
 
 1. Select the storage blob breadcrumb at the top left of the screen to return to the Storage account *Containers*.
 
-    ![Screenshot of the storage blob breadcrumb.](media/ch-8.png)
+    ![Screenshot of the storage blob breadcrumb.](media/ai2l22.png)
 
 1. In the **Containers (1)**, select the container **coffee-skillset-image-projection (2)**.
 
     ![Screenshot of the skillset container.](media/containe(2).png)
 
-1.  Select any of the items.
+1.  Select any of the folder.
 
      ![Screenshot of the skillset container.](media/lab11-48.png)
 
-1. Select any of the *.jpg* files. Select **Edit** to see the image stored in the document. Notice how all the images from the documents are stored in this manner.
+1. Select any of the *.jpg* files.
+
+1. Select **Edit** to see the image stored in the document.
+
+1. Notice how all the images from the documents are stored in this manner.
 
     ![Screenshot of the saved image.](media/lab11-43.png)
 
 1. Select the storage blob breadcrumb at the top left of the screen to return to the Storage account *Containers*.
+
+    ![Screenshot of the storage blob breadcrumb.](media/ai2l22.png)
 
 1. Select **Storage browser (1)** on the left-hand panel, and select **Tables (2)**. There's a table for each entity in the index. Select the table **coffeeSkillsetKeyPhrases (3)**.
 
