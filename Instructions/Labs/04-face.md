@@ -23,7 +23,7 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
 
     ![The image and its captions are displayed.](./media/ai9873.png)
 
-    ![The image and its captions are displayed.](./media/ai9874.png)
+    ![The image and its captions are displayed.](./media/mod4n1.png)
 
 1. You will be taken to a page to create an Azure AI services resource. Please click on **+ Create** Configure it with the following settings:
    
@@ -73,13 +73,15 @@ In this task, you will learn how to detect faces in Vision Studio to analyze fac
 
     ![The image and its captions are displayed.](./media/lab4-1.png)
 
-1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box.
+1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box and select the **Please select a resource**
 
-    ![The image and its captions are displayed.](./media/lab4-4.png)
+    ![The image and its captions are displayed.](./media/mod4n2.png)
+
+1. On the **Select an Azure resource** page, choose your existing **subscription (1)** from the drop-down menu, then select the **AI service (2)** resource from the **Azure resource** drop-down, and click **Confirm (3)**.
+
+    ![The image and its captions are displayed.](./media/mod4n3.png)
 
 1. Select each of the sample images and observe the face detection data that is returned.
-
- >**Note**: If no output is displayed, click on **Choose a different resource**, select the AI service resource you created from the dropdown, acknowledge the checkbox again, and then proceed with the task.
 
 1. Copy the highlighted link by right-clicking the [**https://aka.ms/mslearn-detect-faces**](https://aka.ms/mslearn-detect-faces) and selecting "Copy" from the context menu, and paste it into a new tab to download **detect-faces.zip**. 
 
