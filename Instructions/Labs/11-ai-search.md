@@ -168,7 +168,7 @@ In this task, you will upload documents to an Azure Storage container. First, yo
 
        ![Picture1](media/ai2l18.png)
 
-1. Then select **Upload (3)**.
+1. Then select **Upload**.
 
 1. After the upload is complete, you can close the **Upload blob** pane. Your documents are now in your *coffee-reviews* storage container.
 
