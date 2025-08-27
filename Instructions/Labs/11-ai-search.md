@@ -162,8 +162,7 @@ In this task, you will upload documents to an Azure Storage container. First, yo
 
 1. In the **Upload blob** pane, select **Browse for files (1)**.
 
-    - Navigate to `C:\Users\azureuser\Downloads`
-**(2)**. 
+    - Navigate to `C:\Users\azureuser\Downloads` **(2)**. 
 
     - Select all the reviews files **(3)** and then **Open (4)** 
 
@@ -290,7 +289,7 @@ After you have the documents in storage, you can use Azure AI Search to extract 
       The indexer is run automatically and runs the indexing pipeline, which:
       - Extracts the document metadata fields and content from the data source.
       - Runs the skillset of AI skills to generate more enriched fields.
-     - Maps the extracted fields to the index.
+      - Maps the extracted fields to the index.
 
 1.  Return to your Azure AI Search resource page. On the left pane, under **Search Management**, select  **Indexers (1)**. Select the newly created **coffee-indexer (2)**. Wait a minute, and select **&orarr; Refresh** until the **Status** indicates success.
 
