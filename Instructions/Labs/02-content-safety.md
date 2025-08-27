@@ -102,51 +102,7 @@ Let's start by creating an Azure AI Foundry project.
 
 1. If you were to build an application that used Azure AI services, you could start with the provided code. By replacing the placeholders with your own service's key and endpoint, your application would be able to send requests and receive responses that utilize Azure AI services. In the case of the Face service, the *request* is for the Face service to analyze the image. The *response* is the detected attributes. 
 
-    >**Note**
-    >You do     
-  
-### Task 3: See Azure AI services in action
-
-In this task, you will explore and interact with Azure AI services through demos in the Azure AI Foundry portal.
-
-1. In a browser tab, navigate to [Azure AI Foundry](https://ai.azure.com?azure-portal=true).
-
-1. Sign in with your account.
-
-1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary, use the Azure AI Foundry logo at the top left to navigate to the home page, which looks similar to the following image (close the Help pane if it's open).
-
-1. In a new browser window, open the [Azure AI services exploration page](https://ai.azure.com/explore/aiservices).
-
-1. Under *AI Services*, select the **View AI Services** tile.
- 
-    ![Screenshot of the left-hand menu on the project screen with AI Services selected.](./media/view-ai-foundry-outside-project.png)  
-
-1. On the **AI Services** page, select the **Vision + Document** tile to try out Azure AI Vision and Document capabilities.
-
-    ![Screenshot of the Vision and Document tile selected on the AI Services page.](./media/upd-3.2.png)
-
-1. Under *View all Vision capabilities* select the **Face** tab. 
-
-1. Select the **Detect faces in an image** tile. 
-
-   ![](./media/face.png)
-
-1. Try out the Face service, which is one of many Azure AI services. Click on an image and check out the detected attributes. 
-
-    ![Screenshot of the detect faces demo in Azure AI Foundry portal.](./media/detect-faces-demo.png)
-
-1. Scroll down to the **Run the code** section. Select **View Code**. 
-
-    ![Screenshot of the view code screen with a view of the code placeholders for key and endpoint.](./media/view-code-example.png) 
-
-1. Scroll down to the section that starts with *import os*. In the sample code provided, you'll see placeholders where you could put a key and endpoint.
-
-   ![Screenshot of the view code screen with a view of the code placeholders for key and endpoint.](./media/view-code-example1.png)
-
-1. If you were to build an application that used Azure AI services, you could start with the provided code. By replacing the placeholders with your own service's key and endpoint, your application would be able to send requests and receive responses that utilize Azure AI services. In the case of the Face service, the *request* is for the Face service to analyze the image. The *response* is the detected attributes. 
-
-    >**Note**
-    >You do not need to know programming to complete any of the exercises in this course. We will continue to take a look at Azure AI services in action through the Azure AI Foundry portal.  
+    >**Note**: You do not need to know programming to complete any of the exercises in this course. We will continue to take a look at Azure AI services in action through the Azure AI Foundry portal.  
 
 ## Validation
 
