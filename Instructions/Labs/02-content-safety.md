@@ -12,52 +12,98 @@ In this lab, you will perform:
 - Task 2: Check out the keys and endpoint
 - Task 3: See Azure AI services in action
 
-## Exercise 1: Create an Azure AI services resource in the Azure portal
+### Task 1: Create an Azure AI services resource
 
-### Task 1: Create an Azure AI services resource in the Azure portal
+In this task, you will learn how to create an **Azure AI Services** resource to access various AI capabilities for your applications.
 
-In this task, you will learn how to create an Azure AI services resource in the Azure portal
+You can use Azure AI Face service with an **Azure AI services** multi-service resource. If you haven't already done so, create an **Azure AI services** resource in your Azure subscription.
 
-1. In the Azure portal, search for **Azure AI services (1)**. Select an **Azure AI Foundry(2)**.
+1. In the Azure portal, Click the **＋Create a resource** button.
 
-    ![The image and its captions are displayed.](./media/upd-1.png)
+    ![The image and its captions are displayed.](./media/ai9873.png)
 
-1. In the **Azure AI Foundry**, do the following:
+1. Search for **Azure AI services (1)** and select **Azure AI services (2)**.
 
-    - Expand the **Classic AI services (1)** section from the left-hand menu.  
-    - Select **Azure AI services multi-service account (classic) (2)** to view classic AI resources.
+    ![The image and its captions are displayed.](./media/ai2l1.png)
 
-        ![Expand Classic AI services and select Azure AI services multi-service account (classic)](./media/upd-2.png)
- 
-1. Once you're in the **Azure AI services multi-service account (classic)** page, you'll see a list of existing resources (if any).
+1. Select **Azure AI services**.
 
-    - Click the **+ Create** button in the top menu bar to start provisioning a new AI service.
+    ![](./media/ai2l2.png)
 
-        ![The full page view showing the Create button in Azure AI services (classic)](./media/upd-3.1.png)
-1. You will be taken to a page to create an Azure AI services resource. Please click on **Create**, configure it with the following settings:
+1. Select **Create**.
+
+    ![The image and its captions are displayed.](./media/ai2l3.png)
+
+1. Configure  the AI Service with the following settings:
    
     - **Subscription (1)**: Use the existing Azure subscription.
-    - **Resource group (2)**: **AI-900-Module-11-<inject key="DeploymentID" enableCopy="false" />**
+    - **Resource group (2)**: **AI-900-Module-02**
     - **Region (3)**: Select **<inject key="location" enableCopy="false"/>**
     - **Name (4)**: Enter **contentsafety<inject key="DeploymentID" enableCopy="false"/>**
     - **Pricing tier (5)**:Select **Standard S0**.
-    - **By checking this box, I acknowledge that I have read and understood all the terms below (6)**: *Selected*.
+    - **By checking this box, I acknowledge that I have read and understood all the terms below (6)**: *Selected*. 
 
-      ![The image and its captions are displayed.](./media/ch-10.png)
+      ![The image and its captions are displayed.](./media/ai2l4.png)
+      ![The image and its captions are displayed.](./media/ai2l5.png)      
 
-1. Select **Review + create (7)** then **Create** and wait for deployment to complete.
+1. On the Review + create tab, select **Create** and wait for deployment to complete.
 
-   >***Congrats! You've just created or provisioned an Azure AI services resource. The one you provisioned in particular is a multi-service resource.***
+>***Congrats! You've just created or provisioned an Azure AI services resource. The one you provisioned in particular is a multi-service resource.***
 
 1. Once the deployment is complete, select *Go to resource*. 
+
+    ![](./media/ai2l6.png)
+
+1. Select **contentsafety<inject key="DeploymentID" enableCopy="false"/>**.
+
+    ![](./media/ai2l7.png)
 
 ### Task 2: Check out the keys and endpoint
 
 In order to incorporate Azure AI services into applications, developers need a service key and endpoint. The keys and endpoint used for application development can be found in the Azure Portal. 
 
-1. In the Azure Portal, select your resource. On the left-hand menu, look under **Resource Management (1)** for *Keys and Endpoints*. Select **Keys and Endpoints (2)** to view the endpoint and keys for your resource. 
+1. In the Azure Portal, select your resource. On the left-hand menu, look under **Resource Management (1)** for *Keys and Endpoints*. Select **Keys (2) and Endpoints (3)** to view the endpoint and keys for your resource. 
 
-   ![The image and its captions are displayed.](./media/ch-9.png)
+    ![](./media/ai2l8.png)
+
+### Task 3: See Azure AI services in action
+
+Let's start by creating an Azure AI Foundry project.
+
+1. In a web browser, open the [Azure AI Foundry portal](https://ai.azure.com) at `https://ai.azure.com`.
+
+1. If prompted, provide the credentials below:
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+1. In a new browser window, navigate to the [Azure AI services exploration page](https://ai.azure.com/explore/aiservices).
+
+1. On the *AI Services* page, select the **Vision + Document** tile to try out Azure AI Vision and Document capabilities.
+
+    ![](./media/ai2lai2l9.png)
+
+1. Under *View all Vision capabilities* select the **Face (1)** tab. Select the **Detect faces in an image (2)** demo tile.
+
+    ![](./media/ai2l10.png)
+
+1. Try out the Face service, which is one of many Azure AI services. Click on an image.
+
+    ![](./media/ai2l11.png)
+
+1. Check out the detected attributes. 
+
+    ![](./media/ai2l12.png)
+
+1. Scroll down to the **Run the code** section. Select **View Code (1)**. Scroll down to the section that starts with *import os*. In the sample code provided, you'll see placeholders where you could put a key and endpoint **(2)**.
+
+    ![](./media/ai2l14.png)
+
+1. If you were to build an application that used Azure AI services, you could start with the provided code. By replacing the placeholders with your own service's key and endpoint, your application would be able to send requests and receive responses that utilize Azure AI services. In the case of the Face service, the *request* is for the Face service to analyze the image. The *response* is the detected attributes. 
+
+    >**Note**
+    >You do     
   
 ### Task 3: See Azure AI services in action
 
