@@ -164,6 +164,7 @@ In this task, you will upload documents to an Azure Storage container. First, yo
 
     - Navigate to `C:\Users\azureuser\Downloads`
 **(2)**. 
+
     - Select all the reviews files **(3)** and then **Open (4)** 
 
       ![Picture1](media/ai2l18.png)
