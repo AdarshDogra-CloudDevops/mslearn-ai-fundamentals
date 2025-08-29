@@ -21,32 +21,6 @@ In this lab, you will perform:
 
 In this task, we are creating an Azure AI Foundry project and configuring the necessary resources to explore AI language capabilities in the Language Playground.
 
-1. On the Azure Portal page, in the Search resources, services, and docs (G+/) box at the top of the portal, enter **AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
-
-    ![](./media/lab6-1.png) 
-
-1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create** and select **Hub (3)** from the drop-down.
-
-    ![](./media/lab6-2.png) 
-
-1. On the **Create an AI hub resource** pane, enter the following details:
-
-
-    - Subscription : **Leave default subscription (1)** 
-    - Resource Group : Select **AI-900-Module-06 (2)** 
-    - Region :  Select **<inject key="location" enableCopy="false"/> (3)** 
-    - Name : Use the format **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (4)** 
-    - Friendly name : This will be automatically generated based on the name you enter for your **AI hub.** **(5)**
-    - Default project resource group : This will be pre-filled. Ensure it matches the resource group selected above **(6)**.
-    - Connect AI Services incl. OpenAI : Click on **Create New (7)**
-    - Create new Azure AI Services: Provide a name to the AI Service,Use the format **AI<inject key="Deployment ID" enableCopy="false"></inject> (8)**  
-    - Click on **Save (9)**.
-    - Click on **Review + Create (10)**
-
-       ![](./media/ch-19.png) 
-
-1. Click on the **Create** button to begin the deployment process.
-
 1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
 
    ![](./media/3-27.png)
@@ -65,11 +39,11 @@ In this task, we are creating an Azure AI Foundry project and configuring the ne
  
      ![Enter Your Password](./media/19-5(1).png)
 
-1. If prompted to stay signed in, you can click **No**.
+1. If prompted to **Stay signed in**, you can click **No**.
 
    ![](./media/9-8(1).png)
 
-1. If prompted with *Streamlined from the start*, click on **Got it** to proceed.
+1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
    ![](./media/3-23.png)
 
@@ -77,41 +51,27 @@ In this task, we are creating an Azure AI Foundry project and configuring the ne
 
 1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create new**.
 
-1. Choose the option to create a **AI hub resource (1)** then select **Next (2)**.
+    ![](./media/AI-l6-1.png)
 
-   ![](./media/lab3-20.png)
+1. Choose the option to create a **Azure AI Foundry resource(1)** then select **Next (2)**.
 
-1. In the **Create a new project** wizard, enter project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select newly created **Myhub<inject key="DeploymentID" enableCopy="false" /> (2)** and select **Create (3)**.
+   ![](./media/AI-l6-2.png)
 
-    ![](./media/lab6-5(1).png)
+1. In the **Create a project** wizard, enter project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and **Expand Advanced options (2)** to specify the following settings for your project: 
+
+    - Subscription : **Leave default subscription (3)** 
+    - Resource Group : Select **AI-900-Module-03 (4)** 
+    - Azure AI Foundry resource: Click on **Create New (5)**
+    - Region : Select **<inject key="location" enableCopy="false"/> (6)**
+    - Click on **Create** **(7)**
+
+      ![](./media/AI-l6-3.png)
 
 1. Wait for your project created.
 
 1. When the project is created, you will be taken to an **Overview** page of the project details.
 
    ![](./media/lab6-6(1).png)
-
-1. From the left-hand navigation menu, click on **AI Services**.
-
-   ![Navigation showing AI Services in Azure AI Foundry](./media/upd-1.1.png)
-
-1. Under the **"Infuse your solutions with AI capabilities"** section, click on the **Language + Translator** tile.
-
-    ![Language + Translator tile under AI capabilities](./media/upd-1.2.png)
-
-1. On the **Explore Language capabilities**, under the **Extract Information** tab, select **Extract named entities**.
-
-    ![Extract named entities option in Language capabilities](./media/upd-1.3.png)
-
-1. You will be prompted to create a new AI Services resource.
-
-   - **Region** : Select **<inject key="location" enableCopy="false"/> (1)**
-   - Provide a **Name** for the resource : AI_Connection_<inject key="DeploymentID" enableCopy="false"/> **(2)**
-   - Click **Create and connect (3)** to link this resource to your project.
-   
-      ![Create and connect AI Services resource dialog](./media/ch-11.png)
-
-1. Wait for the AI Services resource to be created.
 
 1. On the left-hand menu on the screen, select **Playgrounds**.
 
@@ -162,7 +122,7 @@ This task demonstrates how to use Azure AI Language Playground for Named Entity 
 
 This task demonstrates how to use Azure AI Language Playground for key phrase extraction. By analyzing a hotel review, Azure AI identifies important phrases that summarize the text's main points. 
 
-*Key phrases* are the most important pieces of information in the text. Let's use the key phrase extraction capability of Azure AI Language to pull important information from a review.
+**Key phrases** are the most important pieces of information in the text. Let's use the key phrase extraction capability of Azure AI Language to pull important information from a review.
 
 1. In the Language playground, select **Extract information (1)**. Then select the **Extract key phrases (2)** tile. 
 
@@ -210,7 +170,7 @@ In this task, we are using Azure AI Language to generate an extractive summary b
 
    ![](./media/6-9.png)
 
-1. Review the output and observe that the *Extractive summary* in the **Details** section provides rank scores for the most significant sentences, highlighting their relevance to the overall text.  
+1. Review the output and observe that the **Extractive summary** in the **Details** section provides rank scores for the most significant sentences, highlighting their relevance to the overall text.  
 
    ![](./media/6-10.png)
 
