@@ -103,7 +103,7 @@ cars throughout NASCAR’s history.` **(2)**
 
 1. **File or Folder Selection**  
 
-    - In the file browser, navigate to avigate to `C:\mslearn-ai-fundamentals\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson2` and then select the file: `NASCAR Champions History Dataset.csv` **(1)** 
+    - In the file browser, navigate to avigate to `C:\Labs\Allfiles\unit5-lesson2` and then select the file: `NASCAR Champions History Dataset.csv` **(1)** 
     - Wait for the file to appear under “Upload list”  
     - Click **Next (2)**  
 

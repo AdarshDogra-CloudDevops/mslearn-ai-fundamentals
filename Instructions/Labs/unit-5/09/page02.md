@@ -77,7 +77,7 @@ In this task, you will upload and launch a Jupyter notebook in Azure to explore 
 
    ![](../images/n59c5.png) 
 
-1. Navigate to  `C:\mslearn-ai-fundamentals\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson9` and then select the **L9_Notebook.ipynb** and then **Open**.
+1. Navigate to  `C:\Labs\Allfiles\unit5-lesson9` and then select the **L9_Notebook.ipynb** and then **Open**.
 
 1. Once the notebook is uploaded, check the **I trust contents of this file** box **(1)** and then **Upload (2)**.
 
@@ -91,7 +91,7 @@ In this task, you will upload and launch a Jupyter notebook in Azure to explore 
 
    ![](../images/n59c5.png)
 
-1. Navigate to  `C:\mslearn-ai-fundamentals\mslearn-ai-fundamentals\Labs\Allfiles\unit5-lesson9` and then select **Gamecocks_Running_Stats.csv** and then **Open**.
+1. Navigate to  `C:\Labs\Allfiles\unit5-lesson9` and then select **Gamecocks_Running_Stats.csv** and then **Open**.
 
 1. Once the notebook is uploaded, check the **I trust contents of this file** box **(1)** and then **Upload (2)**.
 
