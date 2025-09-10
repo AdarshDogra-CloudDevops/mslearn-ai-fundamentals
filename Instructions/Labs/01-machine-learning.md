@@ -8,7 +8,7 @@ In this exercise, you'll use the automated machine learning feature in **Azure M
 
 In this lab, you will perform:
 
-- Task 1: Creating an *Azure Machine Learning workspace* resource
+- Task 1: Creating an Azure Machine Learning workspace resource
 - Task 2: Use automated machine learning to train a model
 - Task 3: Deploy the model
 
@@ -28,7 +28,7 @@ In this task, you will create an Azure Machine Learning workspace. You will sear
 
 3. On the **Azure Machine Learning** page, click **Create** to proceed.
 
-   ![Picture1](media/ai900mod1cimg2.png)
+   ![Picture1](media/AI-900-lab1-0.png)
   
 4. Create a new **Azure Machine Learning** resource with an *Azure Machine Learning* plan. Use the following settings:
 
@@ -102,7 +102,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
     - **Job name**: mslearn-bike-automl **(1)**
     - **New experiment name**: mslearn-bike-rental **(2)**
     - **Description**: Automated machine learning for bike rental prediction **(3)**
-    - **Tags**: *Leave default* **(4)**
+    - **Tags**: Leave default **(4)**
 
        ![](media/1.png)
 
@@ -116,60 +116,75 @@ Automated machine learning enables you to try multiple algorithms and parameters
     - To create new data with the following settings:
 
          - **Data type**:
-            - **Name**: `bike-rentals`
-            - **Description**: `Historic bike rental data`
-            - **Type**: Table (mltable)
+            - **Name**: `bike-rentals` **(1)**
+            - **Description**: `Historic bike rental data` **(2)**
+            - **Type**: Tabular **(3)**
+            - Click **Next (4)**
 
-              ![](media/ai900j1.png)
+              ![](media/AI-900-lab1-1.png)
         - **Data source**:
-            - Select **From local files**
+            - Select **From local files (2)**
+            - Click **Next (2)**
 
-              ![](media/ai900j2.png)
+              ![](media/AI-900-lab1-2.png)
         - **Destination storage type**:
-            - **Datastore type**: Azure Blob Storage
-            - **Name**: workspaceblobstore
+            - **Datastore type**: Azure Blob Storage **(1)**
+            - **Name**: workspaceblobstore **(2)**
+            - Click **Next (3)**
 
-              ![](media/ai900j3.png)
-        - **MLtable selection**:
-            - **Upload folder**: Download and extract the contents of the folder from* [`https://aka.ms/bike-rentals`](https://aka.ms/bike-rentals), *which contains the two files you will need to upload. Once uploaded, click on **Next**.
+              ![](media/AI-900-lab1-3.png)
+        - **Files or Folder selection**:
+            - **Upload files or folder**: Download and extract the contents of the folder from [`https://aka.ms/bike-rentals`](https://aka.ms/bike-rentals), which contains the two files you will need to upload one file. Once uploaded, click on **Next**.
 
-              ![](media/ai900j4.png)
+            - On the **Create data asset – File or folder selection** page, click **Upload files or folder (1)** and choose **Upload files (2)** to upload files from your local drive.
 
-              ![](media/ai900j5.png)
+              ![](media/AI-900-lab1-4.png)
 
-              ![](media/ai900j6.png)
+            - In the **Open** dialog, select **daily-bike-share (1)**, then click **Open (2)** to upload the file.
+
+              ![](media/AI-900-lab1-4.1.png)
+
+              ![](media/AI-900-lab1-5.png)
+
+        - On the **Create data asset – Settings** page, Leave everything default click **Next**:
+
+          ![](media/AI-900-lab1-7.png)
+        - On the **Create data asset – Schema** page, review detected columns and types, then click **Next**
+
+          ![](media/AI-900-lab1-8.png)
+
         - Select **Create**. 
   
-           ![](media/ai900j7.png)
+          ![](media/AI-900-lab1-9.png)
       
         - After the dataset is created, select the **bike-rentals (1)** dataset to continue to submit the Automated ML job. Select **Next (2)**
 
-           ![](media/ai900j8.png)
+          ![](media/ai900j8.png)
         
     **Task settings**:
 
     - **Task type**: Regression
     - **Data**: bike-rentals
-    - **Target column**: rentals (integer) (1)
+    - **Target column**: rentals (integer) **(1)**
 
        ![](media/ai900j9.png)
 
     - Select **View additional configuration settings (2)** under Target Column:
         - Primary metric: **Normalized root mean squared error** **(3)**
         - Explain best model: **Unselected** **(4)**
-        - **Use all supported models**: <u>Un</u>selected.  *You'll restrict the job to try only a few specific algorithms.*
-        - **Allowed models**: *Select only **RandomForest** and **LightGBM** (5) — normally you'd want to try as many as possible, but each model added increases the time it takes to run the job.*
+        - **Use all supported models**: <u>Un</u>selected.  You'll restrict the job to try only a few specific algorithms.
+        - **Allowed models**: Select only **RandomForest** and **LightGBM** (5) — normally you'd want to try as many as possible, but each model added increases the time it takes to run the job.
 
-    - **Limits**: *Expand this section*
+    - **Limits**: **Expand this section**
         - Max trials: **3** **(1)**
         - Max concurrent trials: **3** **(2)**
         - Max nodes: **3** **(3)**
         - Metric score threshold: **0.085** **(4)** (*so that if a model achieves a normalized root mean squared error metric score of 0.085 or less, the job ends.*)
         - Experiment Timeout: **15** **(5)**
         - Iteration timeout: **15** **(6)**
-        - Enable early termination: *Selected* **(7)**
+        - Enable early termination: Selected **(7)**
 
-          ![](media/ai900j10.png)
+           ![](media/AI-900-lab1-10.png)
 
     - **Validation and test**:
         - **Validation type**: Train-validation split **(1)**
