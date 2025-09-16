@@ -27,74 +27,75 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![Enter Your Username](./media/19-4.png)
+      ![Enter Your Username](./media/010725(04).png)
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/19-5.png)
+     ![Enter Your Password](./media/010725(05).png)
      
-1. If prompted to stay signed in, you can click **No**.
+1. If prompted to **Stay signed in**, you can click **No**.
 
-   ![](./media/9-8.png)
+   ![](./media/010725(06).png)
 
 1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it’s open).
 
 1. We will start by choosing a model that we want to work with and creating a project to use it in. 
 
-1. In the home page, scroll down. In the **Explore models and capabilities** section, search for the `gpt-4o` (1) model, which we’ll use in our project, and click (2) on it to select.
+1. In the home page, scroll down. In the **Explore models and capabilities** section, search for the `gpt-4o` **(1)** model, which we’ll use in our project, and click **(2)** on it to select.
 
-    ![](./media/L1T1S7-2005.png)
+     ![](./media/AI-l16-l1.png)
 
-1. Click on **Use this model**. 
+1. Then, at the top of the page for the model, select **Use this model**.
 
-    ![](./media/L1T1S8-2005.png)
+     ![](./media/AI-l16-l2.png)
 
 1. On the **Create a project to work with gpt-4o** pane, configure it with the following settings:
 
     - **Project**: **MyProject-<inject key="DeploymentID" enableCopy="false" /> (1)**
-    - **Subscription**: **Use existing Azure subscription (2)**
-    - **Azure AI Foundry resource**: Keep it default (3)
+    - expand **Advanced options (2)**.
+    - **Subscription**: **Use existing Azure subscription (3)**
     - **Resource group**: Select **AI-900-Module-16-<inject key="DeploymentID" enableCopy="false" /> (4)**
-    - **Location**: Select **<inject key="location" enableCopy="false"/> (5)**
-    - Click on **Create (6)**
+    - **Azure AI Foundry resource**: Keep it default **(5)**
+    - **Location**: Select **<inject key="location" enableCopy="false"/> (6)**
+    - Click on **Create (7)**
 
-        ![](./media/create-project-gpt4o-2005.png)
+        ![](./media/AI-l16-l3.png)
 
 1. When your project is created, the chat playground will be opened automatically so you can test your model:
 
-    ![](./media/chat-playground-2005.png)
+     ![](./media/AI-l16-l4.png)
 
 1. In the navigation pane on the left, select **Overview** to see the main page for your project; which looks like this:
 
-    ![](./media/ai900m16-1.png)
+     ![](./media/AI-l16-l5.png)
 
-     **Note**: If you find any Permission error, click on **Fix me**.
+     > **Note**: If you find any Permission error, click on **Fix me**.
 
 1. At the bottom of the navigation pane on the left, select **Management center**.
 
-    ![](./media/ai900m16-2.png)
+     ![](./media/AI-l16-l6.png)
 
-1. The management center is where you can configure settings at both the resource and project levels; which are both shown in the navigation pane.
+1. The **Management center** is where you can configure settings at both the resource and project levels; which are both shown in the navigation pane.
 
-    ![](./media/management-center-2005.png)
+    ![](./media/AI-l16-l7.png)
 
 1. Navigate back to the previous page by clicking the **← (back arrow)** in the top-left corner.
 
-   ![](./media/back.png)
+    ![](./media/AI-l16-l8.png)
     
 1. In the pane on the left for your project, in the **My assets** section, select the **Models + endpoints (1)** page. Verify the **gpt-4o (2)** model is created as we have used the same to create the project, and click on it to open. 
 
-    ![](./media/ai900m16-3.png)
+     ![](./media/AI-l16-l9.png)
 
 1.  Click on the **Edit** option to change to Tokens per Minute Rate Limit of the model. 
 
-    ![](./media/edit-model-2005.png)
+     ![](./media/AI-l16-l10.png)
 
 1. Set the Tokens per Limit Rate limit to **50K (1)** and then click on **Submit Changes (2)**.
 
-    ![](./media/edit-model2-2005.png)
+    ![](./media/AI-l16-l11.png)
 
-    > **Note**: If an **Insufficient permissions** error appears, you can safely ignore it.
+    > **Note:** If an **Insufficient permissions** error appears, you can safely ignore it.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
@@ -113,39 +114,39 @@ Now that you have a model deployed, you're ready to build an AI agent. In this e
 
     ![](./media/ai900m16-7.png)
 
-1. Return to the browser tab with the Azure AI Foundry portal. In the left navigation pane, under the **Build and customize** section, select the **Agents (1)** page, then go to the **My Agents (2)** tab. A new agent with a name like **AgentXYZ (3)** should be created automatically.
+1. Return to the browser tab with the **Azure AI Foundry** portal. In the left navigation pane, under the **Build and customize** section, select the **Agents (1)** page, then go to the **My Agents (2)** tab. A new agent with a name like **AgentXYZ (3)** should be created automatically.
 
-   ![](./media/agents-2005.png)
+   ![](./media/AI-l16-l12.png)
 
    > **Note:** The `XYZ` in the agent name represents a randomly generated number and may vary.
 
 1. Select the agent. Then, in the **Setup** pane for your new agent, set the **Agent name** to `ExpensesAgent` **(1)**, ensure that the **gpt-4o (2)** model deployment you created previously is selected, and set the **Instructions** to `Answer questions related to expense claims` **(3)**.
 
-    ![](./media/agent-setup-2005.png)
+    ![](./media/AI-l16-l13.png)
 
 1. Further down in the **Setup** pane, next to the **Knowledge** header, select **+ Add**.
 
-    ![](./media/knowledge1-2005.png)
+    ![](./media/AI-l16-l14.png)
 
 1. In the **Add knowledge** dialog box, select **Files**.
 
-    ![](./media/knowledge2-2005.png)
+    ![](./media/AI-l16-l15.png)
 
 1. In the **Adding files** dialog box, create a new vector store named `Expenses_Vector_Store` **(1)**,  select **Upload local (2)**, click **Select local files (3)**,
 
-    ![](./media/ai900m16-4.png)
+    ![](./media/AI-l16-l16.png)
 
 1. Navigate to the **Downloads (1)** folder, choose **Expenses_Policy (2)**, and click **Open (3)**.
   
-    ![](./media/ai900m16-5.png)
+    ![](./media/AI-l16-l17.png)
 
 1. Click **Upload and Save** to complete the file upload process.
 
-    ![](./media/ai900m16-6.png)
+    ![](./media/AI-l16-l18.png)
 
 1. In the **Setup** pane, in the **Knowledge** section, verify that **Expenses_Vector_Store** is listed and shown as containing 1 file.
 
-    ![](./media/ai900m16-8.png)
+    ![](./media/AI-l16-l19.png)
 
     > **Note**: You can also add **Actions** to an agent to automate tasks. In this simple information retrieval agent example, no actions are required.
 
@@ -155,17 +156,17 @@ Now that you've created an agent, you can test it in the Azure AI Foundry portal
 
 1. At the top of the **Setup** pane for your agent, select **Try in playground**.
 
-   ![](./media/test-agent1-2005.png)
+    ![](./media/AI-l16-l20.png)
 
 1. In the playground, enter the prompt `What's the maximum I can claim for meals?` and review the agent's response, which should be based on information in the expenses policy document you added as knowledge to the agent setup.
 
-    ![](./media/test-agent2-2005.png)
+     ![](./media/AI-l16-l21.png)
 
-    > **Note**: If the agent fails to respond because the rate limit is exceeded. Wait a few seconds and try again. If there is insufficient quota available in your subscription, the model may not be able to respond.
+     > **Note:** If the agent fails to respond because the rate limit is exceeded. Wait a few seconds and try again. If there is insufficient quota available in your subscription, the model may not be able to respond.
 
 1. Try a follow-up question, like `What about accommodation?` and review the response.
 
-    ![](./media/test-agent3-2005.png)
+     ![](./media/AI-l16-l22.png)
 
 ### Review
 
