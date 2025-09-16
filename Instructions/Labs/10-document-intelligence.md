@@ -21,11 +21,11 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. On the Azure Portal page, in the Search resources, services, and docs (G+/) box at the top of the portal, enter **Azure AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
 
-    ![](./media/lab6-1.png) 
+    ![](./media/AI-l3-1.png)  
 
-1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create** and select **Hub (3)** from the drop-down.
+1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create (3)** and select **Hub (4)** from the drop-down.
 
-    ![](./media/lab6-2.png) 
+    ![](./media/010725(01).png) 
 
 1. On the **Create an AI hub resource** pane, enter the following details:
 
@@ -38,9 +38,11 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
     - Click on **Save (7)**.
     - Click on **Review + Create (8)**
 
-       ![](./media/T1S3new-0906(1).png) 
+       ![](./media/AI-l10-1.png) 
 
 1. Click on the **Create** button to begin the deployment process.
+
+    ![](./media/AI-l10-1-new.png)
 
 1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
 
@@ -60,17 +62,19 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
  
      ![Enter Your Password](./media/19-5(1).png)
 
-1. If prompted to stay signed in, you can click **No**.
+1. If prompted to **Stay signed in**, you can click **No**.
 
    ![](./media/9-8(1).png)
 
-1. If prompted with *Streamlined from the start*, click on **Got it** to proceed.
+1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
    ![](./media/3-23.png)
 
 1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
 
 1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create new**.
+
+    ![](./media/AI-l6-1.png)
 
 1. Choose the option to create a **AI hub resource (1)** then select **Next (2)**.
 
@@ -82,7 +86,7 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. Wait for your project to be created.
 
-1. When the project is created, you will be taken to an *Overview* page of the project details. Select **AI services** on the left-hand menu. 
+1. When the project is created, you will be taken to an **Overview** page of the project details. Select **AI services** on the left-hand menu. 
 
 ## Task 2: Analyze a receipt with Azure AI Document Intelligence in Azure AI Foundry 
 
@@ -100,7 +104,7 @@ You are now ready to analyze a fictitious Northwind Traders retail company recei
 
     ![Screenshot of the Vision and Document tile selected on the AI Services page.](./media/17-6(2).png)
 
-1. On the *Vision + Document* page, scroll down and select **Document (1)**. Under *Prebuilt models for specific documents*, select the **Receipts (2)** tile.
+1. On the **Vision + Document** page, scroll down and select **Document (1)**. Under **Prebuilt models for specific documents**, select the **Receipts (2)** tile.
 
     ![](media/19-1(1).png)
 

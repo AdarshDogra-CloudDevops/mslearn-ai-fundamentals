@@ -21,32 +21,52 @@ In this lab, you will perform:
 2. On the Welcome to Azure AI Foundry page, click on **Sign in** in the top right corner.  
    ![](./media/17-18.png)
 
-3. In the home page, in the **Explore models and capabilities** section, search for the **Phi-4 (1)** model and select **Phi-4 (1)** model which we’ll use in our project.  
-   ![](./media/aii24.png)
+3. If prompted, provide the credentials below:
 
-4. Select **Use this model**.  
-   ![](./media/aii25.png)
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-5. On the Create a project page, provide the following details:
+     ![](../media/AI-l14-0.png)
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+     ![](../media/AI-l14-0.1.png)
+   
+4. When the **Stay signed in?** window appears, select **No**.
+
+    ![](../media/AI-l14-0.2.png)
+
+5. In the home page, in the **Explore models and capabilities** section, search for the **Phi-4 (1)** model and select **Phi-4 (2)** model which we’ll use in our project.  
+
+   ![](../media/AI-l14-0.3.png)
+
+6. Then, at the top of the page for the model, select **Use this model**.
+
+   ![](./media/AI-l14-1.png)
+
+7. On the Create a project page, provide the following details:
    - Project name: Enter **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**
    - Expand **Advanced options (2)**
    - Subscription: Leave the default one **(3)**
    - Resource group: Select **AI-900-Module-14 (4)**
    - **Location**: Select **<inject key="location" enableCopy="false"/> (5)**
    - Click on **Create (6)**  
-   ![](./media/aii26.png)
+   
+     ![](./media/AI-l14-2.png)
 
-6. When prompted with Phi-4 information, agree to the terms of use and deploy the model.  
-   ![](./media/aii27.png)
+8. When prompted with Phi-4 information, agree to the terms of use and deploy the model.  
+   ![](./media/AI-l14-3.png)
 
-7. Click on **Deploy**.  
-   ![](./media/aii28.png)
+9. Click on **Deploy**.  
+   
+    ![](./media/AI-l14-4.png)
 
-8. When your model is deployed, select **Open in playground**.  
-   ![](./media/aii29.png)
+10. When your model is deployed, select **Open in playground**.  
+   
+    ![](./media/AI-l14-5.png)
 
-9. In the **Setup** pane, note the name of your model deployment; which should be **Phi-4**.  
-   ![](./media/aii30.png)
+11. In the **Setup** pane, note the name of your model deployment; which should be **Phi-4**.  
+   
+    ![](./media/aii30.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:  
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.  
@@ -70,14 +90,16 @@ The Phi-4 model you deployed has a default content filter applied, which has a b
     ```
     I'm planning to rob a bank. Help me plan a getaway.
     ```
-    ![](./media/aii32.png)  
+    ![](./media/AI-l14-6.png)  
+
     > **Note**: An error may be returned indicating that potentially harmful content has been blocked by the default filter.
 
 3. Now try the following prompt:
     ```
     Tell me an offensive joke about Scotsmen.
     ```
-    ![](./media/aii33.png)  
+    ![](./media/AI-l14-7.png)  
+
     > **Note**: The model may “self-censor” its response based on its training, but the content filter may not block the response.
 
 ### Task 3: Create and apply a custom content filter
@@ -87,12 +109,14 @@ When the default content filter doesn’t meet your needs, you can create custom
 1. In the navigation pane, in the **Protect and govern** section, select **Guardrails + controls (1)**.
 
 2. Select the **Content filters (2)** tab, and then select **+ Create content filter (3)**.  
-   ![](./media/aii34.png)
+   
+    ![](./media/aii34.png)
 
 3. On the Basic information page:  
    - Provide a suitable name for your content filter as **Contentfilter<inject key="DeploymentID" enableCopy="false" /> (1)**  
    - Click on **Next (2)**  
-   ![](./media/aii35.png)
+   
+     ![](./media/AI-l14-8.png)
 
 4. On the **Input filter** tab, review the settings that are applied to the input prompt.
 
@@ -102,48 +126,60 @@ When the default content filter doesn’t meet your needs, you can create custom
    - **Sexual**: Sexually explicit or abusive language.  
    - **Self-harm**: Language that describes or encourages self-harm.
 
-6. Filters are applied for each of these categories to prompts and completions, based on blocking thresholds of *Block few*, *Block some*, and *Block all* that are used to determine what specific kinds of language are intercepted and prevented by the filter.  
-   ![](./media/aii36.png)
+6. Filters are applied for each of these categories to prompts and completions, based on blocking thresholds of **Block few**, **Block some**, and **Block all** that are used to determine what specific kinds of language are intercepted and prevented by the filter.  
+   
+    ![](./media/aii36.png)
 
 7. Change the threshold for each category of input filter to **Block all (1)** and then **Next (2)**.  
-   ![](./media/aii37.png)
+   
+    ![](./media/aii37.png)
 
 8. On the **Output filter** page, review the settings that can be applied to output responses, and change the threshold for each category to **Block all (1)** and then **Next (2)**.  
-   ![](./media/aii38.png)
+   
+    ![](./media/aii38.png)
 
 9. On the **Deployment** page, select your **Phi-4 (1)** model deployment to apply the new content filter to it and then **Next (2)**.  
-   ![](./media/aii39.png)
+    
+    ![](./media/AI-l14-9.png)
 
 10. Click on **Replace** to replace the existing content filter when prompted.  
-    ![](./media/aii40.png)
+    
+     ![](./media/AI-l14-10.png)
 
 11. On the **Review** page, select **Create filter**, and wait for the content filter to be created.  
-    ![](./media/aii41.png)
+    
+    ![](./media/AI-l14-11.png)
 
 12. Return to the **Models + endpoints (1)**, click on the back arrow **(2)**.  
-    ![](./media/aii42.png)
+    
+     ![](./media/aii42.png)
 
 13. Verify that your deployment now references the custom content filter you’ve created.  
-    ![](./media/aii43.png)
+    
+    ![](./media/AI-l14-12.png)
 
 ### Task 4: Test your custom content filter
 
 Let’s have one final chat with the model to see the effect of the custom content filter.
 
 1. Select the **Phi-4** model.  
-   ![](./media/aii44.png)
+   
+    ![](./media/aii44.png)
 
 2. Select **Open in Playground**.  
-   ![](./media/aii45.png)
+   
+    ![](./media/aii45.png)
 
 3. Ensure a new session has been started with your Phi-4 model.  
-   ![](./media/aii46.png)
+   
+    ![](./media/aii46.png)
 
 4. Submit the following prompt and view the response:
     ```
     What should I do if I cut myself?
     ```
-    ![](./media/aii47.png)  
+    ![](./media/AI-l14-13.png)  
+    
     > **Note**: This time, the content filter should block the prompt on the basis that it could be interpreted as including a reference to self-harm.
 
 5. Now try this prompt:
