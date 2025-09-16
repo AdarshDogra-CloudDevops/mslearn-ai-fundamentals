@@ -13,9 +13,9 @@ In this lab, you will perform:
 
 In this task, we are creating an Azure AI Foundry project and setting up AI resources to explore Vision and Document capabilities.
 
-1. On the Azure Portal page, in the Search resources, services, and docs (G+/) box at the top of the portal, enter **Azure AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
+1. On the Azure Portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Azure AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
 
-    ![](./media/AI-900-lab12-image1.png) 
+    ![](./media/AI-l3-1.png)  
 
 1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create (3)** and select **Hub (4)** from the drop-down.
 
@@ -23,18 +23,20 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. On the **Create an AI hub resource** pane, enter the following details:
 
-    - Subscription : **Leave default subscription** 
-    - Resource Group : Select **AI-900-Module-12 (1)** 
-    - Region : **<inject key="Location" enableCopy="false"/>** Use the same location as the resource group **(2)**
-    - Name : Use the format **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (3)** 
-    - Connect AI Services incl. OpenAI : Click on **Create New (7)**
+    - Subscription : **Leave default subscription (1)** 
+    - Resource Group : Select **AI-900-Module-12 (2)** 
+    - Region : **<inject key="Location" enableCopy="false"/>** Use the same location as the resource group **(3)**
+    - Name : Use the format **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (4)** 
+    - Connect AI Services incl. OpenAI : Click on **Create new (7)**
     - Create new Azure AI Services: Provide a name to the AI Service,Use the format **AI<inject key="Deployment ID" enableCopy="false"></inject> (8)**  
     - Click on **Save (9)**.
     - Click on **Review + Create (10)**
 
-       ![](./media/AI-900-lab12-image6.png) 
+       ![](./media/AI-l12-0.png) 
 
 1. Click on the **Create** button to begin the deployment process.
+
+    ![](./media/AI-l12-1.png) 
 
 1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
 
@@ -48,17 +50,17 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![Enter Your Username](./media/19-4.png)
+      ![Enter Your Username](./media/AI-l12-1.1.png)
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/19-5.png)
+     ![Enter Your Password](./media/AI-l12-1.2.png)
 
-1. If prompted to stay signed in, you can click **No**.
+1. If prompted to **Stay signed in**, you can click **No**.
 
-   ![](./media/9-8.png)
+   ![](./media/AI-l12-1.3.png)
 
-1. If prompted with *Streamlined from the start*, click on **Got it** to proceed.
+1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
    ![](./media/3-23.png)
 
@@ -66,13 +68,13 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create new**. 
 
-      ![](./media/T1S11-0207.png)
+      ![](./media/AI-l6-1.png)
    
 1. Choose the option to create a **Azure AI Foundry resource (1)** then select **Next (2)**.
 
-   ![](./media/T1S12-0207.png) 
+   ![](./media/AI-l6-2.png) 
 
-1. In the **Create a new project** wizard, enter details as mentioned below,
+1. In the **Create a new project** wizard, enter details as mentioned below and click **Create (5)**
 
    | Setting | Value | 
    | --- | --- |
@@ -81,7 +83,7 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
    | Resource group | **AI-900-Module-12 (3)** |
    |Region | **East US (4)** select the region same as the resource group |
 
-    ![](./media/T1S13-0207.png)
+    ![](./media/AI-l12-1-new.png)
 
 1. Wait for your project created.
 
@@ -89,9 +91,7 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
    ![](./media/AI-900-lab12-image5.png)
    
-1. When the project is created, you will be taken to an *Overview* page of the project details.
-
-1. On the left-hand menu on the screen, select **Playgrounds**.
+1. When the project is created, you will be taken to an **Overview** page of the project details.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -105,21 +105,23 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. From the left pane, go to **Models + Endpoints (1)** under My assests, and click on **Deploy model (2)** and select **Deploy base model (3)**
 
-   ![](./media/create-model1-0207.png)
+   ![](./media/AI-l12-3.png)
 
 1. Search **`gpt-4o`(1)** and select the **gpt-4o (chat completion) (2)** model and click on **Confirm (3)**
 
-   ![](./media/create-model2-0207.png)
+   ![](./media/AI-l12-4.png)
 
 1. Select the default values and click on **Deploy**
 
-   ![](./media/create-model3.1-0207.png)
+   ![](./media/AI-l12-5.png)
 
 ## Task 3: Explore generative AI in Azure AI Foundry's chat playground
 
 In this task, you will learn how to interact with the Chat playground in Azure AI Foundry, deploy a generative AI model, and optimize responses using effective prompting techniques.
 
-1. In Azure AI Foundry's Portal page, click **Playgrounds**
+1. In Azure AI Foundry's Portal page, click **Open in playgrounds**
+
+    ![](./media/AI-l12-6.png)
 
 1. Consider the following ways you can improve responses from a generative AI assistant:
     - Start with a specific goal for what you want the assistant to do
@@ -146,11 +148,11 @@ In this task, you will learn how to interact with the Chat playground in Azure A
     Where's a good location in Paris to stay? 
     ```
 
-   ![](./media/12-12.png)
+   ![](./media/AI-l12-7.png)
 
 1. Review the response, which should provide some places to stay in Paris.
 
-    ![](./media/12-11.png)
+    ![](./media/AI-l12-8.png)
 
 1. Let's iterate based on previous prompts and responses to refine the result. Enter the following prompt:
     
@@ -158,22 +160,22 @@ In this task, you will learn how to interact with the Chat playground in Azure A
     Can you give me more information about dining options near the first location?
     ``` 
 
-     ![](./media/12-13.png)
+     ![](./media/AI-l12-9.png)
 
 1. Review the response, which should provide dining options near the location mentioned in the previous response. 
 
-   ![](./media/12-14.png)
+   ![](./media/AI-l12-10.png)
 
 1. Now, let's provide a source to ground the response in a specific scope of information. Enter the following: 
     
     ```prompt
     Based on the information at https://en.wikipedia.org/wiki/History_of_Paris, what were the key events in the city's history?
     ```
-    ![](./media/12-18.png)
+     ![](./media/AI-l12-11.png)
 
 1. Review the response, which should provide information based on the provided website. 
 
-   ![](./media/12-17.png)   
+   ![](./media/AI-l12-12.png)     
 
 1. When you are done, you can close the browser window.
 
