@@ -4,7 +4,7 @@
 
 **Azure AI Vision** includes numerous capabilities for understanding image content and context and extracting information from images. In this exercise, you will use Azure AI Vision in Azure AI Foundry portal, Microsoft's platform for creating intelligent applications, to analyze images using the built-in try-it-out experiences. 
 
-Suppose the fictitious retailer *Northwind Traders* has decided to implement a "smart store", in which AI services monitor the store to identify customers requiring assistance, and direct employees to help them. By using Azure AI Vision, images taken by cameras throughout the store can be analyzed to provide meaningful descriptions of what they depict.
+Suppose the fictitious retailer **Northwind Traders** has decided to implement a "smart store", in which AI services monitor the store to identify customers requiring assistance, and direct employees to help them. By using Azure AI Vision, images taken by cameras throughout the store can be analyzed to provide meaningful descriptions of what they depict.
 
 ## Lab Objectives
 
@@ -18,45 +18,56 @@ In this lab, you will perform:
 
 In this task, we are setting up a project in Azure AI Foundry by creating and configuring an AI services environment for further experimentation.
 
+1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
+
+   ![](./media/3-27.png)
+
+1. On the Welcome to Azure AI Foundry page, Click on **Sign in** in the top right corner.
+
+   ![](./media/17-18.png)
+
+1. If prompted to sign in, enter your credentials:
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+      ![Enter Your Username](./media/010725(04).png)
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+     ![Enter Your Password](./media/010725(05).png)
+
+1. If prompted to **Stay signed in**, you can click **No**.
+
+   ![](./media/010725(06).png)
+
+1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
+
+   ![](./media/3-23.png)
+
+1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
+
 1. In the browser, navigate to https://ai.azure.com/managementCenter/allResources. Then choose the option **Create new** to create a new AI hub resource.
 
-    ![](./media/aii15.png) 
+    ![](./media/010725(15).png) 
 
 1. Select **AI hub resource (1)** and the **Next (2)**.
 
     ![](./media/aii16.png)
 
-1. In the Create a project wizard, 
+1. In the **Create a new project** wizard, enter Project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select **Rename hub (2)** enter **Myhub<inject key="DeploymentID" enableCopy="false" /> (3)** and **Expand Advanced options (4)** to specify the following settings for your project:.
 
-   - Project name: Enter project name **Myproject<inject key="Deployment ID" enableCopy="false"></inject>**
-   - Hub: Choose **Rename hub (2)**
+    - Subscription : **Leave default subscription (5)** 
+    - Resource Group : Select **AI-900-Module-03 (6)** 
+    - Region : Select **<inject key="location" enableCopy="false"/> (7)**
+    - AI Foundry or Azure OpenAI: Click on **Create New (8)**
+    - Name: **AI<inject key="DeploymentID" enableCopy="false" /> (9)**
+    - Click on Create **(10)**
 
-     ![](./media/aii17.png)   
+      ![](./media/AI-l3-4.png)
 
-1. Rename the hub as **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (1)** then **Next (2)** and then **Create (3)**.
-   
-    ![](./media/aii18.png)
+1. Wait for your project created.
 
-1. Expand **Advanced options**.
-
-    ![](./media/aii19.png)
-
-1. Specify the following settings for your project:
-
-   - Subscription: Your Azure subscription
-   - Resource group: Select **AI-900-Module-03 (1)** Resource group
-   - Region: **<inject key="location" enableCopy="false"/> (2)**
-   - Click on **Create (3)**
-
-     ![](./media/aii21.png)   
-
-1. Wait for your project and hub to be created.
-
-1. When the project is created, you will be taken to an Overview page of the project details. Select **AI services (1)** on the left-hand menu (you may need to expand the menu by clicking on the top icon to read its contents).
-
-1. On the AI Services page, select the **Vision + Document (2)** tile to try out Azure AI Vision and Document capabilities.
-
-    ![](./media/aii14.png)
+1. When the project is created, you will be taken to an **Overview** page of the project details. Select **AI services** on the left-hand menu. 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -70,15 +81,19 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 
 In this task, we are exploring Azure AI Vision's image captioning and dense captioning capabilities by uploading an image and observing how AI generates descriptive text for the entire image and specific objects within it.
 
-Let's use the image captioning functionality of Azure AI Vision to analyze images taken by a camera in the *Northwind Traders* store. Image captions are available through the **Caption** and **Dense Captions** features.
+Let's use the image captioning functionality of Azure AI Vision to analyze images taken by a camera in the **Northwind Traders** store. Image captions are available through the **Caption** and **Dense Captions** features.
+
+1. On the **AI Services (1)** page, select the **Vision + Document (2)** tile to try out Azure AI Vision and Document capabilities.
+
+    ![Screenshot of the Vision and Document tile selected on the AI Services page.](./media/AI-l3-5.png)
 
 1. On the **Vision + Document** page, scroll down and select **Image (1)** under View all other vision capabilities. Then select the **Image captioning (2)** tile.
 
      ![](./media/17-7.png)
 
-1. Make sure AI service in connected.
+1. On the **Add captions to images** page, select the Azure AI services resource you created.
 
-     ![](./media/aii23.png)
+    ![](./media/AI-l3-6.png)
 
 1. Copy the highlighted link by right-clicking the [**https://aka.ms/mslearn-images-for-analysis**](https://aka.ms/mslearn-images-for-analysis) and selecting "Copy" from the context menu, and paste it into a new tab to download **image-analysis.zip**. 
 

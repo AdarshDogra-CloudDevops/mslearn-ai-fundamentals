@@ -17,7 +17,7 @@ In this lab, you will perform:
 
 In this task, we are creating and configuring a project in Azure AI Foundry to explore AI services and speech capabilities.
 
-1. On the Azure Portal page, in the Search resources, services, and docs (G+/) box at the top of the portal, enter **Azure AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
+1. On the Azure Portal page, in the **Search resources, services, and docs (G+/) box** at the top of the portal, enter **AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
 
     ![](./media/lab6-1.png) 
 
@@ -58,11 +58,11 @@ In this task, we are creating and configuring a project in Azure AI Foundry to e
  
      ![Enter Your Password](./media/19-5.png)
 
-1. If prompted to stay signed in, you can click **No**.
+1. If prompted to **Stay signed in**, you can click **No**.
 
    ![](./media/9-8.png)
 
-1. If prompted with *Streamlined from the start*, click on **Got it** to proceed.
+1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
    ![](./media/3-23.png)
 
@@ -80,11 +80,11 @@ In this task, we are creating and configuring a project in Azure AI Foundry to e
 
 1. Wait for your project created.
 
-1. When the project is created, you will be taken to an *Overview* page of the project details.
+1. When the project is created, you will be taken to an **Overview** page of the project details.
  
 1. On the left-hand menu on the screen, select **Playgrounds (1)**.
 
-1. On the *Playgrounds* page, select the **Speech playground (2)** tile to try out some Azure AI Speech capabilities.
+1. On the **Playgrounds** page, select the **Speech playground (2)** tile to try out some Azure AI Speech capabilities.
 
     ![](./media/recognize-synthesize-speech/aii1.png)
    
@@ -100,15 +100,15 @@ In this task, we are creating and configuring a project in Azure AI Foundry to e
 
 In this task, we are using Azure AI Speech to transcribe audio into text in real time using the Speech Playground.
 
-Let's try out *real-time speech-to-text* in Azure AI Foundry's Speech Playground. 
+Let's try out **real-time speech-to-text** in Azure AI Foundry's Speech Playground. 
 
 1. In a new browser window, open the [Azure AI services exploration page](https://ai.azure.com/explore/aiservices).
 
-1. On the **AI Service** page, select the **Speech** tile to try out Azure AI Speech capabilities.
+1. On the **AI Service (1)** page, select the **Speech (2)** tile to try out Azure AI Speech capabilities.
 
-    ![](./media/recognize-synthesize-speech/aii2.png)
+    ![](./media/aii2-new.png)
 
-1. On the *Speech* page, scroll down and select **Real-time transcription** under *Try out Speech capabilities*. You will be taken to the *Speech Playground*. 
+1. On the **Speech** page, scroll down and select **Real-time transcription** under **Try out Speech capabilities**. You will be taken to the **Speech Playground**. 
 
     ![](./media/recognize-synthesize-speech/aii3.png)
 
