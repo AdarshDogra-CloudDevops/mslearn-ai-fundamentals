@@ -18,41 +18,45 @@ You can use the Translator service by creating either a **Translator** resource 
 
 1. In the Azure portal, select **+ Create a resource**.
 
-    ![Picture1](media/ai900mod1img1.png)
+    ![Picture1](media/AI-l15-l1.png)
 
-1. In the Marketplace page search for **Translator (1)** and Select **Translator (2)**.
+1. In the Marketplace page search for **Translator (1)** and Select **translator (2)**.
  
-   ![Picture1](media/lab15-1.png)
+   ![Picture1](media/AI-l15-l2.png)
 
 1. Select the **Translator** from the results.   
 
+    ![Picture1](media/AI-l15-l3.png)
+
 1. On **Translator** Page, Click on **Create**.
 
-   ![Picture1](media/lab15-2.png)
+    ![Picture1](media/AI-l15-l4.png)
   
 1. You will be taken to a page to create a Translator resource. Configure it with the following settings:
 
     - **Subscription**: **Use existing Azure subscription (1)**.
     - **Resource group**: Select **AI-900-Module-15-<inject key="DeploymentID" enableCopy="false" /> (2)**
 
-      ![Picture1](media/lab15-3.png)
+      ![Picture1](media/AI-l15-l5.png)
 
     - **Region**: **<inject key="location" enableCopy="false"/>(1)**
     - **Name**: Enter **translator<inject key="DeploymentID" enableCopy="false" />(2)**
     - **Pricing tier**: Free F0 **(3)**
     - Click on **Review and create (4)**.
 
-      ![Picture1](media/aii11.png)
+      ![Picture1](media/AI-l15-l6.png)
 
 1. On the **Review and create** page, click on **Create**.       
 
-   ![Picture1](media/lab15-8.png)
+    ![Picture1](media/AI-l15-l7.png)
 
 1. Wait for the **deployment** to complete, then click on  **Go to resource**.
 
+    ![Picture1](media/AI-l15-l8.png)
+
 1. Then select the **translator<inject key="DeploymentID" enableCopy="false" />** Translator.
 
-   ![Picture1](media/aii5.png)
+    ![Picture1](media/AI-l15-l9.png)
 
 ## Task 2: Explore Translator service 
 
@@ -64,11 +68,11 @@ We can explore the capabilities of the Translator service in the Azure Portal.
 
 1. In the **Try it (1)** section of the Overview page, under the **From: Auto detect** section, type the text `Welcome to Azure AI Fundamentals` **(2)**. Notice the JSON that appears in correspondence in the **View request (3)** section. 
 
-   ![Picture1](media/aii7.png)
+    ![Picture1](media/AI-l15-l10.png)
 
-1. In the **View response** section, view the JSON. Behind the scenes, a *request* has been sent to the Translator service. The **response** includes the detected source language with a confidence score, a translation using the alphabet of the output language, and an output language code. 
+1. In the **View response** section, view the JSON. Behind the scenes, a **request** has been sent to the Translator service. The **response** includes the detected source language with a confidence score, a translation using the alphabet of the output language, and an output language code. 
 
-   ![Picture1](media/aii9.png)
+    ![Picture1](media/AI-l15-l11.png)
 
 1. The demo in the **Try it** section illustrates how a simple translation application with a **user interface** would function. In this demo, as soon as you enter text, a **request** is sent to the **Translator service**. How can you make this request? Explore the **Sample Code** tab, where you'll find **code examples** in various **programming languages** that demonstrate how to send the request.
 
