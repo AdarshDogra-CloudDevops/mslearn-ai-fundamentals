@@ -56,16 +56,16 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 
 1. In the **Create a new project** wizard, enter Project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select **Rename hub (2)** enter **Myhub<inject key="DeploymentID" enableCopy="false" /> (3)** and **Expand Advanced options (4)** to specify the following settings for your project:.
 
-    - Subscription : **Leave default subscription (5)** 
+    - Subscription: **Leave default subscription (5)** 
     - Resource Group : Select **AI-900-Module-03 (6)** 
     - Region : Select **<inject key="location" enableCopy="false"/> (7)**
-    - AI Foundry or Azure OpenAI: Click on **Create New (8)**
+    - AI Foundry or Azure OpenAI: Click on **Create new AI Foundry (8)**
     - Name: **AI<inject key="DeploymentID" enableCopy="false" /> (9)**
     - Click on Create **(10)**
 
       ![](./media/AI-l3-4.png)
 
-1. Wait for your project created.
+1. Wait for your project to be created.
 
 1. When the project is created, you will be taken to an **Overview** page of the project details. Select **AI services** on the left-hand menu. 
 
@@ -85,7 +85,7 @@ Let's use the image captioning functionality of Azure AI Vision to analyze image
 
 1. On the **AI Services (1)** page, select the **Vision + Document (2)** tile to try out Azure AI Vision and Document capabilities.
 
-    ![Screenshot of the Vision and Document tile selected on the AI Services page.](./media/AI-l3-5.png)
+     ![Screenshot of the Vision and Document tile selected on the AI Services page.](./media/AI-l3-5.png)
 
 1. On the **Vision + Document** page, scroll down and select **Image (1)** under View all other vision capabilities. Then select the **Image captioning (2)** tile.
 
@@ -93,7 +93,7 @@ Let's use the image captioning functionality of Azure AI Vision to analyze image
 
 1. On the **Add captions to images** page, select the Azure AI services resource you created.
 
-    ![](./media/AI-l3-6.png)
+     ![](./media/AI-l3-6.png)
 
 1. Copy the highlighted link by right-clicking the [**https://aka.ms/mslearn-images-for-analysis**](https://aka.ms/mslearn-images-for-analysis) and selecting "Copy" from the context menu, and paste it into a new tab to download **image-analysis.zip**. 
 
