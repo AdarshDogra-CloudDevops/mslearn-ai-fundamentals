@@ -25,19 +25,19 @@ In this lab, you will perform:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-     ![](../media/AI-l14-0.png)
+     ![](./media/AI-l14-0.png)
 
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-     ![](../media/AI-l14-0.1.png)
+     ![](./media/AI-l14-0.1.png)
    
 4. When the **Stay signed in?** window appears, select **No**.
 
-    ![](../media/AI-l14-0.2.png)
+    ![](./media/AI-l14-0.2.png)
 
 5. In the home page, in the **Explore models and capabilities** section, search for the **Phi-4 (1)** model and select **Phi-4 (2)** model which we’ll use in our project.  
 
-   ![](../media/AI-l14-0.3.png)
+   ![](./media/AI-l14-0.3.png)
 
 6. Then, at the top of the page for the model, select **Use this model**.
 
