@@ -15,22 +15,22 @@
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/new-ai900-prod/Instructions/Labs/03-image-analysis.md",
             "Order": 3
         },
-         {
+        {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/new-ai900-prod/Instructions/Labs/06-text-analysis.md",
             "Order": 4
-          },
-           {
+        },
+        {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/new-ai900-prod/Instructions/Labs/09-speech.md",
             "Order": 5
-          },
-          {
+        },
+        {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/new-ai900-prod/Instructions/Labs/10-document-intelligence.md",
             "Order": 6
-          },
-          {
+        },
+        {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/mslearn-ai-fundamentals/refs/heads/new-ai900-prod/Instructions/Labs/12-generative-ai.md",
             "Order": 7
-          }
+        }
       ]
     }
   ]
