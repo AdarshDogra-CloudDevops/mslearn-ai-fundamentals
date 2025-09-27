@@ -83,7 +83,7 @@ In this task, we are creating an Azure AI Foundry project and configuring the ne
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="07c3e734-e32f-44b6-b8e8-7b5b85f4a45b" />
+   <validation step="9e1e91dc-4c1e-4c77-ad10-20f30d84e0a5" />
 
 ### Task 2: Extract named entities with Azure AI Language in the Azure AI Foundry portal
 
