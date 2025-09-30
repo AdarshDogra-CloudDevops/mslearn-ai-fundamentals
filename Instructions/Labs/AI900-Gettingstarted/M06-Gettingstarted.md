@@ -118,7 +118,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](../media/sc900-image-2.png)
+     ![Enter Your Password](../media/pwd.png)
  
 4. If prompted to stay signed in, you can click **No**.
 
