@@ -123,7 +123,7 @@ On the **Progress (1)** tab, you can view your overall points and validation sta
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](../media/sc900-image-2.png)
+     ![Enter Your Password](../media/pwd.png)
 
 4. If **Action required** pop-up window appears, click on **Ask later**.
    
