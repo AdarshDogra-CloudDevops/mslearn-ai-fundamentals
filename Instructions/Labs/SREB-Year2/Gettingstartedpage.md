@@ -10,7 +10,7 @@ Using this environment, you’ll be able to explore complete features and offeri
 | Azure Entra ID User | Pre-created Entra ID user account  | You will get one Entra ID User Account. |
 | Azure Subscription Permissions | Contributor role privilege over Subscription |You will get Contributor role access on a Subscription.  |
 | Azure Credit | $100 USD | The consumption limit is set on Azure spend to $100 USD per team |
-| Credit Alerts	 | Credit Alerts are set on consumption of 25%, 50%, 75%, 80%, 95%, and 100% of total Azure credits. | Make sure to check your registered email's inbox for any alert-related mails. Alerts give you a head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible. |
+| Credit Alerts	 | Credit Alerts are set on consumption of 25%, 50%, 75%, 95%, and 100% of total Azure credits. | Make sure to check your registered email's inbox for any alert-related mails. Alerts give you a head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible. |
 | Environment Duration | Until Azure Consumption Credits are exhausted. | Once the Azure consumption credits are exhausted, resources will be deallocated. Please inform our team if you need additional credits. |
 | Resource deallocation | You can stop the VM when not in use | To reduce unnecessary costs, you can stop the VM from the Lab Guide’s Resource tab by selecting the Stop button when it is not in use|
 
