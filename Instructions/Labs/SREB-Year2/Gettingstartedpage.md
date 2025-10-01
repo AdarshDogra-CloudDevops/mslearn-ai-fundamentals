@@ -30,6 +30,12 @@ Please follow the below steps to **Start** the Lab VM.
 
     ![](./images/rsc2.png) 
 
+### Steps to access Azure Data Studio
+
+1. Search for **Azure Data Studio (1)** from the Lab VM Search bar and then select **Azure Data Studio (2)**.
+
+    ![](./images/s5.png) 
+
 
 ### Notes:
 
