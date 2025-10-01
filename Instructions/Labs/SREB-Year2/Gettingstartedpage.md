@@ -1,4 +1,4 @@
-# SREB Year 2 Onbording
+# SREB Year-2 Labs design
 
 Using this environment, you’ll be able to explore complete features and offerings offered by below services. Please find the detailed overview of the Lab environment below.
 
