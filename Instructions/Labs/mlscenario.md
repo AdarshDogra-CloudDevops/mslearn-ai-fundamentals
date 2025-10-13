@@ -1,4 +1,6 @@
-# Explore machine learning scenarios
+# Lab -1a Explore machine learning scenarios
+
+**Please be aware that no Lab VM is provided for this exercise. You will need to complete the lab on your personal computer.**
 
 In this exercise you will explore applications that use machine learning to predict unknown values.
 
