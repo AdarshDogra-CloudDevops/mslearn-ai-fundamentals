@@ -1,4 +1,4 @@
-# Lab 01b: Explore Automated Machine Learning in Azure Machine Learning
+# Lab 1b: Explore Automated Machine Learning in Azure Machine Learning
 
 ## Lab overview
 
