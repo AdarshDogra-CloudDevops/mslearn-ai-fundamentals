@@ -61,7 +61,7 @@ In this task, we are creating an Azure AI Foundry project and configuring the ne
 
     - Subscription : **Leave default subscription (3)** 
     - Resource Group : Select **AI-900-Module-06 (4)** 
-    - Azure AI Foundry resource: Click on **Create New** and Enter **AI<inject key="DeploymentID" enableCopy="false" />** (5)
+    - Azure AI Foundry resource: Delete the existing name and Enter **AI<inject key="DeploymentID" enableCopy="false" />** (5)
     - Region : Select **<inject key="location" enableCopy="false"/> (6)**
     - Click on **Create** **(7)**
 
