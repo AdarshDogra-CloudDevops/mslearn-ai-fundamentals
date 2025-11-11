@@ -140,7 +140,7 @@ You are now ready to analyze a fictitious Northwind Traders retail company recei
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="348e3976-3f47-4302-b53a-c2bd7195d99b" />
+   <validation step="a0eb90ea-df11-4621-a117-92d35fb8db03" />
 
 ### Review
 

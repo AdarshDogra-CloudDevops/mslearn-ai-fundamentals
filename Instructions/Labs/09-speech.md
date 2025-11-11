@@ -94,7 +94,7 @@ In this task, we are creating and configuring a project in Azure AI Foundry to e
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="a78cde3c-b21b-4ea4-9230-2d5a5d655239" />
+   <validation step="da318f62-6143-4744-be98-099a3c6f755a" />
 
 ### Task 2: Explore speech to text in Azure AI Foundry's Speech Playground
 
