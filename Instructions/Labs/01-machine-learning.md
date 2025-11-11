@@ -69,7 +69,7 @@ In this task, you will create an Azure Machine Learning workspace. You will sear
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  <validation step="0e571ab6-2856-478e-afa3-41efc38df116" />
+  <validation step="77621f7b-207f-4c25-b2bc-99d0c824beb1" />
 
 #### Enable preview features
 
@@ -312,7 +312,7 @@ Let's review what you have done. You used a dataset of historical bicycle rental
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  <validation step="d5b3d279-a696-4a1d-b7c5-370eca8ae53a" />
+  <validation step="6da1770b-e300-431f-bbac-2829bf1c6d1d" />
 
 ### Review
 In this lab, you have completed the following tasks:
