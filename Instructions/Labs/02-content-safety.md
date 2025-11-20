@@ -20,7 +20,7 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
 
 1. In the Azure portal, Click the **＋Create a resource** button.
 
-    ![The image and its captions are displayed.](./media/ai9873.png)
+    ![The image and its captions are displayed.](./media/mod2-p2t1p1.png)
 
 1. Search for **Azure AI services (1)** and select **Azure AI services (2)**.
 
@@ -32,7 +32,7 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
 
 1. Select **Create**.
 
-    ![The image and its captions are displayed.](./media/ai2l3.png)
+    ![The image and its captions are displayed.](./media/mod2-p2t1p2.png)
 
 1. Configure  the AI Service with the following settings:
    
