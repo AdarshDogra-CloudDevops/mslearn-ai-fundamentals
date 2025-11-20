@@ -22,7 +22,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-![](./media/zoomin.png)
+![](./media/zoomintab.png)
 
 ## Utilizing the Split Window Feature
  
