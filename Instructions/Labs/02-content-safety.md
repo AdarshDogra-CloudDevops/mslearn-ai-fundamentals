@@ -18,17 +18,17 @@ In this task, you will learn how to create an **Azure AI Services** resource to 
 
 You can use Azure AI Face service with an **Azure AI services** multi-service resource. If you haven't already done so, create an **Azure AI services** resource in your Azure subscription.
 
-1. In the Azure portal, Click the **＋Create a resource** button.
+1. In the Azure portal, click the **＋ Create a resource** button.
 
     ![The image and its captions are displayed.](./media/mod2-p2t1p1.png)
 
-1. Search for **Azure AI services (1)** and select **Azure AI services (2)**.
+1. Search for **Azure AI services (1)** and select **Azure AI services (2)** from the result.
 
     ![The image and its captions are displayed.](./media/ai2l1.png)
 
 1. Select **Azure AI services**.
 
-    ![](./media/ai2l2.png)
+    ![](./media/mod2-p2t1p2(1).png)
 
 1. Select **Create**.
 
@@ -41,16 +41,16 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
     - **Region (3)**: Select **<inject key="location" enableCopy="false"/>**
     - **Name (4)**: Enter **contentsafety<inject key="DeploymentID" enableCopy="false"/>**
     - **Pricing tier (5)**:Select **Standard S0**.
-    - **By checking this box, I acknowledge that I have read and understood all the terms below (6)**: *Selected*. 
+    - **By checking this box, I acknowledge that I have read and understood all the terms below (6)**: *Selected*.
+    - Click on **Review + create (7)** 
 
-      ![The image and its captions are displayed.](./media/ai2l4.png)
-      ![The image and its captions are displayed.](./media/ai2l5.png)      
-
-1. On the Review + create tab, select **Create** and wait for deployment to complete.
+      ![The image and its captions are displayed.](./media/mod2-p2t1p3.png)
+      
+1. On the **Review + create** tab, select **Create** and wait for deployment to complete.
 
     >***Congrats! You've just created or provisioned an Azure AI services resource. The one you provisioned in particular is a multi-service resource.***
 
-1. Once the deployment is complete, select *Go to resource*. 
+1. Once the deployment is complete, select **Go to resource**. 
 
     ![](./media/ai2l6.png)
 
@@ -62,15 +62,15 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
 
 In order to incorporate Azure AI services into applications, developers need a service key and endpoint. The keys and endpoint used for application development can be found in the Azure Portal. 
 
-1. In the Azure Portal, select your resource. On the left-hand menu, look under **Resource Management (1)** for *Keys and Endpoints*. Select **Keys (2) and Endpoints (3)** to view the endpoint and keys for your resource. 
+1. From the left navigation menu, under **Resource Management** section, select **Keys and Endpoint (1)**. Click on **Copy to clipboard** icon for **Key 1 (2)** and **Endpoints (3)**. 
 
-    ![](./media/ai2l8.png)
+    ![](./media/mod2-p2t2p1.png)
 
 ### Task 3: See Azure AI services in action
 
 Let's start by creating an Azure AI Foundry project.
 
-1. In a web browser, open the [Azure AI Foundry portal](https://ai.azure.com) at `https://ai.azure.com`.
+1. In a web browser, open the [Microsoft Foundry portal](https://ai.azure.com) at `https://ai.azure.com`.
 
 1. If prompted, provide the credentials below:
 
@@ -78,23 +78,23 @@ Let's start by creating an Azure AI Foundry project.
 
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-1. In a new browser window, navigate to the [Azure AI services exploration page](https://ai.azure.com/explore/aiservices).
+1. In a new browser window, navigate to the [Azure AI services exploration page](https://ai.azure.com/explore/aiservices) at `https://ai.azure.com/explore/aiservices`.
 
 1. On the *AI Services* page, select the **Vision + Document** tile to try out Azure AI Vision and Document capabilities.
 
-    ![](./media/ai2lai2l9.png)
+    ![](./media/mod2-p2t3p1(1).png)
 
-1. Under *View all Vision capabilities* select the **Face (1)** tab. Select the **Detect faces in an image (2)** demo tile.
+1. Under *View all other vision capabilities* select the **Face (1)** tab. Select the **Detect faces in an image (2)** demo tile.
 
     ![](./media/ai2l10.png)
 
 1. Try out the Face service, which is one of many Azure AI services. Click on an image.
 
-    ![](./media/ai2l11.png)
+    ![](./media/mod2-p2t3p1.png)
 
 1. Check out the detected attributes. 
 
-    ![](./media/ai2l12.png)
+    ![](./media/mod2-p2t3p2.png)
 
 1. Scroll down to the **Run the code** section. Select **View Code (1)**. Scroll down to the section that starts with *import os*. In the sample code provided, you'll see placeholders where you could put a key and endpoint **(2)**.
 
