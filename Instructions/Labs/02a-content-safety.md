@@ -1,4 +1,4 @@
-# Lab 2a: Explore Content Safety in Microsoft Foundry
+# Lab 02: Explore Content Safety in Microsoft Foundry
 
 Azure AI services empower users to build intelligent applications using pre-built and customizable APIs and models. In this exercise, you'll explore Azure AI Content Safety, a service that enables moderation of text and image content. Using the Microsoft Foundry portal, Microsoft's platform for creating intelligent applications, you'll utilize Azure AI Content Safety to categorize text and assign severity scores.
 

@@ -2,23 +2,25 @@
 
 Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We're excited to guide you through hands-on learning with Azure AI services. Let’s continue by diving deeper into content moderation.
 
-# Module 2a: Explore Content Safety in Azure AI Foundry
+# Module 2a: Explore Content Safety in Microsoft Foundry
 
 ### Overall Estimated Timing: 30 minutes
 
 ## Overview
 
-In this lab, you will explore Azure AI Content Safety’s text moderation capabilities. You'll test various text inputs to understand how the service detects and categorizes potentially harmful or inappropriate content. This lab will help you learn how to use Content Safety Studio to analyze text, interpret severity scores, and review content categories, preparing you to integrate text moderation into your applications effectively.
+In this lab, you will explore Azure AI Content Safety within the Microsoft Foundry portal. You’ll begin by creating and configuring a Foundry project, and then use the built-in Guardrails and Controls to test text moderation capabilities. By trying out different text samples, you will see how Azure AI Content Safety evaluates content, assigns severity levels, and categorizes potential risks. This lab provides a hands-on introduction to provisioning AI resources and using Content Safety as an example service to understand how moderation features can be applied in intelligent applications.
 
 ## Objectives
 
 By the end of this lab, you will be able to:
 
-1. **Test text moderation using Azure AI Content Safety**: Input sample texts and see how the service categorizes content based on safety policies.
+1. **Create and configure a project in Microsoft Foundry**: Set up a Foundry project and the required Azure AI resources to enable content moderation capabilities.
 
-2. **Understand severity levels and categories**: Learn to interpret the results and severity scores assigned by the service for various types of content such as hate speech, self-harm, or sexual content.
+2. **Use Azure AI Content Safety to moderate text content**: Submit sample text inputs and observe how the service analyzes, categorizes, and assigns severity scores to different types of content.
 
-3. **Access and use Content Safety Studio tools**: Familiarize yourself with the Content Safety Studio interface for testing and analyzing text content.
+3. **Interpret severity levels and content categories**: Understand how Content Safety evaluates text across various harm categories—such as violence, hate, and sexual content—and how to read the resulting safety assessments.
+
+4. **Navigate and use Guardrails + Controls in Microsoft Foundry**: Explore the Foundry interface to access Content Safety tools, run tests, and review moderation output within the built-in testing environment.
 
 ## Pre-requisites
 
@@ -27,11 +29,22 @@ By the end of this lab, you will be able to:
 
 ## Architecture
 
-The lab architecture demonstrates how Azure AI Content Safety text moderation integrates into applications:
+This lab architecture illustrates how Azure AI Content Safety operates within the Microsoft Foundry environment to evaluate and moderate text content:
 
-1. **Azure AI Content Safety Resource**: Provisioned in the Azure portal, this resource processes and analyzes input text, assigning severity scores based on predefined content categories.
+1. **Microsoft Foundry Project**:
+   The lab begins with creating a project in the Microsoft Foundry portal. This project provides the workspace and integrates the necessary Azure AI resources used for testing and moderation.
 
-2. **Content Safety Studio Interface**: A web-based portal to test text inputs, visualize analysis results, and understand moderation feedback before integrating it into your own solutions.
+2. **Azure AI Services (Content Safety) Resource**:
+   Within the Foundry project, an Azure AI Services resource is created or selected. This resource includes access to Azure AI Content Safety, which processes text inputs and assigns severity scores based on harmful content categories.
+
+3. **Guardrails + Controls in Microsoft Foundry**:
+   The Foundry portal provides a built-in interface, Guardrails + Controls—where you can interact with Content Safety. This interface lets you run sample text moderation tests without writing code.
+
+4. **Content Analysis Pipeline**:
+   When a text sample is submitted in the Foundry interface, it is sent to the Azure AI Content Safety model, which classifies the content, determines risk categories (such as violence, hate, sexual content), and returns severity ratings.
+
+5. **Results Visualization in Foundry**:
+   The moderation results, including severity levels and content categories, are rendered directly in the Foundry portal, allowing you to review and understand the evaluation before applying these capabilities in real applications.
 
 ## Architecture Diagram
 
@@ -39,11 +52,17 @@ The lab architecture demonstrates how Azure AI Content Safety text moderation in
 
 ## Explanation of Components
 
-1. **Azure AI Content Safety Text Moderation**: An AI-powered service that scans text inputs for harmful or inappropriate content, enabling developers to protect users and comply with content policies.
+1. **Microsoft Foundry Project**:
+   Serves as the workspace where Azure AI resources—such as Content Safety—are configured and accessed. The project provides the environment needed to test and explore AI-driven moderation features.
 
-2. **Severity Scoring**: The system rates each category (e.g., hate, violence, sexual content) on a severity scale to help prioritize moderation efforts.
+2. **Azure AI Content Safety (Text Moderation)**:
+   A service within Azure AI that analyzes text inputs to identify harmful or sensitive content. It evaluates content across categories such as violence, hate, sexual content, and self-harm to support responsible and safe application development.
 
-3. **Content Safety Studio**: Provides a hands-on environment for testing text moderation capabilities and understanding how the service works before 
+3. **Severity Scoring**:
+   Content Safety assigns severity levels to each detected category, indicating the potential risk or harmfulness of the text. These scores help users interpret the results and determine the appropriate moderation action.
+
+4. **Guardrails + Controls in Microsoft Foundry**:
+   The built-in Foundry interface used in the lab to try out Content Safety. It provides a simple, hands-on environment to submit sample text, view moderation results, and understand how the service behaves before integrating it into an application.
 
 # Getting Started with lab
  
@@ -51,7 +70,7 @@ Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **lab guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
 ![Access Your VM and Lab Guide](../media/4-7.png)
 
@@ -69,7 +88,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-![](../media/zoomin.png)
+![](../media/zoomintab.png)
 
 ## Utilizing the Split Window Feature
  
@@ -103,73 +122,23 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
    ![Launch Azure Portal](../media/sc900-image(1).png)
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials and click on **Next (2)**:
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
-       ![Enter Your Username](../media/sc900-image-1.png)
+       ![Enter Your Password](.././media/mod3-p2t1p2.png)
  
-3. Next, provide your password:
+3. Next, provide your password and click on **Sign in (2)**:
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject> **(1)**
  
-     ![Enter Your Password](../media/pwd.png)
+      ![Enter Your Password](.././media/mod3-p2t1p2(1).png)
  
 4. If prompted to stay signed in, you can click **No**.
 
-5. If **Action required** pop-up window appears, click on **Ask later**.
-   
-    ![](../media/asklater.png)
- 
-6. If prompted to stay signed in, you can click "No."
-
-    ![](../media/staysigned2.png)
+   ![Enter Your Password](.././media/mod3-p2t1p2(2).png)
  
 7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
-
-## Steps to Proceed with MFA Setup if the "Ask Later" Option is Not Visible
-
-1. If you see the pop-up **Stay Signed in?**, click **No**.
-
-1. If **Action required** pop-up window appears, click on **Next**.
-
-   
-   ![](../media/mfa1.png)
-
-1. On **Start by getting the app** page, click on **Next**.
-1. Click on **Next** twice.
-1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
-
-   ![Install](../media/mfa2.png)
-
-   > Note: For Ios, Open the app store and repeat the steps.
-
-   > Note: Skip if already installed.
-
-1. Open the app and tap on **Scan a QR code**.
-
-1. Scan the QR code visible on the screen and click on **Next**.
-
-   ![QR code](../media/mfa3.png)
-
-1. Enter the digit displayed on the Screen in the Authenticator app on mobile and tap on **Yes**.
-
-1. Once the notification is approved, click on **Next**.
-
-   ![Approved](../media/mfa4.png)
-
-1. Click on **Done**.
-
-1. If prompted to stay signed in, you can click **"No"**.
-
-1. Tap on **Finish** in the Mobile Device.
-
-   > NOTE: While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
-
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
 
 ## Support Contact
  
