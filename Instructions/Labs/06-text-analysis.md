@@ -52,18 +52,18 @@ In this task, we are creating an Microsoft Foundry project and configuring the n
 1. In the **Create a project** wizard, enter project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and **Expand Advanced options (2)** to specify the following settings for your project: 
 
     - Subscription : **Leave default subscription (3)** 
-    - Resource Group : Select **AI-900-Module-03 (4)** 
-    - Microsoft Foundry resource: Keep it default **(5)**
+    - Resource Group : Select **AI-900-Module-06 (4)** 
+    - Microsoft Foundry resource: **AI<inject key="DeploymentID" enableCopy="false" /> (5)**
     - Region : Select **<inject key="location" enableCopy="false"/> (6)**
     - Click on **Create** **(7)**
 
-      ![](./media/mod6-p2t1p5.png)
+      ![](./media/mod6-p2t1p5(1).png)
 
 1. Wait for your project created.
 
 1. When the project is created, you will be taken to an **Overview** page of the project details.
 
-   ![](./media/mod6-p2t1p6.png)
+   ![](./media/mod6-p2t1p6(1).png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
