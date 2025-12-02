@@ -22,13 +22,21 @@ In this task, you will learn how to create an **Azure AI Services** resource to 
 
 You can use Azure AI Vision's OCR capabilities with an **Azure AI services** multi-service resource. If you haven't already done so, create an **Azure AI services** resource in your Azure subscription.
 
-1. In the Azure portal, Click the **＋Create a resource** button and search and select **Azure AI services**
+1. In the Azure portal, Click the **＋ Create a resource** button.
 
-    ![The image and its captions are displayed.](./media/ai9873.png)
+    ![The image and its captions are displayed.](./media/mod4-p2t1p1.png)
 
-    ![The image and its captions are displayed.](./media/mod4n1.png)
+1. In the **Create a resource** page, search **Azure AI services (1)** and select **Azure AI services (2)** and then click on the **Azure AI services (3)** tile. 
 
-1. You will be taken to a page to create an Azure AI services resource. Please click on **Create** configure it with the following settings:
+    ![The image and its captions are displayed.](./media/mod4-p2t1p2.png)
+
+    ![The image and its captions are displayed.](./media/mod4-p2t1p2(1).png)
+
+1. You will be taken to a page to create an Azure AI services resource. Please click on **Create**.
+
+    ![The image and its captions are displayed.](./media/mod4-p2t1p3.png)
+
+1. Configure it with the following settings:
 
     - **Subscription**: *Your Azure subscription* **(1)**
     - **Resource group**: **AI-900-Module-05-<inject key="DeploymentID" enableCopy="false" /> (2)**
@@ -38,9 +46,9 @@ You can use Azure AI Vision's OCR capabilities with an **Azure AI services** mul
     - **By checking this box, I acknowledge that I have read and understood all the terms below**: *Selected* **(6)**
    - Select **Review + create (7)** 
 
-     ![](./media/ai900m5-3.png)   
+     ![](./media/mod5-p2t1p2.png)   
    
-1. Then **Create** and wait for deployment to complete.
+1. Then click on **Create** and wait for deployment to complete.
 
 ### Task 2: Connect your Azure AI service resource to Vision Studio
 
@@ -48,16 +56,20 @@ In this task, you will learn how to connect your **Azure AI Services** resource 
 
 Next, connect the Azure AI services resource you provisioned above to Vision Studio.
 
-1. Right-click on the [Vision Studio](https://portal.vision.cognitive.azure.com?azure-portal=true) link, select **Copy link** from the context menu, then paste it into a new tab to access the Vision Studio.
+1. Open a new browser tab and go to **Vision Studio** at [https://portal.vision.cognitive.azure.com](https://portal.vision.cognitive.azure.com?azure-portal=true)
 
-1. **Sign in** with your account and make sure you are using the same directory as the one where you have created your Azure AI services resource. if you receive a pop-up to select the resource, please click on the **X** icon to close the pop-up.
+1. Click on **Sign in** in the top right corner, then log in with your account. Make sure you're using the same directory where you created your Azure AI services resource.
 
-    ![](./media/ai900m5-4.png)
+   ![The image and its captions are displayed.](./media/4-6.png)
+
+   >**Note:** If the **Welcome to the new Vision Studio** pop-up appears, click on **Close**.
+
+   ![The image and its captions are displayed.](./media/mod4-p2t1p6.png)
 
 1. On the Vision Studio home page, select **View all resources** under the **Getting started with Vision** heading.
 
-    ![The View all resource link is highlighted under Getting started with Vision in Vision Studio.](./media/lab-5(3).png)
-
+    ![The View all resource link is highlighted under Getting started with Vision in Vision Studio.](./media/analyze-images-vision/vision-resources.png)
+    
 1. On the **Select a resource to work with** page, make sure the resource you created above appears in the list. 
 
     > **Note**: If your resource isn't listed, try **Refreshing** the page.
@@ -70,19 +82,21 @@ Next, connect the Azure AI services resource you provisioned above to Vision Stu
 
 In this task, you will learn how to extract text from images in Vision Studio using Optical Character Recognition (OCR) technology.
     
-1. Right-click on the [Vision Studio](https://portal.vision.cognitive.azure.com?azure-portal=true) link, select **Copy link** from the context menu, then paste it into a new tab to access the Vision Studio.
+1. Copy the following link and paste it in a new tab in the browser.
 
-1. On the **Getting started with Vision** landing page, select **Optical character recognition (1)**, and then select **Try it out (2)** the **Extract text from images** tile.
+   ```
+   https://portal.vision.cognitive.azure.com/demo/extract-text-from-images
+   ```
 
-   ![An image of the text in the image outlined](media/ai900m5-5.png)
+   ![](./media/mod5-t3p1.png)
 
-1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box and select the **Please select a resource**
+1. Under the **Try It Out** subheading, acknowledge **(1)** the resource usage policy by reading and checking the box and select the **Please select a resource (2)**.
 
     ![The image and its captions are displayed.](./media/mod4n2.png)
 
-1. On the **Select an Azure resource** page, choose your existing **subscription (1)** from the drop-down menu, then select the **AI service (2)** resource from the **Azure resource** drop-down, and click **Confirm (3)**.
+1. On the **Select an Azure resource** page, choose your existing **Subscription (1)** from the drop-down menu, then select the **AI Service (2)** resource from the **Azure Resources** drop-down, and click **Confirm (3)**.
 
-    ![The image and its captions are displayed.](./media/mod5n1.png)
+    ![The image and its captions are displayed.](./media/mod5-t3p2.png)
 
 1. **Check** the Acknowledge box once more.
 
@@ -150,4 +164,4 @@ In this lab, you have completed the following tasks:
 - Connected your Azure AI service resource to Vision Studio
 - Extracted text from images in the Vision Studio
 
-## You have successfully completed this lab
+## You have successfully completed this lab.

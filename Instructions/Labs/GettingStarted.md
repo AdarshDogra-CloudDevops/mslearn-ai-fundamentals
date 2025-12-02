@@ -4,7 +4,7 @@ Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **lab guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
 ![Access Your VM and Lab Guide](./media/4-7.png)
 
@@ -16,19 +16,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](./media/aig2.png)
+![Explore Lab Resources](./media/envtab(1).png)
 
 ## Lab Guide Zoom In/Zoom Out
  
 To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-![](./media/zoomin.png)
+![](./media/zoomintab.png)
 
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](./media/aig3.png)
+![Use the Split Window Feature](./media/splitab(1).png)
 
 ## Managing Your Virtual Machine
  
@@ -56,73 +56,23 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
    ![Launch Azure Portal](./media/sc900-image(1).png)
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials and click **Next (2)**:
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
-       ![Enter Your Username](./media/sc900-image-1.png)
+       ![Enter Your Username](./media/mod3-p2t1p2.png)
  
-3. Next, provide your password:
+3. Next, provide your password and click **Sign in (2)** :
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject> **(1)**
  
-     ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](./media/mod3-p2t1p2(1).png)
  
-4. If prompted to stay signed in, you can click **No**.
+6. If prompted to stay signed in, click **No**.
 
-5. If **Action required** pop-up window appears, click on **Ask later**.
-   
-    ![](./media/asklater.png)
- 
-6. If prompted to stay signed in, you can click **No**.
-
-    ![](./media/staysigned2.png)
+    ![](./media/mod3-p2t1p2(2).png)
  
 7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
-
-## Steps to Proceed with MFA Setup if the "Ask Later" Option is Not Visible
-
-1. If you see the pop-up **Stay Signed in?**, click **No**.
-
-1. If **Action required** pop-up window appears, click on **Next**.
-
-   
-   ![](./media/mfa1.png)
-
-1. On **Start by getting the app** page, click on **Next**.
-1. Click on **Next** twice.
-1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
-
-   ![Install](./media/mfa2.png)
-
-   > Note: For Ios, Open the app store and repeat the steps.
-
-   > Note: Skip if already installed.
-
-1. Open the app and tap on **Scan a QR code**.
-
-1. Scan the QR code visible on the screen and click on **Next**.
-
-   ![QR code](./media/mfa3.png)
-
-1. Enter the digit displayed on the Screen in the Authenticator app on mobile and tap on **Yes**.
-
-1. Once the notification is approved, click on **Next**.
-
-   ![Approved](./media/mfa4.png)
-
-1. Click on **Done**.
-
-1. If prompted to stay signed in, you can click **"No"**.
-
-1. Tap on **Finish** in the Mobile Device.
-
-   > NOTE: While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
-
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
 
 ## Support Contact
  

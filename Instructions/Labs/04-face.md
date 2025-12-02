@@ -19,13 +19,21 @@ In this task, you will learn how to create an **Azure AI Services** resource to 
 
 You can use Azure AI Face service with an **Azure AI services** multi-service resource. If you haven't already done so, create an **Azure AI services** resource in your Azure subscription.
 
-1. In the Azure portal, Click the **＋Create a resource** button and search and select **Azure AI services**
+1. In the Azure portal, Click the **＋ Create a resource** button.
 
-    ![The image and its captions are displayed.](./media/ai9873.png)
+    ![The image and its captions are displayed.](./media/mod4-p2t1p1.png)
 
-    ![The image and its captions are displayed.](./media/mod4n1.png)
+1. In the **Create a resource** page, search **Azure AI services (1)** and select **Azure AI services (2)** and then click on the **Azure AI services (3)** tile. 
 
-1. You will be taken to a page to create an Azure AI services resource. Please click on **+ Create** Configure it with the following settings:
+    ![The image and its captions are displayed.](./media/mod4-p2t1p2.png)
+
+    ![The image and its captions are displayed.](./media/mod4-p2t1p2(1).png)
+
+1. You will be taken to a page to create an Azure AI services resource. Please click on **+ Create**.
+
+    ![The image and its captions are displayed.](./media/mod4-p2t1p3.png)
+
+1. Configure it with the following settings:
    
     - **Subscription (1)**: Use the existing Azure subscription.
     - **Resource group (2)**: **AI-900-Module-04-<inject key="DeploymentID" enableCopy="false" />**
@@ -35,11 +43,11 @@ You can use Azure AI Face service with an **Azure AI services** multi-service re
     - **By checking this box I acknowledge that I have read and understood all the terms below (6)**: *Selected*.
     - Click **Review + create (7)** 
 
-      ![The image and its captions are displayed.](./media/dev2n4.png)
+      ![The image and its captions are displayed.](./media/mod4-p2t1p4.png)
 
-1. On the Review + create tab, select **Create** and wait for deployment to complete.
+1. On the **Review + create** tab, select **Create** and wait for deployment to complete.
  
-     ![The image and its captions are displayed.](./media/4-5.png)
+     ![The image and its captions are displayed.](./media/mod4-p2t1p5.png)
   
 ### Task 2: Connect your Azure AI service resource to Vision Studio
 
@@ -47,9 +55,13 @@ In this task, you will learn how to connect your **Azure AI Services** resource 
 
 1. Open a new browser tab and go to **Vision Studio** at [https://portal.vision.cognitive.azure.com](https://portal.vision.cognitive.azure.com?azure-portal=true).
 
-1. Click on **Sign in** in the top right corner, then log in with your account. Make sure you're using the same directory where you created your Azure AI services resource. If a pop-up appears asking you to select a resource, click the **X** icon to close it.
+1. Click on **Sign in** in the top right corner, then log in with your account. Make sure you're using the same directory where you created your Azure AI services resource.
 
    ![The image and its captions are displayed.](./media/4-6.png)
+
+   >**Note:** If the **Welcome to the new Vision Studio** pop-up appears, click on **Close**.
+
+   ![The image and its captions are displayed.](./media/mod4-p2t1p6.png)
 
 1. On the Vision Studio home page, select **View all resources** under the **Getting started with Vision** heading.
 
@@ -61,63 +73,64 @@ In this task, you will learn how to connect your **Azure AI Services** resource 
 
     ![The image and its captions are displayed.](./media/ai-900-0298.png)
    
-1. Close the settings page by selecting the **x** at the top right of the screen.
+1. Close the page by selecting the **X** at the top right of the screen.
 
 ### Task 3: Detect faces in the Vision Studio 
 
 In this task, you will learn how to detect faces in Vision Studio to analyze facial attributes and recognize individuals.
 
-1. In a web browser, navigate to **Vision Studio** at [https://portal.vision.cognitive.azure.com](https://portal.vision.cognitive.azure.com?azure-portal=true).
+1. On the **Get started with Azure Al Face API** landing page, scroll down to the **Face** section and then select the **Detect faces in an image** tile.
 
-1. On the **Getting started with Vision** landing page, select the **Face** tab and then select the **Detect Faces in an image** tile.
+    ![The image and its captions are displayed.](./media/mod4-p2t3p1.png)
 
-    ![The image and its captions are displayed.](./media/lab4-1.png)
+1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box **(1)** and click on the **Please select a resource (2)**.
 
-1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box and select the **Please select a resource**
+    ![The image and its captions are displayed.](./media/mod4-p2t3p2.png)
 
-    ![The image and its captions are displayed.](./media/mod4n2.png)
+1. On the **Select an Azure resource** page, choose your existing **Subscription (1)** from the drop-down menu, then select the **AI service (2)** resource from the **Azure Resources** drop-down, and click **Confirm (3)**.
 
-1. On the **Select an Azure resource** page, choose your existing **subscription (1)** from the drop-down menu, then select the **AI service (2)** resource from the **Azure resource** drop-down, and click **Confirm (3)**.
-
-    ![The image and its captions are displayed.](./media/mod4n3.png)
+    ![The image and its captions are displayed.](./media/mod4-p2t3p3.png)
 
 1. **Check** the Acknowledge box once more.
 
+    ![The image and its captions are displayed.](./media/mod4-p2t3p4.png)
+
 1. Select each of the sample images and observe the face detection data that is returned.
 
-1. Copy the highlighted link by right-clicking the [**https://aka.ms/mslearn-detect-faces**](https://aka.ms/mslearn-detect-faces) and selecting "Copy" from the context menu, and paste it into a new tab to download **detect-faces.zip**. 
+1. Copy the link [**https://aka.ms/mslearn-detect-faces**](https://aka.ms/mslearn-detect-faces) and paste it into a new tab to download **detect-faces.zip**. 
 
-1. Click the **download icon (1)** to view your downloads, then click the **folder icon (2)** to open the file location.
+1. Click the **Download icon (1)** to view your downloads, then click the **Folder icon (2)** to open the file location.
 
    ![](./media/4-1.png)
 
-1. **Right-click** the **ZIP file (1)**  and select **Extract All (2)** to **unzip** its contents. 
+1. **Right-click** the **ZIP file (1)**  and select **Extract All (2)** to unzip its contents. 
 
-   ![](./media/4-2.png)
+   ![](./media/mod4-p2t3p5.png)
 
 1. Select the destination folder, ensure Show extracted files when complete is checked, and click **Extract** to unzip the files. 
 
-   ![](./media/4-3.png)
+   ![](./media/mod4-p2t3p6.png)
 
-1. Go back to the Vision Studio  and upload the **WhatAICanDo.m4a** image by clicking **Browse files (1)**. Then, navigate to the **C:\Users\azureuser\Downloads\detect-faces (2)** folder, select **store-camera-1 (3)**, and click **Open (4)**.
+1. Go back to the Vision Studio  and upload the **WhatAICanDo.m4a** image by clicking **Browse for a file (1)**. Then, navigate to the **`C:\Users\azureuser\Downloads\detect-faces` (2)** folder, then select **store-camera-1 (3)**, and click **Open (4)**.
 
-   ![](./media/4-4.png)
+   ![](./media/mod4-p2t3p7.png)
 
 1. Review the face detection details that are returned.
 
-    ![The image and its captions are displayed.](./media/lab4-2.png)
+    ![The image and its captions are displayed.](./media/mod4-p2t3p8.png)
 
 1. Locate the file named **store-camera-2.jpg**; which contains the following image:
 
     ![An image of more people in a store.](./media/create-face-solutions/store-camera-2.jpg)
 
 1. Upload **store-camera-2.jpg** and review the face detection details that are returned.
+Notice how Azure AI Face can detect faces that are partially obscured. 
+
+    ![The image and its captions are displayed.](./media/mod4-p2t3p9.png)
 
 1. Locate the file named **store-camera-3.jpg**; which contains the following image:
 
-    ![An image of people in a store with a plant obscuring a face.](./media/create-face-solutions/store-camera-3.jpg)
-
-1. Upload **store-camera-2.jpg** and review the face detection details that are returned. Notice how Azure AI Face can detect faces that are partially obscured. 
+    ![An image of people in a store with a plant obscuring a face.](./media/create-face-solutions/store-camera-3.jpg) 
 
 ## Validation
 
@@ -139,7 +152,5 @@ In this lab, you have completed the following tasks:
 - Created an Azure AI services resource
 - Connected Azure AI Service Resource to Vision Studio
 - Detected faces in the Vision Studio
-
-
   
 ## You have successfully completed this lab.

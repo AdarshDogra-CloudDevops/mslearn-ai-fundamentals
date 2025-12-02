@@ -24,21 +24,21 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 
 1. On the Welcome to Azure AI Foundry page, Click on **Sign in** in the top right corner.
 
-   ![](./media/17-18.png)
+   ![](./media/mod3-p2t1p1.png)
 
 1. If prompted to sign in, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![Enter Your Username](./media/010725(04).png)
+      ![Enter Your Username](./media/mod3-p2t1p2.png)
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/010725(05).png)
+     ![Enter Your Password](./media/mod3-p2t1p2(1).png)
 
-1. If prompted to **Stay signed in**, you can click **No**.
+1. If prompted to **Stay signed in**, you can click **No**;
 
-   ![](./media/010725(06).png)
+   ![](./media/mod3-p2t1p2(2).png)
 
 1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
@@ -46,31 +46,31 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 
 1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
 
-1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources`, Select **Create new**.
+1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources`, select **Create new**.
 
-
-   ![](./media/010725(15).png)
+   ![](./media/mod3-p2t1p3(1).png)
 
 1. Choose the option to create a **AI hub resource (1)** then select **Next (2)**.
 
-   ![](./media/lab3-20.png)
+   ![](./media/mod3-p2t1p4.png)
 
-1. In the **Create a new project** wizard, enter Project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select **Rename hub (2)** enter **Myhub<inject key="DeploymentID" enableCopy="false" /> (3)** and **Expand Advanced options (4)** to specify the following settings for your project:.
+1. In the **Create a new project** wizard, enter Project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select **Rename hub (2)** enter **Myhub<inject key="DeploymentID" enableCopy="false" /> (3)** and **Expand Advanced options (4)** to specify the following settings for your project:
 
     - Subscription : **Leave default subscription (5)** 
-    - Resource Group : Select **AI-900-Module-03 (6)** 
+    - Resource Group : Select **AI-900-Module-03-<inject key="DeploymentID" enableCopy="false" /> (6)** 
     - Region : Select **<inject key="location" enableCopy="false"/> (7)**
-    - AI Foundry or Azure OpenAI: Click on **Create New (8)**
+    - Foundry or Azure OpenAI: Click on **Create New (8)**
     - Name: **AI<inject key="DeploymentID" enableCopy="false" /> (9)**
     - Click on Create **(10)**
 
-      ![](./media/AI-l3-4.png)
+      ![](./media/mod3-p2t1p5.png)
 
 1. Wait for your project created.
 
 1. When the project is created, you will be taken to an **Overview** page of the project details. Select **AI services** on the left-hand menu. 
 
-   
+   ![](./media/mod3-p2t1p6.png)
+
 ## Task 2: Generate captions for an image
 
 In this task, we are exploring Azure AI Vision's image captioning and dense captioning capabilities by uploading an image and observing how AI generates descriptive text for the entire image and specific objects within it.
@@ -83,7 +83,7 @@ Let's use the image captioning functionality of Azure AI Vision to analyze image
 
 1. On the **Vision + Document** page, scroll down and select **Image (1)** under View all other vision capabilities. Then select the **Image captioning (2)** tile.
 
-    ![](./media/010725(0.9).png)
+    ![](./media/mod3-p2t2p1.png)
 
 1. On the **Add captions to images** page, select the Azure AI services resource you created.
 
@@ -105,7 +105,7 @@ Let's use the image captioning functionality of Azure AI Vision to analyze image
 
 1. The image-analysis folder contains **JPG files** named **store-camera-1**, **store-camera-2**, **store-camera-3**, and **store-camera-4**. 
 
-   ![](./media/3-8.png)
+   ![](./media/mod3-p2t2p2.png)
 
 1. Locate the file named **store-camera-1.jpg**; which contains the following image:
 
@@ -170,7 +170,7 @@ The next feature you will try is the *Extract Tags* functionality. Extract tags 
 
 1. Upload the **store-camera-2.jpg** image by clicking **Browse for a file (1)**. Then, select **store-camera-2 (2)**, and click **Open (3)**.
 
-    ![](./media/3-17.png)
+    ![](./media/mod3-p2t2p3.png)
 
 1. Review the list of tags extracted from the image and the confidence score for each in the detected attributes panel. Here the confidence score is the likelihood that the text for the detected attribute describes what is actually in the image. Notice in the list of tags that it includes not only objects, but actions, such as **shopping**, **selling**, and **standing**.
 
