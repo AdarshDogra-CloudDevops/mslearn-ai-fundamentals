@@ -22,13 +22,17 @@ In this task, you will learn how to create an **Azure AI Services** resource to 
 
 You can use Azure AI Vision's OCR capabilities with an **Azure AI services** multi-service resource. If you haven't already done so, create an **Azure AI services** resource in your Azure subscription.
 
+1. In the Azure portal, Click the **＋ Create a resource** button.
+
+    ![The image and its captions are displayed.](./media/mod4-p2t1p1.png)
+
 1. In the **Create a resource** page, search **Azure AI services (1)** and select **Azure AI services (2)** and then click on the **Azure AI services (3)** tile. 
 
     ![The image and its captions are displayed.](./media/mod4-p2t1p2.png)
 
     ![The image and its captions are displayed.](./media/mod4-p2t1p2(1).png)
 
-1. You will be taken to a page to create an Azure AI services resource. Please click on **+ Create**.
+1. You will be taken to a page to create an Azure AI services resource. Please click on **Create**.
 
     ![The image and its captions are displayed.](./media/mod4-p2t1p3.png)
 
@@ -78,19 +82,21 @@ Next, connect the Azure AI services resource you provisioned above to Vision Stu
 
 In this task, you will learn how to extract text from images in Vision Studio using Optical Character Recognition (OCR) technology.
     
-1. Right-click on the [Vision Studio](https://portal.vision.cognitive.azure.com?azure-portal=true) link, select **Copy link** from the context menu, then paste it into a new tab to access the Vision Studio.
+1. Copy the following link and paste it in a new tab in the browser.
 
-1. On the **Getting started with Vision** landing page, select **Optical character recognition (1)**, and then select **Try it out (2)** the **Extract text from images** tile.
+   ```
+   https://portal.vision.cognitive.azure.com/demo/extract-text-from-images
+   ```
 
-   ![An image of the text in the image outlined](media/ai900m5-5.png)
+   ![](./media/mod5-t3p1.png)
 
-1. Under the **Try It Out** subheading, acknowledge the resource usage policy by reading and checking the box and select the **Please select a resource**
+1. Under the **Try It Out** subheading, acknowledge **(1)** the resource usage policy by reading and checking the box and select the **Please select a resource (2)**.
 
     ![The image and its captions are displayed.](./media/mod4n2.png)
 
-1. On the **Select an Azure resource** page, choose your existing **subscription (1)** from the drop-down menu, then select the **AI service (2)** resource from the **Azure resource** drop-down, and click **Confirm (3)**.
+1. On the **Select an Azure resource** page, choose your existing **Subscription (1)** from the drop-down menu, then select the **AI Service (2)** resource from the **Azure Resources** drop-down, and click **Confirm (3)**.
 
-    ![The image and its captions are displayed.](./media/mod5n1.png)
+    ![The image and its captions are displayed.](./media/mod5-t3p2.png)
 
 1. **Check** the Acknowledge box once more.
 
@@ -158,4 +164,4 @@ In this lab, you have completed the following tasks:
 - Connected your Azure AI service resource to Vision Studio
 - Extracted text from images in the Vision Studio
 
-## You have successfully completed this lab
+## You have successfully completed this lab.
