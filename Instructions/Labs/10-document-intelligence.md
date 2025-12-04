@@ -1,5 +1,5 @@
 
-# Lab 10: Extract data from documents in the Azure AI Foundry portal
+# Lab 10: Extract data from documents in the Microsoft Foundry portal
 
 ## Lab overview
 
@@ -12,25 +12,25 @@ In this exercise, you will use Azure AI Document Intelligence's prebuilt models 
 ## Lab Objectives
 
 In this lab, you will perform:
-- Task 1: Create a project in the Azure AI Foundry portal
-- Task 2: Analyze a receipt with Azure AI Document Intelligence in Azure AI Foundry
+- Task 1: Create a project in the Microsoft Foundry portal
+- Task 2: Analyze a receipt with Azure AI Document Intelligence in Microsoft Foundry
 
-## Task 1: Create a project in the Azure AI Foundry portal
+## Task 1: Create a project in the Microsoft Foundry portal
 
-In this task, we are creating an Azure AI Foundry project and setting up AI resources to explore Vision and Document capabilities.
+In this task, we are creating an Microsoft Foundry project and setting up AI resources to explore Vision and Document capabilities.
 
-1. On the Azure Portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Azure AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
+1. On the Azure Portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Foundry (1)**, and then select **Microsoft Foundry (2)** under **Services**.
 
-    ![](./media/AI-l3-1.png) 
+    ![](./media/av1.png) 
 
-1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create** and select **Hub (3)** from the drop-down.
+1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create (3)** and select **Hub (4)** from the drop-down.
 
-    ![](./media/010725(01).png) 
+    ![](./media/av2.png) 
 
 1. On the **Create an AI hub resource** pane, enter the following details:
 
     - Subscription: **Leave default subscription (1)** 
-    - Resource Group : Select **AI-900-Module-10 (2)** 
+    - Resource Group : Select **AI-900-Module-10-<inject key="Deployment ID (2)** 
     - Region : **<inject key="location" enableCopy="false"></inject>** **(3)**
     - Name : Use the format **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (4)** 
     - Connect AI Services incl. OpenAI : Click on **Create New (5)**
@@ -44,45 +44,19 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
     ![](./media/AI-l10-1.png)
 
-1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
+1. Once the deployment completes, clic on **Go to resources**.
 
-   ![](./media/3-27.png)
+1. Click on **Launch Azure AI Foundry**.
 
-1. On the Welcome to Azure AI Foundry page, click on **Sign in** in the top right corner.
+    ![](./media/av4.png)
 
-   ![](./media/17-18.png)
+1. Within the **Microsoft Foudry** portal, scroll down and select **+ New project**.
 
-1. If prompted to sign in, enter your credentials:
- 
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)** and click on **Next (2)**.
- 
-      ![Enter Your Username](./media/19-4(1).png)
- 
-   - **Password:** <inject key="AzureAdUserPassword"></inject> **(1)** and click on **Next (2)**.
- 
-     ![Enter Your Password](./media/19-5(1).png)
+    ![](./media/av3.png)
 
-1. If prompted to stay signed in, you can click **No**.
+1. Provide the Project name as **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)** and then **Create (2)**.   
 
-   ![](./media/9-8(1).png)
-
-1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
-
-   ![](./media/3-23.png)
-
-1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
-
-1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create new**.
-
-   ![](./media/AI-l6-1.png)
-
-1. Choose the option to create a **AI hub resource (1)** then select **Next (2)**.
-
-   ![](./media/lab3-20.png) 
-
-1. In the **Create a new project** wizard, enter project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select newly created **Myhub-<inject key="DeploymentID" enableCopy="false" /> (2)** and select **Create (3)**.
-
-    ![](./media/T1S13new-0906(1).png)
+    ![](./media/av5.png)
 
 1. Wait for your project to be created.
 
