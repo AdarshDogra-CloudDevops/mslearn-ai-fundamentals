@@ -3,19 +3,19 @@
 
 Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience.
 
-# Lab 02: Analyze images in the Azure AI Foundry portal
+# Lab 02: Analyze images in the Microsoft Foundry
 
 ### Overall Estimated timing: 30 Minutes
 
 ## Overview
 
-In this lab, you'll explore Azure AI Vision within the Azure AI Foundry portal to analyze images and extract meaningful information. By using built-in experiences, such as caption generation, image tagging, and object detection, you'll understand how to leverage AI to monitor and interpret images, like those from cameras in a "smart store." You'll be able to apply these tools to provide descriptions, tags, and insights into the content of images, supporting applications like customer assistance in retail environment
+In this lab, you'll explore Azure AI Vision within the Microsoft Foundry to analyze images and extract meaningful information. By using built-in experiences, such as caption generation, image tagging, and object detection, you'll understand how to leverage AI to monitor and interpret images, like those from cameras in a "smart store." You'll be able to apply these tools to provide descriptions, tags, and insights into the content of images, supporting applications like customer assistance in retail environment
 
 ## Objectives
 
 By the end of this lab, you will be able to use Azure AI Vision to analyze images and extract information for real-world scenarios. Specifically, you will learn to:
 
-1. **Create a project in Azure AI Foundry portal**: Set up an AI project in the Azure AI Foundry portal to organize and manage your image analysis tasks.
+1. **Create a project in Microsoft Foundry**: Set up an AI project in the Microsoft Foundry to organize and manage your image analysis tasks.
 
 2. **Generate captions and dense captions**: Use Azure AI Vision's captioning capabilities to generate descriptions for images and identify objects within them.
 
@@ -31,7 +31,7 @@ Basic knowledge of Azure and Azure AI services and familiarity with image analys
 
 In this lab, the architecture flow involves the following components:
 
-1. **Azure AI Foundry Portal**: A centralized platform for creating and managing AI projects. 
+1. **Microsoft Foundry**: A centralized platform for creating and managing AI projects. 
 
 2. **Azure AI Vision**: A service used to analyze images, generate captions, detect objects, and tag them with relevant labels.
 
@@ -41,7 +41,7 @@ In this lab, the architecture flow involves the following components:
 
 ## Explanation of Components
 
-1. **Azure AI Foundry Portal**: A platform that enables you to create projects and organize AI experimentation. It serves as the workspace for working with Azure AI Vision, allowing you to configure and manage resources, run tests, and analyze image data.
+1. **Microsoft Foundry**: A platform that enables you to create projects and organize AI experimentation. It serves as the workspace for working with Azure AI Vision, allowing you to configure and manage resources, run tests, and analyze image data.
 
 2. **Azure AI Vision**: A set of powerful tools for understanding and extracting information from images. It provides capabilities such as captioning, object detection, and tag extraction, making it easy to analyze visual content and integrate these insights into applications.
 
@@ -187,7 +187,7 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
  
 Learner Support Contacts:
  
-- Email Support: cloudlabs-support@spektrasystems.com
+- Email Support: labs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Click on **Next** from the lower right corner to move on to the next page.
