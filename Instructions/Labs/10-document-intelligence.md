@@ -30,7 +30,7 @@ In this task, we are creating an Microsoft Foundry project and setting up AI res
 1. On the **Create an AI hub resource** pane, enter the following details:
 
     - Subscription: **Leave default subscription (1)** 
-    - Resource Group : Select **AI-900-Module-10-<inject key="Deployment ID (2)** 
+    - Resource Group : Select **AI-900-Module-10-<inject key="Deployment ID" enableCopy="false"></inject> (2)** 
     - Region : **<inject key="location" enableCopy="false"></inject>** **(3)**
     - Name : Use the format **Myhub-<inject key="Deployment ID" enableCopy="false"></inject> (4)** 
     - Connect AI Services incl. OpenAI : Click on **Create New (5)**
