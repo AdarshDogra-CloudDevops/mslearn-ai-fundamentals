@@ -1,29 +1,29 @@
-# Lab 02: Analyze images in the Azure AI Foundry portal
+# Lab 02: Analyze images in the Microsoft Foundry
 
 ## Lab overview
 
-**Azure AI Vision** includes numerous capabilities for understanding image content and context and extracting information from images. In this exercise, you will use Azure AI Vision in Azure AI Foundry portal, Microsoft's platform for creating intelligent applications, to analyze images using the built-in try-it-out experiences. 
+**Azure Vision** includes numerous capabilities for understanding image content and context and extracting information from images. In this exercise, you will use Azure Vision in Microsoft Foundry, Microsoft's platform for creating intelligent applications, to analyze images using the built-in try-it-out experiences. 
 
-Suppose the fictitious retailer *Northwind Traders* has decided to implement a "smart store", in which AI services monitor the store to identify customers requiring assistance, and direct employees to help them. By using Azure AI Vision, images taken by cameras throughout the store can be analyzed to provide meaningful descriptions of what they depict.
+Suppose the fictitious retailer *Northwind Traders* has decided to implement a "smart store", in which AI services monitor the store to identify customers requiring assistance, and direct employees to help them. By using Azure Vision, images taken by cameras throughout the store can be analyzed to provide meaningful descriptions of what they depict.
 
 ## Lab Objectives
 
 In this lab, you will perform:
-- Task 1: Create a project in the Azure AI Foundry portal
+- Task 1: Create a project in the Microsoft Foundry
 - Task 2: Generate captions for an image
 - Task 3: Tagging images 
 - Task 4: Object detection
 
-## Task 1: Create a project in the Azure AI Foundry portal
+## Task 1: Create a project in the Microsoft Foundry
 
-In this task, we are setting up a project in Azure AI Foundry by creating and configuring an AI services environment for further experimentation.
+In this task, we are setting up a project in Microsoft Foundry by creating and configuring an AI services environment for further experimentation.
 
 
-1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
+1. Right-click on the [Microsoft Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Microsoft Foundry.
 
    ![](./media/3-27.png)
 
-1. On the Welcome to Azure AI Foundry page, Click on **Sign in** in the top right corner.
+1. On the Welcome to Microsoft Foundry page, Click on **Sign in** in the top right corner.
 
    ![](./media/17-18.png)
 
@@ -45,7 +45,7 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 
    ![](./media/3-23.png)
 
-1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
+1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Microsoft Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
 
 1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources`, Select **Create new**.
 
@@ -58,7 +58,7 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
 1. In the **Create a new project** wizard, enter Project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)**, and select **Rename hub (2)** enter **Myhub<inject key="DeploymentID" enableCopy="false" /> (3)** and **Expand Advanced options (4)** to specify the following settings for your project:.
 
     - Subscription : **Leave default subscription (5)** 
-    - Resource Group : Select **AI-900-Module-03 (6)** 
+    - Resource Group : Select **AI-900 (6)** 
     - Region : Select **<inject key="location" enableCopy="false"/> (7)**
     - AI Foundry or Azure OpenAI: Click on **Create New (8)**
     - Name: **AI<inject key="DeploymentID" enableCopy="false" /> (9)**
@@ -73,12 +73,12 @@ In this task, we are setting up a project in Azure AI Foundry by creating and co
    
 ## Task 2: Generate captions for an image
 
-In this task, we are exploring Azure AI Vision's image captioning and dense captioning capabilities by uploading an image and observing how AI generates descriptive text for the entire image and specific objects within it.
+In this task, we are exploring Azure Vision's image captioning and dense captioning capabilities by uploading an image and observing how AI generates descriptive text for the entire image and specific objects within it.
 
-Let's use the image captioning functionality of Azure AI Vision to analyze images taken by a camera in the **Northwind Traders** store. Image captions are available through the **Caption** and **Dense Captions** features.
+Let's use the image captioning functionality of Azure Vision to analyze images taken by a camera in the **Northwind Traders** store. Image captions are available through the **Caption** and **Dense Captions** features.
 
 
-1. On the **AI Services (1)** page, select the **Vision + Document (2)** tile to try out Azure AI Vision and Document capabilities.
+1. On the **AI Services (1)** page, select the **Vision + Document (2)** tile to try out Azure Vision and Document capabilities.
 
     ![Screenshot of the Vision and Document tile selected on the AI Services page.](./media/AI-l3-5.png)
 
@@ -112,7 +112,7 @@ Let's use the image captioning functionality of Azure AI Vision to analyze image
 
     ![](./media/analyze-images-vision/store-camera-1.jpg)
 
-1. Go back to the Azure AI Foundry portal and upload the **store-camera-1.jpg** image by clicking **Browse for a file (1)**. Then, navigate to the **C:\Users\azureuser\Downloads\image-analysis (2)** folder, select **store-camera-1 (3)**, and click **Open (4)**.
+1. Go back to the Microsoft Foundry and upload the **store-camera-1.jpg** image by clicking **Browse for a file (1)**. Then, navigate to the **C:\Users\azureuser\Downloads\image-analysis (2)** folder, select **store-camera-1 (3)**, and click **Open (4)**.
 
    ![](./media/3-10.png)
 
@@ -153,7 +153,7 @@ Let's use the image captioning functionality of Azure AI Vision to analyze image
 
 ## Task 3: Tagging images 
 
-In this task, we are using Azure AI Vision's common tag extraction feature to analyze an image and generate a list of descriptive tags, including objects and actions, along with confidence scores.
+In this task, we are using Azure Vision's common tag extraction feature to analyze an image and generate a list of descriptive tags, including objects and actions, along with confidence scores.
 
 The next feature you will try is the *Extract Tags* functionality. Extract tags are based on thousands of recognizable objects, including living beings, scenery, and actions.
 
@@ -211,13 +211,13 @@ In this task, you use the **Object detection** feature of Image Analysis. Object
 
 ### Review
 In this exercise, you have completed the following tasks:
-- Created a project in the Azure AI Foundry portal
+- Created a project in the Microsoft Foundry
 - Generated captions for an image
 - Tagged images 
 - Detected Object 
 
 ## Learn more
 
-To learn more about what you can do with this service, see the [Azure AI Vision page](https://learn.microsoft.com/azure/ai-services/computer-vision/overview).
+To learn more about what you can do with this service, see the [Azure Vision page](https://learn.microsoft.com/azure/ai-services/computer-vision/overview).
 
 ## You have successfully completed this lab.
