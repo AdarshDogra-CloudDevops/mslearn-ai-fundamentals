@@ -62,25 +62,27 @@ In this task, we are creating an Microsoft Foundry project and setting up AI res
 
 1. When the project is created, you will be taken to an **Overview** page of the project details. Select **AI services** on the left-hand menu.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now it's time to validate it. Follow the steps below:
 
-   <validation step="348e3976-3f47-4302-b53a-c2bd7195d99b" />   
+- Hit the **Validate** button for the corresponding task. If you receive a success message, you may proceed to the next task.  
+- If not, carefully read the error message and retry the step by following the instructions in the lab guide.  
+- If you need any assistance, please contact us at **cloudlabs-support@spektrasystems.com** — we are available 24/7 to help.
 
-## Task 2: Analyze a receipt with Azure AI Document Intelligence in Microsoft Foundry 
+<validation step="348e3976-3f47-4302-b53a-c2bd7195d99b" />
 
-In this task, we are using Azure AI Foundry to analyze a receipt image with prebuilt AI models, extracting key details like merchant information, transaction date, and total amount.
+---
 
-You are now ready to analyze a fictitious Northwind Traders retail company receipt.
+## Task 2: Analyze a Receipt with Azure AI Document Intelligence in Microsoft Foundry
 
-1. In the **Overview (1)** page of your project, on the left-hand menu on the screen, select **AI Services (2)**.
- 
-    ![Screenshot of the left-hand menu on the project screen with AI Services selected.](./media/17-5.png)  
+In this task, you will use Azure AI Foundry to analyze a receipt image using prebuilt AI models, extracting key details such as merchant information, transaction date, and total amount.
 
-    >**Note**: If a pop-up appears, please click **Close**.
+You are now ready to analyze a fictitious receipt from the Northwind Traders retail company.
+
+1. In the **Overview (1)** page of your project, select **AI Services (2)** from the left-hand menu.
+
+   ![Screenshot of the left-hand menu on the project screen with AI Services selected.](./media/17-5.png)
+
+   > **Note:** If a pop-up appears, please click **Close**.
 
 1. On the **AI Services** page, select the **Vision + Document** tile to try out Azure AI Vision and Document capabilities.
 
