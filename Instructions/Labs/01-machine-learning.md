@@ -33,7 +33,7 @@ In this task, you will create an Azure Machine Learning workspace. You will sear
 4. Create a new **Azure Machine Learning** resource with an *Azure Machine Learning* plan. Use the following settings:
 
     - **Subscription**: Use existing Azure subscription. **(1)**
-    - **Resource group**: Select **AI-900-Module-01 (2)**
+    - **Resource group**: Select **AI-900 (2)**
     - **Name**: Give name **AI-900-Workspace-<inject key="DeploymentID" enableCopy="false" /> (3)**
     - **Region**: Select <inject key="location" enableCopy="false" /> **(4)**
     - **Storage account**: Note the default new storage account that will be created for your workspace. **(5)**
@@ -67,7 +67,7 @@ In this task, you will create an Azure Machine Learning workspace. You will sear
  
 - Hit the Validate button for the corresponding task. You will receive a success message. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
   <validation step="77621f7b-207f-4c25-b2bc-99d0c824beb1" />
 
@@ -310,7 +310,7 @@ Let's review what you have done. You used a dataset of historical bicycle rental
  
 - Hit the Validate button for the corresponding task. You will receive a success message. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
   <validation step="6da1770b-e300-431f-bbac-2829bf1c6d1d" />
 
