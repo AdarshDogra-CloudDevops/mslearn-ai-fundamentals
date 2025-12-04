@@ -70,7 +70,7 @@ In this task, we are creating an Microsoft Foundry project and setting up AI res
 
    <validation step="348e3976-3f47-4302-b53a-c2bd7195d99b" />   
 
-## Task 2: Analyze a receipt with Azure AI Document Intelligence in Azure AI Foundry 
+## Task 2: Analyze a receipt with Azure AI Document Intelligence in Microsoft Foundry 
 
 In this task, we are using Azure AI Foundry to analyze a receipt image with prebuilt AI models, extracting key details like merchant information, transaction date, and total amount.
 
@@ -104,7 +104,7 @@ You are now ready to analyze a fictitious Northwind Traders retail company recei
 
    ![](media/ai900m10-6.png)
  
-1. Go back to the Azure AI Foundry portal and upload the **receipt.jpg** image by clicking **Browse files (1)**. Then, navigate to the **C:\Users\azureuser\Downloads (2)** folder, select **receipt (3)**, and click **Open (4)**.
+1. Go back to the Microsoft Foundry portal and upload the **receipt.jpg** image by clicking **Browse files (1)**. Then, navigate to the **C:\Users\azureuser\Downloads (2)** folder, select **receipt (3)**, and click **Open (4)**.
 
    ![](media/10-3.png)
 
@@ -118,11 +118,11 @@ You are now ready to analyze a fictitious Northwind Traders retail company recei
 
 ### Review
 
-In this Module, you have used Azure AI Document Intelligence's prebuilt receipts model in the Azure AI Foundry portal. From the results that were returned, you saw how Document Intelligence was able to identify specific fields, enabling data from everyday documents to be more easily processed. Before you close the demo, why not try some of the sample receipts, including those in different languages?
+In this Module, you have used Azure AI Document Intelligence's prebuilt receipts model in the Microsoft Foundry portal. From the results that were returned, you saw how Document Intelligence was able to identify specific fields, enabling data from everyday documents to be more easily processed. Before you close the demo, why not try some of the sample receipts, including those in different languages?
 
 In this Module, you have completed the following tasks:
-- Created a project in the Azure AI Foundry portal
-- Analyzed a receipt with Azure AI Document Intelligence in Azure AI Foundry 
+- Created a project in the Microsoft Foundry portal
+- Analyzed a receipt with Azure AI Document Intelligence in Microsoft Foundry 
 
 ## Learn more
 
