@@ -44,7 +44,7 @@ In this task, we are creating an Microsoft Foundry project and setting up AI res
 
     ![](./media/AI-l10-1.png)
 
-1. Once the deployment completes, clic on **Go to resources**.
+1. Once the deployment completes, click on **Go to resources**.
 
 1. Click on **Launch Azure AI Foundry**.
 
