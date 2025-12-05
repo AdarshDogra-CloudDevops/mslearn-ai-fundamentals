@@ -3,21 +3,21 @@
 
 Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience.
 
-# Module 12: Explore generative AI in Azure AI Foundry portal
+# Module 12: Explore generative AI in Microsoft Foundry portal
 
-### Overall Estimated timing: 30 minutes
+### Overall Estimated timing: 30 Minutes
 
 ## Overview
 
-This lab provides an introduction to generative AI through the Azure AI Foundry portal, Microsoft's platform for creating and deploying intelligent applications. In this exercise, you'll interact with the Chat playground in Azure AI Foundry, where you will explore the deployment of the GPT-4o model, learn how to optimize responses, and understand effective prompting techniques to refine outputs from generative AI.
+This lab provides an introduction to generative AI through the Microsoft Foundry portal, Microsoft's platform for creating and deploying intelligent applications. In this exercise, you'll interact with the Chat playground in Microsoft Foundry, where you will explore the deployment of the GPT-4o model, learn how to optimize responses, and understand effective prompting techniques to refine outputs from generative AI.
 
 ## Objective
 
-By the end of this lab, you will be able to create a project in Azure AI Foundry and analyze a receipt using Azure AI Document Intelligence to extract key information efficiently
+By the end of this lab, you will be able to create a project in Microsoft Foundry and analyze a receipt using Microsoft Document Intelligence to extract key information efficiently
 
-1. Create a Project in the Azure AI Foundry portal to organize and set up AI resources.
+1. Create a Project in the Microsoft Foundry portal to organize and set up AI resources.
 
-2. Explore Generative AI in the Azure AI Foundry’s Chat playground, interact with a deployed GPT model, and experiment with response optimization techniques.
+2. Explore Generative AI in the Microsoft Foundry’s Chat playground, interact with a deployed GPT model, and experiment with response optimization techniques.
 
 ## Pre-requisites
 
@@ -27,9 +27,9 @@ Basic Understanding of Generative AI
 
 In this hands-on lab, the architecture flow includes several essential components.
 
-1. **Azure AI Foundry Portal**: The platform for creating, managing, and deploying AI models and resources.
+1. **Microsoft Foundry Portal**: The platform for creating, managing, and deploying AI models and resources.
 
-2. **Azure AI Project**: A container for organizing your work within the portal.
+2. **Microsoft Project**: A container for organizing your work within the portal.
 
 3. **Chat Playground**: An interactive environment where you can test the deployed model by sending prompts and receiving responses.
 
@@ -37,17 +37,17 @@ In this hands-on lab, the architecture flow includes several essential component
 
 ## Architecture Diagram
 
-![](../media/12png.png)
+![](../media/AI-900-lab12.png)
 
 ## Explanation of Components
 
-1. **Azure AI Foundry Portal**: This is the central hub where users can create and manage projects, deploy AI models, and interact with various AI capabilities. It offers a user-friendly interface to experiment with different AI models and services without requiring deep technical knowledge.
+1. **Microsoft Foundry Portal**: This is the central hub where users can create and manage projects, deploy AI models, and interact with various AI capabilities. It offers a user-friendly interface to experiment with different AI models and services without requiring deep technical knowledge.
 
-2. **Azure AI Project**: A project in the Azure AI Foundry serves as an organizational unit for grouping and managing resources. Each project is linked to a hub, which provides a workspace for various tasks related to AI models, data processing, and exploration.
+2. **Microsoft Project**: A project in the Microsoft Foundry serves as an organizational unit for grouping and managing resources. Each project is linked to a hub, which provides a workspace for various tasks related to AI models, data processing, and exploration.
 
 3. **GPT-4o Model**: The GPT-4o model is a large language model developed by OpenAI that can understand and generate human-like text. When deployed in the Chat playground, GPT-4o is used to generate responses to user inputs (prompts), which can vary from answering factual questions to providing creative suggestions.
 
-4. **Deployment**: To begin using GPT-4o in the Azure AI Foundry, the model must be deployed first. The deployment process makes the model accessible in the chat playground and allows it to interact with users' inputs.
+4. **Deployment**: To begin using GPT-4o in the Microsoft Foundry, the model must be deployed first. The deployment process makes the model accessible in the chat playground and allows it to interact with users' inputs.
 
 5. **Chat Playground**: The Chat playground is an interactive interface where you can test the generative AI model by sending different prompts and receiving responses. It allows you to iterate on your prompts, providing insights into how well the model performs and how you can improve its outputs.
 

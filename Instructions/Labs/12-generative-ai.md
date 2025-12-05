@@ -1,25 +1,25 @@
-# Lab 12: Explore generative AI in the Azure AI Foundry portal
+# Lab 12: Explore generative AI in the Microsoft Foundry portal
 
-Generative AI describes a category of capabilities within AI that create content. People typically interact with generative AI that has been built into chat applications. In this exercise, you try out generative AI in the Azure AI Foundry portal, Microsoft's platform for creating intelligent applications.
+Generative AI describes a category of capabilities within AI that create content. People typically interact with generative AI that has been built into chat applications. In this exercise, you try out generative AI in the Microsoft Foundry portal, Microsoft's platform for creating intelligent applications.
 
 ## Lab objectives
 
 In this lab, you will perform:
-- Task 1: Create a project in the Azure AI Foundry portal
+- Task 1: Create a project in the Microsoft Foundry portal
 - Task 2: Create a GPT-4o deployment model
-- Task 3: Explore generative AI in Azure AI Foundry's chat playground
+- Task 3: Explore generative AI in Microsoft Foundry's chat playground
 
-## Task 1: Create a project in the Azure AI Foundry portal
+## Task 1: Create a project in the Microsoft Foundry portal
 
-In this task, we are creating an Azure AI Foundry project and setting up AI resources to explore Vision and Document capabilities.
+In this task, we are creating an Microsoft Foundry project and setting up AI resources to explore Vision and Document capabilities.
 
-1. On the Azure Portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Azure AI Foundry (1)**, and then select **Azure AI Foundry (2)** under **Services**.
+1. On the Azure Portal page, in the **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Microsoft Foundry (1)**, and then select **Microsoft Foundry (2)** under **Services**.
 
-    ![](./media/AI-l3-1.png) 
+    ![](./media/lab12-12-2.png) 
 
-1. In the left navigation pane for the AI Foundry, select **AI Hubs (2)** under **Use with AI Foundry (1)**. On the AI Hubs page, click on **+ Create (3)** and select **Hub (4)** from the drop-down.
+1. In the left navigation pane for the Microsoft Foundry, select **AI Hubs (2)** under **Use with Foundry (1)**. On the AI Hubs page, click on **+ Create (3)** and select **Hub (4)** from the drop-down.
 
-    ![](./media/AI-900-lab12-image2.png) 
+    ![](./media/lab12-12-3.png) 
 
 1. On the **Create an AI hub resource** pane, enter the following details:
 
@@ -38,41 +38,41 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
     ![](./media/AI-l12-2.png) 
 
-1. Right-click on the [Azure AI Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Azure AI Foundry portal.
+1. Right-click on the [Microsoft Foundry](https://ai.azure.com?azure-portal=true) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Microsoft Foundry portal.
 
    ![](./media/3-27.png)
 
-1. On the Welcome to Azure AI Foundry page, click on **Sign in** in the top right corner.
+1. On the Welcome to Microsoft Foundry page, click on **Sign in** in the top right corner.
 
-   ![](./media/17-18.png)
+   ![](./media/lab12-12-0.png)
 
 1. If prompted to sign in, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![Enter Your Username](./media/AI-l12-1.1.png)
+      ![Enter Your Username](./media/lab12-12-4.png)
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/AI-l12-1.2.png)
+     ![Enter Your Password](./media/lab12-12-5.png)
 
 1. If prompted to **Stay signed in**, you can click **No**.
 
-   ![](./media/AI-l12-1.3.png)
+   ![](./media/lab12-12-01.png)
 
 1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
     ![](./media/3-23.png)
 
-1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Azure AI Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
+1. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Microsoft Foundry** logo at the top left to navigate to the home page, which looks similar to the following image (close the **Help** pane if it's open)
 
 1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create new**. 
 
-    ![](./media/AI-l6-1.png)
+    ![](./media/lab12-12-6.png)
    
-1. Choose the option to create a **Azure AI Foundry resource (1)** then select **Next (2)**.
+1. Choose the option to create a **Microsoft Foundry resource (1)** then select **Next (2)**.
 
-    ![](./media/AI-l6-2.png) 
+    ![](./media/lab12-12-7.png) 
 
 1. In the **Create a new project** wizard, enter details as mentioned below and click **Create (5)**
 
@@ -81,13 +81,13 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
    | Project name | **Myproject<inject key="DeploymentID" enableCopy="false" /> (1)** |
    | Subscription | **Select the default subscription(2)** |
    | Resource group | **AI-900-Module-12 (3)** |
-   |Region | **East US (4)** select the region same as the resource group |
+   |Region | **<inject key="location" enableCopy="false"></inject>(4)** select the region same as the resource group |
 
-    ![](./media/AI-l12-1.png)
+    ![](./media/lab12-12-8.png)
 
 1. Wait for your project to be created.
 
-   >**Note**: If Explore and experiment prompted click on **Close**.
+   >**Note:** If Explore and experiment prompted click on **Close**.
 
    ![](./media/AI-900-lab12-image5.png)
    
@@ -105,23 +105,23 @@ In this task, we are creating an Azure AI Foundry project and setting up AI reso
 
 1. From the left pane, go to **Models + Endpoints (1)** under My assests, and click on **Deploy model (2)** and select **Deploy base model (3)**
 
-    ![](./media/AI-l12-3.png)
+    ![](./media/lab12-12-9.png)
 
 1. Search **`gpt-4o`(1)** and select the **gpt-4o (chat completion) (2)** model and click on **Confirm (3)**
 
-    ![](./media/AI-l12-4.png)
+    ![](./media/lab12-12-10.png)
 
 1. Select the default values and click on **Deploy**
 
     ![](./media/AI-l12-5.png)
 
-## Task 3: Explore generative AI in Azure AI Foundry's chat playground
+## Task 3: Explore generative AI in Microsoft Foundry's chat playground
 
-In this task, you will learn how to interact with the Chat playground in Azure AI Foundry, deploy a generative AI model, and optimize responses using effective prompting techniques.
+In this task, you will learn how to interact with the Chat playground in Microsoft Foundry, deploy a generative AI model, and optimize responses using effective prompting techniques.
 
-1. In Azure AI Foundry's Portal page, click **Open in playgrounds**
+1. In Microsoft Foundry's Portal page, click **Open in playgrounds**
 
-    ![](./media/AI-l12-6.png)
+    ![](./media/lab12-12-11.png)
 
 1. Consider the following ways you can improve responses from a generative AI assistant:
     - Start with a specific goal for what you want the assistant to do
@@ -136,7 +136,7 @@ In this task, you will learn how to interact with the Chat playground in Azure A
     I'm planning a trip to Paris in September. Can you help me?
     ```
 
-    ![](./media/ai900m12-6.png)
+    ![](./media/lab12-12-12.png)
 
 1. Review the response. **Note**: Keep in mind that the specific response you receive may vary due to the nature of generative AI.
 
@@ -182,8 +182,8 @@ In this task, you will learn how to interact with the Chat playground in Azure A
 ### Review
 
 In this Module, you have completed the following tasks:
-- Created a project in the Azure AI Foundry portal
-- Explored generative AI in Azure AI Foundry's chat playground
+- Created a project in the Microsoft Foundry portal
+- Explored generative AI in Microsoft Foundry's chat playground
 
 ## Learn more
 
