@@ -18,11 +18,11 @@ In this lab, you will perform:
 
 1. Right-click on the [Microsoft Foundry](https://ai.azure.com/) **(1)** link, select **Copy link (2)** from the context menu, then paste it into a new tab to access the Microsoft Foundry portal.
 
-   ![](./media/3-27.png)
+   ![](./media/NN2.png)
 
 1. On the Welcome to Microsoft Foundry page, click on **Sign in** in the top right corner.
 
-   ![](./media/17-18.png)
+   ![](./media/NN1.png)
 
 1. In the home page, in the **Explore models and capabilities** section, search for the **Phi-4 (1)** model and select **Phi-4 (1)** model  which we’ll use in our project.   
 
@@ -53,11 +53,11 @@ In this lab, you will perform:
 
 1. When your model is deployed, select **Open in playground**.
 
-   ![](./media/aii29.png)
+   ![](./media/aii291.png)
 
 1. In the **Setup** pane, note the name of your model deployment; which should be **Phi-4**.   
 
-   ![](./media/aii30.png)
+   ![](./media/aii301.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:  
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.  
@@ -109,7 +109,7 @@ When the default content filter doesn’t meet your needs, you can create custom
 
 1. Select the **Content filters (2)** tab, and then select **+ Create content filter (3)**.
 
-   ![](./media/aii34.png)
+   ![](./media/aii341.png)
 
 1. On the Basic information page,
 
@@ -127,17 +127,17 @@ When the default content filter doesn’t meet your needs, you can create custom
    - **Sexual**: Sexually explicit or abusive language.
    - **Self-harm**: Language that describes or encourages self-harm.
    
-   Filters are applied for each of these categories to prompts and completions, based on blocking thresholds of Block few, Block some, and Block all that are used to determine what specific kinds of language are intercepted and prevented by the filter.
+   Filters are applied for each of these categories to prompts and completions, based on blocking thresholds of Lowest blocking, Medium blocking, and Highest blocking that are used to determine what specific kinds of language are intercepted and prevented by the filter.
 
     ![](./media/aii36.png) 
 
-1. Change the threshold for each category of input filter to **Block all (1)**. and then **Next (2)**.
+1. Change the threshold for each category of input filter to **Highest blocking (1)**. and then **Next (2)**.
 
-   ![](./media/aii37.png)
+   ![](./media/NN3.png)
 
-1. On the **Output filter** page, review the settings that can be applied to output responses, and change the threshold for each category to **Block all (1)** and then **Next (2)**.
+1. On the **Output filter** page, review the settings that can be applied to output responses, and change the threshold for each category to **Highest blocking (1)** and then **Next (2)**.
 
-   ![](./media/aii38.png)
+   ![](./media/NN4.png)
 
 1. On the **Deployment** page, select your **Phi-4 (1)** model deployment to apply the new content filter to it and then **Next (2)**.
 
@@ -153,7 +153,7 @@ When the default content filter doesn’t meet your needs, you can create custom
 
 1. Return to the **Models + endpoints (1)**, click on the back arrow **(2)**.
 
-   ![](./media/aii42.png)
+   ![](./media/aii421.png)
 
 1. Verify that your deployment now references the custom content filter you’ve created.
 
@@ -170,7 +170,7 @@ Let’s have one final chat with the model to see the effect of the custom conte
 
 1. Select **Open in Playground**.
 
-   ![](./media/aii45.png)
+   ![](./media/aii451.png)
 
 1. Ensure a new session has been started with your Phi-4 model.
 
