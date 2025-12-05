@@ -109,7 +109,7 @@ When the default content filter doesn’t meet your needs, you can create custom
 
 1. Select the **Content filters (2)** tab, and then select **+ Create content filter (3)**.
 
-   ![](./media/aii341.png)
+   ![](./media/NN5.png)
 
 1. On the Basic information page,
 
