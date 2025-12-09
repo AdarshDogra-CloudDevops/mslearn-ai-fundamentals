@@ -31,11 +31,11 @@ In this task, we are setting up a project in Microsoft Foundry by creating and c
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![Enter Your Username](./media/010725(04).png)
+      ![Enter Your Username](./media/mod3-p2t1p2.png)
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-     ![Enter Your Password](./media/010725(05).png)
+     ![Enter Your Password](./media/mod3-p2t1p2(1).png)
 
 1. If prompted to **Stay signed in**, you can click **No**.
 
@@ -84,7 +84,7 @@ Let's use the image captioning functionality of Azure Vision to analyze images t
 
 1. On the **Vision + Document** page, scroll down and select **Image (1)** under View all other vision capabilities. Then select the **Image captioning (2)** tile.
 
-    ![](./media/010725(0.9).png)
+    ![](./media/mod3-p2t2p1.png)
 
 1. On the **Add captions to images** page, select the Azure AI services resource you created.
 
