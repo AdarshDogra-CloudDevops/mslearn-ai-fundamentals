@@ -39,7 +39,7 @@ In this task, we are setting up a project in Microsoft Foundry by creating and c
 
 1. If prompted to **Stay signed in**, you can click **No**.
 
-   ![](./media/010725(06).png)
+   ![](./media/mod3-p2t1p2(2).png)
 
 1. If prompted with **Streamlined from the start**, click on **Got it** to proceed.
 
