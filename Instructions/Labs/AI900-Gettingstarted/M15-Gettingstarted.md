@@ -49,9 +49,9 @@ Welcome to your AI-900: Microsoft Azure AI Fundamentals workshop! We've prepared
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and **lab guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](../media/4-7.png)
+![Access Your VM and Lab Guide](../media/guidet.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -61,7 +61,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](../media/aig2.png)
+![Explore Lab Resources](../media/envtab(1).png)
 
 ## Lab Guide Zoom In/Zoom Out
  
@@ -73,11 +73,11 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![Use the Split Window Feature](../media/aig3.png)
+![Use the Split Window Feature](../media/splitab(1).png)
 
 ## Managing Your Virtual Machine
  
-Feel free to **start, stop, or restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../media/aig4.png)
 
@@ -101,27 +101,25 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
    ![Launch Azure Portal](../media/sc900-image(1).png)
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials and click **Next (2)**:
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
-       ![Enter Your Username](../media/sc900-image-1.png)
+       ![Enter Your Username](../media/mod3-p2t1p2.png)
  
-3. Next, provide your password:
+3. Next, provide your password and click **Sign in (2)** :
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject> **(1)**
  
-     ![Enter Your Password](../media/pwd.png)
+     ![Enter Your Password](../media/mod3-p2t1p2(1).png)
  
 4. If prompted to stay signed in, you can click **No**.
 
+   ![](../media/mod3-p2t1p2(2).png)
+
 5. If **Action required** pop-up window appears, click on **Ask later**.
    
-    ![](../media/asklater.png)
- 
-6. If prompted to stay signed in, you can click "No."
-
-    ![](../media/staysigned2.png)
+    ![](../media/asklater2.png)
  
 7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
 
@@ -132,7 +130,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 1. If **Action required** pop-up window appears, click on **Next**.
 
    
-   ![](../media/mfa1.png)
+   ![](../media/mfa12.png)
 
 1. On **Start by getting the app** page, click on **Next**.
 1. Click on **Next** twice.
