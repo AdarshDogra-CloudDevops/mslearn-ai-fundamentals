@@ -72,7 +72,9 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
 
     ![](./media/mod3-p2t1p2(2).png)
  
-7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel**.
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe later** to skip the tour.
+
+   ![](./media/starttour.png)
 
 ## Support Contact
  
