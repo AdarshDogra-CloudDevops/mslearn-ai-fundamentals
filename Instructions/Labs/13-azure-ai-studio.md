@@ -31,7 +31,7 @@ In this task, you will gain hands-on experience in setting up a collaborative wo
    - Resource group: **AI-900-Module-13-<inject key="DeploymentID" enableCopy="false" />** **(1)**
    - Name:  **MyFoundry<inject key="DeploymentID" enableCopy="false" /> (2)**
    - Region: **<inject key="Location" enableCopy="false"></inject>** **(3)**
-   - Default project name **Myproject<inject key="DeploymentID" enableCopy="false" /> (4)**
+   - Default project name: **Myproject<inject key="DeploymentID" enableCopy="false" /> (4)**
    - Click **Review+Create** **(5)**	
 
      ![](media/mfdet.png)

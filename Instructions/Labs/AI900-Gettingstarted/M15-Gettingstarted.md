@@ -105,7 +105,7 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
-       ![Enter Your Username](../media/mod3-p2t1p2.png)
+       ![Enter Your Username](../media/upsign.png)
  
 3. Next, provide your password and click **Sign in (2)** :
  
