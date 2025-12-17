@@ -1,21 +1,23 @@
 ---
 lab:
-    title: 'Analyze text in Azure AI Foundry portal'
+    title: 'Analyze text in Microsoft Foundry portal'
 ---
 
-# Analyze text in Azure AI Foundry portal
+# Analyze text in Microsoft Foundry portal
 
 Natural Language Processing (NLP) is a branch of AI that deals with written and spoken language. You can use NLP to build solutions that extract semantic meaning from text or speech, or that formulate meaningful responses in natural language.
 
 Azure AI Language service includes Text Analytics, with capabilities such as entity recognition, key phrase extraction, summarization, and sentiment analysis. For example, suppose the fictitious travel agent Margie's Travel encourages customers to submit reviews for hotel stays. You could use the Language service to extract named entities, identify key phrases, summarize text, and more.
 
-In this exercise, you will use Azure AI Language in Azure AI Foundry portal, Microsoft's platform for creating intelligent applications, to analyze hotel reviews. 
+In this exercise, you will use Azure AI Language in Microsoft Foundry portal, Microsoft's platform for creating intelligent applications, to analyze hotel reviews. 
 
-## Create a project in Azure AI Foundry portal
+## Create a project in Microsoft Foundry portal
 
-1. In a web browser, open the [Azure AI Foundry portal](https://ai.azure.com) at `https://ai.azure.com` and sign in using your Azure credentials. Close any tips or quick start panes that are opened the first time you sign in. 
+1. In a web browser, open the [Microsoft Foundry portal](https://ai.azure.com) at `https://ai.azure.com` and sign in using your Azure credentials. Close any tips or quick start panes that are opened the first time you sign in. 
 
-1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create**. Then choose the option to create a *new Azure AI Foundry resource*.
+1. In the browser, navigate to `https://ai.azure.com/managementCenter/allResources` and select **Create**. Then choose the option to create a *new Microsoft Foundry resource*.
+
+    ![](./media/AI-l6-1.png)
 
 1. In the *Create a project* wizard, enter a valid name for your project.
 
@@ -33,11 +35,13 @@ In this exercise, you will use Azure AI Language in Azure AI Foundry portal, Mic
 
 1. When the project is created, you will be taken to an *Overview* page of the project details.
 
+   ![](./media/mod6-p2t1p6(1).png)
+
 1. On the left-hand menu on the screen, select **Playgrounds**.
 
 1. On the *Playgrounds* page, select the **Language playground** tile to try out some Azure AI Language capabilities.
 
-## Extract named entities with Azure AI Language in Azure AI Foundry portal
+## Extract named entities with Azure AI Language in Microsoft Foundry portal
 
 *Named entities* are words that describe people, places, and objects with proper names. Let's use the named entity extraction capability of Azure AI Language to identify types of information in a review.
 
@@ -54,7 +58,7 @@ In this exercise, you will use Azure AI Language in Azure AI Foundry portal, Mic
 
 1. Select **Run**. Review the output. Notice in the *Details* section how the extracted entities come with additional information such as type and confidence scores. The confidence score represents the likelihood that the type identified actually belongs to that category.
 
-## Extract key phrases with Azure AI Language in Azure AI Foundry portal
+## Extract key phrases with Azure AI Language in Microsoft portal
 
 *Key phrases* are the most important pieces of information in text. Let's use the key phrase extraction capability of Azure AI Language to pull important information from a review.
 
@@ -71,7 +75,7 @@ In this exercise, you will use Azure AI Language in Azure AI Foundry portal, Mic
 
 1. Select **Run**. Review the output. Notice the different phrases extracted in the *Details* section. These phrases should contribute most to the text's meaning.
 
-## Summarize text with Azure AI Language in Azure AI Foundry portal
+## Summarize text with Azure AI Language in Microsoft Foundry portal
  
 1. Let's look at Azure AI Language's summarization capabilities. In the Language playground, select *Summarize information*, then select the **Summarize text** tile.
 
