@@ -1,6 +1,6 @@
 # Hands-on Lab: Explore Automated Machine Learning in Azure ML
 
-## Estimated time: 90-120 minutes
+## Estimated time: 90-120 Minutes
 
 ## Lab scenario
 
@@ -20,22 +20,24 @@ In this lab, you will perform:
 
 In this task, you will create an Azure Machine Learning workspace. You will search for Machine Learning, configure the necessary settings like subscription, resource group, and workspace name, and deploy the resource. Once deployed, you will access the workspace through Azure Machine Learning Studio.
 
-1. In the Azure Portal, select **+ Create a resource** and search for **Machine Learning**.
+1. In the Azure Portal, select **+ Create a resource**.
 
-    ![Picture1](media/ai900mod1img1.png)
+    ![Picture1](media/pcr.png)
 
 2. In the Marketplace page search for **Azure Machine Learning (1)** and Select **Azure Machine Learning (2)**.
  
-   ![Picture1](media/ai900-12.png)
+   ![Picture1](media/mktaml.png)
+
+    >**Note:** If **Experiencing authentication issues** pop-up appears, simply close it by clicking on **X**. 
 
 3. On the **Azure Machine Learning** page, click **Create** to proceed.
 
-   ![Picture1](media/ai900mod1cimg2.png)
+   ![Picture1](media/amlcr.png)
   
 4. Create a new **Azure Machine Learning** resource with an *Azure Machine Learning* plan. Use the following settings:
 
     - **Subscription**: Use existing Azure subscription. **(1)**
-    - **Resource group**: Select **AI-900-Module-01-<inject key="DeploymentID" enableCopy="false" />** **(2)**
+    - **Resource group**: Select **AI-900-Module-01 (2)**
     - **Name**: Give name **AI-900-Workspace-<inject key="DeploymentID" enableCopy="false" /> (3)**
     - **Region**: Select <inject key="location" enableCopy="false" /> **(4)**
     - **Storage account**: Note the default new storage account that will be created for your workspace. **(5)**
@@ -45,23 +47,29 @@ In this task, you will create an Azure Machine Learning workspace. You will sear
 
 5. Select **Review + create (9)**.
 
-    ![](media/LABB1.png)
+    ![](media/amlrc.png)
 
 6. After successfully completing the validation process, click on the **Create** button located in the lower left corner of the page.
 
-   ![](media/lab1-9.png)
+   ![](media/amlrcc.png)
    
 7. Wait for deployment to complete(it can take a few minutes), and then click on the **Go to resource** button, this will take you to your workspace resource.
 
-   ![](media/lab1-10.png)
+    ![](media/gtrml.png)
 
-8. Select **Launch studio** (or open a new browser tab and navigate to [https://ml.azure.com](https://ml.azure.com?azure-portal=true), and if prompted, sign into **Azure Machine Learning studio** using your Microsoft account). Close any messages that are displayed.
+8. On your **Azure Machine Learning workspace** click **Launch studio**.
 
-   ![](media/ai900-1.png)
+    ![](media/lnstd.png)
 
-9. In Azure Machine Learning studio, navigate to **Workspaces (1)**, you should see your newly created workspace **(2)**. If not, select **All workspaces** in the left-hand menu and then select the workspace you just created.
+    >**Note:** You can also access the studio via [https://ml.azure.com](https://ml.azure.com?azure-portal=true). If prompted, sign in to **Azure Machine Learning studio** using your Microsoft account credentials from the Environment tab. Close any pop-ups that appear.
 
-    ![Picture1](media/ai900-2.png)
+9. You will be automatically navigated to your newly created workspace.
+
+    ![Picture1](media/stdwrk.png) 
+
+    >**Note:** If you are not navigated automatically, select **Workspaces (1)** from the left navigation menu and choose the **workspace (2)** that you have created.
+
+    ![Picture1](media/wrknav.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -77,11 +85,11 @@ Some features of Azure Machine Learning are in preview and need to be explicitly
 
 1. In Azure Machine Learning Studio, click on **manage preview features** (the loud speaker icon - &#128363;).
 
-     ![](media/lab1-5.png)
+     ![](media/spkr.png)
 
 1. Enable the following preview feature, if not enabled.
 
-     ![](media/lab1-7.png)
+     ![](media/prev.png)
 
 ### Task 2: Use automated machine learning to train a model
 
@@ -89,81 +97,111 @@ In this task, you will learn how to use automated machine learning to train a mo
 
 Automated machine learning enables you to try multiple algorithms and parameters to train multiple models, and identify the best one for your data. In this exercise, you'll use a dataset of historical bicycle rental details to train a model that predicts the number of bicycle rentals that should be expected on a given day, based on seasonal and meteorological features.
 
-> **Citation**: *The data used in this exercise is derived from [Capital Bikeshare](https://www.capitalbikeshare.com/system-data) and is used in accordance with the published data [license agreement](https://www.capitalbikeshare.com/data-license-agreement)*.
+>**Citation**: *The data used in this exercise is derived from [Capital Bikeshare](https://www.capitalbikeshare.com/system-data) and is used in accordance with the published data [license agreement](https://www.capitalbikeshare.com/data-license-agreement)*.
 
-1. In [Azure Machine Learning studio](https://ml.azure.com?azure-portal=true), naviage to the **Automated ML (1)** page (under **Authoring**), select  **+ New Automated ML job (2)**.
+1. In Azure Machine Learning studio, naviage to the **Automated ML (1)** page (under **Authoring**), select  **+ New Automated ML job (2)**.
 
-   ![](media/ai900-3.png)  
+   ![](media/aj.png)  
 
 1. Create a new Automated ML job with the following settings, using **Next (5)** as required to progress through the user interface:
 
-    **Basic settings**:
+    **Basic settings:**
 
     - **Job name**: mslearn-bike-automl **(1)**
     - **New experiment name**: mslearn-bike-rental **(2)**
     - **Description**: Automated machine learning for bike rental prediction **(3)**
     - **Tags**: *Leave default* **(4)**
 
-       ![](media/1.png)
+       ![](media/basic.png)
 
-   **Task type & data**:
+   **Task type & data:**
 
-    - **Select task type**: Regression **(1)**
+    - **Select task type**: **Regression** **(1)**
     - **Select data**: Select **+ Create (2)** 
 
-        ![](media/lab1-25.png)
+        ![](media/regcr.png)
 
     - To create new data with the following settings:
 
-        - **Data type**:
-            - **Name**:  Enter **bike-rentals (1)**
-            - **Description**: Enter **Historic bike rental data (2)**
-         - **Data type**:
-            - **Name**: `bike-rentals`
-            - **Description**: `Historic bike rental data`
-            - **Type**: Table (mltable)
+         - **Data type:**
+            
+            - **Name**: **`bike-rentals` (1)**
+            - **Description**: **`Historic bike rental data` (2)**
+            - **Type**: **Table (mltable)** **(3)**
+            - Click **Next (4)**
 
-              ![](media/ai900j1.png)
-        - **Data source**:
-            - Select **From local files**
+              ![](media/br.png)
+                
+        - **Data source:**
+            - Select **From local files (1)**
+            - Click **Next (2)**
+              
+              ![](media/loc.png)
+        
+        - **Destination storage type:**
+            - **Datastore type**: Azure Blob Storage **(1)**
+            - **Name**: workspaceblobstore **(2)**
+            - Click **Next (3)**
 
-              ![](media/ai900j2.png)
-        - **Destination storage type**:
-            - **Datastore type**: Azure Blob Storage
-            - **Name**: workspaceblobstore
+              ![](media/blb.png)
+        
+        - **MLtable selection:**
+            
+            - Open a new browser tab and download the file from `https://aka.ms/bike-rentals`.
+            - Click the **Downloads (1)** icon in the browser and then click the **Folder (2)** icon to open the downloaded file location. 
 
-              ![](media/ai900j3.png)
-        - **MLtable selection**:
-            - **Upload folder**: Download and extract the contents of the folder from* [`https://aka.ms/bike-rentals`](https://aka.ms/bike-rentals), *which contains the two files you will need to upload. Once uploaded, click on **Next**.
+                ![](media/fol2.png)
 
-              ![](media/ai900j4.png)
+            - In the **Downloads** folder, right-click the **bike-data (1)** file and select **Extract All... (2)**. 
 
-              ![](media/ai900j5.png)
+                ![](media/bde.png)
 
-              ![](media/ai900j6.png)
-        - Select **Create**. 
+            - On the **Extract Compressed (Zipped) Folders** window, click **Extract** to unzip the files.
+
+                ![](media/ext.png)
+
+            - Navigate back to the tab in which you are proceeding with **MLtable selection** and click on **Upload folder (1)**.
+
+                ![](media/uf.png)
+
+            - Select the **bike-data (1)** folder from the Downloads and click on **Upload (2)**.
+
+                ![](media/bdfol.png)
+
+                >**Note:** If any upload related warning pop-up appears, click **Upload**. 
+
+                ![](media/bropop.png)
+
+            - The data will get populated under **Upload list (1)** and then click on **Next (2)**. 
+
+              ![](media/dataadded2.png)
+        
+        - Select **Create** 
   
-           ![](media/ai900j7.png)
+           ![](media/crrev.png)
       
         - After the dataset is created, select the **bike-rentals (1)** dataset to continue to submit the Automated ML job. Select **Next (2)**
 
-           ![](media/ai900j8.png)
+           ![](media/brnext.png)
         
-    **Task settings**:
+    **Task settings:**
 
     - **Task type**: Regression
     - **Data**: bike-rentals
-    - **Target column**: rentals (integer) (1)
-
-       ![](media/ai900j9.png)
-
+    - **Target column**: rentals (integer) **(1)**
     - Select **View additional configuration settings (2)** under Target Column:
         - Primary metric: **Normalized root mean squared error** **(3)**
-        - Explain best model: **Unselected** **(4)**
-        - **Use all supported models**: <u>Un</u>selected.  *You'll restrict the job to try only a few specific algorithms.*
-        - **Allowed models**: *Select only **RandomForest** and **LightGBM** (5) — normally you'd want to try as many as possible, but each model added increases the time it takes to run the job.*
+        - Make sure to **Uncheck (4)** the following boxes:
+            - Explain best model: **Unselected** 
+            - Enable ensemble stacking: **Unselected** 
+            - Use all supported models: **Unselected**  *You'll restrict the job to try only a few specific algorithms.*
+        - **Allowed models**: *Select only **RandomForest** and **LightGBM** **(5)** — normally you'd want to try as many as possible, but each model added increases the time it takes to run the job.*
+        - Click on **Save (6)**.
+
+       ![](media/adcon.png)
 
     - **Limits**: *Expand this section*
+
         - Max trials: **3** **(1)**
         - Max concurrent trials: **3** **(2)**
         - Max nodes: **3** **(3)**
@@ -172,29 +210,29 @@ Automated machine learning enables you to try multiple algorithms and parameters
         - Iteration timeout: **15** **(6)**
         - Enable early termination: *Selected* **(7)**
 
-          ![](media/ai900j10.png)
+    - **Validation and test:**    
+        
+        - **Validation type**: Train-validation split **(8)**
+        - **Percentage validation of data**: **10** **(9)**
+        - **Test dataset**: None **(10)** and then select **Next (11)**
 
-    - **Validation and test**:
-        - **Validation type**: Train-validation split **(1)**
-        - **Percentage validation of data**: 10 **(2)**
-        - **Test dataset**: None **(3)** and then select **Next (4)**
+          ![](media/limits.png)
 
-          ![](media/ai900j11.png)
-
-    **Compute**:
+    **Compute:**
+    
     - **Select compute type**: Serverless **(1)**
     - **Virtual machine type**: CPU **(2)**
     - **Virtual machine tier**: Dedicated **(3)**
     - **Virtual machine size**: Standard_DS3_V2 **(4)**
     - **Number of instances**: 1 **(5)** and then select **Next (6)**
 
-      ![](media/ai900j12.png)
+      ![](media/vmcon.png)
 
 1. Select **Submit training job**. It starts automatically.
 
-   ![](media/ai900j13.png)
+   ![](media/stj.png)
 
-1. Wait for the job to finish. It might take around `10-15 minutes`, while — now might be a good time for a coffee break!
+1. Wait for the job to finish. It might take around **10-15 minutes**, while — now might be a good time for a coffee break!
 
 **Review the best model**
 
@@ -202,17 +240,17 @@ When the automated machine learning job has completed, you can review the best m
 
 1. On the **Overview** tab of the automated machine learning job, note the best model summary.
 
-    ![](media/lab1-2.png)
+    ![](media/bms.png)
 
     > **Note**: You may see a message under the status "Warning: User specified exit score reached...". This is an expected message. Please continue to the next step.
   
 1. Select the text under **Algorithm name** for the best model to view its details.
 
-    ![](media/ai900-4.png)
+    ![](media/algname.png)
 
-1. Select the **Metrics** tab and select the **residuals** and **predicted_true** charts if they are not already selected. 
+1. Select the **Metrics (1)** tab and select the **predicted_true (2)** and **residuals (3)**  charts if they are not already selected. 
 
-    ![](media/ai900--5.png)
+    ![](media/pred.png)
 
     >**Note:** Review the charts which show the performance of the model. The **residuals** chart shows the *residuals* (the differences between predicted and actual values) as a histogram. The **predicted_true** chart compares the predicted values against the true values.
 
@@ -220,19 +258,19 @@ When the automated machine learning job has completed, you can review the best m
 
 1. On the **Model** tab for the best model trained by your automated machine learning job, select **Deploy (1)** and use the **Real-time endpoint (2)** option to deploy the model with the following settings:
 
-   - **Instance count**: 3 (1) 
-    - **Virtual machine**: Standard_DS3_v2 (2)
-    - **Endpoint**: New (3)
-    - **Endpoint name**: *Leave the default name* (4)
-    - **Deployment name**: *Leave default* (5)
-    - **Inferencing data collection**: *Disabled* (6)
-    - **Package Model**: *Disabled* (7)
+    ![](media/drte.png)
 
-    ![](media/ai900j15.png)
+1. Ensure that the following settings are configured for the model and click on **Deploy (8)**.
 
-    ![](media/ai900j16.png)
+   - **Instance count**: **3 (1)** 
+    - **Virtual machine**: **Standard_DS3_v2 (2)**
+    - **Endpoint**: **New (3)**
+    - **Endpoint name**: *Leave the default name* **(4)**
+    - **Deployment name**: *Leave default* **(5)**
+    - **Inferencing data collection**: *Disabled* **(6)**
+    - **Package Model**: *Disabled* **(7)**
 
-1. Select **Deploy (8)**
+    ![](media/depmod.png)
 
 1. Wait for the **Deploy status** to change to *Succeeded*. This may take 5-10 minutes.
 
@@ -242,13 +280,15 @@ When the automated machine learning job has completed, you can review the best m
 
 Now you can test your deployed service.
 
-1. In Azure Machine Learning studio, on the left hand menu, select **Endpoints** and open the **Real-timeendpoint**. in the page.
+1. From the left navigation pane under Assets click on **Endpoints (1)** and select the **Real-time endpoints (2)** tab and click on the **end-point (3)** created.
 
-1. On the *real-time endpoint* page view the **Test** tab.
+    ![](media/epcr.png)
 
-    ![](media/ai900j17.png)
+1. On the **real-time endpoint** page view the **Test** tab.
 
-1. In the **Input data to test endpoint** pane, replace the template JSON with the following input data:
+    ![](media/testtab.png)
+
+1. In the **Input (1)** section, replace the template JSON with the following input data and click the **Test (2)** button.
 
     ```json
       {
@@ -274,17 +314,17 @@ Now you can test your deployed service.
 
     ```
 
-1. Click the **Test** button.
-
-    ![](media/ai900j18.png)
+    ![](media/inptest.png)
 
 1. Review the test results, which include a predicted number of rentals based on the input features - similar to this:
 
     ```JSON
     [
-      357.5136388769763
+      357.3995464578618
     ]
     ```
+
+    ![](media/jop.png)
 
     The test pane took the input data and used the model you trained to return the predicted number of rentals.
 
