@@ -1,6 +1,6 @@
 # Hands-on Lab: Explore Automated Machine Learning in Azure ML
 
-## Estimated time: 90-120 minutes
+## Estimated time: 90-120 Minutes
 
 ## Lab scenario
 
@@ -20,17 +20,17 @@ In this lab, you will perform:
 
 In this task, you will create an Azure Machine Learning workspace. You will search for Machine Learning, configure the necessary settings like subscription, resource group, and workspace name, and deploy the resource. Once deployed, you will access the workspace through Azure Machine Learning Studio.
 
-1. In the Azure Portal, select **+ Create a resource** and search for **Machine Learning**.
+1. In the Azure Portal, select **+ Create a resource**.
 
-    ![Picture1](media/ai900mod1img1.png)
+    ![Picture1](media/pcr.png)
 
 2. In the Marketplace page search for **Azure Machine Learning (1)** and Select **Azure Machine Learning (2)**.
  
-   ![Picture1](media/ai900-12.png)
+   ![Picture1](media/mktaml.png)
 
 3. On the **Azure Machine Learning** page, click **Create** to proceed.
 
-   ![Picture1](media/ai900mod1cimg2.png)
+   ![Picture1](media/amlcr.png)
   
 4. Create a new **Azure Machine Learning** resource with an *Azure Machine Learning* plan. Use the following settings:
 
@@ -45,23 +45,29 @@ In this task, you will create an Azure Machine Learning workspace. You will sear
 
 5. Select **Review + create (9)**.
 
-    ![](media/LABB1.png)
+    ![](media/amlrc.png)
 
 6. After successfully completing the validation process, click on the **Create** button located in the lower left corner of the page.
 
-   ![](media/lab1-9.png)
+   ![](media/amlrcc.png)
    
 7. Wait for deployment to complete(it can take a few minutes), and then click on the **Go to resource** button, this will take you to your workspace resource.
 
-   ![](media/lab1-10.png)
+    ![](media/gtrml.png)
 
-8. Select **Launch studio** (or open a new browser tab and navigate to [https://ml.azure.com](https://ml.azure.com?azure-portal=true), and if prompted, sign into **Azure Machine Learning studio** using your Microsoft account). Close any messages that are displayed.
+8. On your **Azure Machine Learning workspace** click **Launch studio**.
 
-   ![](media/ai900-1.png)
+    ![](media/lnstd.png)
 
-9. In Azure Machine Learning studio, navigate to **Workspaces (1)**, you should see your newly created workspace **(2)**. If not, select **All workspaces** in the left-hand menu and then select the workspace you just created.
+    >**Note:** You can also access the studio via [https://ml.azure.com](https://ml.azure.com?azure-portal=true). If prompted, sign in to **Azure Machine Learning studio** using your Microsoft account credentials from the Environment tab. Close any pop-ups that appear.
 
-    ![Picture1](media/ai900-2.png)
+9. You will be automatically navigated to your newly created workspace.
+
+    ![Picture1](media/stdwrk.png) 
+
+    >**Note:** If you are not navigated automatically, select **Workspaces (1)** from the left navigation menu and choose the **workspace (2)** that you have created.
+
+    ![Picture1](media/wrknav.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -77,11 +83,11 @@ Some features of Azure Machine Learning are in preview and need to be explicitly
 
 1. In Azure Machine Learning Studio, click on **manage preview features** (the loud speaker icon - &#128363;).
 
-     ![](media/lab1-5.png)
+     ![](media/spkr.png)
 
 1. Enable the following preview feature, if not enabled.
 
-     ![](media/lab1-7.png)
+     ![](media/prev.png)
 
 ### Task 2: Use automated machine learning to train a model
 
