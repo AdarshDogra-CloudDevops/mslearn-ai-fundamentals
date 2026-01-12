@@ -1,7 +1,7 @@
 
 
 
-# Automated Machine learning using AML
+# Automated Machine Learning using AML
 
 
 ### Overall Estimated timing: 4 Hours
