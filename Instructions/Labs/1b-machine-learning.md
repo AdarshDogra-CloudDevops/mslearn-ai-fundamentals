@@ -154,11 +154,11 @@ Automated machine learning enables you to try multiple algorithms and parameters
 
             - In the **Downloads** folder, right-click the **bike-data (1)** file and select **Extract All... (2)**. 
 
-                ![](media/bde.png)
+                ![](media/bdext2.png)
 
             - On the **Extract Compressed (Zipped) Folders** window, click **Extract** to unzip the files.
 
-                ![](media/ext.png)
+                ![](media/upext.png)
 
             - Navigate back to the tab in which you are proceeding with **MLtable selection** and click on **Upload folder**.
 
@@ -166,7 +166,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
 
             - Select the **bike-data (1)** folder from the Downloads and click on **Upload (2)**.
 
-                ![](media/bdfol.png)
+                ![](media/upbdfol.png)
 
                 >**Note:** If any upload related warning pop-up appears, click **Upload**. 
 
