@@ -50,7 +50,7 @@ Welcome to your Automated Machine learning using AML workshop! We've prepared a 
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](../media/guideee.png)
+![Access Your VM and Lab Guide](../media/guideaml.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
