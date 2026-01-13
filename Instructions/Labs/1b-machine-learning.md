@@ -160,7 +160,7 @@ Automated machine learning enables you to try multiple algorithms and parameters
 
                 ![](media/ext.png)
 
-            - Navigate back to the tab in which you are proceeding with **MLtable selection** and click on **Upload folder (1)**.
+            - Navigate back to the tab in which you are proceeding with **MLtable selection** and click on **Upload folder**.
 
                 ![](media/uf.png)
 
